@@ -1,0 +1,217 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.15",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "e59e4990ca728c6119cb86c23fc5253c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "66126011c3a4ce28696105386ffaf229",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "f71ef81ee1f8a5fc89f6455e32d7193b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "9bd172a5303f09cf26f8d4d4290a5ca5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "51bd967920f42e3cfdd97972ce2f6f58",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='d0cc2738-abb0-0c19-854d-5d72b723d1c2'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID26790&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;Constitutional_Part_Of&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;RID26537&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID48721&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;Class&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID957&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;label&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;Arteria iliaca externa&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:false,&#92;&quot;lang&#92;&quot;:&#92;&quot;de&#92;&quot;},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID32704&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;subClassOf&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;RID32703&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;N7c771f52d21d4aea8b913511daa8790b&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;Restriction&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID36017&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;Source&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;Playbook&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:false,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID26556&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;ExternalRefID&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;FMA:274559&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:false,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID23032&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;Has_Branch&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;RID25075&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null},{&#92;&quot;subject&#92;&quot;:&#92;&quot;RID49889&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;RadLexID&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;RID49889&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:false,&#92;&quot;lang&#92;&quot;:&#92;&quot;en&#92;&quot;},{&#92;&quot;subject&#92;&quot;:&#92;&quot;N7a7f4a68f8b940f8a2500f761c470390&#92;&quot;,&#92;&quot;predicate&#92;&quot;:&#92;&quot;someValuesFrom&#92;&quot;,&#92;&quot;object&#92;&quot;:&#92;&quot;RID37730&#92;&quot;,&#92;&quot;is_resource&#92;&quot;:true,&#92;&quot;lang&#92;&quot;:null}]&quot;' data-total-rows='771806' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;subject&quot;,[&quot;string&quot;,&quot;String&quot;]],[&quot;predicate&quot;,[&quot;string&quot;,&quot;String&quot;]],[&quot;object&quot;,[&quot;string&quot;,&quot;String&quot;]],[&quot;is_resource&quot;,[&quot;boolean&quot;,&quot;Boolean&quot;]],[&quot;lang&quot;,[&quot;string&quot;,&quot;String&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "a94d992bf94368c5ed113ec968cfc04f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "5cbd1a22d856dda5542b0d8338c176fc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&lt;res_radlex_parsing.graph.build_graph.RadLexGraphBuilder object at 0x14c5563c0&gt;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "157e6b92c527ac218937d2d0ecfc0e69",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&lt;res_radlex_parsing.graph.build_graph.RadLexGraphBuilder object at 0x14c5563c0&gt;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "3629b80cf11bea4d5f89e0175c2ca433",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&lt;res_radlex_parsing.graph.build_graph.RadLexGraphBuilder object at 0x14c5563c0&gt;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "89e87830bdd8b4865a4236af0ab81555",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[130573, 193698]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "2092ceed564c5bca5c3797bb5b042ff0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"RID34353\", {\"label\": \"not parallel lesion\", \"synonyms\": [\"taller than wide mass\", \"vertical lesion\", \"taller than wide lesion\", \"vertical mass\"], \"definition\": \"BI-RADS US: The anterior-posterior or vertical dimension is greater than the transverse or horizontal dimension.  These masses can also be obliquely oriented to the skin line.  Round masses are not parallel in their orientation.  Synonyms: \\\"taller than wide\\\" or vertical.\", \"is_obsolete\": true, \"replaced_by_rid\": \"RID38769\"}]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "116d88d178bf5680b454dcc583853a9b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "407f6d1adc7a4461fc46e2315e54b2a6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hstk-0' random-id='b4eed04a-fedf-4323-d56f-11af0a93d258'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50153&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;non-solid pulmonary nodule&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[&#92;&quot;pure ground-glass pulmonary nodule&#92;&quot;]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50150&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;number of pulmonary nodules&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50152&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;part-solid pulmonary nodule&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[&#92;&quot;entirety of part-solid pulmonary nodule&#92;&quot;]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50149&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;pulmonary nodule&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[&#92;&quot;lung nodule&#92;&quot;]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50238&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;pulmonary nodule impression&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[&#92;&quot;lung nodule summary&#92;&quot;,&#92;&quot;pulmonary nodule summary&#92;&quot;]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50154&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;solid component of part-solid pulmonary nodule&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[]},{&#92;&quot;rid&#92;&quot;:&#92;&quot;RID50151&#92;&quot;,&#92;&quot;label&#92;&quot;:&#92;&quot;solid pulmonary nodule&#92;&quot;,&#92;&quot;synonyms&#92;&quot;:[]}]&quot;' data-total-rows='7' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;rid&quot;,[&quot;string&quot;,&quot;String&quot;]],[&quot;label&quot;,[&quot;string&quot;,&quot;String&quot;]],[&quot;synonyms&quot;,[&quot;unknown&quot;,&quot;List(String)&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "8921bdc3cff2a4be1e84e28bb60e7dbf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"label\": \"upper lobe of left lung\", \"synonyms\": [\"LUL\", \"left upper lobe\"], \"definition\": null, \"is_obsolete\": false, \"replaced_by_rid\": null}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "fcef3cf7fc6a496e10033645f5c9d62b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"RID34695\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "47224b745a4eb0b4889bc4445a755709",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[]"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

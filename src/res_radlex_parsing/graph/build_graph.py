@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import logging
 from pathlib import Path
+from typing import Self
 
 import duckdb
 import networkx as nx
@@ -32,8 +33,8 @@ class RadLexGraphBuilder:
     rows (label/synonym/definition) into node attributes, taking direct resource-valued
     triples as edges, and resolving ``owl:Restriction`` blank-node blocks into typed
     edges via a self-join — assembles an in-memory ``networkx.DiGraph``, and writes the
-    resulting nodes/edges tables to an on-disk DuckDB database via
-    :mod:`res_radlex_parsing._shared.db`.
+    resulting nodes/edges tables plus a full-text search index to an on-disk DuckDB
+    database via :mod:`res_radlex_parsing._shared.db`.
 
     Methods are designed for chaining, e.g.::
 
@@ -97,6 +98,9 @@ class RadLexGraphBuilder:
     def save(self) -> RadLexGraphBuilder:
         """Writes the derived nodes and edges tables to the on-disk DuckDB database.
 
+        Also rebuilds the full-text search index, which derives from the freshly written
+        ``nodes`` table and so must follow it.
+
         Returns:
             This builder instance, to support method chaining.
 
@@ -109,6 +113,7 @@ class RadLexGraphBuilder:
 
         db.write_nodes(self._con, self._nodes)
         db.write_edges(self._con, self._edges)
+        db.build_search_index(self._con)
 
         return self
 
@@ -176,7 +181,7 @@ class RadLexGraphBuilder:
             LEFT JOIN replaced_by ON replaced_by.rid = class_rids.rid
             """,
             [str(self.triples_path)],
-        ).fetch_arrow_table()
+        ).to_arrow_table()
 
     def _query_edges(self) -> pa.Table:
         """Derives the edges table from the registered triples.
@@ -232,7 +237,7 @@ class RadLexGraphBuilder:
             SELECT * FROM restriction_edges
             """,
             [str(self.triples_path)],
-        ).fetch_arrow_table()
+        ).to_arrow_table()
 
     def _to_networkx(self, nodes: pa.Table, edges: pa.Table) -> nx.DiGraph:
         """Assembles a ``networkx.DiGraph`` from the derived node/edge tables.
@@ -273,7 +278,7 @@ class RadLexGraphBuilder:
 
         return graph
 
-    def __enter__(self) -> RadLexGraphBuilder:
+    def __enter__(self) -> Self:
         """Allows use as a context manager so the DuckDB connection is always closed.
 
         Returns:

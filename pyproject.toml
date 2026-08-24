@@ -22,4 +22,18 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "marimo>=0.23.15",
+    "pytest>=9.1.1",
+    "ruff>=0.16.4",
+    "ty>=0.0.74",
 ]
+
+[tool.ruff]
+# marimo generates notebooks/*.py with a cell protocol ruff misreads: `return (x,)`
+# declares a cell's outputs and a bare `x` on its own line is how a value gets displayed.
+# Both are load-bearing, so lint them out of scope rather than "fixing" them.
+extend-exclude = ["notebooks"]
+
+[tool.ty.environment]
+# radlex_kg.py lives with the skill rather than in src/: it is invoked standalone via
+# `uv run` and declares its own dependencies inline, but the tests import it directly.
+extra-paths = [".claude/skills/radlex-concepts/scripts"]

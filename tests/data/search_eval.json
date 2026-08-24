@@ -1,0 +1,161 @@
+{
+  "description": "Hand-labelled search evaluation set for the RadLex concept lookup. Every expected RID was established by direct label/synonym lookup against the graph, never by running the ranker under test, so the labels stay independent of the thing they measure. A phrase may map to several acceptable RIDs; scoring is hit@1-in-set. An empty expected_rids with expect_miss true means a MISS is the correct answer, and returning a confident match instead is a failure. Absence claims must be verified with a normalized comparison, not a raw LIKE: a spaced query will not match a hyphenated label, which is exactly how the 'crazy paving' case was mislabelled as a gap.",
+  "graph_build": "data/intermediate/radlex.duckdb, 46952 concepts, built 2026-08-20",
+  "cases": [
+    {
+      "phrase": "part-solid nodule",
+      "expected_rids": [
+        "RID50152"
+      ],
+      "category": "phrasing-variant",
+      "note": "Report drops 'pulmonary'. Word-boundary matching misses this entirely."
+    },
+    {
+      "phrase": "left upper lobe",
+      "expected_rids": [
+        "RID1327"
+      ],
+      "category": "exact-synonym",
+      "note": "Exact synonym of 'upper lobe of left lung'. Must stay exact after the change."
+    },
+    {
+      "phrase": "LUL",
+      "expected_rids": [
+        "RID1327"
+      ],
+      "category": "abbreviation-present",
+      "note": "Regression guard: substring search ranked this 67th of 69, behind 'hepatocellular carcinoma'."
+    },
+    {
+      "phrase": "spiculated margins",
+      "expected_rids": [
+        "RID5713"
+      ],
+      "category": "plural",
+      "note": "Plural; requires stemming."
+    },
+    {
+      "phrase": "spiculated nodule",
+      "expected_rids": [
+        "RID5713",
+        "RID3875",
+        "RID50149"
+      ],
+      "category": "multi-concept",
+      "note": "Legitimately maps to more than one concept: the margin descriptor and the nodule itself. BM25 ranks 'spiculated' (RID34284) first, which is arguably also acceptable but is not a report-level finding, so it is excluded."
+    },
+    {
+      "phrase": "ground glass opacities",
+      "expected_rids": [
+        "RID28531"
+      ],
+      "category": "plural-and-hyphenation",
+      "note": "Unhyphenated and plural against a hyphenated singular label."
+    },
+    {
+      "phrase": "GGO",
+      "expected_rids": [],
+      "expect_miss": true,
+      "category": "abbreviation-absent",
+      "note": "Verified absent from labels and synonyms. A MISS is correct; the agent is expected to expand the abbreviation and retry. Stemming does not help here."
+    },
+    {
+      "phrase": "lower lobes",
+      "expected_rids": [
+        "RID34696"
+      ],
+      "category": "plural",
+      "note": "Plural of 'lower lobe of lung'."
+    },
+    {
+      "phrase": "pleural effusion",
+      "expected_rids": [
+        "RID34539"
+      ],
+      "category": "exact-label",
+      "note": "Control: must remain an exact match."
+    },
+    {
+      "phrase": "hilar adenopathy",
+      "expected_rids": [
+        "RID3798"
+      ],
+      "category": "vocabulary-mismatch",
+      "note": "RadLex has no hilar-specific lymphadenopathy concept; 'lymphadenopathy' is the correct anchor. Verified no '%hilar lymph node%' label exists."
+    },
+    {
+      "phrase": "enlarged lymph nodes",
+      "expected_rids": [
+        "RID3798"
+      ],
+      "category": "vocabulary-mismatch",
+      "note": "Descriptive phrasing for lymphadenopathy; no lexical overlap with the label."
+    },
+    {
+      "phrase": "centrilobular emphysema",
+      "expected_rids": [
+        "RID28504"
+      ],
+      "category": "exact-label",
+      "note": "Control."
+    },
+    {
+      "phrase": "posterior segmental branch of the right lower lobe pulmonary artery",
+      "expected_rids": [
+        "RID991"
+      ],
+      "category": "false-gap-trap",
+      "note": "Reads as absent but RadLex has it as 'right lower lobe posterior segment artery'. Concluding MISS here produces a duplicate proposal, the exact failure this work targets."
+    },
+    {
+      "phrase": "C7",
+      "expected_rids": [
+        "RID6148"
+      ],
+      "category": "digit-bearing",
+      "note": "Tokenizer guard. With DuckDB's default ignore pattern digits are stripped and this returns 'cesium'. Requires ignore='(\\.|[^a-z0-9])+'."
+    },
+    {
+      "phrase": "BI-RADS 4",
+      "expected_rids": [
+        "RID36030"
+      ],
+      "category": "digit-bearing",
+      "note": "Category 4 must outrank 4B/4C. Indistinguishable without digits."
+    },
+    {
+      "phrase": "T1 vertebra",
+      "expected_rids": [
+        "RID29198",
+        "RID6151"
+      ],
+      "category": "digit-bearing",
+      "note": "Two legitimate senses: RID29198 'first thoracic vertebra' is the anatomical structure and is preferred; RID6151 'T1' is the thoracic spine level descriptor. Both accepted. Note RID6151 is also how T1-weighted imaging would be phrased, so digit preservation alone does not disambiguate sense."
+    },
+    {
+      "phrase": "head of pancreas",
+      "expected_rids": [
+        "RID171"
+      ],
+      "category": "stopword-heavy",
+      "note": "Guards the decision to keep DuckDB's english stopword list: 'of' is dropped at index and query time."
+    },
+    {
+      "phrase": "stent",
+      "expected_rids": [
+        "RID50361"
+      ],
+      "category": "obsolete-redirect",
+      "note": "Exact label RID5598 is obsolete and outranks the live concept on BM25. Correct answer is the replacement 'vascular stent'; an obsolete top hit without replaced_by_rid is a failure."
+    },
+    {
+      "phrase": "crazy paving",
+      "expected_rids": [
+        "RID43256",
+        "RID35120"
+      ],
+      "category": "hyphenation-trap",
+      "note": "RadLex has 'crazy-paving pattern' (RID43256) and 'crazy-paving sign' (RID35120). This case was originally mislabelled as a true gap because the verifying query used '%crazy paving%' with a space, which cannot match the hyphenated label -- the same hyphenation trap the search normalizer exists to handle. Kept as a regression against re-introducing it."
+    }
+  ]
+}

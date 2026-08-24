@@ -14,7 +14,7 @@ data/staging/RadLex.owl
 data/intermediate/radlex_triples.parquet   (flat RDF triples table)
         │  RadLexGraphBuilder (graph/build_graph.py)
         ▼
-data/intermediate/radlex.duckdb            (nodes/edges tables)
+data/intermediate/radlex.duckdb            (nodes/edges/search_docs + FTS index)
         │  RadLexGraphQuery (graph/query.py)
         ▼
 extraction/tools.py  ──►  .pi/extensions/radlex_tools.ts  ──►  Pi skills
@@ -30,12 +30,14 @@ extraction/tools.py  ──►  .pi/extensions/radlex_tools.ts  ──►  Pi sk
   (via DuckDB) to derive `nodes` (RID, label, synonyms, definition, obsolescence) and
   `edges` (`is_a` plus restriction-derived relations like `Part_Of`, `Has_Part`,
   `Branch_Of`) tables, builds an in-memory `networkx.DiGraph`, and persists the tables to
-  a DuckDB file.
+  a DuckDB file. Also builds `search_docs` (one row per label/synonym) and a DuckDB FTS
+  index over it, so concept lookup can rank by BM25 rather than alphabetically.
 - **`src/res_radlex_parsing/graph/query.py`** — reloads the DuckDB tables into a
   `networkx.DiGraph` and exposes read operations: text/synonym `search`, `get_node`,
   `get_parents`, `get_children`.
 - **`src/res_radlex_parsing/_shared/db.py`** — shared DuckDB connection/schema helpers
-  used by both the builder and the query layer.
+  used by both the builder and the query layer, plus `build_search_index()` and the
+  staleness guard for the full-text index.
 - **`src/res_radlex_parsing/extraction/tools.py`** — a `click` CLI
   (`search`, `get-concept`, `propose-concept`) that wraps `RadLexGraphQuery` and appends
   to `data/output/candidates.jsonl`. Invoked as a subprocess by the Pi extension below;
@@ -54,8 +56,15 @@ extraction/tools.py  ──►  .pi/extensions/radlex_tools.ts  ──►  Pi sk
 - `data/staging/RadLex.owl` — source ontology (must be supplied locally; not checked in).
 - `data/staging/ct-3733*.txt` — sample radiology report used as test input.
 - `data/intermediate/radlex_triples.parquet` — output of the OWL ingest step.
-- `data/intermediate/radlex.duckdb` — persisted knowledge graph (`nodes`/`edges` tables).
-- `data/output/candidates.jsonl` — candidate new concepts proposed by the agent.
+- `data/intermediate/radlex.duckdb` — persisted knowledge graph (`nodes`/`edges`/
+  `search_docs` tables plus the full-text index).
+- `data/output/candidates.jsonl` — candidate new concepts proposed by the agent. Records
+  are validated against the graph before being appended: parent/target RIDs must exist and
+  relation types must be ones RadLex uses.
+
+The test fixture under `tests/data/` is committed rather than gitignored — it is a ~4,000
+concept Parquet subset, so the regression suite runs on a fresh clone without a 52 MB
+ontology download.
 
 ## Setup
 
@@ -66,6 +75,11 @@ uv sync
 ```
 
 Place the RadLex OWL export at `data/staging/RadLex.owl` before running the pipeline.
+
+The graph build installs DuckDB's `fts` extension, which is fetched from the network the
+first time and cached in `~/.duckdb` thereafter. On a machine that has never installed it
+and has no network, the build fails at that step; search then falls back to exact matching
+only, with reduced recall and a logged warning.
 
 ## Usage
 
@@ -107,6 +121,11 @@ with RadLexGraphQuery(Path("data/intermediate/radlex.duckdb")).load() as query:
 
 ### 4. CLI tools (used by the Pi extension, also runnable directly)
 
+These run inside the project environment. The Claude skill's helper
+(`.claude/skills/radlex-concepts/scripts/radlex_kg.py`) instead declares its dependencies
+inline (PEP 723) and is invoked as `uv run <script>`, so it works from any directory
+without a synced checkout.
+
 ```bash
 uv run python -m res_radlex_parsing.extraction.tools search --text "pulmonary nodule"
 uv run python -m res_radlex_parsing.extraction.tools get-concept --rid RID1327
@@ -123,10 +142,14 @@ uv run marimo edit notebooks/test_owl_ingest.py
 ## Development
 
 ```bash
-uv run --frozen pytest          # tests
+uv run --frozen pytest          # tests (run against a committed fixture graph, and
+                                #        against data/intermediate/radlex.duckdb if built)
+uv run python tests/eval_search.py   # search-quality comparison across ranking arms
+uv run python tests/data/build_fixture.py   # regenerate the committed test fixture
 uv run --frozen ruff format .   # format
 uv run --frozen ruff check .    # lint
+uv run --frozen ty check        # type-check
 ```
 
-See `CLAUDE.md` for full contribution/style guidelines and `docs/plan.md` for design
+See `CLAUDE.md` for full contribution/style guidelines and `docs/plans/` for design
 context.

@@ -21,12 +21,12 @@ plain records for the graph-building stage to consume.
 from __future__ import annotations
 
 import logging
+from dataclasses import asdict, dataclass
 from pathlib import Path
 
 import pyarrow as pa
 import pyarrow.parquet as pq
 import rdflib
-from dataclasses import asdict, dataclass
 
 logger = logging.getLogger(__name__)
 
@@ -74,7 +74,6 @@ class RadLexOwlParser:
         Args:
             owl_path: Filesystem path to the source ``RadLex.owl`` file.
         """
-        ...
         self.owl_path = owl_path
         self._graph: rdflib.Graph | None = None
         self._triples: pa.Table | None = None
@@ -90,7 +89,6 @@ class RadLexOwlParser:
         Raises:
             OSError: If ``owl_path`` cannot be read.
         """
-        ...
 
         logger.info("Loading RadLex OWL fiel from %s", self.owl_path)
 
@@ -123,7 +121,6 @@ class RadLexOwlParser:
         Raises:
             RuntimeError: If called before :meth:`load`.
         """
-        ...
 
         if self._graph is None:
             raise RuntimeError("load() must be called before parse()")
@@ -168,10 +165,14 @@ class RadLexOwlParser:
             RuntimeError: If called before :meth:`parse`.
             OSError: If ``output_path`` cannot be written.
         """
-        ...
+
+        if self._triples is None:
+            raise RuntimeError("parse() must be called before save()")
 
         logger.info("Saving parsed triples to %s", output_path)
         pq.write_table(self._triples, output_path)
+
+        return self
 
     @staticmethod
     def _rid_from_uri(uri: str) -> str:

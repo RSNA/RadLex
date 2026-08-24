@@ -1,8 +1,8 @@
 """Shared DuckDB connection and schema helpers for the RadLex knowledge graph store.
 
-Centralizes the on-disk DuckDB schema (``nodes``/``edges`` tables) and connection
-handling so both the graph-building stage and later query code operate on the same
-table definitions.
+Centralizes the on-disk DuckDB schema (``nodes``/``edges``/``search_docs`` tables), the
+full-text search index over ``search_docs``, and connection handling, so the
+graph-building stage and later query code operate on the same definitions.
 """
 
 from __future__ import annotations
@@ -17,6 +17,16 @@ logger = logging.getLogger(__name__)
 
 NODES_TABLE = "nodes"
 EDGES_TABLE = "edges"
+SEARCH_DOCS_TABLE = "search_docs"
+
+# DuckDB names the generated index schema after the indexed table.
+FTS_SCHEMA = f"fts_main_{SEARCH_DOCS_TABLE}"
+
+# DuckDB's default ignore pattern is '(\\.|[^a-z])+', which deletes every digit at both
+# index and query time. 11.5% of RadLex labels carry a meaning-bearing digit (vertebral
+# levels, BI-RADS categories, T1/T2 weighting, isotopes); without this override "C7"
+# tokenizes to "c" and returns "cesium" rather than the literal C7 concept.
+FTS_IGNORE_PATTERN = r"(\.|[^a-z0-9])+"
 
 
 def connect(db_path: Path, read_only: bool = False) -> duckdb.DuckDBPyConnection:
@@ -83,6 +93,10 @@ def write_nodes(con: duckdb.DuckDBPyConnection, nodes: pa.Table) -> None:
     incremental upsert). Note this replaces the table definition entirely, including
     the primary key constraint created by :func:`create_schema`.
 
+    Call :func:`build_search_index` afterwards. The full-text index derives from this
+    table and does not update itself; leaving it stale makes searches silently return
+    nothing rather than fail.
+
     Args:
         con: An open DuckDB connection, as returned by :func:`connect`.
         nodes: A table with columns ``rid``, ``label``, ``synonyms``, ``definition``,
@@ -116,3 +130,107 @@ def write_edges(con: duckdb.DuckDBPyConnection, edges: pa.Table) -> None:
         )
     finally:
         con.unregister("edges_view")
+
+
+def build_search_index(con: duckdb.DuckDBPyConnection) -> None:
+    """Rebuilds the ``search_docs`` table and its full-text index from ``nodes``.
+
+    Must run after :func:`write_nodes`, since it derives from that table. Callers that
+    write nodes by some other route are responsible for calling this too — see
+    :func:`search_index_is_stale` for the guard that detects when they have not.
+
+    One row per searchable string (the label, plus each synonym unnested) rather than
+    one concatenated document per concept: BM25 penalizes long documents, so
+    concatenating a concept's synonyms would rank well-annotated concepts *worse*.
+    Query-side, aggregate with ``max`` per RID.
+
+    Concepts with no English label, and the handful of node ids that are not RadLex
+    RIDs, are excluded so full-text results cannot surface entries that the exact-match
+    path filters out.
+
+    Args:
+        con: An open writable DuckDB connection, as returned by :func:`connect`.
+
+    Raises:
+        duckdb.Error: If the ``fts`` extension cannot be installed or loaded.
+    """
+    con.execute("INSTALL fts; LOAD fts;")
+    # Rebuilding the documents and the index over them are two writes, and a failure
+    # between them leaves the table describing concepts the index has never seen. That
+    # state does not raise on read -- match_bm25 simply returns NULL for the rows it does
+    # not know -- so it surfaces as concepts silently missing from search. Commit both or
+    # neither.
+    con.execute("BEGIN TRANSACTION")
+    try:
+        _write_search_index(con)
+    except Exception:
+        con.execute("ROLLBACK")
+        raise
+    con.execute("COMMIT")
+
+    count = con.execute(f"SELECT count(*) FROM {SEARCH_DOCS_TABLE}").fetchone()
+    logger.info(
+        "Built full-text index over %s search documents", count[0] if count else 0
+    )
+
+
+def _write_search_index(con: duckdb.DuckDBPyConnection) -> None:
+    """Writes the ``search_docs`` table and creates the index over it.
+
+    Args:
+        con: An open writable DuckDB connection, inside a transaction.
+    """
+    con.execute(
+        f"""
+        CREATE OR REPLACE TABLE {SEARCH_DOCS_TABLE} AS
+        SELECT rid || ':L' AS doc_id, rid, label AS term, 'label' AS kind
+        FROM {NODES_TABLE}
+        WHERE label IS NOT NULL AND rid LIKE 'RID%'
+        UNION ALL
+        SELECT rid || ':S' || CAST(i AS VARCHAR), rid, s, 'synonym'
+        FROM (
+            SELECT rid, unnest(synonyms) AS s, generate_subscripts(synonyms, 1) AS i
+            FROM {NODES_TABLE}
+            WHERE label IS NOT NULL AND rid LIKE 'RID%'
+        )
+        WHERE s IS NOT NULL
+        """
+    )
+    con.execute(
+        f"""
+        PRAGMA create_fts_index(
+            '{SEARCH_DOCS_TABLE}', 'doc_id', 'term',
+            ignore = '{FTS_IGNORE_PATTERN}',
+            overwrite = 1
+        )
+        """
+    )
+    count = con.execute(f"SELECT count(*) FROM {SEARCH_DOCS_TABLE}").fetchone()
+    logger.info(
+        "Built full-text index over %s search documents", count[0] if count else 0
+    )
+
+
+def search_index_is_stale(con: duckdb.DuckDBPyConnection) -> bool:
+    """Reports whether the full-text index no longer covers ``search_docs``.
+
+    Worth checking before relying on full-text results: when the index and table
+    disagree, ``match_bm25`` returns NULL for the unindexed rows rather than raising, so
+    a stale index looks exactly like "this concept is not in RadLex" — the false-gap
+    outcome the search work exists to prevent.
+
+    Args:
+        con: An open DuckDB connection; read-only is sufficient.
+
+    Returns:
+        ``True`` if the index is missing or its document count differs from
+        ``search_docs``, ``False`` if they agree.
+    """
+    try:
+        docs = con.execute(f"SELECT count(*) FROM {SEARCH_DOCS_TABLE}").fetchone()
+        indexed = con.execute(f"SELECT count(*) FROM {FTS_SCHEMA}.docs").fetchone()
+    except duckdb.Error:
+        logger.warning("Full-text index not present or unreadable; treating as stale")
+        return True
+
+    return (docs or [0])[0] != (indexed or [0])[0]

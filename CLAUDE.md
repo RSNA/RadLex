@@ -29,6 +29,7 @@ It requires a data processing OWL->duckdb accessible on-disk storage, and skill 
 
 3. Testing Requirements
    - Framework: `uv run --frozen pytest`
+   - Type checking: `uv run --frozen ty check`
 
 ## Python Tools
 

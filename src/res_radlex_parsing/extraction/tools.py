@@ -25,7 +25,7 @@ DEFAULT_CANDIDATES_PATH = Path("data/output/candidates.jsonl")
 def search_concepts(
     text: str, limit: int = 10, db_path: Path = DEFAULT_DB_PATH
 ) -> list[dict[str, Any]]:
-    """Searches RadLex node labels/synonyms for a text match.
+    """Searches RadLex node labels/synonyms for a text match, best match first.
 
     Args:
         text: Free text to match against node labels/synonyms.
@@ -33,7 +33,11 @@ def search_concepts(
         db_path: Filesystem path to the persisted RadLex DuckDB database.
 
     Returns:
-        A list of JSON-serializable dicts with keys ``rid``, ``label``, ``synonyms``.
+        A list of JSON-serializable dicts with keys ``rid``, ``label``, ``synonyms``,
+        ``is_obsolete``, ``replaced_by_rid``, ``match_type`` and ``bm25``.
+        ``match_type`` is ``exact`` when the label or a synonym is literally equal to
+        the search text, and ``candidate`` when the concept was found by full-text
+        search and should be confirmed before use.
     """
     with RadLexGraphQuery(db_path).load() as query:
         return query.search(text, limit=limit).to_pylist()

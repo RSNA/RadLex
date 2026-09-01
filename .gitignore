@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Scratch / working files
+tmp/
+
+# Archives
+*.zip
+
+# Sphinx documentation
+docs/_build/
+docs/source/

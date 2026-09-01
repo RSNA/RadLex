@@ -36,7 +36,7 @@ jobs:
         run: tests/scripts/robot-check.sh
 
       - name: Upload unsatisfiability explanation
-        if: steps.robot-check.outcome == 'failure'
+        if: failure() && steps.robot-check.outcome == 'failure'
         uses: actions/upload-artifact@v7
         with:
           name: robot-unsatisfiable-explanation
@@ -48,7 +48,7 @@ jobs:
         run: tests/scripts/robot-report-tests.sh
 
       - name: Upload ROBOT report
-        if: steps.robot-report.outcome == 'failure'
+        if: failure() && steps.robot-report.outcome == 'failure'
         uses: actions/upload-artifact@v7
         with:
           name: robot-report

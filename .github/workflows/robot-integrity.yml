@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '21'
 
       - name: Cache ROBOT jar
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: tests/scripts/.robot
           key: robot-${{ env.ROBOT_VERSION }}
@@ -37,7 +37,7 @@ jobs:
 
       - name: Upload unsatisfiability explanation
         if: steps.robot-check.outcome == 'failure'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: robot-unsatisfiable-explanation
           path: unsatisfiable-explanation.owl
@@ -49,7 +49,7 @@ jobs:
 
       - name: Upload ROBOT report
         if: steps.robot-report.outcome == 'failure'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: robot-report
           path: robot-report.tsv

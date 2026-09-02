@@ -1,0 +1,56 @@
+name: ROBOT integrity checks
+
+on:
+  push:
+    branches:
+      - '**'
+
+env:
+  ROBOT_VERSION: 1.9.10
+  ROBOT_JAVA_ARGS: -Xmx4g
+
+jobs:
+  robot-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Cache ROBOT jar
+        uses: actions/cache@v6
+        with:
+          path: tests/scripts/.robot
+          key: robot-${{ env.ROBOT_VERSION }}
+
+      - name: Install ROBOT
+        run: tests/scripts/install-robot.sh
+
+      - name: Run ROBOT integrity checks
+        id: robot-check
+        run: tests/scripts/robot-check.sh
+
+      - name: Upload unsatisfiability explanation
+        if: failure() && steps.robot-check.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: robot-unsatisfiable-explanation
+          path: unsatisfiable-explanation.owl
+          if-no-files-found: ignore
+
+      - name: Run ROBOT report tests
+        id: robot-report
+        run: tests/scripts/robot-report-tests.sh
+
+      - name: Upload ROBOT report
+        if: failure() && steps.robot-report.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: robot-report
+          path: robot-report.tsv
+          if-no-files-found: ignore

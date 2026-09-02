@@ -1,0 +1,1 @@
+ERROR	file:./tests/sparql/robot/leading_trailing_multi_whitespace.rq

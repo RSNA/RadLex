@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test for stray whitespace on values (strings) of the annotation properties used for names.  Specifically, this test
+# prohibits: leading or trailing whitespace, or consecutive whitespace characters within a string.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity on which the violation occurs (e.g., the class).
+# - The property on which the violation occurs (i.e., the annotation property, e.g. rdfs:label).
+# - The value violating the constraint (e.g., "anatomy " or "anatomic  part")
+#
+SELECT ?entity ?property ?value
+WHERE {
+    VALUES ?constrained_property {rdfs:label rid:Synonym rid:UMLS_Term} .
+    ?property rdfs:subPropertyOf ?constrained_property .
+    ?entity ?property ?value .
+    FILTER(REGEX(STR(?value), "^\\s|\\s+$|\\s\\s"))
+}

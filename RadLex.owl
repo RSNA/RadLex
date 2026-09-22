@@ -10401,7 +10401,7 @@ duplicate term</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>balloon dilation of structure</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10400</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 obs</RID:Radlex_version_of_class_change>
-        <RID:Replaced_by>RID11030</RID:Replaced_by>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID11030"/>
         <rdfs:label xml:lang="de">Ballondilatation einer Struktur</rdfs:label>
         <rdfs:label xml:lang="en">balloon dilation of structure</rdfs:label>
     </owl:Class>
@@ -23310,7 +23310,7 @@ AND
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID11486"/>
         <RID:Definition>An artifact resulting in ghost images of a vessel extending across the image in the phase encoding direction.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID11488</RID:RadLexID>
-        <rdfs:label xml:lang="de">Betonung des  pulsatilen Flussartefaktes</rdfs:label>
+        <rdfs:label xml:lang="de">Betonung des pulsatilen Flussartefaktes</rdfs:label>
         <rdfs:label xml:lang="en">accentuation of pulsatile flow artifact</rdfs:label>
     </owl:Class>
     
@@ -23925,7 +23925,7 @@ AND
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11529">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID11528"/>
         <RID:RadLexID xml:lang="en">RID11529</RID:RadLexID>
-        <rdfs:label xml:lang="de">Komplikation eines  Abszesses</rdfs:label>
+        <rdfs:label xml:lang="de">Komplikation eines Abszesses</rdfs:label>
         <rdfs:label xml:lang="en">abscess complication</rdfs:label>
     </owl:Class>
     
@@ -68888,7 +68888,7 @@ The LI-RADS definition of “size” correspons to the definition of the longest
         <RID:Preferred_Name_for_Obsolete>Brodmann area 5 of left post central gyrus</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13601</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 obs</RID:Radlex_version_of_class_change>
-        <RID:Replaced_by>RID25948</RID:Replaced_by>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID25948"/>
         <rdfs:label xml:lang="de">Brodmann-Areal 5 des linken Gyrus postcentralis</rdfs:label>
         <rdfs:label xml:lang="en">Brodmann area 5 of left post central gyrus</rdfs:label>
     </owl:Class>
@@ -541038,7 +541038,7 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Synonym xml:lang="en">anterior thoracic region</RID:Synonym>
         <RID:Synonym xml:lang="en">front of chest</RID:Synonym>
         <RID:Synonym xml:lang="la">pectus</RID:Synonym>
-        <rdfs:label xml:lang="de">Vorderseite des  Brustkorbs</rdfs:label>
+        <rdfs:label xml:lang="de">Vorderseite des Brustkorbs</rdfs:label>
         <rdfs:label xml:lang="en">anterior chest</rdfs:label>
     </owl:Class>
     
@@ -545375,7 +545375,7 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Synonym xml:lang="en">lumbar region</RID:Synonym>
         <RID:Synonym xml:lang="de">regio lumbalis</RID:Synonym>
         <RID:Synonym xml:lang="la">regio lumbalis</RID:Synonym>
-        <rdfs:label xml:lang="de">Rückwand des  Abdomens</rdfs:label>
+        <rdfs:label xml:lang="de">Rückwand des Abdomens</rdfs:label>
         <rdfs:label xml:lang="en">back of abdomen</rdfs:label>
     </owl:Class>
     
@@ -586925,7 +586925,7 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Comment>duplicate</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>inferior diaphragmatic lymph node group</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID31917</RID:RadLexID>
-        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID38142"/>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID38138"/>
         <rdfs:label xml:lang="en">inferior diaphragmatic lymph node group</rdfs:label>
     </owl:Class>
     
@@ -656304,7 +656304,7 @@ Duplicate of RID3506</RID:Comment>
         <RID:Definition>Tubular opacities within bronchi, seen in mucoid impaction (mucous plugging).</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>finger-in-glove sign</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID35211</RID:RadLexID>
-        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35677"/>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35676"/>
         <RID:Source>RadsWiki</RID:Source>
         <rdfs:label xml:lang="en">finger-in-glove sign</rdfs:label>
     </owl:Class>
@@ -742288,7 +742288,7 @@ not yet enhanced</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>early hepatic arterial phase</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID39534</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 obs</RID:Radlex_version_of_class_change>
-        <RID:Replaced_by>RID11082</RID:Replaced_by>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID11082"/>
         <RID:Source>LI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">early arterial phase (liver)</RID:Synonym>
         <rdfs:label xml:lang="de">früharterielle Phase der Leber</rdfs:label>
@@ -742309,7 +742309,7 @@ enhanced</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>late hepatic arterial phase</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID39535</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 obs</RID:Radlex_version_of_class_change>
-        <RID:Replaced_by>RID39127</RID:Replaced_by>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID39127"/>
         <RID:Source>LI-RADS</RID:Source>
         <rdfs:label xml:lang="de">spätarterielle Phase der Leber</rdfs:label>
         <rdfs:label xml:lang="en">late hepatic arterial phase</rdfs:label>
@@ -871744,7 +871744,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13060"/>
         <RID:RadLexID xml:lang="en">RID45693</RID:RadLexID>
         <RID:Source>Playbook</RID:Source>
-        <rdfs:label xml:lang="de">Bildgebung in  Bloodpool- phase</rdfs:label>
+        <rdfs:label xml:lang="de">Bildgebung in Bloodpool-Phase</rdfs:label>
         <rdfs:label xml:lang="en">blood pool imaging</rdfs:label>
     </owl:Class>
     
@@ -993753,7 +993753,7 @@ strong association with benignity</RID:Comment>
         <RID:RadLexID xml:lang="en">RID50296</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
         <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 1  - Very low (Lesion)</rdfs:label>
+        <rdfs:label xml:lang="en">PI-RADS 1 - Very low (Lesion)</rdfs:label>
     </owl:Class>
     
 
@@ -993767,7 +993767,7 @@ strong association with benignity</RID:Comment>
         <RID:RadLexID xml:lang="en">RID50297</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
         <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 2  - Low (Lesion)</rdfs:label>
+        <rdfs:label xml:lang="en">PI-RADS 2 - Low (Lesion)</rdfs:label>
     </owl:Class>
     
 
@@ -998868,7 +998868,7 @@ Does not apply to blood pool agents.</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43582"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2022-01-21T21:16:57.865324Z</oboInOwl:creation_date>
-        <RID:RadLexID xml:lang="en">RID60643</RID:RadLexID>
+        <RID:RadLexID xml:lang="en">RID50643</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
         <RID:Synonym xml:lang="en">view Canale</RID:Synonym>
@@ -999500,7 +999500,7 @@ Does not apply to blood pool agents.</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50674"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2022-08-19T16:24:49.983716Z</oboInOwl:creation_date>
-        <RID:RadLexID xml:lang="en">RID50580</RID:RadLexID>
+        <RID:RadLexID xml:lang="en">RID50680</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <RID:Source>‘CT Kidney and Abdominal Renal Mass’ report template</RID:Source>
         <rdfs:label xml:lang="en">invades collecting system</rdfs:label>

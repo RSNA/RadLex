@@ -1,1 +1,8 @@
 ERROR	file:./tests/sparql/robot/leading_trailing_multi_whitespace.rq
+ERROR	file:./tests/sparql/robot/annotation_value_not_empty.rq
+ERROR	file:./tests/sparql/robot/radlexid_matches_iri.rq
+WARN	file:./tests/sparql/robot/class_iri_is_rid.rq
+ERROR	file:./tests/sparql/robot/replaced_by_is_iri.rq
+ERROR	file:./tests/sparql/robot/replaced_by_target_is_live_class.rq
+ERROR	file:./tests/sparql/robot/replaced_by_only_on_obsolete_class.rq
+ERROR	file:./tests/sparql/robot/obsolete_class_not_a_parent.rq

@@ -1,0 +1,23 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that every obsolete class has an English label (issue #13). An obsolete class is one filed, directly or
+# through another obsolete class, under RID15849 ("Obsolete RadLex Term"). Without a label, tools show the bare
+# RID, and a reader can't tell what the retired term was.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The obsolete class.
+# - rdfs:label.
+# - Its rid:Preferred_Name_for_Obsolete, the name to use, or the empty string when it has none.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?entity rdfs:subClassOf+ rid:RID15849 .
+    FILTER NOT EXISTS { ?entity rdfs:label ?label . FILTER(LANG(?label) = "en") }
+    BIND(rdfs:label AS ?property)
+    OPTIONAL { ?entity rid:Preferred_Name_for_Obsolete ?name }
+    BIND(COALESCE(STR(?name), "") AS ?value)
+}

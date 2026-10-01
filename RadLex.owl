@@ -45,7 +45,7 @@
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Acronym">
         <RID:Domain_string>http://www.radlex.org/RID/RID0</RID:Domain_string>
         <rdfs:subPropertyOf rdf:resource="http://www.radlex.org/RID/Synonym"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 
@@ -72,7 +72,7 @@
 
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Definition">
         <RID:Domain_string>http://www.radlex.org/RID/RID0</RID:Domain_string>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 
@@ -94,7 +94,7 @@
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Misspelling_of_term">
         <RID:Domain_string>http://www.radlex.org/RID/RID0</RID:Domain_string>
         <rdfs:subPropertyOf rdf:resource="http://www.radlex.org/RID/Synonym"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 
@@ -127,7 +127,6 @@
 
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Replaced_by">
         <RID:Domain_string>http://www.radlex.org/RID/RID15849 or http://www.radlex.org/RID/RID27787</RID:Domain_string>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
     
 
@@ -146,7 +145,7 @@
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Synonym">
         <RID:Domain_string>http://www.radlex.org/RID/RID0</RID:Domain_string>
         <rdfs:subPropertyOf rdf:resource="http://www.radlex.org/RID/Synonym"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 
@@ -172,7 +171,7 @@
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/Unsanctioned_Term">
         <RID:Domain_string>http://www.radlex.org/RID/RID0</RID:Domain_string>
         <rdfs:subPropertyOf rdf:resource="http://www.radlex.org/RID/Synonym"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 
@@ -995882,11 +995881,11 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50505">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50503"/>
         <RID:Comment>No FNA</RID:Comment>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:Definition xml:lang="en">Not suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50505</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 2</RID:Synonym>
         <RID:Synonym xml:lang="en">TI-RADS 2</RID:Synonym>
         <rdfs:label xml:lang="en">TR2</rdfs:label>
@@ -995899,11 +995898,11 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50506">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50503"/>
         <RID:Comment>FNA if &gt;=2.5cm; follow if &gt;=1.5cm</RID:Comment>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:Definition xml:lang="en">Mildly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50506</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 3</RID:Synonym>
         <RID:Synonym xml:lang="en">TI-RADS 3</RID:Synonym>
         <rdfs:label xml:lang="en">TR3</rdfs:label>
@@ -995916,12 +995915,11 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50507">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50503"/>
         <RID:Comment>FNA if &gt;=1.5cm, follow if &gt;=1cm</RID:Comment>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:Definition xml:lang="en">Moderately suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50507</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 4</RID:Synonym>
         <RID:Synonym xml:lang="en">TI-RADS 4</RID:Synonym>
         <rdfs:label xml:lang="en">TR4</rdfs:label>
@@ -995929,7 +995927,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50507"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -995940,12 +995938,11 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50508">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50503"/>
         <RID:Comment>FNA if &gt;=1cm, follow if &gt;=0.5cm</RID:Comment>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:Definition xml:lang="en">Highly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50508</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 5</RID:Synonym>
         <RID:Synonym xml:lang="en">TI-RADS 5</RID:Synonym>
         <rdfs:label xml:lang="en">TR5</rdfs:label>
@@ -995953,7 +995950,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50508"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -995963,10 +995960,10 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50509">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID3875"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50509</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">presence of thyroid nodule(s)</RID:Synonym>
         <rdfs:label xml:lang="en">thyroid nodule</rdfs:label>
     </owl:Class>
@@ -995977,9 +995974,8 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50510">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50510</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <RID:Synonym xml:lang="en">right thyroid upper</RID:Synonym>
@@ -995988,7 +995984,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50510"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -995998,9 +995994,8 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50511">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50511</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <RID:Synonym xml:lang="en">right thyroid middle</RID:Synonym>
@@ -996009,7 +996004,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50511"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -996019,9 +996014,8 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50512">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50512</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <RID:Synonym xml:lang="en">right thyroid lower</RID:Synonym>
@@ -996030,7 +996024,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50512"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -996040,9 +996034,8 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50513">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50513</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <RID:Synonym xml:lang="en">left thyroid upper</RID:Synonym>
@@ -996051,7 +996044,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50513"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -996061,9 +996054,8 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50514">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50514</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <RID:Synonym xml:lang="en">left thyroid middle</RID:Synonym>
@@ -996072,7 +996064,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50514"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -996082,7 +996074,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50515">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50013"/>
-        <RID:Created xml:lang="en">2019-03-07T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50515</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
@@ -996096,10 +996088,10 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50517">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5738"/>
-        <RID:Created xml:lang="en">2019-03-12T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50517</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <rdfs:label xml:lang="en">mixed cystic and solid</rdfs:label>
     </owl:Class>
     
@@ -996109,18 +996101,17 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50519">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5863"/>
-        <RID:Created xml:lang="en">2019-03-12T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50519</RID:RadLexID>
-        <RID:Radlex_version_of_class_change xml:lang="en">4.1</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source xml:lang="en">ACR TI-RADS</RID:Source>
+        <RID:Source>ACR TI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">wider than tall</RID:Synonym>
         <rdfs:label xml:lang="en">wider-than-tall</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50519"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/Radlex_version_of_class_change"/>
-        <owl:annotatedTarget xml:lang="en">4.1</owl:annotatedTarget>
+        <owl:annotatedTarget>4.1</owl:annotatedTarget>
         <rdfs:comment>new</rdfs:comment>
     </owl:Axiom>
     
@@ -996898,7 +996889,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50522">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID10404"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50522</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996911,7 +996902,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50523">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49592"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50523</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996925,7 +996916,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50524">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38611"/>
         <RID:Comment>While some might argue that excisional biopsies are a subtype of surgical biopsies (and therefore this should be a child of RID45698), others might say that excisional biopsy includes polypectomy at endoscopy, which wouldn’t typically be considered surgical.</RID:Comment>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50524</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996938,7 +996929,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50528">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID20049"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50528</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996951,7 +996942,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50529">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38802"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50529</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996964,7 +996955,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50530">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5576"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50530</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996977,7 +996968,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50531">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49560"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50531</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -996990,7 +996981,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50532">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5578"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50532</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997003,7 +996994,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50533">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5578"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50533</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997016,7 +997007,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50534">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43582"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50534</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997029,7 +997020,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50535">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43598"/>
-        <RID:Created>2019-09-19T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50535</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997042,7 +997033,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50536">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43397"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50536</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997055,7 +997046,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50537">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36014"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50537</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997068,7 +997059,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50538">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36014"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50538</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997081,7 +997072,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50539">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38747"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50539</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997112,7 +997103,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50540">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49660"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50540</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997125,7 +997116,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50541">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5639"/>
-        <RID:Created>2019-09-20T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50541</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997140,7 +997131,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50542">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:Definition>Gastric emptying is a test that measures the time it takes for food to empty from the stomach and enter the small intestine.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50542</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997154,7 +997145,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50543">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50542"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50543</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997167,7 +997158,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50544">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50542"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50544</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997180,7 +997171,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50545">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID1554"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50545</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997193,7 +997184,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50546">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50546</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997206,7 +997197,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50547">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID45645"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50547</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997220,7 +997211,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50548">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID45645"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50548</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym>right ventricular ejection fraction</RID:Synonym>
@@ -997233,7 +997224,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50549">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID8"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50549</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997264,7 +997255,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50550">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38607"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50550</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997277,7 +997268,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50551">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID10409"/>
-        <RID:Created>2019-09-23T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50551</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997290,7 +997281,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50552">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5817"/>
-        <RID:Created>2019-10-10T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50552</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997303,7 +997294,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50553">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50549"/>
-        <RID:Created>2019-10-10T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T00:00:00</RID:Created>
         <RID:ExternalRefID>UMLS:C0019004</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID50553</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997317,7 +997308,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50554">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50549"/>
-        <RID:Created>2019-10-10T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50554</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">peritoneal dialysis</rdfs:label>
@@ -997329,7 +997320,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50555">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7480"/>
-        <RID:Created>2019-10-10T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50555</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">route descriptor</rdfs:label>
@@ -997341,7 +997332,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50556">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50560"/>
-        <RID:Created>2019-10-10T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50556</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -997354,7 +997345,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50557">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50098"/>
-        <RID:Created xml:lang="en">2019-11-12T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-12T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50557</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym xml:lang="en">axial plantodorsal view of calcaneus</RID:Synonym>
@@ -997367,7 +997358,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50558">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50098"/>
-        <RID:Created xml:lang="en">2019-11-12T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-12T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50558</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym xml:lang="en">axial dorsoplantar view of calcaneus</RID:Synonym>
@@ -997380,7 +997371,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50559">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50558"/>
-        <RID:Created xml:lang="en">2019-11-12T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-12T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50559</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym xml:lang="en">weight-bearing axial dorsoplantar view of calcaneus</RID:Synonym>
@@ -997406,7 +997397,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50560">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID34861"/>
-        <RID:Created>2019-11-15T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-15T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50560</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">surgical tract</rdfs:label>
@@ -997418,7 +997409,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50561">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID39128"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50561</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">3D printing process</rdfs:label>
@@ -997430,7 +997421,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50562">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50562</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997443,7 +997434,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50563">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50563</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997456,7 +997447,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50564">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50564</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997469,7 +997460,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50565">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50565</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997482,7 +997473,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50566">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50566</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997495,7 +997486,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50567">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50567</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997508,7 +997499,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50568">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50561"/>
-        <RID:Created>2020-04-27T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-27T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50568</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>ISO/ASTM 52900</RID:Source>
@@ -997521,7 +997512,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50571">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50697"/>
-        <RID:Created>2020-06-17T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-17T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50571</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS</RID:Source>
@@ -997780,7 +997771,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
                 <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID50327"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <RID:Created>2020-06-17T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-17T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50572</RID:RadLexID>
         <RID:Source>PI-RADS v2.1</RID:Source>
         <rdfs:label xml:lang="en">set of PI-RADS terms</rdfs:label>
@@ -997792,7 +997783,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50573">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7464"/>
-        <RID:Created>2020-06-18T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Not having the properties of a mass; without distorting or destroying parenchyma</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50573</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997806,7 +997797,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50574">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38780"/>
-        <RID:Created>2020-06-18T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Lesion treated by any therapy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50574</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997826,7 +997817,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
 • External beam radiation
 Surgical resection physically removes part of the liver and is not considered locoregional therapy.
 Systemic administration of chemotherapeutic or biologic agents is also not considered locoregional therapy.</RID:Comment>
-        <RID:Created>2020-06-18T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] A therapy that targets a specific lesion or part of the liver without physically removing it.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50575</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997843,7 +997834,7 @@ Systemic administration of chemotherapeutic or biologic agents is also not consi
         <RID:Comment>[LI-RADS] Parenchymal distortion may represent a malignant neoplasm such as HCC with infiltrative appearance or heterogeneous parenchyma due to underlying severe cirrhosis.
 Loss of normal hepatic architecture includes loss of visualization of normal portal triads or hepatic veins.
 Parenchymal distortion when identified on surveillance ultrasound is categorized US-3 Positive by US LI-RADS.</RID:Comment>
-        <RID:Created>2020-06-18T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Parenchymal area ≥ 10 mm seen on ultrasound with one or more of the
 following characteristics:
 • Ill-defined area of heterogeneity
@@ -997861,7 +997852,7 @@ following characteristics:
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50577">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5"/>
-        <RID:Created>2020-06-18T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50577</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">distortion observation</rdfs:label>
@@ -997878,7 +997869,7 @@ Washout can be seen in the entire observation or only in part(s) of the observat
 Can apply to any enhancing observation, even if no APHE, but some arterial phase enhancement must occur. Completely nonenhancing observations (e.g., cysts) cannot be characterized as having washout.
 If APHE is present, the areas with APHE and washout do not need to coincide.
 Washout with CEUS is different from “washout” on CT/MRI, since the microbubbles used in CEUS are blood pool agent. As a result, washout on CEUS is thought to represent true washout.</RID:Comment>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Reduction in enhancement over time relative to background liver, following some degree of arterial phase enhancement, resulting in hypoenhancement relative to background
 liver. 
 CEUS washout is divided by degree into mild vs. marked and by onset into late vs. early.</RID:Definition>
@@ -997907,7 +997898,7 @@ CEUS washout is divided by degree into mild vs. marked and by onset into late vs
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50579"/>
         <RID:Comment>Early washout is usually marked in degree.
 See “marked washout” for definition.</RID:Comment>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Washout on CEUS in which onset is within 60 seconds from contrast injection.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50580</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997921,7 +997912,7 @@ See “marked washout” for definition.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50581">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50579"/>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Washout on CEUS in which onset is after 60 seconds from contrast injection.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50581</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997935,7 +997926,7 @@ See “marked washout” for definition.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50582">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50579"/>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Pronounced washout on CEUS in which the observation becomes black or “punched out” within 2 minutes from contrast injection.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50582</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997950,7 +997941,7 @@ See “marked washout” for definition.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50583">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50579"/>
         <RID:Comment>If the observation becomes black or “punched out” after 2 minutes then the degree of washout is still considered mild</RID:Comment>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Washout on CEUS in which the observation does not become black or punched out within 2 minutes from contrast injection.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50583</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997966,7 +997957,7 @@ See “marked washout” for definition.</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID29009"/>
         <RID:Comment>On US and CEUS, typically 10-20 frames/second.
 CT and MRI can also acquire images in real time, but this is not commonly performed with these modalities.</RID:Comment>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Acquisition of images in real time.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50584</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997980,7 +997971,7 @@ CT and MRI can also acquire images in real time, but this is not commonly perfor
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50585">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID29009"/>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>A series of brief CEUS image acquisitions, each lasting a few seconds and repeated at intervals of about 30 to 60 seconds without any imaging in between.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50585</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -997995,7 +997986,7 @@ CT and MRI can also acquire images in real time, but this is not commonly perfor
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50586">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID11582"/>
         <RID:Acronym>ECA</RID:Acronym>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS} Contrast agents with predominantly extracellular distribution after intravenous injection.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50586</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998019,7 +998010,7 @@ CT and MRI can also acquire images in real time, but this is not commonly perfor
 Differs from dynamic contrast-enhanced imaging where images are acquired
 continuously over minutes to enable perfusion analysis.
 Multiphase imaging is not synonymous with dynamic contrast-enhanced (DCE) perfusion imaging where images are acquired continuously over minutes to enable perfusion analysis</RID:Comment>
-        <RID:Created>2020-06-25T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T00:00:00</RID:Created>
         <RID:Definition>Acquisition of images at two or more different phases after intravenous contrast injection</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50587</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998036,7 +998027,7 @@ Multiphase imaging is not synonymous with dynamic contrast-enhanced (DCE) perfus
         <RID:Comment>Nonrim APHE can be seen in the entire observation or only in part(s) of the observation.
 Enhancing part(s) must be brighter than liver in arterial phase.
 Nonrim APHE includes diffuse and homogeneous (uniform), diffuse and heterogeneous (non-uniform), scattered (patchy, spotty), nodule-in-nodule, or mosaic enhancement.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>Subtype of APHE in which APHE is NOT most pronounced in periphery of observation.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50588</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998058,7 +998049,7 @@ Nonrim APHE includes diffuse and homogeneous (uniform), diffuse and heterogeneou
         <RID:Comment>Can apply to any enhancing observation, even if no APHE.
 Nonperipheral “washout” can be seen in the entire observation or only in part(s) of the observation.</RID:Comment>
         <RID:Comment>RadLex 4.1: Synonyms not added when identical to synonyms for &quot;washout appearance&quot;</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>Subtype of “washout” in which apparent washout is NOT most pronounced in observation periphery.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50589</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998098,7 +998089,7 @@ Nonperipheral “washout” can be seen in the entire observation or only in par
         <RID:Comment>If a “capsule” is visible as an enhancing rim on PVP, DP or TP images AND as a nonenhancing rim on other images, characterize as enhancing “capsule”, NOT as nonenhancing “capsule”.
 A border visible only as an enhancing rim in the HBP should not be characterized as a “capsule”.</RID:Comment>
         <RID:Comment>RadLex 4.1: Synonyms not added when identical to synonyms for &quot;capsule appearance (liver)&quot;</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>Subtype of “capsule” visible as an enhancing rim in PVP, DP, or TP.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50590</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998113,7 +998104,7 @@ A border visible only as an enhancing rim in the HBP should not be characterized
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50591">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID39454"/>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>Size increase of a mass, less than threshold growth.
 Any of the following:
 • Size increase &lt; 50% over any time period
@@ -998135,7 +998126,7 @@ Any of the following:
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50592">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID5863"/>
         <RID:Comment>The presence of targetoid appearance suggests iCCA or other non-HCC malignancy, but it does not exclude HCC.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Target-like imaging morphology. The center and periphery of a mass have different imaging characteristics.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50592</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998154,7 +998145,7 @@ Any of the following:
         <RID:Comment>Rim APHE is a subtype of targetoid morphology.
 The presence of rim APHE suggests iCCA or other non-HCC malignancy, but it does not exclude HCC.
 Rim APHE can be smooth or irregular. It can vary in thickness.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>Subtype of APHE in which arterial phase enhancement is most pronounced in observation periphery.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50593</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998177,7 +998168,7 @@ Rim APHE can be smooth or irregular. It can vary in thickness.</RID:Comment>
         <RID:Comment>Delayed central enhancement is a subtype of targetoid morphology.
 The area of delayed enhancement in a lesion may be central, eccentric, or heterogeneous, but not peripheral.
 The presence of delayed central enhancement suggests iCCA or other non-HCC malignancy, but it does not exclude HCC.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Area of postarterial phase enhancement most pronounced in the inside rather than in the periphery of the lesion.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50594</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998195,7 +998186,7 @@ The presence of delayed central enhancement suggests iCCA or other non-HCC malig
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50595">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43349"/>
         <RID:Comment>[LI-RADS] The presence of targetoid restriction suggests iCCA or other non-HCC malignancy, but it does not exclude HCC.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Concentric pattern on DWI characterized by restricted diffusion in observation periphery with less restricted diffusion in observation center.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50595</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998213,7 +998204,7 @@ The presence of delayed central enhancement suggests iCCA or other non-HCC malig
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50596">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43354"/>
         <RID:Comment>[LI-RADS] The presence of targetoid TP or HBP appearance suggests iCCA or other nonHCC malignancy, but it does not exclude HCC.</RID:Comment>
-        <RID:Created>2020-06-26T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-26T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Concentric pattern in TP or HBP characterized by moderate-to-marked hypointensity in observation periphery with milder hypointensity in center.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50596</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998235,7 +998226,7 @@ If there is any doubt about the presence of enhancing soft tissue in vein, the L
 Tumor in vein and enhancing soft tissue in vein are related but not identical terms:
 • Tumor in vein is a LI-RADS category
 • Enhancing soft tissue in vein is the imaging criterion for tumor in vein</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Presence of enhancing soft tissue in vein, regardless of visualization of parenchymal mass.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50597</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998249,7 +998240,7 @@ Tumor in vein and enhancing soft tissue in vein are related but not identical te
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50598">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID34420"/>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Unenhanced US visibility as discrete nodule or mass corresponding to CT- or MRI-detected observation.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50598</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998268,7 +998259,7 @@ Tumor in vein and enhancing soft tissue in vein are related but not identical te
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43354"/>
         <RID:Comment>Transitional phase hypointensity can be seen in the entire observation or only in part(s) of the observation.
 Does not qualify as washout appearance.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>Intensity in the transitional phase less than liver.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50599</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998285,7 +998276,7 @@ Does not qualify as washout appearance.</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43354"/>
         <RID:Comment>Hepatobiliary phase hypointensity can be seen in the entire observation or only in part(s) of the observation.
 Does not qualify as washout appearance.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>Intensity in the hepatobiliary phase less than liver.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50600</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998308,7 +998299,7 @@ Does not qualify as washout appearance.</RID:Comment>
 • DWI: hyperintense
 • Contrast-enhanced T1WI: nonenhancing
 • HBP: hypointense</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>Subtype of “capsule” that does not show enhancement on any image.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50601</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998326,7 +998317,7 @@ Does not qualify as washout appearance.</RID:Comment>
         <RID:Comment>While strictly a property, this is included as a descriptor in order to place similar terms together, and allow synonyms of different grammatical form</RID:Comment>
         <RID:Comment>[LI-RADS] There are no strict criteria for change in size that may be due to artifact, technique differences, or measurement error. Rather, this is determined by the user’s judgement.
 Appears to have replaced &quot;diamater stability&quot; in LI-RADS 2020.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] No significant change in observation size measured on exams ≥ 2 years apart in absence of treatment.
 Practically, this means that there is either
 • No measurable change in size 
@@ -998349,7 +998340,7 @@ OR
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50603">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID39449"/>
         <RID:Comment>Appears to have replaced &quot;diamater reduction&quot; in LI-RADS 2020.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Spontaneous decrease in size over time, that cannot be attributed only to artifact, technique differences, measurement error, or resorption of blood products.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50603</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998368,7 +998359,7 @@ OR
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID39467"/>
         <RID:Comment>[LI-RADS] Characteristic imaging feature of cysts and some hemangiomas.
 If spleen is iron overloaded, then compare to fluid-filled structures such as bile ducts, simple cysts, or cerebrospinal fluid.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] Intensity on T2WI greater than non-ironoverloaded spleen.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50604</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
@@ -998389,7 +998380,7 @@ If spleen is iron overloaded, then compare to fluid-filled structures such as bi
         <RID:Acronym>ECP</RID:Acronym>
         <RID:Comment>During the postarterial extracellular phase, enhancement of the liver is mainly due to extracellular distribution of a contrast agent.
 Does not apply to blood pool agents.</RID:Comment>
-        <RID:Created>2020-06-29T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-29T00:00:00</RID:Created>
         <RID:Definition>[LI-RADS] A broad term referring to:
 • PVP and DP, if an extracellular agent or gadobenate is given
 • PVP only, if gadoxetate is given</RID:Definition>
@@ -998405,7 +998396,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50606">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID1"/>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50606</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">imaging specialty</rdfs:label>
@@ -998417,7 +998408,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50607">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50606"/>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50607</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">imaging subspecialty</rdfs:label>
@@ -998430,7 +998421,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50608">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>AB</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50608</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">abdominal radiology</rdfs:label>
@@ -998443,7 +998434,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50609">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>BR</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50609</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">breast imaging</rdfs:label>
@@ -998456,7 +998447,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50610">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>CA</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50610</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">cardiac radiology</rdfs:label>
@@ -998469,7 +998460,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50611">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>CH</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50611</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">chest radiology</rdfs:label>
@@ -998482,7 +998473,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50612">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>ER</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50612</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">emergency radiology</rdfs:label>
@@ -998495,7 +998486,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50613">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>GI</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50613</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym>GI radiology</RID:Synonym>
@@ -998509,7 +998500,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50614">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>GU</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50614</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym>GU radiology</RID:Synonym>
@@ -998523,7 +998514,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50615">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>HN</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50615</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym>head and neck</RID:Synonym>
@@ -998537,7 +998528,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50616">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>IR</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50616</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">interventional radiology</rdfs:label>
@@ -998550,7 +998541,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50617">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>MI</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50617</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">molecular imaging</rdfs:label>
@@ -998563,7 +998554,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50618">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>MK</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50618</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">musculoskeletal radiology</rdfs:label>
@@ -998576,7 +998567,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50619">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>NR</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50619</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">neuroradiology</rdfs:label>
@@ -998589,7 +998580,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50620">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>OB</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50620</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">OB/GYN radiology</rdfs:label>
@@ -998602,7 +998593,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50621">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>OI</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50621</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">oncologic imaging</rdfs:label>
@@ -998615,7 +998606,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50622">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>OT</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50622</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">other imaging subspecialty</rdfs:label>
@@ -998628,7 +998619,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50623">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>PD</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50623</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">pediatric radiology</rdfs:label>
@@ -998641,7 +998632,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50624">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>QI</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50624</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Synonym>quality improvement</RID:Synonym>
@@ -998655,7 +998646,7 @@ Does not apply to blood pool agents.</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50625">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>RS</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50625</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">imaging research</rdfs:label>
@@ -998669,7 +998660,7 @@ Does not apply to blood pool agents.</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50607"/>
         <RID:Acronym>VA</RID:Acronym>
         <RID:Acronym>VI</RID:Acronym>
-        <RID:Created>2020-07-14T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50626</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">vascular imaging</rdfs:label>
@@ -998681,7 +998672,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50628">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43582"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50628</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998694,7 +998685,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50629">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50628"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50629</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998707,7 +998698,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50630">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID10409"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50630</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998720,7 +998711,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50631">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID28668"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50631</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998733,7 +998724,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50632">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50632</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998746,7 +998737,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50633">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50633</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998760,7 +998751,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50634">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID38607"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50634</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998773,7 +998764,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50635">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID45661"/>
-        <RID:Created>2020-09-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50635</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998786,7 +998777,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50636">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID29009"/>
-        <RID:Created>2020-10-16T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-16T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50636</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998799,7 +998790,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50638">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID1560"/>
-        <RID:Created>2020-12-09T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50638</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">endocrine surgery</rdfs:label>
@@ -998811,7 +998802,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50639">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50638"/>
-        <RID:Created>2020-12-09T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50639</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">thyroidectomy</rdfs:label>
@@ -998834,7 +998825,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50640">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43582"/>
-        <RID:Created>2021-05-24T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-24T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50640</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
@@ -998847,7 +998838,7 @@ Does not apply to blood pool agents.</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50641">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43598"/>
-        <RID:Created>2021-05-24T00:00:00</RID:Created>
+        <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-24T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50641</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 new</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>

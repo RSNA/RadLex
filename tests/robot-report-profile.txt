@@ -5,3 +5,4 @@ ERROR	missing_ontology_description
 ERROR	missing_ontology_license
 ERROR	label_formatting
 ERROR	file:./tests/sparql/robot/synonym_equal_to_label.rq
+ERROR	file:./tests/sparql/robot/live_class_referencing_obsolete_class.rq

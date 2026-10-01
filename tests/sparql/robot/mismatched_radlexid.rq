@@ -9,8 +9,7 @@ PREFIX rid: <http://www.radlex.org/RID/>
 # design, so any disagreement is a copy or typing error that desynchronises ID-keyed consumers from IRI-keyed
 # ones. A class in the RID namespace with no rid:RadLexID at all is also a violation.
 #
-# Scope: classes whose IRI local name has the form RID<digits>. Classes with other local names are reported
-# by class_iri_is_rid.rq instead.
+# Scope: classes whose IRI local name has the form RID<digits>.
 #
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The class whose ID disagrees with (or is missing from) its IRI.

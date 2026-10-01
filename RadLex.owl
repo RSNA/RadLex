@@ -498963,7 +498963,7 @@ FMA has same as pelvis RID2507</RID:Comment>
     <!-- http://www.radlex.org/RID/RID27787 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID27787">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13828"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
         <RID:Preferred_Name_for_Obsolete>tenia choroidea of lateral ventricle</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID27787</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
@@ -586925,7 +586925,7 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Comment>duplicate</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>inferior diaphragmatic lymph node group</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID31917</RID:RadLexID>
-        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID38138"/>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID38142"/>
         <rdfs:label xml:lang="en">inferior diaphragmatic lymph node group</rdfs:label>
     </owl:Class>
     
@@ -656304,7 +656304,7 @@ Duplicate of RID3506</RID:Comment>
         <RID:Definition>Tubular opacities within bronchi, seen in mucoid impaction (mucous plugging).</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>finger-in-glove sign</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID35211</RID:RadLexID>
-        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35676"/>
+        <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35677"/>
         <RID:Source>RadsWiki</RID:Source>
         <rdfs:label xml:lang="en">finger-in-glove sign</rdfs:label>
     </owl:Class>
@@ -980516,7 +980516,7 @@ the apex</RID:Definition>
     <!-- http://www.radlex.org/RID/RID49508 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49508">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49513"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
         <RID:Comment>&quot;capsule of prostate&quot; and  &quot;pseudocapsule of prostate&quot; were determined to be the same entity.  This term was deprecated in favor of the existing term with the preferred &quot;pseudocapsule&quot;.</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-07T00:00:00</RID:Created>
         <RID:Definition>PI-RADS: Tumor involvement of the “capsule” or extension across the “capsule”

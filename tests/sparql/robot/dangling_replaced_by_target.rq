@@ -1,0 +1,22 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that every rid:Replaced_by pointer aims at a class declared in RadLex. A pointer to an undeclared IRI,
+# such as a mistyped RID, cannot be followed. A pointer to a class that is itself obsolete is allowed: the
+# chain records the retirement history, and a consumer can follow it to the end.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The obsolete class carrying the pointer.
+# - rid:Replaced_by.
+# - The undeclared target IRI.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    BIND(rid:Replaced_by AS ?property)
+    ?entity ?property ?value .
+    FILTER(isIRI(?value))
+    FILTER NOT EXISTS { ?value a owl:Class }
+}

@@ -1,0 +1,29 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that every annotation value matches the range its property declares. A string-ranged or date-ranged
+# property must not carry a language-tagged value or an IRI, and a date-ranged property must carry an
+# xsd:dateTime. A mismatch crashes the Protege annotation editor (issue #8) and is invisible to a reasoner,
+# because OWL 2 Direct Semantics ignores annotations.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity carrying the value.
+# - The annotation property.
+# - The value that does not match the declared range.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?property a owl:AnnotationProperty ;
+              rdfs:range ?range .
+    VALUES ?range { xsd:string xsd:dateTime }
+    ?entity ?property ?value .
+    FILTER(
+        isIRI(?value)
+        || LANG(?value) != ""
+        || (?range = xsd:dateTime && DATATYPE(?value) != xsd:dateTime)
+    )
+}

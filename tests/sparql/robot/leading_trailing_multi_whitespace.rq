@@ -9,6 +9,10 @@ PREFIX rid: <http://www.radlex.org/RID/>
 # Test for stray whitespace on values (strings) of the annotation properties used for names.  Specifically, this test
 # prohibits: leading or trailing whitespace, or consecutive whitespace characters within a string.
 #
+# The constrained properties are checked directly and through any declared sub-property. Matching only through
+# rdfs:subPropertyOf would skip rdfs:label and rid:UMLS_Term, which have no sub-properties (rid:Synonym is caught
+# that way only because it is declared as a sub-property of itself).
+#
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The entity on which the violation occurs (e.g., the class).
 # - The property on which the violation occurs (i.e., the annotation property, e.g. rdfs:label).
@@ -17,7 +21,7 @@ PREFIX rid: <http://www.radlex.org/RID/>
 SELECT ?entity ?property ?value
 WHERE {
     VALUES ?constrained_property {rdfs:label rid:Synonym rid:UMLS_Term} .
-    ?property rdfs:subPropertyOf ?constrained_property .
+    ?property rdfs:subPropertyOf* ?constrained_property .
     ?entity ?property ?value .
     FILTER(REGEX(STR(?value), "^\\s|\\s+$|\\s\\s"))
 }

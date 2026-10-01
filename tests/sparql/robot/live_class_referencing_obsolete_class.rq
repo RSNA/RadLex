@@ -1,0 +1,25 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no live class has a logical axiom naming an obsolete class. An obsolete class is one filed,
+# directly or through another obsolete class, under RID15849 ("Obsolete RadLex Term"). A live class that
+# points at an obsolete one keeps a relationship to a concept RadLex has retired. Re-point it to the
+# obsolete class's replacement.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The live class.
+# - The relation in the axiom.
+# - The obsolete class it names.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?entity rdfs:subClassOf|owl:equivalentClass ?restriction .
+    ?restriction owl:onProperty ?property ;
+                 owl:someValuesFrom|owl:allValuesFrom ?value .
+    ?value rdfs:subClassOf+ rid:RID15849 .
+    FILTER NOT EXISTS { ?entity rdfs:subClassOf+ rid:RID15849 }
+}

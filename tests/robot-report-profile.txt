@@ -1,1 +1,4 @@
 ERROR	file:./tests/sparql/robot/leading_trailing_multi_whitespace.rq
+ERROR	missing_ontology_title
+ERROR	missing_ontology_description
+ERROR	missing_ontology_license

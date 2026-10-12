@@ -16,8 +16,7 @@ PREFIX rid: <http://www.radlex.org/RID/>
 SELECT ?entity ?property ?value
 WHERE {
     ?entity rdfs:subClassOf+ rid:RID15849 .
-    FILTER NOT EXISTS { ?entity rdfs:label ?label . FILTER(LANG(?label) = "en") }
-    BIND(rdfs:label AS ?property)
-    OPTIONAL { ?entity rid:Preferred_Name_for_Obsolete ?name }
-    BIND(COALESCE(STR(?name), "") AS ?value)
+    VALUES ?property { rdfs:label }
+    FILTER NOT EXISTS { ?entity ?property ?label . FILTER(LANG(?label) = "en") }
+    BIND("" AS ?value)
 }

@@ -17,9 +17,9 @@ PREFIX rid: <http://www.radlex.org/RID/>
 #
 SELECT ?entity ?property ?value
 WHERE {
-    ?entity rdfs:subClassOf|owl:equivalentClass ?restriction .
-    ?restriction owl:onProperty ?property ;
-                 owl:someValuesFrom|owl:allValuesFrom ?value .
     ?value rdfs:subClassOf+ rid:RID15849 .
+    ?restriction owl:someValuesFrom|owl:allValuesFrom ?value ;
+                 owl:onProperty ?property .
+    ?entity rdfs:subClassOf|owl:equivalentClass ?restriction .
     FILTER NOT EXISTS { ?entity rdfs:subClassOf+ rid:RID15849 }
 }

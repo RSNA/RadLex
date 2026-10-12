@@ -3,6 +3,7 @@ ERROR	file:./tests/sparql/robot/obsolete_class_without_english_label.rq
 ERROR	missing_ontology_title
 ERROR	missing_ontology_description
 ERROR	missing_ontology_license
+ERROR	label_formatting
 ERROR	file:./tests/sparql/robot/empty_annotation_value.rq
 ERROR	file:./tests/sparql/robot/mismatched_radlexid.rq
 ERROR	file:./tests/sparql/robot/literal_replaced_by_value.rq

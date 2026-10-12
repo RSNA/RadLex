@@ -1,0 +1,22 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no synonym repeats its own class's label exactly, in the same language. Such a synonym adds
+# nothing. The match is exact: a synonym that differs from the label only in capitalization is not
+# reported, because it often carries the correct form of a proper name.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The class.
+# - The synonym property (rid:Synonym or a sub-property).
+# - The synonym that repeats the label.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?property rdfs:subPropertyOf* rid:Synonym .
+    ?entity ?property ?value .
+    ?entity rdfs:label ?label .
+    FILTER(STR(?value) = STR(?label) && LANG(?value) = LANG(?label))
+}

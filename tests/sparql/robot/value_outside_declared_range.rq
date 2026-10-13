@@ -18,12 +18,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?entity ?property ?value
 WHERE {
     ?property a owl:AnnotationProperty ;
-              rdfs:range ?range .
-    VALUES ?range { xsd:string xsd:dateTime }
+              rdfs:subPropertyOf*/rdfs:range ?range .
     ?entity ?property ?value .
     FILTER(
-        isIRI(?value)
-        || LANG(?value) != ""
-        || (?range = xsd:dateTime && DATATYPE(?value) != xsd:dateTime)
+        (?range = rdf:PlainLiteral
+            && !(isLiteral(?value) && DATATYPE(?value) IN (xsd:string, rdf:langString)))
+        || (STRSTARTS(STR(?range), STR(xsd:))
+            && !(isLiteral(?value) && DATATYPE(?value) = ?range))
+        || (EXISTS { ?range owl:equivalentClass/owl:oneOf ?values }
+            && NOT EXISTS { ?range owl:equivalentClass/owl:oneOf/rdf:rest*/rdf:first ?value })
+        || (EXISTS { ?range a owl:Class }
+            && NOT EXISTS {
+                ?range ((owl:equivalentClass|^owl:equivalentClass)|(owl:unionOf/rdf:rest*/rdf:first))* ?class .
+                ?value rdf:type/rdfs:subClassOf* ?class .
+            })
     )
 }

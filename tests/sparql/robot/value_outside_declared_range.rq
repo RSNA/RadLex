@@ -5,10 +5,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 #
 # Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
 #
-# Test that every annotation value matches the range its property declares. A string-ranged or date-ranged
-# property must not carry a language-tagged value or an IRI, and a date-ranged property must carry an
-# xsd:dateTime. A mismatch crashes the Protege annotation editor (issue #8) and is invisible to a reasoner,
-# because OWL 2 Direct Semantics ignores annotations.
+# Test that every annotation value matches the range its property declares, including a range inherited from a
+# superproperty. For rdf:PlainLiteral the value must be a plain or language-tagged string; for an XSD datatype, a
+# literal of exactly that datatype; for an enumerated datatype, one of its listed literals; and for a class, an
+# asserted instance of the class or of one of its subclasses. A class defined as a union (owl:unionOf), directly or
+# through owl:equivalentClass, accepts an instance of any of its members. Other kinds of range are not checked. A
+# reasoner cannot catch a mismatch, because OWL 2 Direct Semantics ignores annotations.
 #
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The entity carrying the value.

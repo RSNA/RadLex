@@ -5,3 +5,10 @@ ERROR	missing_ontology_description
 ERROR	missing_ontology_license
 ERROR	label_formatting
 ERROR	file:./tests/sparql/robot/synonym_equal_to_label.rq
+ERROR	file:./tests/sparql/robot/empty_annotation_value.rq
+ERROR	file:./tests/sparql/robot/mismatched_radlexid.rq
+ERROR	file:./tests/sparql/robot/literal_replaced_by_value.rq
+ERROR	file:./tests/sparql/robot/dangling_replaced_by_target.rq
+ERROR	file:./tests/sparql/robot/live_class_with_replaced_by.rq
+ERROR	file:./tests/sparql/robot/live_class_with_preferred_name_for_obsolete.rq
+ERROR	file:./tests/sparql/robot/live_class_under_obsolete_parent.rq

@@ -1034632,7 +1034632,7 @@ duplicate of RID9802</RID:Comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
-                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID6644"/>
+                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID15529"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>

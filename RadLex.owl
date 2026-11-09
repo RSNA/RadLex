@@ -13,6 +13,7 @@
         <dcterms:title xml:lang="en">RadLex radiology ontology</dcterms:title>
         <dcterms:description xml:lang="en">The RSNA RadLex® radiology ontology, a set of terms for use in radiology reporting, decision support, data mining, data registries, education, and research.</dcterms:description>
         <dcterms:license rdf:resource="https://www.rsna.org/uploadedFiles/RSNA/Content/Informatics/RadLex_License_Agreement_and_Terms_of_Use_V2_Final.pdf"/>
+        <owl:versionInfo>4.4-dev</owl:versionInfo>
     </owl:Ontology>
     
 

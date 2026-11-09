@@ -224,7 +224,7 @@
         <obo:IAO_0000115>Abbreviated form of a synonym for a concept - not necessarily an acronym.  Examples: &quot;major jnt&quot;, &quot;2 or more vws&quot;.</obo:IAO_0000115>
         <oboInOwl:created_by>Jeff Lerman</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-09T05:19:31Z</oboInOwl:creation_date>
-        <rdfs:label>has abbreviation</rdfs:label>
+        <rdfs:label xml:lang="en">has abbreviation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.radlex.org/RID/mapping_term"/>
     </owl:AnnotationProperty>
     
@@ -233,11 +233,12 @@
     <!-- http://www.radlex.org/RID/mapping_term -->
 
     <owl:AnnotationProperty rdf:about="http://www.radlex.org/RID/mapping_term">
-        <obo:IAO_0000115>A term that may be used to refer to the concept the class models - i.e., a term that is (at least sometimes) signifies the concept. This is a gathering property for more specific types of terms, such as exact synonyms, acronyms, effective synonyms, mis-spellings, etc.</obo:IAO_0000115>
+        <obo:IAO_0000115>A term that may be used to refer to the concept the class models - i.e., a term that (at least sometimes) signifies the concept. This is a gathering property for more specific types of terms, such as exact synonyms, acronyms, effective synonyms, misspellings, etc.</obo:IAO_0000115>
         <oboInOwl:created_by>Jeff Lerman</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-09T03:58:22Z</oboInOwl:creation_date>
         <rdfs:comment>Do not assert values directly onto this property - instead, assert onto one of the sub-properties.</rdfs:comment>
         <rdfs:label xml:lang="en">mapping term</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:AnnotationProperty>
     
 

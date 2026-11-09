@@ -1,0 +1,22 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no name contains a line break or a tab. This extends ROBOT's label_formatting check, which reads
+# only rdfs:label, to the other annotation properties that hold names, and to their subproperties (e.g.,
+# rid:Acronym under rid:Synonym).
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity on which the violation occurs (e.g., the class).
+# - The annotation property holding the name (e.g., rid:Synonym).
+# - The name containing the line break or tab.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    VALUES ?name_property {rdfs:label rid:Synonym rid:UMLS_Term rid:Preferred_Name_for_Obsolete} .
+    ?property rdfs:subPropertyOf* ?name_property .
+    ?entity ?property ?value .
+    FILTER(REGEX(STR(?value), "[\\r\\n\\t]"))
+}

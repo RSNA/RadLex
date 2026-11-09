@@ -1,9 +1,20 @@
 name: ROBOT integrity checks
 
 on:
+  # Every push to a branch in this repository.
   push:
     branches:
       - '**'
+  # Pull requests, including those from forks, which `push` doesn't cover.
+  # GitHub holds runs from first-time outside contributors until a maintainer
+  # approves them (Settings > Actions > General).
+  # For a PR from a branch in this repository, both triggers fire on each push,
+  # so the checks run twice.
+  pull_request:
+
+# The workflow only reads the repository.
+permissions:
+  contents: read
 
 env:
   ROBOT_VERSION: 1.9.10

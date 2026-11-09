@@ -8,7 +8,8 @@ land in `RadLex.owl`.
 
 ## Continuous integration
 
-Every push to any branch triggers the **ROBOT integrity checks** GitHub
+Every push to any branch in this repository, and every pull request
+(including those from forks), triggers the **ROBOT integrity checks** GitHub
 Actions workflow, defined in
 [`.github/workflows/robot-integrity.yml`](../.github/workflows/robot-integrity.yml).
 The workflow:

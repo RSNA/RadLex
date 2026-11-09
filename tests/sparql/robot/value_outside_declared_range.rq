@@ -1,0 +1,39 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that every annotation value matches the range its property declares, including a range inherited from a
+# superproperty. For rdf:PlainLiteral the value must be a plain or language-tagged string; for an XSD datatype, a
+# literal of exactly that datatype; for an enumerated datatype, one of its listed literals; and for a class, an
+# asserted instance of the class or of one of its subclasses. A class defined as a union (owl:unionOf), directly or
+# through owl:equivalentClass, accepts an instance of any of its members. Other kinds of range are not checked. A
+# reasoner cannot catch a mismatch, because OWL 2 Direct Semantics ignores annotations.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity carrying the value.
+# - The annotation property.
+# - The value that does not match the declared range.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?property a owl:AnnotationProperty ;
+              rdfs:subPropertyOf*/rdfs:range ?range .
+    ?entity ?property ?value .
+    FILTER(
+        (?range = rdf:PlainLiteral
+            && !(isLiteral(?value) && DATATYPE(?value) IN (xsd:string, rdf:langString)))
+        || (STRSTARTS(STR(?range), STR(xsd:))
+            && !(isLiteral(?value) && DATATYPE(?value) = ?range))
+        || (EXISTS { ?range owl:equivalentClass/owl:oneOf ?values }
+            && NOT EXISTS { ?range owl:equivalentClass/owl:oneOf/rdf:rest*/rdf:first ?value })
+        || (EXISTS { ?range a owl:Class }
+            && NOT EXISTS {
+                ?range ((owl:equivalentClass|^owl:equivalentClass)|(owl:unionOf/rdf:rest*/rdf:first))* ?class .
+                ?value rdf:type/rdfs:subClassOf* ?class .
+            })
+    )
+}

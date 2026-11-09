@@ -42,7 +42,7 @@ Delete any heading below that has no entries.
 ## ROBOT diff
 
 <!--
-Optional but recommended; see step 4 of docs/CONTRIBUTING.md.
+Optional but recommended; see step 5 of docs/CONTRIBUTING.md.
 If the diff is short, paste the output of `robot diff --format markdown` between the <summary> line and </details> below.
 If it is long, commit it as a file under docs/changes/ instead, and replace the block below with a link to it.
 Delete this section if you have no diff.

@@ -7,3 +7,4 @@ ERROR	file:./tests/sparql/robot/synonym_equal_to_label.rq
 ERROR	file:./tests/sparql/robot/live_class_referencing_obsolete_class.rq
 ERROR	file:./tests/sparql/robot/name_with_line_break_or_tab.rq
 ERROR	file:./tests/sparql/robot/value_outside_declared_range.rq
+ERROR	file:./tests/sparql/robot/ontology_version_info.rq

@@ -23,14 +23,8 @@ env:
 jobs:
   robot-integrity:
     # Run on every push, and on pull requests only when they come from a fork.
-    # The skipped run for an in-repo PR gets a different name, so it can't
-    # stand in for the required `robot-integrity` check that the push run
-    # reports on the same commit.
-    name: >-
-      ${{ (github.event_name == 'pull_request' &&
-           github.event.pull_request.head.repo.full_name == github.repository)
-          && 'robot-integrity (skipped: covered by push run)'
-          || 'robot-integrity' }}
+    # For an in-repo PR, the skipped run also reports `robot-integrity`, but a
+    # failed push run still blocks the merge: failure outranks a skip.
     if: >-
       github.event_name == 'push' ||
       github.event.pull_request.head.repo.full_name != github.repository

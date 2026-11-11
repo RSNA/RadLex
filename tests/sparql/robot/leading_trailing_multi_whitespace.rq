@@ -8,7 +8,24 @@ PREFIX rid: <http://www.radlex.org/RID/>
 # Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
 #
 # Test for stray whitespace on values (strings) of all annotation properties.  Specifically, this test
-# prohibits: leading or trailing whitespace, or consecutive whitespace characters within a string.
+# prohibits: leading or trailing whitespace, consecutive whitespace characters within a string, and
+# non-breaking spaces (U+00A0) anywhere in a string.
+#
+# Annotation properties are those typed owl:AnnotationProperty, plus the built-in ones RadLex uses
+# (rdfs:label, rdfs:comment, owl:versionInfo), which are not declared in RadLex.owl.  ROBOT loads the
+# ontology through the OWL API, which declares any other annotation property it finds in use, so this
+# covers undeclared non-built-in properties too.
+#
+# The non-breaking space is listed separately because \s in SPARQL regular expressions matches only
+# space, tab, carriage return and line feed.
+#
+# TODO: prose properties (e.g. rid:Definition, rid:Comment) need different rules from name-like ones
+# (labels, synonyms, sources, etc.).  Prose legitimately contains line breaks (bulleted criteria,
+# "AND"/"OR" on their own lines, blank lines between paragraphs) and often two spaces after a full
+# stop, all of which the consecutive-whitespace rule (\s\s) flags.  As of this change, that accounts
+# for 738 of the 785 violations on main (418 rid:Comment, 320 rid:Definition), so CI fails.  Decide
+# which whitespace is acceptable in prose, then either exempt prose properties from \s\s (keeping
+# the leading, trailing and non-breaking-space rules) or clean up the prose values.
 #
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The entity on which the violation occurs (e.g., the class).
@@ -17,7 +34,9 @@ PREFIX rid: <http://www.radlex.org/RID/>
 #
 SELECT ?entity ?property ?value
 WHERE {
-    ?property rdfs:subPropertyOf owl:AnnotationProperty .
+    { VALUES ?property { rdfs:label rdfs:comment owl:versionInfo } }
+    UNION
+    { ?property a owl:AnnotationProperty . }
     ?entity ?property ?value .
-    FILTER(REGEX(STR(?value), "^\\s|\\s+$|\\s\\s"))
+    FILTER(REGEX(STR(?value), "^\\s|\\s$|\\s\\s| "))
 }

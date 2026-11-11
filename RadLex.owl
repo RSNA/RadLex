@@ -991172,7 +991172,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50135</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 0</rdfs:label>
     </owl:Class>
     
@@ -991186,8 +991186,8 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50136</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 1</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -991200,7 +991200,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50137</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 2</rdfs:label>
     </owl:Class>
     
@@ -991214,7 +991214,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Probably Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50138</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 3</rdfs:label>
     </owl:Class>
     
@@ -991228,7 +991228,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50139</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 4a</rdfs:label>
     </owl:Class>
     
@@ -991271,7 +991271,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Very Suspicious -</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50140</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 4b</rdfs:label>
     </owl:Class>
     
@@ -991285,7 +991285,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Additional features or findings that increase suspicion for lung cancer</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50141</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 4x</rdfs:label>
     </owl:Class>
     
@@ -995900,10 +995900,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50504</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>TI-RADS 2017</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 1</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 1</RID:Synonym>
-        <rdfs:label xml:lang="en">TI-RADS 1</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -995917,10 +995916,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Not suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50505</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>TI-RADS 2017</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 2</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 2</RID:Synonym>
-        <rdfs:label xml:lang="en">TI-RADS 2</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 2</rdfs:label>
     </owl:Class>
     
 
@@ -995934,10 +995932,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Mildly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50506</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>TI-RADS 2017</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 3</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 3</RID:Synonym>
-        <rdfs:label xml:lang="en">TI-RADS 3</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 3</rdfs:label>
     </owl:Class>
     
 
@@ -995951,10 +995948,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Moderately suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50507</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source>TI-RADS 2017</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 4</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 4</RID:Synonym>
-        <rdfs:label xml:lang="en">TI-RADS 4</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 4</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50507"/>
@@ -995974,10 +995970,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Highly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50508</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source>TI-RADS 2017</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 5</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 5</RID:Synonym>
-        <rdfs:label xml:lang="en">TI-RADS 5</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 5</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50508"/>
@@ -1001212,7 +1001207,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50788</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS V2025</RID:Source>
-        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Additional Imaging</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Additional Imaging</rdfs:label>
     </owl:Class>
     
 
@@ -1001226,7 +1001221,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50789</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS V2025</RID:Source>
-        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Prior Mammograms</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Prior Mammograms</rdfs:label>
     </owl:Class>
     
 
@@ -1001263,8 +1001258,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50791</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 0S</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 0S</rdfs:label>
     </owl:Class>
     
 
@@ -1001277,8 +1001272,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Negative - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50792</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 1S</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 1S</rdfs:label>
     </owl:Class>
     
 
@@ -1001291,8 +1001286,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Benign - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50793</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 2S</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 2S</rdfs:label>
     </owl:Class>
     
 
@@ -1001305,8 +1001300,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Probably Benign - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50794</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 3S</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 3S</rdfs:label>
     </owl:Class>
     
 
@@ -1001319,8 +1001314,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Suspicious - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50795</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4aS</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4aS</rdfs:label>
     </owl:Class>
     
 
@@ -1001333,8 +1001328,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Very Suspicious - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50796</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4bS</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4bS</rdfs:label>
     </owl:Class>
     
 
@@ -1001347,8 +1001342,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Additional features or findings that increase suspicion for lung cancer - Significant or potentially significant</RID:Definition>
         <RID:RadLexID>RID50797</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4xS</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4xS</rdfs:label>
     </owl:Class>
     
 
@@ -1001537,7 +1001532,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50808</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <RID:Synonym>LI-RADS US-1</RID:Synonym>
+        <RID:Synonym>LI-RADS US-1</RID:Synonym>
         <rdfs:label xml:lang="en">LI-RADS US LR-1</rdfs:label>
     </owl:Class>
     
@@ -1001552,7 +1001547,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50809</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <RID:Synonym>LI-RADS US-2</RID:Synonym>
+        <RID:Synonym>LI-RADS US-2</RID:Synonym>
         <rdfs:label xml:lang="en">LI-RADS US LR-2</rdfs:label>
     </owl:Class>
     
@@ -1001578,7 +1001573,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50810</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <RID:Synonym>LI-RADS US-3</RID:Synonym>
+        <RID:Synonym>LI-RADS US-3</RID:Synonym>
         <rdfs:label xml:lang="en">LI-RADS US LR-3</rdfs:label>
     </owl:Class>
     
@@ -1001606,7 +1001601,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50812</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-2</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-2</rdfs:label>
     </owl:Class>
     
 
@@ -1001620,7 +1001615,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50813</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-NC</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-NC</rdfs:label>
     </owl:Class>
     
 
@@ -1001634,7 +1001629,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50814</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-1</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-1</rdfs:label>
     </owl:Class>
     
 
@@ -1001648,7 +1001643,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50815</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-3</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-3</rdfs:label>
     </owl:Class>
     
 
@@ -1001662,7 +1001657,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50816</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-4</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-4</rdfs:label>
     </owl:Class>
     
 
@@ -1001676,7 +1001671,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50817</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-5</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-5</rdfs:label>
     </owl:Class>
     
 
@@ -1001690,7 +1001685,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50818</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-M</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-M</rdfs:label>
     </owl:Class>
     
 
@@ -1001704,7 +1001699,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50819</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TIV</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TIV</rdfs:label>
     </owl:Class>
     
 
@@ -1001799,7 +1001794,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>O-RADS™ is a clinical support system for the standardized description and classification of ovarian/adnexal lesions.</RID:Definition>
         <RID:RadLexID>RID50824</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
+        <RID:Source>O-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">O-RADS (Ovarian and Adnexal) Assessment Category</rdfs:label>
     </owl:Class>
     
@@ -1001813,8 +1001808,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete Evaluation</RID:Definition>
         <RID:RadLexID>RID50825</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 0</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 0</rdfs:label>
     </owl:Class>
     
 
@@ -1001827,8 +1001822,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Normal Ovaries</RID:Definition>
         <RID:RadLexID>RID50826</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 1</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 1</rdfs:label>
     </owl:Class>
     
 
@@ -1001841,8 +1001836,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Almost Certainly Benign</RID:Definition>
         <RID:RadLexID>RID50827</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 2</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 2</rdfs:label>
     </owl:Class>
     
 
@@ -1001855,8 +1001850,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low Risk</RID:Definition>
         <RID:RadLexID>RID50828</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 3</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 3</rdfs:label>
     </owl:Class>
     
 
@@ -1001869,8 +1001864,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Intermediate Risk</RID:Definition>
         <RID:RadLexID>RID50829</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 4</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 4</rdfs:label>
     </owl:Class>
     
 
@@ -1001883,8 +1001878,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High Risk</RID:Definition>
         <RID:RadLexID>RID50830</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS MR Score 5</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 5</rdfs:label>
     </owl:Class>
     
 
@@ -1001897,8 +1001892,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete Evaluation</RID:Definition>
         <RID:RadLexID>RID50831</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 0</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 0</rdfs:label>
     </owl:Class>
     
 
@@ -1001911,8 +1001906,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Normal Ovary</RID:Definition>
         <RID:RadLexID>RID50832</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 1</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 1</rdfs:label>
     </owl:Class>
     
 
@@ -1001925,8 +1001920,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Almost Certainly Benign</RID:Definition>
         <RID:RadLexID>RID50833</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 2</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 2</rdfs:label>
     </owl:Class>
     
 
@@ -1001939,8 +1001934,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low Risk</RID:Definition>
         <RID:RadLexID>RID50834</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 3</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 3</rdfs:label>
     </owl:Class>
     
 
@@ -1001953,8 +1001948,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Intermediate Risk</RID:Definition>
         <RID:RadLexID>RID50835</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 4</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 4</rdfs:label>
     </owl:Class>
     
 
@@ -1001967,8 +1001962,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High Risk</RID:Definition>
         <RID:RadLexID>RID50836</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>O-RADS v2022</RID:Source>
-        <rdfs:label xml:lang="en">O-RADS US Score 5</rdfs:label>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 5</rdfs:label>
     </owl:Class>
     
 
@@ -1001981,7 +1001976,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>ACR Neck Imaging Reporting and Data System (NI-RADS)</RID:Definition>
         <RID:RadLexID>RID50837</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS (Head and Neck) Assessment Category</rdfs:label>
     </owl:Class>
     
@@ -1001995,8 +1001990,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID>RID50838</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002009,8 +1002004,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>No evidence of recurrence</RID:Definition>
         <RID:RadLexID>RID50839</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002048,8 +1002043,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50840</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002062,8 +1002057,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High suspicion</RID:Definition>
         <RID:RadLexID>RID50841</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002076,8 +1002071,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Definitive recurrence</RID:Definition>
         <RID:RadLexID>RID50842</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002090,8 +1002085,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID>RID50843</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002104,8 +1002099,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>No evidence of recurrence</RID:Definition>
         <RID:RadLexID>RID50844</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002118,9 +1002113,9 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50845</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002133,8 +1002128,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50846</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002147,8 +1002142,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High suspicion</RID:Definition>
         <RID:RadLexID>RID50847</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002161,8 +1002156,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Definitive recurrence</RID:Definition>
         <RID:RadLexID>RID50847</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (MRI)</rdfs:label>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (MRI)</rdfs:label>
     </owl:Class>
     
 
@@ -1002175,8 +1002170,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID>RID50849</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002206,8 +1002201,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>No evidence of recurrence</RID:Definition>
         <RID:RadLexID>RID50850</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002220,8 +1002215,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50851</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002234,8 +1002229,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High suspicion</RID:Definition>
         <RID:RadLexID>RID50852</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002248,8 +1002243,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Definitive recurrence</RID:Definition>
         <RID:RadLexID>RID50853</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002262,8 +1002257,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID>RID50854</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002276,8 +1002271,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>No evidence of recurrence</RID:Definition>
         <RID:RadLexID>RID50855</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002290,8 +1002285,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50856</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002304,8 +1002299,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Low suspicion</RID:Definition>
         <RID:RadLexID>RID50857</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002318,8 +1002313,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>High suspicion</RID:Definition>
         <RID:RadLexID>RID50858</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1002332,8 +1002327,8 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:Definition>Definitive recurrence</RID:Definition>
         <RID:RadLexID>RID50859</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (PET/CT)</rdfs:label>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (PET/CT)</rdfs:label>
     </owl:Class>
     
 

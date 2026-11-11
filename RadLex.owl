@@ -7,12 +7,12 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://radlex.org/RID/RadLex.owl">
-        <dcterms:title xml:lang="en">RadLex radiology ontology</dcterms:title>
         <dcterms:description xml:lang="en">The RSNA RadLex® radiology ontology, a set of terms for use in radiology reporting, decision support, data mining, data registries, education, and research.</dcterms:description>
         <dcterms:license rdf:resource="https://www.rsna.org/uploadedFiles/RSNA/Content/Informatics/RadLex_License_Agreement_and_Terms_of_Use_V2_Final.pdf"/>
+        <dcterms:title xml:lang="en">RadLex radiology ontology</dcterms:title>
         <owl:versionInfo>4.4-dev</owl:versionInfo>
     </owl:Ontology>
     
@@ -19699,8 +19699,8 @@ AND
         <RID:Definition>administration beneath the arachnoid.</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>subarachnoid</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11186</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.13 loc, pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID6386"/>
         <rdfs:label xml:lang="en">subarachnoid (obsolete)</rdfs:label>
     </owl:Class>
@@ -68889,8 +68889,8 @@ The LI-RADS definition of “size” correspons to the definition of the longest
         <RID:RadLexID xml:lang="en">RID13601</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID25948"/>
-        <rdfs:label xml:lang="de">Brodmann-Areal 5 des linken Gyrus postcentralis</rdfs:label>
         <rdfs:label xml:lang="en">Brodmann area 5 of left post central gyrus</rdfs:label>
+        <rdfs:label xml:lang="de">Brodmann-Areal 5 des linken Gyrus postcentralis</rdfs:label>
     </owl:Class>
     
 
@@ -125916,14 +125916,14 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID1544"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0007807</owl:annotatedTarget>
-        <RID:UMLS_Term>cerebrospinal fluid</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:24</owl:annotatedTarget>
+        <RID:name>CSF</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID1544"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:24</owl:annotatedTarget>
-        <RID:name>CSF</RID:name>
+        <owl:annotatedTarget>UMLS:C0007807</owl:annotatedTarget>
+        <RID:UMLS_Term>cerebrospinal fluid</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -583409,8 +583409,8 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Comment>duplicate</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>lateral head of flexor hallucis brevis</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID3175</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID42354"/>
         <rdfs:label xml:lang="en">lateral head of flexor hallucis brevis (obsolete)</rdfs:label>
     </owl:Class>
@@ -646323,8 +646323,8 @@ The term “central gland” refers to the central zone and the transition zone 
         <RID:Definition>Region of organ component of muscle at site of origin.</RID:Definition>
         <RID:ExternalRefID>FMA:85453</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID34832</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Synonym xml:lang="en">caput (Musculus)</RID:Synonym>
         <RID:Synonym xml:lang="en">caput musculi</RID:Synonym>
         <RID:Synonym xml:lang="en">head of muscle organ</RID:Synonym>
@@ -667806,7 +667806,7 @@ Duplicate of RID3506</RID:Comment>
         <RID:RadLexID xml:lang="en">RID35533</RID:RadLexID>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35534"/>
         <RID:Source>RadsWiki</RID:Source>
-        <rdfs:label xml:lang="en">shepherd's crook deformity</rdfs:label>
+        <rdfs:label xml:lang="en">shepherd&apos;s crook deformity</rdfs:label>
     </owl:Class>
     
 
@@ -677242,8 +677242,8 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
         <RID:Comment>erroneously deprecated in version 3.15; returned in 4.0.</RID:Comment>
         <RID:RadLexID xml:lang="en">RID35968</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 loc</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">volume quantification</rdfs:label>
     </owl:Class>
@@ -707467,8 +707467,8 @@ Rhinoscleroma is a result of infection by the bacterium Klebsiella rhinoscleroma
         <RID:Definition>Organs, tissues, or cells taken from the body for grafting into another area of the same body or into another individual. (From Dorland, 28th ed) [MeSH]</RID:Definition>
         <RID:ExternalRefID>UMLS:C0332835</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID3757</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 source</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 pref</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">transplant</RID:Synonym>
         <rdfs:label xml:lang="de">Transplantat</rdfs:label>
@@ -740730,8 +740730,8 @@ AND
         <RID:Synonym>AP</RID:Synonym>
         <RID:Synonym>angiographic phase</RID:Synonym>
         <RID:Synonym>early phase</RID:Synonym>
-        <rdfs:label xml:lang="de">arterielle Phase (Leber)</rdfs:label>
         <rdfs:label xml:lang="en">arterial phase (liver)</rdfs:label>
+        <rdfs:label xml:lang="de">arterielle Phase (Leber)</rdfs:label>
     </owl:Class>
     
 
@@ -742308,8 +742308,8 @@ not yet enhanced</RID:Definition>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID11082"/>
         <RID:Source>LI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">early arterial phase (liver)</RID:Synonym>
-        <rdfs:label xml:lang="de">früharterielle Phase der Leber</rdfs:label>
         <rdfs:label xml:lang="en">early hepatic arterial phase</rdfs:label>
+        <rdfs:label xml:lang="de">früharterielle Phase der Leber</rdfs:label>
     </owl:Class>
     
 
@@ -742328,8 +742328,8 @@ enhanced</RID:Definition>
         <RID:Radlex_version_of_class_change>4.1 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID39127"/>
         <RID:Source>LI-RADS</RID:Source>
-        <rdfs:label xml:lang="de">spätarterielle Phase der Leber</rdfs:label>
         <rdfs:label xml:lang="en">late hepatic arterial phase</rdfs:label>
+        <rdfs:label xml:lang="de">spätarterielle Phase der Leber</rdfs:label>
     </owl:Class>
     
 
@@ -871845,8 +871845,8 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <RID:Comment>Deprecated because this is a composite of image guidance mode and biopsy procedure, which is better left uncoordinated</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>stereotactic biopsy</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID45699</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">stereotactic biopsy</rdfs:label>
     </owl:Class>
@@ -871971,8 +871971,8 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <RID:Comment>Had been made obsolete, as it was considered a synonym of &apos;fluororscopy&apos;.  Now it is considered a sub-type of fluoroscopy, since fluoro can be done with MR, not just radiography.</RID:Comment>
         <RID:Definition>Production of an image when x-rays strike a fluorescent screen. [MeSH]</RID:Definition>
         <RID:RadLexID xml:lang="en">RID45709</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc, syn, pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc, syn, pref</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">RF</RID:Synonym>
         <RID:Synonym xml:lang="en">radio-fluoro</RID:Synonym>
@@ -981700,8 +981700,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>volume quantification</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49570</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35968"/>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">volume determination</RID:Synonym>
@@ -982035,8 +982035,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49737"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49588</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="de">Entfernen des zentralen Venenkatheters</rdfs:label>
         <rdfs:label xml:lang="en">central venous catheter removal</rdfs:label>
@@ -982888,8 +982888,8 @@ Obliteration of the prostate-seminal vesicle angle.
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49636</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">calf arteries</RID:Synonym>
         <RID:Synonym xml:lang="en">lower leg arteries</RID:Synonym>
@@ -983449,8 +983449,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>percutaneous transhepatic biliary drainage</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49670</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID49756"/>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">percutaneous transhepatic biliary drainage (obsolete)</rdfs:label>
@@ -983464,8 +983464,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49621"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49671</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="de">Wechsel des Schlauchs</rdfs:label>
         <rdfs:label xml:lang="en">tube exchange</rdfs:label>
@@ -984497,8 +984497,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-22T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49721</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS 5,</RID:Source>
         <RID:Synonym xml:lang="en">noose sign</RID:Synonym>
         <RID:Synonym xml:lang="en">teardrop sign</RID:Synonym>
@@ -984532,8 +984532,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-22T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49722</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS 5,</RID:Source>
         <RID:Synonym xml:lang="en">free-floating loose thread sign</RID:Synonym>
         <rdfs:label xml:lang="de">Linguini-Zeichen</rdfs:label>
@@ -985157,8 +985157,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49760"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-01T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49763</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">TIPS revision</RID:Synonym>
         <rdfs:label xml:lang="en">transjugular intrahepatic portosystemic shunt revision</rdfs:label>
@@ -985824,8 +985824,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>diameter stability</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49808</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID39448"/>
         <rdfs:label xml:lang="en">diameter stability (obsolete)</rdfs:label>
     </owl:Class>
@@ -988241,8 +988241,8 @@ strong association with benignity</RID:Comment>
         <RID:Misspelling_of_term xml:lang="en">set of tibeoperoneal vessels</RID:Misspelling_of_term>
         <RID:Misspelling_of_term xml:lang="en">tibeoperoneal vessels</RID:Misspelling_of_term>
         <RID:RadLexID xml:lang="en">RID49942</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 pref, syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 pref, syn</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC, Playbook</RID:Source>
         <rdfs:label xml:lang="en">set of tibioperoneal vessels</rdfs:label>
     </owl:Class>
@@ -988854,8 +988854,8 @@ strong association with benignity</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50271"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-15T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49978</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
         <RID:Synonym xml:lang="en">blood vessel of lower extremity</RID:Synonym>
         <rdfs:label xml:lang="en">lower extremity vessel</rdfs:label>
@@ -989758,8 +989758,8 @@ strong association with benignity</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-16T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>iliac artery graft</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID50039</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">iliac artery graft</rdfs:label>
     </owl:Class>
     
@@ -991187,7 +991187,7 @@ strong association with benignity</RID:Comment>
         <RID:RadLexID xml:lang="en">RID50136</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
-        <rdfs:label>Lung-RADS 1</rdfs:label>
+        <rdfs:label xml:lang="en">Lung-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -991299,8 +991299,8 @@ strong association with benignity</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
         <RID:Definition>A finding that requires non-routine communication with the referring clinician, such as a supplemental finding noted for referring physician follow up.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50142</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 loc, pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 loc, pref</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <rdfs:label xml:lang="en">incidental imaging finding</rdfs:label>
     </owl:Class>
@@ -1025755,14 +1025755,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6476"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0039485</owl:annotatedTarget>
-        <RID:UMLS_Term>temporal lobe</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:90</owl:annotatedTarget>
+        <RID:name>*.Temporal Lobe.*.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6476"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:90</owl:annotatedTarget>
-        <RID:name>*.Temporal Lobe.*.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0039485</owl:annotatedTarget>
+        <RID:UMLS_Term>temporal lobe</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1027751,12 +1027751,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0028785</owl:annotatedTarget>
-        <RID:UMLS_Term>occipital lobe</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:240</owl:annotatedTarget>
         <RID:name>*.Occipital Lobe.*.*.*</RID:name>
     </owl:Axiom>
@@ -1027765,6 +1027759,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:547</owl:annotatedTarget>
         <RID:name>Inter-Hemispheric.Occipital Lobe.*.*.*</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0028785</owl:annotatedTarget>
+        <RID:UMLS_Term>occipital lobe</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028137,14 +1028137,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6509"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0023715</owl:annotatedTarget>
-        <RID:UMLS_Term>limbic system</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:888</owl:annotatedTarget>
+        <RID:name>Inter-Hemispheric.Limbic Lobe.*.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6509"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:888</owl:annotatedTarget>
-        <RID:name>Inter-Hemispheric.Limbic Lobe.*.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0023715</owl:annotatedTarget>
+        <RID:UMLS_Term>limbic system</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028304,14 +1028304,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6510"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0018427</owl:annotatedTarget>
-        <RID:UMLS_Term>cingulate gyrus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:1058</owl:annotatedTarget>
+        <RID:name>Inter-Hemispheric.*.Cingulate Gyrus.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6510"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:1058</owl:annotatedTarget>
-        <RID:name>Inter-Hemispheric.*.Cingulate Gyrus.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0018427</owl:annotatedTarget>
+        <RID:UMLS_Term>cingulate gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028854,14 +1028854,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6518"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0002708</owl:annotatedTarget>
-        <RID:UMLS_Term>amygdaloid body</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:218</owl:annotatedTarget>
+        <RID:name>Amygdala</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6518"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:218</owl:annotatedTarget>
-        <RID:name>Amygdala</RID:name>
+        <owl:annotatedTarget>UMLS:C0002708</owl:annotatedTarget>
+        <RID:UMLS_Term>amygdaloid body</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1029083,14 +1029083,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6525"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0036700</owl:annotatedTarget>
-        <RID:UMLS_Term>septum pellucidum</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:72</owl:annotatedTarget>
+        <RID:name>5th-Ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6525"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:72</owl:annotatedTarget>
-        <RID:name>5th-Ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0036700</owl:annotatedTarget>
+        <RID:UMLS_Term>septum pellucidum</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1029660,12 +1029660,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0228249</owl:annotatedTarget>
-        <RID:UMLS_Term>parahippocampal gyrus</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Freesurfer:222</owl:annotatedTarget>
         <RID:name>Perirhinal</RID:name>
     </owl:Axiom>
@@ -1029674,6 +1029668,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:126</owl:annotatedTarget>
         <RID:name>*.Limbic Lobe.Parahippocampal Gyrus.*.*</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0228249</owl:annotatedTarget>
+        <RID:UMLS_Term>parahippocampal gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1029836,14 +1029836,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6534"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152314</owl:annotatedTarget>
-        <RID:UMLS_Term>dentate gyrus</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:210</owl:annotatedTarget>
+        <RID:name>GC-DG</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6534"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:210</owl:annotatedTarget>
-        <RID:name>GC-DG</RID:name>
+        <owl:annotatedTarget>UMLS:C0152314</owl:annotatedTarget>
+        <RID:UMLS_Term>dentate gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1030267,14 +1030267,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6539"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152355</owl:annotatedTarget>
-        <RID:UMLS_Term>subthalamic nucleus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:453</owl:annotatedTarget>
+        <RID:name>Left Brainstem.Midbrain.*.Gray Matter.Subthalamic Nucleus</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6539"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:453</owl:annotatedTarget>
-        <RID:name>Left Brainstem.Midbrain.*.Gray Matter.Subthalamic Nucleus</RID:name>
+        <owl:annotatedTarget>UMLS:C0152355</owl:annotatedTarget>
+        <RID:UMLS_Term>subthalamic nucleus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1035653,6 +1035653,12 @@ duplicate of RID9802</RID:Comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
+                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID15529"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
                 <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID6523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1035672,12 +1035678,6 @@ duplicate of RID9802</RID:Comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
                 <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID6643"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
-                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID15529"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1035885,14 +1035885,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6639"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0020663</owl:annotatedTarget>
-        <RID:UMLS_Term>hypothalamus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:274</owl:annotatedTarget>
+        <RID:name>*.*.*.Gray Matter.Hypothalamus</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6639"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:274</owl:annotatedTarget>
-        <RID:name>*.*.*.Gray Matter.Hypothalamus</RID:name>
+        <owl:annotatedTarget>UMLS:C0020663</owl:annotatedTarget>
+        <RID:UMLS_Term>hypothalamus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1036038,14 +1036038,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6641"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0029126</owl:annotatedTarget>
-        <RID:UMLS_Term>optic chiasm</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:85</owl:annotatedTarget>
+        <RID:name>Optic-Chiasm</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6641"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:85</owl:annotatedTarget>
-        <RID:name>Optic-Chiasm</RID:name>
+        <owl:annotatedTarget>UMLS:C0029126</owl:annotatedTarget>
+        <RID:UMLS_Term>optic chiasm</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1038062,14 +1038062,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6677"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0006121</owl:annotatedTarget>
-        <RID:UMLS_Term>brainstem</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:16</owl:annotatedTarget>
+        <RID:name>Brain-Stem</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6677"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:16</owl:annotatedTarget>
-        <RID:name>Brain-Stem</RID:name>
+        <owl:annotatedTarget>UMLS:C0006121</owl:annotatedTarget>
+        <RID:UMLS_Term>brainstem</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1041793,8 +1041793,8 @@ duplicate of RID9802</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID6749">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID6741"/>
         <RID:RadLexID xml:lang="en">RID6749</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="de">Nucleus pontinus nervi trigemini</rdfs:label>
         <rdfs:label xml:lang="en">pontine nucleus of trigeminal nerve</rdfs:label>
     </owl:Class>
@@ -1047680,12 +1047680,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0010090</owl:annotatedTarget>
-        <RID:UMLS_Term>corpus callosum</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Freesurfer:86</owl:annotatedTarget>
         <RID:name>Corpus_Callosum</RID:name>
     </owl:Axiom>
@@ -1047706,6 +1047700,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:714</owl:annotatedTarget>
         <RID:name>Inter-Hemispheric.Limbic Lobe.Extra-Nuclear.White Matter.Corpus Callosum</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0010090</owl:annotatedTarget>
+        <RID:UMLS_Term>corpus callosum</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1055905,14 +1055905,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7124"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152279</owl:annotatedTarget>
-        <RID:UMLS_Term>lateral ventricle</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:213</owl:annotatedTarget>
+        <RID:name>lateral_ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7124"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:213</owl:annotatedTarget>
-        <RID:name>lateral_ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0152279</owl:annotatedTarget>
+        <RID:UMLS_Term>lateral ventricle</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1056830,14 +1056830,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7147"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0149556</owl:annotatedTarget>
-        <RID:UMLS_Term>fourth ventricle</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:15</owl:annotatedTarget>
+        <RID:name>4th-Ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7147"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:15</owl:annotatedTarget>
-        <RID:name>4th-Ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0149556</owl:annotatedTarget>
+        <RID:UMLS_Term>fourth ventricle</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1108385,5 +1108385,5 @@ duplicate of RID9802</RID:Comment>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 

@@ -985729,8 +985729,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:RadLexID xml:lang="en">RID49802</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.4 pref, loc, syn</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS v2017  LI-RADS v2024</RID:Source>
-        <RID:Synonym xml:lang="en">CT/MR LR-TIV</RID:Synonym>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <RID:Synonym>CT/MR LR-TIV</RID:Synonym>
         <RID:Synonym>LI-RADS 5V</RID:Synonym>
         <RID:Synonym>LI-RADS-TIV (CT/MR)</RID:Synonym>
         <rdfs:label xml:lang="en">LI-RADS CT/MR LR-TIV</rdfs:label>
@@ -1001772,7 +1001772,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID>RID50822</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
-        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR  Nonviable (nonradiation)</rdfs:label>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR Nonviable (nonradiation)</rdfs:label>
     </owl:Class>
     
 
@@ -1001977,6 +1001977,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50837">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36026"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:Definition>ACR Neck Imaging Reporting and Data System (NI-RADS)</RID:Definition>
         <RID:RadLexID>RID50837</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>

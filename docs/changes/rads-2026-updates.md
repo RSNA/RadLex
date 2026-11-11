@@ -1618,7 +1618,7 @@
 
 - [NI-RADS Primary Site Score 4 (MRI)](http://www.radlex.org/RID/RID50848) [Definition](http://www.radlex.org/RID/Definition) "Definitive recurrence" 
 
-- [NI-RADS Primary Site Score 4 (MRI)](http://www.radlex.org/RID/RID50848) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID50847" 
+- [NI-RADS Primary Site Score 4 (MRI)](http://www.radlex.org/RID/RID50848) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID50848" 
 
 - [NI-RADS Primary Site Score 4 (MRI)](http://www.radlex.org/RID/RID50848) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 new" 
 

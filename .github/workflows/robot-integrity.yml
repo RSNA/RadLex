@@ -1,9 +1,20 @@
 name: ROBOT integrity checks
 
 on:
+  # Every push to a branch in this repository.
   push:
     branches:
       - '**'
+  # Pull requests from forks, which `push` doesn't cover. A PR from a branch
+  # in this repository fires this trigger too, but the job below skips that
+  # run, since the `push` run already checked the branch.
+  # GitHub holds runs from first-time outside contributors until a maintainer
+  # approves them (Settings > Actions > General).
+  pull_request:
+
+# The workflow only reads the repository.
+permissions:
+  contents: read
 
 env:
   ROBOT_VERSION: 1.9.10
@@ -11,6 +22,12 @@ env:
 
 jobs:
   robot-integrity:
+    # Run on every push, and on pull requests only when they come from a fork.
+    # For an in-repo PR, the skipped run also reports `robot-integrity`, but a
+    # failed push run still blocks the merge: failure outranks a skip.
+    if: >-
+      github.event_name == 'push' ||
+      github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository

@@ -1002154,7 +1002154,7 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:Definition>Definitive recurrence</RID:Definition>
-        <RID:RadLexID>RID50847</RID:RadLexID>
+        <RID:RadLexID>RID50848</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (MRI)</rdfs:label>

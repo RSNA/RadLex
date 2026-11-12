@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that a class's rid:RadLexID restates the local name of its own IRI. The ID is redundant with the IRI by
+# design, so any disagreement is a copy or typing error that desynchronises ID-keyed consumers from IRI-keyed
+# ones. A class in the RID namespace with no rid:RadLexID at all is also a violation.
+#
+# Scope: classes whose IRI local name has the form RID<digits>.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The class whose ID disagrees with (or is missing from) its IRI.
+# - rid:RadLexID.
+# - The ID value found, or the empty string when the class carries none.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    ?entity a owl:Class .
+    FILTER(REGEX(STR(?entity), "^http://www\\.radlex\\.org/RID/RID[0-9]+$"))
+    BIND(rid:RadLexID AS ?property)
+    BIND(REPLACE(STR(?entity), "^http://www\\.radlex\\.org/RID/", "") AS ?expected)
+    OPTIONAL { ?entity rid:RadLexID ?id }
+    BIND(COALESCE(STR(?id), "") AS ?value)
+    FILTER(?value != ?expected)
+}

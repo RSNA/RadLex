@@ -1,0 +1,24 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no class is filed under an obsolete class without itself being marked obsolete. An obsolete class
+# is one filed, directly or through another obsolete class, under RID15849 ("Obsolete RadLex Term"). Filing
+# makes every descendant obsolete, so a live class left under a class being retired is retired silently.
+# rid:Preferred_Name_for_Obsolete is the per-class mark that the retirement was intended. RID15849 itself is
+# not an obsolete parent, since obsolete classes are meant to hang under it.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The class that was never marked obsolete.
+# - rdfs:subClassOf.
+# - The obsolete parent.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    BIND(rdfs:subClassOf AS ?property)
+    ?entity ?property ?value .
+    ?value rdfs:subClassOf+ rid:RID15849 .
+    FILTER NOT EXISTS { ?entity rid:Preferred_Name_for_Obsolete ?_name }
+}

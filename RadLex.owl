@@ -7,12 +7,12 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://radlex.org/RID/RadLex.owl">
-        <dcterms:title xml:lang="en">RadLex radiology ontology</dcterms:title>
         <dcterms:description xml:lang="en">The RSNA RadLex® radiology ontology, a set of terms for use in radiology reporting, decision support, data mining, data registries, education, and research.</dcterms:description>
         <dcterms:license rdf:resource="https://www.rsna.org/uploadedFiles/RSNA/Content/Informatics/RadLex_License_Agreement_and_Terms_of_Use_V2_Final.pdf"/>
+        <dcterms:title xml:lang="en">RadLex radiology ontology</dcterms:title>
         <owl:versionInfo>4.4-dev</owl:versionInfo>
     </owl:Ontology>
     
@@ -19699,8 +19699,8 @@ AND
         <RID:Definition>administration beneath the arachnoid.</RID:Definition>
         <RID:Preferred_Name_for_Obsolete>subarachnoid</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11186</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.13 loc, pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID6386"/>
         <rdfs:label xml:lang="en">subarachnoid (obsolete)</rdfs:label>
     </owl:Class>
@@ -68889,8 +68889,8 @@ The LI-RADS definition of “size” correspons to the definition of the longest
         <RID:RadLexID xml:lang="en">RID13601</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID25948"/>
-        <rdfs:label xml:lang="de">Brodmann-Areal 5 des linken Gyrus postcentralis</rdfs:label>
         <rdfs:label xml:lang="en">Brodmann area 5 of left post central gyrus</rdfs:label>
+        <rdfs:label xml:lang="de">Brodmann-Areal 5 des linken Gyrus postcentralis</rdfs:label>
     </owl:Class>
     
 
@@ -125916,14 +125916,14 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID1544"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0007807</owl:annotatedTarget>
-        <RID:UMLS_Term>cerebrospinal fluid</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:24</owl:annotatedTarget>
+        <RID:name>CSF</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID1544"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:24</owl:annotatedTarget>
-        <RID:name>CSF</RID:name>
+        <owl:annotatedTarget>UMLS:C0007807</owl:annotatedTarget>
+        <RID:UMLS_Term>cerebrospinal fluid</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -583409,8 +583409,8 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
         <RID:Comment>duplicate</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>lateral head of flexor hallucis brevis</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID3175</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID42354"/>
         <rdfs:label xml:lang="en">lateral head of flexor hallucis brevis (obsolete)</rdfs:label>
     </owl:Class>
@@ -646323,8 +646323,8 @@ The term “central gland” refers to the central zone and the transition zone 
         <RID:Definition>Region of organ component of muscle at site of origin.</RID:Definition>
         <RID:ExternalRefID>FMA:85453</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID34832</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Synonym xml:lang="en">caput (Musculus)</RID:Synonym>
         <RID:Synonym xml:lang="en">caput musculi</RID:Synonym>
         <RID:Synonym xml:lang="en">head of muscle organ</RID:Synonym>
@@ -667806,7 +667806,7 @@ Duplicate of RID3506</RID:Comment>
         <RID:RadLexID xml:lang="en">RID35533</RID:RadLexID>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35534"/>
         <RID:Source>RadsWiki</RID:Source>
-        <rdfs:label xml:lang="en">shepherd's crook deformity</rdfs:label>
+        <rdfs:label xml:lang="en">shepherd&apos;s crook deformity</rdfs:label>
     </owl:Class>
     
 
@@ -677242,8 +677242,8 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID48094"/>
         <RID:Comment>erroneously deprecated in version 3.15; returned in 4.0.</RID:Comment>
         <RID:RadLexID xml:lang="en">RID35968</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 loc</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">volume quantification</rdfs:label>
     </owl:Class>
@@ -678079,12 +678079,13 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36028</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 1</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 1</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 1</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 1</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 1: Negative</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 1</rdfs:label>
     </owl:Class>
     
 
@@ -678104,12 +678105,14 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36029</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 2</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 2</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 2</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 2</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 2: Benign</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 2</rdfs:label>
     </owl:Class>
     
 
@@ -678148,12 +678151,14 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36030</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 4</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 4</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 4</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 4</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 4: Suspicious</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 4</rdfs:label>
     </owl:Class>
     
 
@@ -678173,11 +678178,13 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Low suspicion for malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36031</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS category 4A</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 4A</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 4A</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 4A: Low suspicion for malignancy</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 4a</rdfs:label>
     </owl:Class>
     
 
@@ -678197,11 +678204,13 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Moderate suspicion of malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36032</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS category 4B</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 4B</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 4B</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 4B: Moderate suspicion for malignancy</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 4b</rdfs:label>
     </owl:Class>
     
 
@@ -678221,11 +678230,13 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>High suspicion for malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36033</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS category 4C</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 4C</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 4C</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 4C: High suspicion for malignancy</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 4c</rdfs:label>
     </owl:Class>
     
 
@@ -678245,12 +678256,14 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Highly Suggestive of Malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36034</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 5</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 5</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 5</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 5</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 5: Highly Suggestive of Malignancy</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 5</rdfs:label>
     </owl:Class>
     
 
@@ -678270,12 +678283,14 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Known Biopsy-Proven Malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36035</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 6</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 6</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 6</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 6</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 6: Known Biopsy-Proven Malignancy</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 6</rdfs:label>
     </owl:Class>
     
 
@@ -678391,12 +678406,14 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Probably Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36041</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 3</RID:Synonym>
         <RID:Synonym xml:lang="en">BI-RADS category 3</RID:Synonym>
         <RID:Synonym xml:lang="en">BIRADS 3</RID:Synonym>
         <rdfs:label xml:lang="de">BI-RADS 3</rdfs:label>
-        <rdfs:label xml:lang="en">BI-RADS Category 3: Probably Benign</rdfs:label>
+        <rdfs:label xml:lang="en">BI-RADS Category 3</rdfs:label>
     </owl:Class>
     
 
@@ -707450,8 +707467,8 @@ Rhinoscleroma is a result of infection by the bacterium Klebsiella rhinoscleroma
         <RID:Definition>Organs, tissues, or cells taken from the body for grafting into another area of the same body or into another individual. (From Dorland, 28th ed) [MeSH]</RID:Definition>
         <RID:ExternalRefID>UMLS:C0332835</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID3757</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 source</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 pref</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">transplant</RID:Synonym>
         <rdfs:label xml:lang="de">Transplantat</rdfs:label>
@@ -740713,8 +740730,8 @@ AND
         <RID:Synonym>AP</RID:Synonym>
         <RID:Synonym>angiographic phase</RID:Synonym>
         <RID:Synonym>early phase</RID:Synonym>
-        <rdfs:label xml:lang="de">arterielle Phase (Leber)</rdfs:label>
         <rdfs:label xml:lang="en">arterial phase (liver)</rdfs:label>
+        <rdfs:label xml:lang="de">arterielle Phase (Leber)</rdfs:label>
     </owl:Class>
     
 
@@ -742291,8 +742308,8 @@ not yet enhanced</RID:Definition>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID11082"/>
         <RID:Source>LI-RADS</RID:Source>
         <RID:Synonym xml:lang="en">early arterial phase (liver)</RID:Synonym>
-        <rdfs:label xml:lang="de">früharterielle Phase der Leber</rdfs:label>
         <rdfs:label xml:lang="en">early hepatic arterial phase</rdfs:label>
+        <rdfs:label xml:lang="de">früharterielle Phase der Leber</rdfs:label>
     </owl:Class>
     
 
@@ -742311,8 +742328,8 @@ enhanced</RID:Definition>
         <RID:Radlex_version_of_class_change>4.1 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID39127"/>
         <RID:Source>LI-RADS</RID:Source>
-        <rdfs:label xml:lang="de">spätarterielle Phase der Leber</rdfs:label>
         <rdfs:label xml:lang="en">late hepatic arterial phase</rdfs:label>
+        <rdfs:label xml:lang="de">spätarterielle Phase der Leber</rdfs:label>
     </owl:Class>
     
 
@@ -871828,8 +871845,8 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <RID:Comment>Deprecated because this is a composite of image guidance mode and biopsy procedure, which is better left uncoordinated</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>stereotactic biopsy</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID45699</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">stereotactic biopsy</rdfs:label>
     </owl:Class>
@@ -871954,8 +871971,8 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <RID:Comment>Had been made obsolete, as it was considered a synonym of &apos;fluororscopy&apos;.  Now it is considered a sub-type of fluoroscopy, since fluoro can be done with MR, not just radiography.</RID:Comment>
         <RID:Definition>Production of an image when x-rays strike a fluorescent screen. [MeSH]</RID:Definition>
         <RID:RadLexID xml:lang="en">RID45709</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc, syn, pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc, syn, pref</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">RF</RID:Synonym>
         <RID:Synonym xml:lang="en">radio-fluoro</RID:Synonym>
@@ -981683,8 +981700,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>volume quantification</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49570</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID35968"/>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">volume determination</RID:Synonym>
@@ -982018,8 +982035,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49737"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49588</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="de">Entfernen des zentralen Venenkatheters</rdfs:label>
         <rdfs:label xml:lang="en">central venous catheter removal</rdfs:label>
@@ -982871,8 +982888,8 @@ Obliteration of the prostate-seminal vesicle angle.
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-10T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49636</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">calf arteries</RID:Synonym>
         <RID:Synonym xml:lang="en">lower leg arteries</RID:Synonym>
@@ -983432,8 +983449,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>percutaneous transhepatic biliary drainage</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49670</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID49756"/>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="en">percutaneous transhepatic biliary drainage (obsolete)</rdfs:label>
@@ -983447,8 +983464,8 @@ Obliteration of the prostate-seminal vesicle angle.
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49621"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-19T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49671</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <rdfs:label xml:lang="de">Wechsel des Schlauchs</rdfs:label>
         <rdfs:label xml:lang="en">tube exchange</rdfs:label>
@@ -984480,8 +984497,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-22T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49721</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS 5,</RID:Source>
         <RID:Synonym xml:lang="en">noose sign</RID:Synonym>
         <RID:Synonym xml:lang="en">teardrop sign</RID:Synonym>
@@ -984515,8 +984532,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         </rdfs:subClassOf>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-22T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49722</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS 5,</RID:Source>
         <RID:Synonym xml:lang="en">free-floating loose thread sign</RID:Synonym>
         <rdfs:label xml:lang="de">Linguini-Zeichen</rdfs:label>
@@ -985140,8 +985157,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49760"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-01T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49763</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.13 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook</RID:Source>
         <RID:Synonym xml:lang="en">TIPS revision</RID:Synonym>
         <rdfs:label xml:lang="en">transjugular intrahepatic portosystemic shunt revision</rdfs:label>
@@ -985582,15 +985599,16 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49794 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49794">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definitely benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49794</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 1</RID:Synonym>
+        <RID:Synonym>LI-RADS-1 (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-1</rdfs:label>
         <rdfs:label xml:lang="de">LR-1</rdfs:label>
-        <rdfs:label xml:lang="en">LR-1</rdfs:label>
     </owl:Class>
     
 
@@ -985598,15 +985616,16 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49795 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49795">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Probably benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49795</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 2</RID:Synonym>
+        <RID:Synonym>LI-RADS-2 (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-2</rdfs:label>
         <rdfs:label xml:lang="de">LR-2</rdfs:label>
-        <rdfs:label xml:lang="en">LR-2</rdfs:label>
     </owl:Class>
     
 
@@ -985614,15 +985633,16 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49796 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49796">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Intermediate probability for HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49796</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 3</RID:Synonym>
+        <RID:Synonym>LI-RADS-3 (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-3</rdfs:label>
         <rdfs:label xml:lang="de">LR-3</rdfs:label>
-        <rdfs:label xml:lang="en">LR-3</rdfs:label>
     </owl:Class>
     
 
@@ -985630,13 +985650,14 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49797 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49797">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Definition>Probably HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49797</RID:RadLexID>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 4</RID:Synonym>
+        <RID:Synonym>LI-RADS-4 (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-4</rdfs:label>
         <rdfs:label xml:lang="de">LR-4</rdfs:label>
-        <rdfs:label xml:lang="en">LR-4</rdfs:label>
     </owl:Class>
     
 
@@ -985644,15 +985665,16 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49799 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49799">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definitely HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49799</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 5</RID:Synonym>
+        <RID:Synonym>LI-RADS-5 (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-5</rdfs:label>
         <rdfs:label xml:lang="de">LR-5</rdfs:label>
-        <rdfs:label xml:lang="en">LR-5</rdfs:label>
     </owl:Class>
     
 
@@ -985701,15 +985723,18 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49802 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49802">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49799"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definite tumor in vein</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49802</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
-        <RID:Synonym xml:lang="en">LI-RADS 5V</RID:Synonym>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <RID:Synonym>CT/MR LR-TIV</RID:Synonym>
+        <RID:Synonym>LI-RADS 5V</RID:Synonym>
+        <RID:Synonym>LI-RADS-TIV (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-TIV</rdfs:label>
         <rdfs:label xml:lang="de">LR-5V</rdfs:label>
-        <rdfs:label xml:lang="en">LR-5V</rdfs:label>
     </owl:Class>
     
 
@@ -985717,15 +985742,16 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
     <!-- http://www.radlex.org/RID/RID49803 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49803">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
-        <RID:Definition>Probably malignant, not specific for HCC</RID:Definition>
+        <RID:Definition>Probably or definitely malignant but not HCC specific</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49803</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Source>LI-RADS</RID:Source>
+        <RID:Source>LI-RADS v2018 LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS M</RID:Synonym>
+        <RID:Synonym>LI-RADS-M (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-M</rdfs:label>
         <rdfs:label xml:lang="de">LR-M</rdfs:label>
-        <rdfs:label xml:lang="en">LR-M</rdfs:label>
     </owl:Class>
     
 
@@ -985798,8 +985824,8 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>diameter stability</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID49808</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.14 obs</RID:Radlex_version_of_class_change>
         <RID:Replaced_by rdf:resource="http://www.radlex.org/RID/RID39448"/>
         <rdfs:label xml:lang="en">diameter stability (obsolete)</rdfs:label>
     </owl:Class>
@@ -988215,8 +988241,8 @@ strong association with benignity</RID:Comment>
         <RID:Misspelling_of_term xml:lang="en">set of tibeoperoneal vessels</RID:Misspelling_of_term>
         <RID:Misspelling_of_term xml:lang="en">tibeoperoneal vessels</RID:Misspelling_of_term>
         <RID:RadLexID xml:lang="en">RID49942</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 pref, syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 pref, syn</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC, Playbook</RID:Source>
         <rdfs:label xml:lang="en">set of tibioperoneal vessels</rdfs:label>
     </owl:Class>
@@ -988828,8 +988854,8 @@ strong association with benignity</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50271"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-15T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49978</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 loc</RID:Radlex_version_of_class_change>
         <RID:Source>LOINC</RID:Source>
         <RID:Synonym xml:lang="en">blood vessel of lower extremity</RID:Synonym>
         <rdfs:label xml:lang="en">lower extremity vessel</rdfs:label>
@@ -989732,8 +989758,8 @@ strong association with benignity</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-16T00:00:00</RID:Created>
         <RID:Preferred_Name_for_Obsolete>iliac artery graft</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID50039</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 obs</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="en">iliac artery graft</rdfs:label>
     </owl:Class>
     
@@ -991143,10 +991169,10 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50135">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
-        <RID:Definition>Incomplete. Comparison to prior chest CT or Additional lung cancer screening CT imaging needed.</RID:Definition>
+        <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50135</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 0</rdfs:label>
     </owl:Class>
     
@@ -991157,10 +991183,10 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50136">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
-        <RID:Definition>Negative - No nodules or clearly benign nodules</RID:Definition>
+        <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50136</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 1</rdfs:label>
     </owl:Class>
     
@@ -991171,10 +991197,10 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50137">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
-        <RID:Definition>Benign - Based on imaging features or indolent behavior</RID:Definition>
+        <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50137</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 2</rdfs:label>
     </owl:Class>
     
@@ -991185,10 +991211,10 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50138">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
-        <RID:Definition>Probably Benign - Based on imaging features or behavior</RID:Definition>
+        <RID:Definition>Probably Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50138</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
+        <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 3</rdfs:label>
     </owl:Class>
     
@@ -991202,8 +991228,8 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50139</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4A</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4a</rdfs:label>
     </owl:Class>
     
 
@@ -991245,8 +991271,8 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Very Suspicious -</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50140</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4B</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4b</rdfs:label>
     </owl:Class>
     
 
@@ -991256,11 +991282,11 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50141">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
-        <RID:Definition>Very Suspicious - Category 3 or 4 nodules with additional features or imaging findings that increase suspicion for lung cancer.</RID:Definition>
+        <RID:Definition>Additional features or findings that increase suspicion for lung cancer</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50141</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Lung-RADS</RID:Source>
-        <rdfs:label xml:lang="en">Lung-RADS 4X</rdfs:label>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4x</rdfs:label>
     </owl:Class>
     
 
@@ -991273,8 +991299,8 @@ strong association with benignity</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-17T00:00:00</RID:Created>
         <RID:Definition>A finding that requires non-routine communication with the referring clinician, such as a supplemental finding noted for referring physician follow up.</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50142</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.0 loc, pref</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.0 loc, pref</RID:Radlex_version_of_class_change>
         <RID:Source>Cancer Care Ontario</RID:Source>
         <rdfs:label xml:lang="en">incidental imaging finding</rdfs:label>
     </owl:Class>
@@ -993638,11 +993664,12 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50289">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50294"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</RID:Created>
-        <RID:Definition>Clinically significant cancer is highly unlikely to be present in the prostate.</RID:Definition>
+        <RID:Definition>Very low (clinically significant cancer is highly unlikely to be present)</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50289</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
-        <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 1 - Very low</rdfs:label>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
+        <RID:Source>PI-RADS v2.1 (2019)</RID:Source>
+        <rdfs:label xml:lang="en">PI-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -993663,11 +993690,12 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50290">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50294"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</RID:Created>
-        <RID:Definition>Clinically significant cancer is unlikely to be present in the prostate.</RID:Definition>
+        <RID:Definition>Low (Clinically significant cancer is unlikely to be present)</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50290</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
-        <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 2 - Low</rdfs:label>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
+        <RID:Source>PI-RADS v2.1 (2019)</RID:Source>
+        <rdfs:label xml:lang="en">PI-RADS 2</rdfs:label>
     </owl:Class>
     
 
@@ -993677,11 +993705,12 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50291">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50294"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</RID:Created>
-        <RID:Definition>The presence of clinically significant cancer in the prostate is equivocal.</RID:Definition>
+        <RID:Definition>Intermediate (The presence of clinically significant cancer is equivocal)</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50291</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
-        <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 3 - Intermediate</rdfs:label>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
+        <RID:Source>PI-RADS v2.1 (2019)</RID:Source>
+        <rdfs:label xml:lang="en">PI-RADS 3</rdfs:label>
     </owl:Class>
     
 
@@ -993691,11 +993720,12 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50292">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50294"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</RID:Created>
-        <RID:Definition>Clinically significant cancer is likely to be present in the prostate.</RID:Definition>
+        <RID:Definition>High (Clinically significant cancer is likely to be present)</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50292</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
-        <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 4 - High</rdfs:label>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
+        <RID:Source>PI-RADS v2.1 (2019)</RID:Source>
+        <rdfs:label xml:lang="en">PI-RADS 4</rdfs:label>
     </owl:Class>
     
 
@@ -993705,11 +993735,12 @@ strong association with benignity</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50293">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50294"/>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-21T00:00:00</RID:Created>
-        <RID:Definition>Clinically significant cancer is highly likely to be present in the prostate.</RID:Definition>
+        <RID:Definition>Very high (Clinically significant cancer is highly likely to be present)</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50293</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.15 new</RID:Radlex_version_of_class_change>
-        <RID:Source>PI-RADS v2.1</RID:Source>
-        <rdfs:label xml:lang="en">PI-RADS 5 - Very high</rdfs:label>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
+        <RID:Source>PI-RADS v2.1 (2019)</RID:Source>
+        <rdfs:label xml:lang="en">PI-RADS 5</rdfs:label>
     </owl:Class>
     
 
@@ -995869,10 +995900,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50504</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>ACR TI-RADS</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 1</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 1</RID:Synonym>
-        <rdfs:label xml:lang="en">TR1</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -995886,10 +995916,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Not suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50505</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>ACR TI-RADS</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 2</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 2</RID:Synonym>
-        <rdfs:label xml:lang="en">TR2</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 2</rdfs:label>
     </owl:Class>
     
 
@@ -995903,10 +995932,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Mildly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50506</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Source>ACR TI-RADS</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 3</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 3</RID:Synonym>
-        <rdfs:label xml:lang="en">TR3</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 3</rdfs:label>
     </owl:Class>
     
 
@@ -995920,10 +995948,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Moderately suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50507</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source>ACR TI-RADS</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 4</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 4</RID:Synonym>
-        <rdfs:label xml:lang="en">TR4</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 4</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50507"/>
@@ -995943,10 +995970,9 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Highly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50508</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Source>ACR TI-RADS</RID:Source>
+        <RID:Source>TI-RADS 2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 5</RID:Synonym>
-        <RID:Synonym xml:lang="en">TI-RADS 5</RID:Synonym>
-        <rdfs:label xml:lang="en">TR5</rdfs:label>
+        <rdfs:label xml:lang="en">TI-RADS 5</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50508"/>
@@ -1000083,13 +1000109,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:41:16.790291Z</oboInOwl:creation_date>
-        <RID:Definition>• Inadequate preparation: cannot exclude lesions &gt;= 10 mm owing to presense of fluid and/or feces
-• Inadequate insufflation: one or more colonic segments collapsed on both views (except in suspected myochosis coli - see C2b)</RID:Definition>
+        <RID:Definition>Inadequate study or awaiting prior comparisons</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50719</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C0</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 0</rdfs:label>
     </owl:Class>
     
 
@@ -1000197,15 +1000223,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:41:37.993328Z</oboInOwl:creation_date>
-        <RID:Definition>• No visible abnormalities of the colon
-• No polyp &gt;= 6 mm
-• Lipoma or inverted diverticulum
-• Nonneoplastic findings—e.g., colonic diverticula, asymptomatic pneumatosis cystoides coli</RID:Definition>
+        <RID:Definition>Normal Colon or Benign Lesion</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50726</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C1</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C1 - Normal Colon or Benign Lesion</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 1</rdfs:label>
     </owl:Class>
     
 
@@ -1000231,12 +1000255,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:41:50.983756Z</oboInOwl:creation_date>
-        <RID:Definition>Intermediate polyp 6-9 mm, &lt; 3 in number</RID:Definition>
+        <RID:Definition>Intermediate Polyp or Indeterminate Finding</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50728</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C2a</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C2a - Intermediate Polyp or Indeterminate Finding</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 2a</rdfs:label>
     </owl:Class>
     
 
@@ -1000247,12 +1000272,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:42:15.001371Z</oboInOwl:creation_date>
-        <RID:Definition>Mass-like area such as severe diverticular myochosis coli, muscular hypertrophy, or stricture</RID:Definition>
+        <RID:Definition>Likely Benign Diverticular Finding</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50729</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C2b</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C2b - Likely Benign Diverticular Finding</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 2b</rdfs:label>
     </owl:Class>
     
 
@@ -1000280,15 +1000306,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:42:25.173468Z</oboInOwl:creation_date>
-        <RID:Definition>• Polyp(s) &gt;= 10 mm
-• &gt;= 3 polyps, each 6-9 mm
-• Subepithelial lesion &gt;= 10 mm
-• Polyps previously categorized as C2a that have enlarged in size on follow-up</RID:Definition>
+        <RID:Definition>Polyp, Possibly Advanced Adenoma</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50730</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C3</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C3 - Polyp, Possibly Advanced Adenoma</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 3</rdfs:label>
     </owl:Class>
     
 
@@ -1000299,12 +1000323,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50732"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T18:42:35.233107Z</oboInOwl:creation_date>
-        <RID:Definition>Lesion compromises bowel lumen, demonstrates extracolonic invasion</RID:Definition>
+        <RID:Definition>Colonic Mass, Likely Malignant</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50731</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>C4</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS C4 - Colonic Mass, Likely Malignant</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS 4</rdfs:label>
     </owl:Class>
     
 
@@ -1000344,11 +1000369,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50733"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T19:03:42.427376Z</oboInOwl:creation_date>
+        <RID:Definition>No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50734</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>E1/E2</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS E1/E2</rdfs:label>
     </owl:Class>
     
 
@@ -1000359,11 +1000386,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50733"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T19:05:42.78107Z</oboInOwl:creation_date>
+        <RID:Definition>Likely clinically unimportant finding; further workup may be warranted</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50735</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>E3</RID:Synonym>
-        <rdfs:label xml:lang="en">C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS E3</rdfs:label>
     </owl:Class>
     
 
@@ -1000374,11 +1000403,13 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50733"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T19:05:42.782382Z</oboInOwl:creation_date>
+        <RID:Definition>Likely clinically important; further workup needed</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50736</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>E4</RID:Synonym>
-        <rdfs:label xml:lang="en">E4 - Likely clinically important; further workup needed</rdfs:label>
+        <rdfs:label xml:lang="en">C-RADS E4</rdfs:label>
     </owl:Class>
     
 
@@ -1000543,10 +1000574,10 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50745"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-07T17:26:02.688332Z</oboInOwl:creation_date>
-        <RID:Definition>Uninterrupted low signal-intensity line representing muscularis integrity, &lt; 1.0 cm size</RID:Definition>
+        <RID:Definition>Muscle invasion is highly unlikely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50746</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Source>VI-RADS v2023</RID:Source>
+        <RID:Source>VI-RADS 2018, VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 1</rdfs:label>
     </owl:Class>
     
@@ -1000558,10 +1000589,10 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50745"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-07T17:26:13.779046Z</oboInOwl:creation_date>
-        <RID:Definition>As VIRADS 1, but &gt; 1.0 cm and thickened inner layer</RID:Definition>
+        <RID:Definition>Muscle invasion is unlikely to be present</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50747</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Source>VI-RADS v2023</RID:Source>
+        <RID:Source>VI-RADS 2018, VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 2</rdfs:label>
     </owl:Class>
     
@@ -1000573,10 +1000604,10 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50745"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-07T17:26:23.166453Z</oboInOwl:creation_date>
-        <RID:Definition>Disappearance of category 2 findings, but no clear disruption of low signal intensity layer</RID:Definition>
+        <RID:Definition>The presence of muscle invasion is equivocal</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50748</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Source>VI-RADS v2023</RID:Source>
+        <RID:Source>VI-RADS 2018, VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 3</rdfs:label>
     </owl:Class>
     
@@ -1000588,10 +1000619,10 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50745"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-07T17:26:34.445006Z</oboInOwl:creation_date>
-        <RID:Definition>Interruption of low signal intensity line suggesting extension into muscularis layer</RID:Definition>
+        <RID:Definition>Muscle invasion is likely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50749</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Source>VI-RADS v2023</RID:Source>
+        <RID:Source>VI-RADS 2018, VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 4</rdfs:label>
     </owl:Class>
     
@@ -1000603,10 +1000634,10 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50745"/>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-07T17:26:43.716562Z</oboInOwl:creation_date>
-        <RID:Definition>Extension of intermediate signal intensity tumor to extra-vesical fat</RID:Definition>
+        <RID:Definition>Invasion of muscle and beyond the bladder is very likely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50750</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Source>VI-RADS v2023</RID:Source>
+        <RID:Source>VI-RADS 2018, VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 5</rdfs:label>
     </owl:Class>
     
@@ -1001167,6 +1001198,34 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
     
 
 
+    <!-- http://www.radlex.org/RID/RID50788 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50788">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36036"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete--Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison</RID:Definition>
+        <RID:RadLexID>RID50788</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
+        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Additional Imaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50789 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50789">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36036"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete- Need Prior Mammograms for Comparison</RID:Definition>
+        <RID:RadLexID>RID50789</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>BI-RADS V2025</RID:Source>
+        <rdfs:label xml:lang="en">BI-RADS Category 0 - Need Prior Mammograms</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.radlex.org/RID/RID5079 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID5079">
@@ -1001175,6 +1001234,145 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID xml:lang="en">RID5079</RID:RadLexID>
         <rdfs:label xml:lang="de">Marginaler Osteophyt</rdfs:label>
         <rdfs:label xml:lang="en">marginal osteophyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50790 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50790">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:RadLexID>RID50790</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR Assessment Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50791 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50791">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50791</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 0S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50792 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50792">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Negative - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50792</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 1S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50793 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50793">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Benign - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50793</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 2S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50794 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50794">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Probably Benign - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50794</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 3S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50795 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50795">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Suspicious - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50795</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4aS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50796 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50796">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Very Suspicious - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50796</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4bS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50797 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50797">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50134"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Additional features or findings that increase suspicion for lung cancer - Significant or potentially significant</RID:Definition>
+        <RID:RadLexID>RID50797</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>Lung-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">Lung-RADS 4xS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50798 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50798">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Cannot be categorized due to image degradation or omission</RID:Definition>
+        <RID:RadLexID>RID50798</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <RID:Synonym>LI-RADS-NC (CT/MR)</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS CT/MR LR-NC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50799 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50799">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No masslike enhancement present (for the radiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50799</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Nonviable (radiation)</rdfs:label>
     </owl:Class>
     
 
@@ -1001214,6 +1001412,147 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
     
 
 
+    <!-- http://www.radlex.org/RID/RID50800 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50800">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Masslike enhancement, which is stable or decreased in size over time after LRT (for the radiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50800</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Nonprogressing (radiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50801 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50801">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Masslike enhancement any degree, any phase (for the radiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50801</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Viable (radiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50802 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50802">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Presence of masslike enhancement cannot be assessed due to image degradation or omission (for the radiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50802</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Nonevaluable (radiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50803 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50803">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Masslike enhancement any degree, any phase (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50803</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Viable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50804 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50804">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No masslike enhancement present (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50804</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Nonviable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50805 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50805">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Uncertainty about masslike enhancement presence or morphology (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50805</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Equivocal (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50806 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50806">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Presence of masslike enhancement cannot be assessed due to image degradation or omission (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50806</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CT/MRI LR-TR Nonevaluable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50807 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50807">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49823"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:RadLexID>RID50807</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS US Assessment Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50808 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50808">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50807"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No observation OR Only definitely benign observation(s)</RID:Definition>
+        <RID:RadLexID>RID50808</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <RID:Synonym>LI-RADS US-1</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS US LR-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50809 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50809">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50807"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Observation(s) &lt; 10 mm in diameter, not definitely benign</RID:Definition>
+        <RID:RadLexID>RID50809</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <RID:Synonym>LI-RADS US-2</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS US LR-2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.radlex.org/RID/RID5081 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID5081">
@@ -1001221,6 +1001560,146 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID xml:lang="en">RID5081</RID:RadLexID>
         <rdfs:label xml:lang="de">Zentraler Osteophyt</rdfs:label>
         <rdfs:label xml:lang="en">central osteophyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50810 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50810">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50807"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Observation(s) ≥ 10 mm in diameter, not definitely benign, including area(s) of parenchymal distortion OR New thrombus in portal or hepatic vein</RID:Definition>
+        <RID:RadLexID>RID50810</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <RID:Synonym>LI-RADS US-3</RID:Synonym>
+        <rdfs:label xml:lang="en">LI-RADS US LR-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50811 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50811">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50807"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:RadLexID>RID50811</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS Assessment Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50812 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50812">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Probably benign</RID:Definition>
+        <RID:RadLexID>RID50812</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50813 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50813">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Cannot be categorized due to image degradation or omission</RID:Definition>
+        <RID:RadLexID>RID50813</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-NC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50814 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50814">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitely benign</RID:Definition>
+        <RID:RadLexID>RID50814</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50815 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50815">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Intermediate malignancy probability</RID:Definition>
+        <RID:RadLexID>RID50815</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50816 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50816">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Probably HCC</RID:Definition>
+        <RID:RadLexID>RID50816</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50817 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50817">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitely HCC</RID:Definition>
+        <RID:RadLexID>RID50817</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50818 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50818">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Probably or definitely malignant but not HCC specific</RID:Definition>
+        <RID:RadLexID>RID50818</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50819 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50819">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitie tumor in vein</RID:Definition>
+        <RID:RadLexID>RID50819</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TIV</rdfs:label>
     </owl:Class>
     
 
@@ -1001251,6 +1001730,286 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
     
 
 
+    <!-- http://www.radlex.org/RID/RID50820 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50820">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Uncertainty about perilesional and intralesional tumor visibility (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50820</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR Equivocal (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50821 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50821">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Presence of masslike enhancement cannot be assessed due to image degradation or omission (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50821</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR Nonevaluable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50822 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50822">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No perilesional and intralesional tumor visibility (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50822</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR Nonviable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50823 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50823">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50811"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Perilesional and or intralesional tumor visibility (for the nonradiation pathway)</RID:Definition>
+        <RID:RadLexID>RID50823</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>LI-RADS v2017 LI-RADS v2024</RID:Source>
+        <rdfs:label xml:lang="en">LI-RADS CEUS LR-TR Viable (nonradiation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50824 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50824">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36026"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>O-RADS™ is a clinical support system for the standardized description and classification of ovarian/adnexal lesions.</RID:Definition>
+        <RID:RadLexID>RID50824</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS (Ovarian and Adnexal) Assessment Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50825 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50825">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete Evaluation</RID:Definition>
+        <RID:RadLexID>RID50825</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50826 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50826">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Normal Ovaries</RID:Definition>
+        <RID:RadLexID>RID50826</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50827 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50827">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Almost Certainly Benign</RID:Definition>
+        <RID:RadLexID>RID50827</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50828 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50828">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low Risk</RID:Definition>
+        <RID:RadLexID>RID50828</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50829 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50829">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Intermediate Risk</RID:Definition>
+        <RID:RadLexID>RID50829</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50830 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50830">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High Risk</RID:Definition>
+        <RID:RadLexID>RID50830</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS MR Score 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50831 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50831">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete Evaluation</RID:Definition>
+        <RID:RadLexID>RID50831</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50832 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50832">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Normal Ovary</RID:Definition>
+        <RID:RadLexID>RID50832</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50833 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50833">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Almost Certainly Benign</RID:Definition>
+        <RID:RadLexID>RID50833</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50834 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50834">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low Risk</RID:Definition>
+        <RID:RadLexID>RID50834</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50835 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50835">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Intermediate Risk</RID:Definition>
+        <RID:RadLexID>RID50835</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50836 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50836">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50824"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High Risk</RID:Definition>
+        <RID:RadLexID>RID50836</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>O-RADS v2022</RID:Source>
+        <rdfs:label xml:lang="en">O-RADS US Score 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50837 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50837">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID36026"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>ACR Neck Imaging Reporting and Data System (NI-RADS)</RID:Definition>
+        <RID:RadLexID>RID50837</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS (Head and Neck) Assessment Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50838 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50838">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete</RID:Definition>
+        <RID:RadLexID>RID50838</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50839 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50839">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No evidence of recurrence</RID:Definition>
+        <RID:RadLexID>RID50839</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.radlex.org/RID/RID5084 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID5084">
@@ -1001276,6 +1002035,147 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
     
 
 
+    <!-- http://www.radlex.org/RID/RID50840 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50840">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50840</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50841 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50841">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High suspicion</RID:Definition>
+        <RID:RadLexID>RID50841</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50842 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50842">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitive recurrence</RID:Definition>
+        <RID:RadLexID>RID50842</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50843 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50843">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete</RID:Definition>
+        <RID:RadLexID>RID50843</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50844 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50844">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No evidence of recurrence</RID:Definition>
+        <RID:RadLexID>RID50844</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50845 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50845">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50845</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50846 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50846">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50846</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50847 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50847">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High suspicion</RID:Definition>
+        <RID:RadLexID>RID50847</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50848 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50848">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitive recurrence</RID:Definition>
+        <RID:RadLexID>RID50848</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (MRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50849 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50849">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete</RID:Definition>
+        <RID:RadLexID>RID50849</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 0 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.radlex.org/RID/RID5085 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID5085">
@@ -1001289,6 +1002189,146 @@ the intermediate SI tumor tissue to muscularis propria</RID:Definition>
         <RID:RadLexID xml:lang="en">RID5085</RID:RadLexID>
         <rdfs:label xml:lang="de">Wirbelsäulendegeneration</rdfs:label>
         <rdfs:label xml:lang="en">spine degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50850 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50850">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No evidence of recurrence</RID:Definition>
+        <RID:RadLexID>RID50850</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 1 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50851 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50851">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50851</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 2 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50852 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50852">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High suspicion</RID:Definition>
+        <RID:RadLexID>RID50852</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 3 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50853 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50853">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitive recurrence</RID:Definition>
+        <RID:RadLexID>RID50853</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Neck Score 4 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50854 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50854">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Incomplete</RID:Definition>
+        <RID:RadLexID>RID50854</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 0 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50855 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50855">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>No evidence of recurrence</RID:Definition>
+        <RID:RadLexID>RID50855</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 1 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50856 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50856">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50856</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50857 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50857">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Low suspicion</RID:Definition>
+        <RID:RadLexID>RID50857</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50858 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50858">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>High suspicion</RID:Definition>
+        <RID:RadLexID>RID50858</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 3 (PET/CT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.radlex.org/RID/RID50859 -->
+
+    <owl:Class rdf:about="http://www.radlex.org/RID/RID50859">
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
+        <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
+        <RID:Definition>Definitive recurrence</RID:Definition>
+        <RID:RadLexID>RID50859</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
+        <RID:Source>NI-RADS v2018, NI-RADS v2025</RID:Source>
+        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 4 (PET/CT)</rdfs:label>
     </owl:Class>
     
 
@@ -1024711,14 +1025751,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6476"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0039485</owl:annotatedTarget>
-        <RID:UMLS_Term>temporal lobe</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:90</owl:annotatedTarget>
+        <RID:name>*.Temporal Lobe.*.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6476"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:90</owl:annotatedTarget>
-        <RID:name>*.Temporal Lobe.*.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0039485</owl:annotatedTarget>
+        <RID:UMLS_Term>temporal lobe</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1026707,12 +1027747,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0028785</owl:annotatedTarget>
-        <RID:UMLS_Term>occipital lobe</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:240</owl:annotatedTarget>
         <RID:name>*.Occipital Lobe.*.*.*</RID:name>
     </owl:Axiom>
@@ -1026721,6 +1027755,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:547</owl:annotatedTarget>
         <RID:name>Inter-Hemispheric.Occipital Lobe.*.*.*</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6502"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0028785</owl:annotatedTarget>
+        <RID:UMLS_Term>occipital lobe</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1027093,14 +1028133,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6509"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0023715</owl:annotatedTarget>
-        <RID:UMLS_Term>limbic system</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:888</owl:annotatedTarget>
+        <RID:name>Inter-Hemispheric.Limbic Lobe.*.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6509"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:888</owl:annotatedTarget>
-        <RID:name>Inter-Hemispheric.Limbic Lobe.*.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0023715</owl:annotatedTarget>
+        <RID:UMLS_Term>limbic system</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1027260,14 +1028300,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6510"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0018427</owl:annotatedTarget>
-        <RID:UMLS_Term>cingulate gyrus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:1058</owl:annotatedTarget>
+        <RID:name>Inter-Hemispheric.*.Cingulate Gyrus.*.*</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6510"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:1058</owl:annotatedTarget>
-        <RID:name>Inter-Hemispheric.*.Cingulate Gyrus.*.*</RID:name>
+        <owl:annotatedTarget>UMLS:C0018427</owl:annotatedTarget>
+        <RID:UMLS_Term>cingulate gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1027810,14 +1028850,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6518"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0002708</owl:annotatedTarget>
-        <RID:UMLS_Term>amygdaloid body</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:218</owl:annotatedTarget>
+        <RID:name>Amygdala</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6518"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:218</owl:annotatedTarget>
-        <RID:name>Amygdala</RID:name>
+        <owl:annotatedTarget>UMLS:C0002708</owl:annotatedTarget>
+        <RID:UMLS_Term>amygdaloid body</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028039,14 +1029079,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6525"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0036700</owl:annotatedTarget>
-        <RID:UMLS_Term>septum pellucidum</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:72</owl:annotatedTarget>
+        <RID:name>5th-Ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6525"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:72</owl:annotatedTarget>
-        <RID:name>5th-Ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0036700</owl:annotatedTarget>
+        <RID:UMLS_Term>septum pellucidum</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028616,12 +1029656,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0228249</owl:annotatedTarget>
-        <RID:UMLS_Term>parahippocampal gyrus</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Freesurfer:222</owl:annotatedTarget>
         <RID:name>Perirhinal</RID:name>
     </owl:Axiom>
@@ -1028630,6 +1029664,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:126</owl:annotatedTarget>
         <RID:name>*.Limbic Lobe.Parahippocampal Gyrus.*.*</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6531"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0228249</owl:annotatedTarget>
+        <RID:UMLS_Term>parahippocampal gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1028792,14 +1029832,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6534"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152314</owl:annotatedTarget>
-        <RID:UMLS_Term>dentate gyrus</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:210</owl:annotatedTarget>
+        <RID:name>GC-DG</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6534"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:210</owl:annotatedTarget>
-        <RID:name>GC-DG</RID:name>
+        <owl:annotatedTarget>UMLS:C0152314</owl:annotatedTarget>
+        <RID:UMLS_Term>dentate gyrus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1029223,14 +1030263,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6539"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152355</owl:annotatedTarget>
-        <RID:UMLS_Term>subthalamic nucleus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:453</owl:annotatedTarget>
+        <RID:name>Left Brainstem.Midbrain.*.Gray Matter.Subthalamic Nucleus</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6539"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:453</owl:annotatedTarget>
-        <RID:name>Left Brainstem.Midbrain.*.Gray Matter.Subthalamic Nucleus</RID:name>
+        <owl:annotatedTarget>UMLS:C0152355</owl:annotatedTarget>
+        <RID:UMLS_Term>subthalamic nucleus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1034609,6 +1035649,12 @@ duplicate of RID9802</RID:Comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
+                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID15529"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
                 <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID6523"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1034628,12 +1035674,6 @@ duplicate of RID9802</RID:Comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
                 <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID6643"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.radlex.org/RID/Has_Part"/>
-                <owl:someValuesFrom rdf:resource="http://www.radlex.org/RID/RID15529"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1034841,14 +1035881,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6639"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0020663</owl:annotatedTarget>
-        <RID:UMLS_Term>hypothalamus</RID:UMLS_Term>
+        <owl:annotatedTarget>Talairach:274</owl:annotatedTarget>
+        <RID:name>*.*.*.Gray Matter.Hypothalamus</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6639"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Talairach:274</owl:annotatedTarget>
-        <RID:name>*.*.*.Gray Matter.Hypothalamus</RID:name>
+        <owl:annotatedTarget>UMLS:C0020663</owl:annotatedTarget>
+        <RID:UMLS_Term>hypothalamus</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1034994,14 +1036034,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6641"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0029126</owl:annotatedTarget>
-        <RID:UMLS_Term>optic chiasm</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:85</owl:annotatedTarget>
+        <RID:name>Optic-Chiasm</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6641"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:85</owl:annotatedTarget>
-        <RID:name>Optic-Chiasm</RID:name>
+        <owl:annotatedTarget>UMLS:C0029126</owl:annotatedTarget>
+        <RID:UMLS_Term>optic chiasm</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1037018,14 +1038058,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6677"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0006121</owl:annotatedTarget>
-        <RID:UMLS_Term>brainstem</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:16</owl:annotatedTarget>
+        <RID:name>Brain-Stem</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6677"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:16</owl:annotatedTarget>
-        <RID:name>Brain-Stem</RID:name>
+        <owl:annotatedTarget>UMLS:C0006121</owl:annotatedTarget>
+        <RID:UMLS_Term>brainstem</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1040749,8 +1041789,8 @@ duplicate of RID9802</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID6749">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID6741"/>
         <RID:RadLexID xml:lang="en">RID6749</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>3.14 loc</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>3.15 syn</RID:Radlex_version_of_class_change>
         <rdfs:label xml:lang="de">Nucleus pontinus nervi trigemini</rdfs:label>
         <rdfs:label xml:lang="en">pontine nucleus of trigeminal nerve</rdfs:label>
     </owl:Class>
@@ -1046636,12 +1047676,6 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0010090</owl:annotatedTarget>
-        <RID:UMLS_Term>corpus callosum</RID:UMLS_Term>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
-        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Freesurfer:86</owl:annotatedTarget>
         <RID:name>Corpus_Callosum</RID:name>
     </owl:Axiom>
@@ -1046662,6 +1047696,12 @@ duplicate of RID9802</RID:Comment>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
         <owl:annotatedTarget>Talairach:714</owl:annotatedTarget>
         <RID:name>Inter-Hemispheric.Limbic Lobe.Extra-Nuclear.White Matter.Corpus Callosum</RID:name>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID6915"/>
+        <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
+        <owl:annotatedTarget>UMLS:C0010090</owl:annotatedTarget>
+        <RID:UMLS_Term>corpus callosum</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1054861,14 +1055901,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7124"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0152279</owl:annotatedTarget>
-        <RID:UMLS_Term>lateral ventricle</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:213</owl:annotatedTarget>
+        <RID:name>lateral_ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7124"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:213</owl:annotatedTarget>
-        <RID:name>lateral_ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0152279</owl:annotatedTarget>
+        <RID:UMLS_Term>lateral ventricle</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1055786,14 +1056826,14 @@ duplicate of RID9802</RID:Comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7147"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>UMLS:C0149556</owl:annotatedTarget>
-        <RID:UMLS_Term>fourth ventricle</RID:UMLS_Term>
+        <owl:annotatedTarget>Freesurfer:15</owl:annotatedTarget>
+        <RID:name>4th-Ventricle</RID:name>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID7147"/>
         <owl:annotatedProperty rdf:resource="http://www.radlex.org/RID/ExternalRefID"/>
-        <owl:annotatedTarget>Freesurfer:15</owl:annotatedTarget>
-        <RID:name>4th-Ventricle</RID:name>
+        <owl:annotatedTarget>UMLS:C0149556</owl:annotatedTarget>
+        <RID:UMLS_Term>fourth ventricle</RID:UMLS_Term>
     </owl:Axiom>
     
 
@@ -1107341,5 +1108381,5 @@ duplicate of RID9802</RID:Comment>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 

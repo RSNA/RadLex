@@ -8,40 +8,6 @@
 - Ontology IRI: `http://radlex.org/RID/RadLex.owl`
 - Loaded from: `RadLex.owl` on `rads-2026-updates`
 
-### BI-RADS 1 `http://www.radlex.org/RID/RID36028`
-#### Removed
-- [BI-RADS 1](http://www.radlex.org/RID/RID36028) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 1: Negative"@en 
-
-#### Added
-- [BI-RADS 1](http://www.radlex.org/RID/RID36028) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
-
-- [BI-RADS 1](http://www.radlex.org/RID/RID36028) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 1"@en 
-
-
-### BI-RADS 2 `http://www.radlex.org/RID/RID36029`
-#### Removed
-- [BI-RADS 2](http://www.radlex.org/RID/RID36029) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 2: Benign"@en 
-
-#### Added
-- [BI-RADS 2](http://www.radlex.org/RID/RID36029) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
-
-- [BI-RADS 2](http://www.radlex.org/RID/RID36029) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
-
-- [BI-RADS 2](http://www.radlex.org/RID/RID36029) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 2"@en 
-
-
-### BI-RADS 3 `http://www.radlex.org/RID/RID36041`
-#### Removed
-- [BI-RADS 3](http://www.radlex.org/RID/RID36041) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 3: Probably Benign"@en 
-
-#### Added
-- [BI-RADS 3](http://www.radlex.org/RID/RID36041) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
-
-- [BI-RADS 3](http://www.radlex.org/RID/RID36041) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
-
-- [BI-RADS 3](http://www.radlex.org/RID/RID36041) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 3"@en 
-
-
 ### BI-RADS 4 `http://www.radlex.org/RID/RID36030`
 #### Removed
 - [BI-RADS 4](http://www.radlex.org/RID/RID36030) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4: Suspicious"@en 
@@ -54,6 +20,18 @@
 - [BI-RADS 4](http://www.radlex.org/RID/RID36030) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4"@en 
 
 
+### BI-RADS 4A `http://www.radlex.org/RID/RID36031`
+#### Removed
+- [BI-RADS 4A](http://www.radlex.org/RID/RID36031) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4A: Low suspicion for malignancy"@en 
+
+#### Added
+- [BI-RADS 4A](http://www.radlex.org/RID/RID36031) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+
+- [BI-RADS 4A](http://www.radlex.org/RID/RID36031) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+
+- [BI-RADS 4A](http://www.radlex.org/RID/RID36031) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4a"@en 
+
+
 ### BI-RADS 4C `http://www.radlex.org/RID/RID36033`
 #### Removed
 - [BI-RADS 4C](http://www.radlex.org/RID/RID36033) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4C: High suspicion for malignancy"@en 
@@ -64,18 +42,6 @@
 - [BI-RADS 4C](http://www.radlex.org/RID/RID36033) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
 
 - [BI-RADS 4C](http://www.radlex.org/RID/RID36033) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4c"@en 
-
-
-### BI-RADS 5 `http://www.radlex.org/RID/RID36034`
-#### Removed
-- [BI-RADS 5](http://www.radlex.org/RID/RID36034) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 5: Highly Suggestive of Malignancy"@en 
-
-#### Added
-- [BI-RADS 5](http://www.radlex.org/RID/RID36034) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
-
-- [BI-RADS 5](http://www.radlex.org/RID/RID36034) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
-
-- [BI-RADS 5](http://www.radlex.org/RID/RID36034) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 5"@en 
 
 
 ### BI-RADS Category 0 - Need Additional Imaging `http://www.radlex.org/RID/RID50788`
@@ -118,167 +84,201 @@
 - [BI-RADS Category 0 - Need Prior Mammograms](http://www.radlex.org/RID/RID50789) SubClassOf [BI-RADS 0](http://www.radlex.org/RID/RID36036) 
 
 
-### BI-RADS Category 4a `http://www.radlex.org/RID/RID36031`
+### BI-RADS Category 1: Negative `http://www.radlex.org/RID/RID36028`
 #### Removed
-- [BI-RADS Category 4a](http://www.radlex.org/RID/RID36031) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4A: Low suspicion for malignancy"@en 
+- [BI-RADS Category 1: Negative](http://www.radlex.org/RID/RID36028) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 1: Negative"@en 
 
 #### Added
-- [BI-RADS Category 4a](http://www.radlex.org/RID/RID36031) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [BI-RADS Category 1: Negative](http://www.radlex.org/RID/RID36028) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
 
-- [BI-RADS Category 4a](http://www.radlex.org/RID/RID36031) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
-
-- [BI-RADS Category 4a](http://www.radlex.org/RID/RID36031) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4a"@en 
+- [BI-RADS Category 1: Negative](http://www.radlex.org/RID/RID36028) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 1"@en 
 
 
-### BI-RADS Category 4b `http://www.radlex.org/RID/RID36032`
+### BI-RADS Category 2: Benign `http://www.radlex.org/RID/RID36029`
 #### Removed
-- [BI-RADS Category 4b](http://www.radlex.org/RID/RID36032) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4B: Moderate suspicion for malignancy"@en 
+- [BI-RADS Category 2: Benign](http://www.radlex.org/RID/RID36029) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 2: Benign"@en 
 
 #### Added
-- [BI-RADS Category 4b](http://www.radlex.org/RID/RID36032) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [BI-RADS Category 2: Benign](http://www.radlex.org/RID/RID36029) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [BI-RADS Category 4b](http://www.radlex.org/RID/RID36032) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+- [BI-RADS Category 2: Benign](http://www.radlex.org/RID/RID36029) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
 
-- [BI-RADS Category 4b](http://www.radlex.org/RID/RID36032) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4b"@en 
+- [BI-RADS Category 2: Benign](http://www.radlex.org/RID/RID36029) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 2"@en 
 
 
-### BI-RADS Category 6 `http://www.radlex.org/RID/RID36035`
+### BI-RADS Category 3: Probably Benign `http://www.radlex.org/RID/RID36041`
 #### Removed
-- [BI-RADS Category 6](http://www.radlex.org/RID/RID36035) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 6: Known Biopsy-Proven Malignancy"@en 
+- [BI-RADS Category 3: Probably Benign](http://www.radlex.org/RID/RID36041) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 3: Probably Benign"@en 
 
 #### Added
-- [BI-RADS Category 6](http://www.radlex.org/RID/RID36035) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [BI-RADS Category 3: Probably Benign](http://www.radlex.org/RID/RID36041) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [BI-RADS Category 6](http://www.radlex.org/RID/RID36035) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+- [BI-RADS Category 3: Probably Benign](http://www.radlex.org/RID/RID36041) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
 
-- [BI-RADS Category 6](http://www.radlex.org/RID/RID36035) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 6"@en 
+- [BI-RADS Category 3: Probably Benign](http://www.radlex.org/RID/RID36041) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 3"@en 
 
 
-### C-RADS 0 `http://www.radlex.org/RID/RID50719`
+### BI-RADS Category 4B: Moderate suspicion for malignancy `http://www.radlex.org/RID/RID36032`
 #### Removed
-- [C-RADS 0](http://www.radlex.org/RID/RID50719) [Definition](http://www.radlex.org/RID/Definition) "&bull; Inadequate preparation: cannot exclude lesions &gt;= 10 mm owing to presense of fluid and/or feces
+- [BI-RADS Category 4B: Moderate suspicion for malignancy](http://www.radlex.org/RID/RID36032) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4B: Moderate suspicion for malignancy"@en 
+
+#### Added
+- [BI-RADS Category 4B: Moderate suspicion for malignancy](http://www.radlex.org/RID/RID36032) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+
+- [BI-RADS Category 4B: Moderate suspicion for malignancy](http://www.radlex.org/RID/RID36032) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+
+- [BI-RADS Category 4B: Moderate suspicion for malignancy](http://www.radlex.org/RID/RID36032) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 4b"@en 
+
+
+### BI-RADS Category 5: Highly Suggestive of Malignancy `http://www.radlex.org/RID/RID36034`
+#### Removed
+- [BI-RADS Category 5: Highly Suggestive of Malignancy](http://www.radlex.org/RID/RID36034) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 5: Highly Suggestive of Malignancy"@en 
+
+#### Added
+- [BI-RADS Category 5: Highly Suggestive of Malignancy](http://www.radlex.org/RID/RID36034) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+
+- [BI-RADS Category 5: Highly Suggestive of Malignancy](http://www.radlex.org/RID/RID36034) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+
+- [BI-RADS Category 5: Highly Suggestive of Malignancy](http://www.radlex.org/RID/RID36034) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 5"@en 
+
+
+### BI-RADS Category 6: Known Biopsy-Proven Malignancy `http://www.radlex.org/RID/RID36035`
+#### Removed
+- [BI-RADS Category 6: Known Biopsy-Proven Malignancy](http://www.radlex.org/RID/RID36035) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 6: Known Biopsy-Proven Malignancy"@en 
+
+#### Added
+- [BI-RADS Category 6: Known Biopsy-Proven Malignancy](http://www.radlex.org/RID/RID36035) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+
+- [BI-RADS Category 6: Known Biopsy-Proven Malignancy](http://www.radlex.org/RID/RID36035) [Source](http://www.radlex.org/RID/Source) "BI-RADS V2025" 
+
+- [BI-RADS Category 6: Known Biopsy-Proven Malignancy](http://www.radlex.org/RID/RID36035) [label](http://www.w3.org/2000/01/rdf-schema#label) "BI-RADS Category 6"@en 
+
+
+### C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons `http://www.radlex.org/RID/RID50719`
+#### Removed
+- [C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons](http://www.radlex.org/RID/RID50719) [Definition](http://www.radlex.org/RID/Definition) "&bull; Inadequate preparation: cannot exclude lesions &gt;= 10 mm owing to presense of fluid and/or feces
 &bull; Inadequate insufflation: one or more colonic segments collapsed on both views (except in suspected myochosis coli - see C2b)" 
 
-- [C-RADS 0](http://www.radlex.org/RID/RID50719) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons"@en 
+- [C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons](http://www.radlex.org/RID/RID50719) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons"@en 
 
 #### Added
-- [C-RADS 0](http://www.radlex.org/RID/RID50719) [Definition](http://www.radlex.org/RID/Definition) "Inadequate study or awaiting prior comparisons" 
+- [C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons](http://www.radlex.org/RID/RID50719) [Definition](http://www.radlex.org/RID/Definition) "Inadequate study or awaiting prior comparisons" 
 
-- [C-RADS 0](http://www.radlex.org/RID/RID50719) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons](http://www.radlex.org/RID/RID50719) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 0](http://www.radlex.org/RID/RID50719) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 0"@en 
+- [C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons](http://www.radlex.org/RID/RID50719) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 0"@en 
 
 
-### C-RADS 1 `http://www.radlex.org/RID/RID50726`
+### C-RADS C1 - Normal Colon or Benign Lesion `http://www.radlex.org/RID/RID50726`
 #### Removed
-- [C-RADS 1](http://www.radlex.org/RID/RID50726) [Definition](http://www.radlex.org/RID/Definition) "&bull; No visible abnormalities of the colon
+- [C-RADS C1 - Normal Colon or Benign Lesion](http://www.radlex.org/RID/RID50726) [Definition](http://www.radlex.org/RID/Definition) "&bull; No visible abnormalities of the colon
 &bull; No polyp &gt;= 6 mm
 &bull; Lipoma or inverted diverticulum
 &bull; Nonneoplastic findings&mdash;e.g., colonic diverticula, asymptomatic pneumatosis cystoides coli" 
 
-- [C-RADS 1](http://www.radlex.org/RID/RID50726) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C1 - Normal Colon or Benign Lesion"@en 
+- [C-RADS C1 - Normal Colon or Benign Lesion](http://www.radlex.org/RID/RID50726) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C1 - Normal Colon or Benign Lesion"@en 
 
 #### Added
-- [C-RADS 1](http://www.radlex.org/RID/RID50726) [Definition](http://www.radlex.org/RID/Definition) "Normal Colon or Benign Lesion" 
+- [C-RADS C1 - Normal Colon or Benign Lesion](http://www.radlex.org/RID/RID50726) [Definition](http://www.radlex.org/RID/Definition) "Normal Colon or Benign Lesion" 
 
-- [C-RADS 1](http://www.radlex.org/RID/RID50726) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C1 - Normal Colon or Benign Lesion](http://www.radlex.org/RID/RID50726) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 1](http://www.radlex.org/RID/RID50726) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 1"@en 
+- [C-RADS C1 - Normal Colon or Benign Lesion](http://www.radlex.org/RID/RID50726) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 1"@en 
 
 
-### C-RADS 2a `http://www.radlex.org/RID/RID50728`
+### C-RADS C2a - Intermediate Polyp or Indeterminate Finding `http://www.radlex.org/RID/RID50728`
 #### Removed
-- [C-RADS 2a](http://www.radlex.org/RID/RID50728) [Definition](http://www.radlex.org/RID/Definition) "Intermediate polyp 6-9 mm, &lt; 3 in number" 
+- [C-RADS C2a - Intermediate Polyp or Indeterminate Finding](http://www.radlex.org/RID/RID50728) [Definition](http://www.radlex.org/RID/Definition) "Intermediate polyp 6-9 mm, &lt; 3 in number" 
 
-- [C-RADS 2a](http://www.radlex.org/RID/RID50728) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C2a - Intermediate Polyp or Indeterminate Finding"@en 
+- [C-RADS C2a - Intermediate Polyp or Indeterminate Finding](http://www.radlex.org/RID/RID50728) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C2a - Intermediate Polyp or Indeterminate Finding"@en 
 
 #### Added
-- [C-RADS 2a](http://www.radlex.org/RID/RID50728) [Definition](http://www.radlex.org/RID/Definition) "Intermediate Polyp or Indeterminate Finding" 
+- [C-RADS C2a - Intermediate Polyp or Indeterminate Finding](http://www.radlex.org/RID/RID50728) [Definition](http://www.radlex.org/RID/Definition) "Intermediate Polyp or Indeterminate Finding" 
 
-- [C-RADS 2a](http://www.radlex.org/RID/RID50728) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C2a - Intermediate Polyp or Indeterminate Finding](http://www.radlex.org/RID/RID50728) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 2a](http://www.radlex.org/RID/RID50728) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 2a"@en 
+- [C-RADS C2a - Intermediate Polyp or Indeterminate Finding](http://www.radlex.org/RID/RID50728) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 2a"@en 
 
 
-### C-RADS 2b `http://www.radlex.org/RID/RID50729`
+### C-RADS C2b - Likely Benign Diverticular Finding `http://www.radlex.org/RID/RID50729`
 #### Removed
-- [C-RADS 2b](http://www.radlex.org/RID/RID50729) [Definition](http://www.radlex.org/RID/Definition) "Mass-like area such as severe diverticular myochosis coli, muscular hypertrophy, or stricture" 
+- [C-RADS C2b - Likely Benign Diverticular Finding](http://www.radlex.org/RID/RID50729) [Definition](http://www.radlex.org/RID/Definition) "Mass-like area such as severe diverticular myochosis coli, muscular hypertrophy, or stricture" 
 
-- [C-RADS 2b](http://www.radlex.org/RID/RID50729) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C2b - Likely Benign Diverticular Finding"@en 
+- [C-RADS C2b - Likely Benign Diverticular Finding](http://www.radlex.org/RID/RID50729) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C2b - Likely Benign Diverticular Finding"@en 
 
 #### Added
-- [C-RADS 2b](http://www.radlex.org/RID/RID50729) [Definition](http://www.radlex.org/RID/Definition) "Likely Benign Diverticular Finding" 
+- [C-RADS C2b - Likely Benign Diverticular Finding](http://www.radlex.org/RID/RID50729) [Definition](http://www.radlex.org/RID/Definition) "Likely Benign Diverticular Finding" 
 
-- [C-RADS 2b](http://www.radlex.org/RID/RID50729) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C2b - Likely Benign Diverticular Finding](http://www.radlex.org/RID/RID50729) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 2b](http://www.radlex.org/RID/RID50729) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 2b"@en 
+- [C-RADS C2b - Likely Benign Diverticular Finding](http://www.radlex.org/RID/RID50729) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 2b"@en 
 
 
-### C-RADS 3 `http://www.radlex.org/RID/RID50730`
+### C-RADS C3 - Polyp, Possibly Advanced Adenoma `http://www.radlex.org/RID/RID50730`
 #### Removed
-- [C-RADS 3](http://www.radlex.org/RID/RID50730) [Definition](http://www.radlex.org/RID/Definition) "&bull; Polyp(s) &gt;= 10 mm
+- [C-RADS C3 - Polyp, Possibly Advanced Adenoma](http://www.radlex.org/RID/RID50730) [Definition](http://www.radlex.org/RID/Definition) "&bull; Polyp(s) &gt;= 10 mm
 &bull; &gt;= 3 polyps, each 6-9 mm
 &bull; Subepithelial lesion &gt;= 10 mm
 &bull; Polyps previously categorized as C2a that have enlarged in size on follow-up" 
 
-- [C-RADS 3](http://www.radlex.org/RID/RID50730) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C3 - Polyp, Possibly Advanced Adenoma"@en 
+- [C-RADS C3 - Polyp, Possibly Advanced Adenoma](http://www.radlex.org/RID/RID50730) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C3 - Polyp, Possibly Advanced Adenoma"@en 
 
 #### Added
-- [C-RADS 3](http://www.radlex.org/RID/RID50730) [Definition](http://www.radlex.org/RID/Definition) "Polyp, Possibly Advanced Adenoma" 
+- [C-RADS C3 - Polyp, Possibly Advanced Adenoma](http://www.radlex.org/RID/RID50730) [Definition](http://www.radlex.org/RID/Definition) "Polyp, Possibly Advanced Adenoma" 
 
-- [C-RADS 3](http://www.radlex.org/RID/RID50730) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C3 - Polyp, Possibly Advanced Adenoma](http://www.radlex.org/RID/RID50730) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 3](http://www.radlex.org/RID/RID50730) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 3"@en 
+- [C-RADS C3 - Polyp, Possibly Advanced Adenoma](http://www.radlex.org/RID/RID50730) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 3"@en 
 
 
-### C-RADS 4 `http://www.radlex.org/RID/RID50731`
+### C-RADS C4 - Colonic Mass, Likely Malignant `http://www.radlex.org/RID/RID50731`
 #### Removed
-- [C-RADS 4](http://www.radlex.org/RID/RID50731) [Definition](http://www.radlex.org/RID/Definition) "Lesion compromises bowel lumen, demonstrates extracolonic invasion" 
+- [C-RADS C4 - Colonic Mass, Likely Malignant](http://www.radlex.org/RID/RID50731) [Definition](http://www.radlex.org/RID/Definition) "Lesion compromises bowel lumen, demonstrates extracolonic invasion" 
 
-- [C-RADS 4](http://www.radlex.org/RID/RID50731) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C4 - Colonic Mass, Likely Malignant"@en 
+- [C-RADS C4 - Colonic Mass, Likely Malignant](http://www.radlex.org/RID/RID50731) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS C4 - Colonic Mass, Likely Malignant"@en 
 
 #### Added
-- [C-RADS 4](http://www.radlex.org/RID/RID50731) [Definition](http://www.radlex.org/RID/Definition) "Colonic Mass, Likely Malignant" 
+- [C-RADS C4 - Colonic Mass, Likely Malignant](http://www.radlex.org/RID/RID50731) [Definition](http://www.radlex.org/RID/Definition) "Colonic Mass, Likely Malignant" 
 
-- [C-RADS 4](http://www.radlex.org/RID/RID50731) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS C4 - Colonic Mass, Likely Malignant](http://www.radlex.org/RID/RID50731) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS 4](http://www.radlex.org/RID/RID50731) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 4"@en 
+- [C-RADS C4 - Colonic Mass, Likely Malignant](http://www.radlex.org/RID/RID50731) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS 4"@en 
 
 
-### C-RADS E1/E2 `http://www.radlex.org/RID/RID50734`
+### C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup `http://www.radlex.org/RID/RID50734`
 #### Removed
-- [C-RADS E1/E2](http://www.radlex.org/RID/RID50734) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup"@en 
+- [C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup](http://www.radlex.org/RID/RID50734) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup"@en 
 
 #### Added
-- [C-RADS E1/E2](http://www.radlex.org/RID/RID50734) [Definition](http://www.radlex.org/RID/Definition) "No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup" 
+- [C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup](http://www.radlex.org/RID/RID50734) [Definition](http://www.radlex.org/RID/Definition) "No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup" 
 
-- [C-RADS E1/E2](http://www.radlex.org/RID/RID50734) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup](http://www.radlex.org/RID/RID50734) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS E1/E2](http://www.radlex.org/RID/RID50734) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E1/E2"@en 
+- [C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup](http://www.radlex.org/RID/RID50734) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E1/E2"@en 
 
 
-### C-RADS E3 `http://www.radlex.org/RID/RID50735`
+### C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted `http://www.radlex.org/RID/RID50735`
 #### Removed
-- [C-RADS E3](http://www.radlex.org/RID/RID50735) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted"@en 
+- [C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted](http://www.radlex.org/RID/RID50735) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted"@en 
 
 #### Added
-- [C-RADS E3](http://www.radlex.org/RID/RID50735) [Definition](http://www.radlex.org/RID/Definition) "Likely clinically unimportant finding; further workup may be warranted" 
+- [C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted](http://www.radlex.org/RID/RID50735) [Definition](http://www.radlex.org/RID/Definition) "Likely clinically unimportant finding; further workup may be warranted" 
 
-- [C-RADS E3](http://www.radlex.org/RID/RID50735) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted](http://www.radlex.org/RID/RID50735) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS E3](http://www.radlex.org/RID/RID50735) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E3"@en 
+- [C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted](http://www.radlex.org/RID/RID50735) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E3"@en 
 
 
-### C-RADS E4 `http://www.radlex.org/RID/RID50736`
+### E4 - Likely clinically important; further workup needed `http://www.radlex.org/RID/RID50736`
 #### Removed
-- [C-RADS E4](http://www.radlex.org/RID/RID50736) [label](http://www.w3.org/2000/01/rdf-schema#label) "E4 - Likely clinically important; further workup needed"@en 
+- [E4 - Likely clinically important; further workup needed](http://www.radlex.org/RID/RID50736) [label](http://www.w3.org/2000/01/rdf-schema#label) "E4 - Likely clinically important; further workup needed"@en 
 
 #### Added
-- [C-RADS E4](http://www.radlex.org/RID/RID50736) [Definition](http://www.radlex.org/RID/Definition) "Likely clinically important; further workup needed" 
+- [E4 - Likely clinically important; further workup needed](http://www.radlex.org/RID/RID50736) [Definition](http://www.radlex.org/RID/Definition) "Likely clinically important; further workup needed" 
 
-- [C-RADS E4](http://www.radlex.org/RID/RID50736) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
+- [E4 - Likely clinically important; further workup needed](http://www.radlex.org/RID/RID50736) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref" 
 
-- [C-RADS E4](http://www.radlex.org/RID/RID50736) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E4"@en 
+- [E4 - Likely clinically important; further workup needed](http://www.radlex.org/RID/RID50736) [label](http://www.w3.org/2000/01/rdf-schema#label) "C-RADS E4"@en 
 
 
 ### LI-RADS CEUS Assessment Category `http://www.radlex.org/RID/RID50811`
@@ -555,42 +555,6 @@
 - [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) SubClassOf [LI-RADS assessment](http://www.radlex.org/RID/RID49823) 
 
 
-### LI-RADS CT/MR LR-3 `http://www.radlex.org/RID/RID49796`
-#### Removed
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
-
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-3"@en 
-
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) SubClassOf [LI-RADS assessment](http://www.radlex.org/RID/RID49823) 
-
-#### Added
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2018 LI-RADS v2024" 
-
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-3 (CT/MR)" 
-
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-3"@en 
-
-- [LI-RADS CT/MR LR-3](http://www.radlex.org/RID/RID49796) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
-
-
-### LI-RADS CT/MR LR-4 `http://www.radlex.org/RID/RID49797`
-#### Removed
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
-
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-4"@en 
-
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) SubClassOf [LI-RADS assessment](http://www.radlex.org/RID/RID49823) 
-
-#### Added
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2018 LI-RADS v2024" 
-
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-4 (CT/MR)" 
-
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-4"@en 
-
-- [LI-RADS CT/MR LR-4](http://www.radlex.org/RID/RID49797) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
-
-
 ### LI-RADS CT/MR LR-NC `http://www.radlex.org/RID/RID50798`
 
 #### Added
@@ -611,32 +575,6 @@
 - [LI-RADS CT/MR LR-NC](http://www.radlex.org/RID/RID50798) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-NC"@en 
 
 - [LI-RADS CT/MR LR-NC](http://www.radlex.org/RID/RID50798) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
-
-
-### LI-RADS CT/MR LR-TIV `http://www.radlex.org/RID/RID49802`
-#### Removed
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS 5V"@en 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-5V"@en 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) SubClassOf [LR-5](http://www.radlex.org/RID/RID49799) 
-
-#### Added
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, loc, syn" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2017 LI-RADS v2024" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "CT/MR LR-TIV" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS 5V" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-TIV (CT/MR)" 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-TIV"@en 
-
-- [LI-RADS CT/MR LR-TIV](http://www.radlex.org/RID/RID49802) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
 
 
 ### LI-RADS CT/MRI LR-TR Equivocal (nonradiation) `http://www.radlex.org/RID/RID50805`
@@ -919,6 +857,42 @@
 - [LR-2](http://www.radlex.org/RID/RID49795) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
 
 
+### LR-3 `http://www.radlex.org/RID/RID49796`
+#### Removed
+- [LR-3](http://www.radlex.org/RID/RID49796) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
+
+- [LR-3](http://www.radlex.org/RID/RID49796) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-3"@en 
+
+- [LR-3](http://www.radlex.org/RID/RID49796) SubClassOf [LI-RADS assessment](http://www.radlex.org/RID/RID49823) 
+
+#### Added
+- [LR-3](http://www.radlex.org/RID/RID49796) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2018 LI-RADS v2024" 
+
+- [LR-3](http://www.radlex.org/RID/RID49796) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-3 (CT/MR)" 
+
+- [LR-3](http://www.radlex.org/RID/RID49796) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-3"@en 
+
+- [LR-3](http://www.radlex.org/RID/RID49796) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
+
+
+### LR-4 `http://www.radlex.org/RID/RID49797`
+#### Removed
+- [LR-4](http://www.radlex.org/RID/RID49797) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
+
+- [LR-4](http://www.radlex.org/RID/RID49797) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-4"@en 
+
+- [LR-4](http://www.radlex.org/RID/RID49797) SubClassOf [LI-RADS assessment](http://www.radlex.org/RID/RID49823) 
+
+#### Added
+- [LR-4](http://www.radlex.org/RID/RID49797) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2018 LI-RADS v2024" 
+
+- [LR-4](http://www.radlex.org/RID/RID49797) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-4 (CT/MR)" 
+
+- [LR-4](http://www.radlex.org/RID/RID49797) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-4"@en 
+
+- [LR-4](http://www.radlex.org/RID/RID49797) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
+
+
 ### LR-5 `http://www.radlex.org/RID/RID49799`
 #### Removed
 - [LR-5](http://www.radlex.org/RID/RID49799) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
@@ -935,6 +909,32 @@
 - [LR-5](http://www.radlex.org/RID/RID49799) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-5"@en 
 
 - [LR-5](http://www.radlex.org/RID/RID49799) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
+
+
+### LR-5V `http://www.radlex.org/RID/RID49802`
+#### Removed
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Source](http://www.radlex.org/RID/Source) "LI-RADS" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS 5V"@en 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [label](http://www.w3.org/2000/01/rdf-schema#label) "LR-5V"@en 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) SubClassOf [LR-5](http://www.radlex.org/RID/RID49799) 
+
+#### Added
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, loc, syn" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Source](http://www.radlex.org/RID/Source) "LI-RADS v2017 LI-RADS v2024" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "CT/MR LR-TIV" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS 5V" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [Synonym](http://www.radlex.org/RID/Synonym) "LI-RADS-TIV (CT/MR)" 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) [label](http://www.w3.org/2000/01/rdf-schema#label) "LI-RADS CT/MR LR-TIV"@en 
+
+- [LR-5V](http://www.radlex.org/RID/RID49802) SubClassOf [LI-RADS CT/MR Assessment Category](http://www.radlex.org/RID/RID50790) 
 
 
 ### LR-M `http://www.radlex.org/RID/RID49803`
@@ -1087,16 +1087,44 @@
 - [Lung-RADS 3S](http://www.radlex.org/RID/RID50794) SubClassOf [Lung-RADS assessment](http://www.radlex.org/RID/RID50134) 
 
 
-### Lung-RADS 4a `http://www.radlex.org/RID/RID50139`
+### Lung-RADS 4A `http://www.radlex.org/RID/RID50139`
 #### Removed
-- [Lung-RADS 4a](http://www.radlex.org/RID/RID50139) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
+- [Lung-RADS 4A](http://www.radlex.org/RID/RID50139) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
 
-- [Lung-RADS 4a](http://www.radlex.org/RID/RID50139) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4A"@en 
+- [Lung-RADS 4A](http://www.radlex.org/RID/RID50139) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4A"@en 
 
 #### Added
-- [Lung-RADS 4a](http://www.radlex.org/RID/RID50139) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
+- [Lung-RADS 4A](http://www.radlex.org/RID/RID50139) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
 
-- [Lung-RADS 4a](http://www.radlex.org/RID/RID50139) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4a"@en 
+- [Lung-RADS 4A](http://www.radlex.org/RID/RID50139) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4a"@en 
+
+
+### Lung-RADS 4B `http://www.radlex.org/RID/RID50140`
+#### Removed
+- [Lung-RADS 4B](http://www.radlex.org/RID/RID50140) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
+
+- [Lung-RADS 4B](http://www.radlex.org/RID/RID50140) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4B"@en 
+
+#### Added
+- [Lung-RADS 4B](http://www.radlex.org/RID/RID50140) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
+
+- [Lung-RADS 4B](http://www.radlex.org/RID/RID50140) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4b"@en 
+
+
+### Lung-RADS 4X `http://www.radlex.org/RID/RID50141`
+#### Removed
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [Definition](http://www.radlex.org/RID/Definition) "Very Suspicious - Category 3 or 4 nodules with additional features or imaging findings that increase suspicion for lung cancer." 
+
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
+
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4X"@en 
+
+#### Added
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [Definition](http://www.radlex.org/RID/Definition) "Additional features or findings that increase suspicion for lung cancer" 
+
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
+
+- [Lung-RADS 4X](http://www.radlex.org/RID/RID50141) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4x"@en 
 
 
 ### Lung-RADS 4aS `http://www.radlex.org/RID/RID50795`
@@ -1119,18 +1147,6 @@
 - [Lung-RADS 4aS](http://www.radlex.org/RID/RID50795) SubClassOf [Lung-RADS assessment](http://www.radlex.org/RID/RID50134) 
 
 
-### Lung-RADS 4b `http://www.radlex.org/RID/RID50140`
-#### Removed
-- [Lung-RADS 4b](http://www.radlex.org/RID/RID50140) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
-
-- [Lung-RADS 4b](http://www.radlex.org/RID/RID50140) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4B"@en 
-
-#### Added
-- [Lung-RADS 4b](http://www.radlex.org/RID/RID50140) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
-
-- [Lung-RADS 4b](http://www.radlex.org/RID/RID50140) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4b"@en 
-
-
 ### Lung-RADS 4bS `http://www.radlex.org/RID/RID50796`
 
 #### Added
@@ -1149,22 +1165,6 @@
 - [Lung-RADS 4bS](http://www.radlex.org/RID/RID50796) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4bS"@en 
 
 - [Lung-RADS 4bS](http://www.radlex.org/RID/RID50796) SubClassOf [Lung-RADS assessment](http://www.radlex.org/RID/RID50134) 
-
-
-### Lung-RADS 4x `http://www.radlex.org/RID/RID50141`
-#### Removed
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [Definition](http://www.radlex.org/RID/Definition) "Very Suspicious - Category 3 or 4 nodules with additional features or imaging findings that increase suspicion for lung cancer." 
-
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [Source](http://www.radlex.org/RID/Source) "Lung-RADS" 
-
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4X"@en 
-
-#### Added
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [Definition](http://www.radlex.org/RID/Definition) "Additional features or findings that increase suspicion for lung cancer" 
-
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [Source](http://www.radlex.org/RID/Source) "Lung-RADS v2022" 
-
-- [Lung-RADS 4x](http://www.radlex.org/RID/RID50141) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lung-RADS 4x"@en 
 
 
 ### Lung-RADS 4xS `http://www.radlex.org/RID/RID50797`
@@ -1204,7 +1204,7 @@
 
 - [NI-RADS (Head and Neck) Assessment Category](http://www.radlex.org/RID/RID50837) [label](http://www.w3.org/2000/01/rdf-schema#label) "NI-RADS (Head and Neck) Assessment Category"@en 
 
-- [NI-RADS (Head and Neck) Assessment Category](http://www.radlex.org/RID/RID50837) SubClassOf [Beurteilung](http://www.radlex.org/RID/RID36026) 
+- [NI-RADS (Head and Neck) Assessment Category](http://www.radlex.org/RID/RID50837) SubClassOf [assessment](http://www.radlex.org/RID/RID36026) 
 
 
 ### NI-RADS Neck Score 0 (MRI) `http://www.radlex.org/RID/RID50838`
@@ -1666,7 +1666,7 @@
 
 - [O-RADS (Ovarian and Adnexal) Assessment Category](http://www.radlex.org/RID/RID50824) [label](http://www.w3.org/2000/01/rdf-schema#label) "O-RADS (Ovarian and Adnexal) Assessment Category"@en 
 
-- [O-RADS (Ovarian and Adnexal) Assessment Category](http://www.radlex.org/RID/RID50824) SubClassOf [Beurteilung](http://www.radlex.org/RID/RID36026) 
+- [O-RADS (Ovarian and Adnexal) Assessment Category](http://www.radlex.org/RID/RID50824) SubClassOf [assessment](http://www.radlex.org/RID/RID36026) 
 
 
 ### O-RADS MR Score 0 `http://www.radlex.org/RID/RID50825`
@@ -1909,164 +1909,164 @@
 - [O-RADS US Score 5](http://www.radlex.org/RID/RID50836) SubClassOf [O-RADS (Ovarian and Adnexal) Assessment Category](http://www.radlex.org/RID/RID50824) 
 
 
-### PI-RADS 1 `http://www.radlex.org/RID/RID50289`
+### PI-RADS 1 - Very low `http://www.radlex.org/RID/RID50289`
 #### Removed
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is highly unlikely to be present in the prostate." 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is highly unlikely to be present in the prostate." 
 
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
 
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 1 - Very low"@en 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 1 - Very low"@en 
 
 #### Added
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [Definition](http://www.radlex.org/RID/Definition) "Very low (clinically significant cancer is highly unlikely to be present)" 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [Definition](http://www.radlex.org/RID/Definition) "Very low (clinically significant cancer is highly unlikely to be present)" 
 
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
 
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
 
-- [PI-RADS 1](http://www.radlex.org/RID/RID50289) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 1"@en 
+- [PI-RADS 1 - Very low](http://www.radlex.org/RID/RID50289) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 1"@en 
 
 
-### PI-RADS 2 `http://www.radlex.org/RID/RID50290`
+### PI-RADS 2 - Low `http://www.radlex.org/RID/RID50290`
 #### Removed
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is unlikely to be present in the prostate." 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is unlikely to be present in the prostate." 
 
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
 
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 2 - Low"@en 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 2 - Low"@en 
 
 #### Added
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [Definition](http://www.radlex.org/RID/Definition) "Low (Clinically significant cancer is unlikely to be present)" 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [Definition](http://www.radlex.org/RID/Definition) "Low (Clinically significant cancer is unlikely to be present)" 
 
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
 
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
 
-- [PI-RADS 2](http://www.radlex.org/RID/RID50290) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 2"@en 
+- [PI-RADS 2 - Low](http://www.radlex.org/RID/RID50290) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 2"@en 
 
 
-### PI-RADS 3 `http://www.radlex.org/RID/RID50291`
+### PI-RADS 3 - Intermediate `http://www.radlex.org/RID/RID50291`
 #### Removed
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [Definition](http://www.radlex.org/RID/Definition) "The presence of clinically significant cancer in the prostate is equivocal." 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [Definition](http://www.radlex.org/RID/Definition) "The presence of clinically significant cancer in the prostate is equivocal." 
 
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
 
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 3 - Intermediate"@en 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 3 - Intermediate"@en 
 
 #### Added
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [Definition](http://www.radlex.org/RID/Definition) "Intermediate (The presence of clinically significant cancer is equivocal)" 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [Definition](http://www.radlex.org/RID/Definition) "Intermediate (The presence of clinically significant cancer is equivocal)" 
 
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
 
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
 
-- [PI-RADS 3](http://www.radlex.org/RID/RID50291) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 3"@en 
+- [PI-RADS 3 - Intermediate](http://www.radlex.org/RID/RID50291) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 3"@en 
 
 
-### PI-RADS 4 `http://www.radlex.org/RID/RID50292`
+### PI-RADS 4 - High `http://www.radlex.org/RID/RID50292`
 #### Removed
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is likely to be present in the prostate." 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is likely to be present in the prostate." 
 
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
 
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 4 - High"@en 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 4 - High"@en 
 
 #### Added
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [Definition](http://www.radlex.org/RID/Definition) "High (Clinically significant cancer is likely to be present)" 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [Definition](http://www.radlex.org/RID/Definition) "High (Clinically significant cancer is likely to be present)" 
 
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
 
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
 
-- [PI-RADS 4](http://www.radlex.org/RID/RID50292) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 4"@en 
+- [PI-RADS 4 - High](http://www.radlex.org/RID/RID50292) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 4"@en 
 
 
-### PI-RADS 5 `http://www.radlex.org/RID/RID50293`
+### PI-RADS 5 - Very high `http://www.radlex.org/RID/RID50293`
 #### Removed
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is highly likely to be present in the prostate." 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [Definition](http://www.radlex.org/RID/Definition) "Clinically significant cancer is highly likely to be present in the prostate." 
 
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1" 
 
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 5 - Very high"@en 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 5 - Very high"@en 
 
 #### Added
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [Definition](http://www.radlex.org/RID/Definition) "Very high (Clinically significant cancer is highly likely to be present)" 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [Definition](http://www.radlex.org/RID/Definition) "Very high (Clinically significant cancer is highly likely to be present)" 
 
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 pref, def" 
 
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [Source](http://www.radlex.org/RID/Source) "PI-RADS v2.1 (2019)" 
 
-- [PI-RADS 5](http://www.radlex.org/RID/RID50293) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 5"@en 
+- [PI-RADS 5 - Very high](http://www.radlex.org/RID/RID50293) [label](http://www.w3.org/2000/01/rdf-schema#label) "PI-RADS 5"@en 
 
 
-### TI-RADS 1 `http://www.radlex.org/RID/RID50504`
+### TR1 `http://www.radlex.org/RID/RID50504`
 #### Removed
-- [TI-RADS 1](http://www.radlex.org/RID/RID50504) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
+- [TR1](http://www.radlex.org/RID/RID50504) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
 
-- [TI-RADS 1](http://www.radlex.org/RID/RID50504) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 1"@en 
+- [TR1](http://www.radlex.org/RID/RID50504) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 1"@en 
 
-- [TI-RADS 1](http://www.radlex.org/RID/RID50504) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR1"@en 
+- [TR1](http://www.radlex.org/RID/RID50504) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR1"@en 
 
 #### Added
-- [TI-RADS 1](http://www.radlex.org/RID/RID50504) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
+- [TR1](http://www.radlex.org/RID/RID50504) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
 
-- [TI-RADS 1](http://www.radlex.org/RID/RID50504) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 1"@en 
+- [TR1](http://www.radlex.org/RID/RID50504) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 1"@en 
 
 
-### TI-RADS 2 `http://www.radlex.org/RID/RID50505`
+### TR2 `http://www.radlex.org/RID/RID50505`
 #### Removed
-- [TI-RADS 2](http://www.radlex.org/RID/RID50505) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
+- [TR2](http://www.radlex.org/RID/RID50505) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
 
-- [TI-RADS 2](http://www.radlex.org/RID/RID50505) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 2"@en 
+- [TR2](http://www.radlex.org/RID/RID50505) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 2"@en 
 
-- [TI-RADS 2](http://www.radlex.org/RID/RID50505) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR2"@en 
+- [TR2](http://www.radlex.org/RID/RID50505) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR2"@en 
 
 #### Added
-- [TI-RADS 2](http://www.radlex.org/RID/RID50505) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
+- [TR2](http://www.radlex.org/RID/RID50505) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
 
-- [TI-RADS 2](http://www.radlex.org/RID/RID50505) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 2"@en 
+- [TR2](http://www.radlex.org/RID/RID50505) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 2"@en 
 
 
-### TI-RADS 3 `http://www.radlex.org/RID/RID50506`
+### TR3 `http://www.radlex.org/RID/RID50506`
 #### Removed
-- [TI-RADS 3](http://www.radlex.org/RID/RID50506) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
+- [TR3](http://www.radlex.org/RID/RID50506) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
 
-- [TI-RADS 3](http://www.radlex.org/RID/RID50506) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 3"@en 
+- [TR3](http://www.radlex.org/RID/RID50506) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 3"@en 
 
-- [TI-RADS 3](http://www.radlex.org/RID/RID50506) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR3"@en 
+- [TR3](http://www.radlex.org/RID/RID50506) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR3"@en 
 
 #### Added
-- [TI-RADS 3](http://www.radlex.org/RID/RID50506) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
+- [TR3](http://www.radlex.org/RID/RID50506) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
 
-- [TI-RADS 3](http://www.radlex.org/RID/RID50506) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 3"@en 
+- [TR3](http://www.radlex.org/RID/RID50506) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 3"@en 
 
 
-### TI-RADS 4 `http://www.radlex.org/RID/RID50507`
+### TR4 `http://www.radlex.org/RID/RID50507`
 #### Removed
-- [TI-RADS 4](http://www.radlex.org/RID/RID50507) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
+- [TR4](http://www.radlex.org/RID/RID50507) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
 
-- [TI-RADS 4](http://www.radlex.org/RID/RID50507) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 4"@en 
+- [TR4](http://www.radlex.org/RID/RID50507) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 4"@en 
 
-- [TI-RADS 4](http://www.radlex.org/RID/RID50507) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR4"@en 
+- [TR4](http://www.radlex.org/RID/RID50507) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR4"@en 
 
 #### Added
-- [TI-RADS 4](http://www.radlex.org/RID/RID50507) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
+- [TR4](http://www.radlex.org/RID/RID50507) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
 
-- [TI-RADS 4](http://www.radlex.org/RID/RID50507) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 4"@en 
+- [TR4](http://www.radlex.org/RID/RID50507) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 4"@en 
 
 
-### TI-RADS 5 `http://www.radlex.org/RID/RID50508`
+### TR5 `http://www.radlex.org/RID/RID50508`
 #### Removed
-- [TI-RADS 5](http://www.radlex.org/RID/RID50508) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
+- [TR5](http://www.radlex.org/RID/RID50508) [Source](http://www.radlex.org/RID/Source) "ACR TI-RADS" 
 
-- [TI-RADS 5](http://www.radlex.org/RID/RID50508) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 5"@en 
+- [TR5](http://www.radlex.org/RID/RID50508) [Synonym](http://www.radlex.org/RID/Synonym) "TI-RADS 5"@en 
 
-- [TI-RADS 5](http://www.radlex.org/RID/RID50508) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR5"@en 
+- [TR5](http://www.radlex.org/RID/RID50508) [label](http://www.w3.org/2000/01/rdf-schema#label) "TR5"@en 
 
 #### Added
-- [TI-RADS 5](http://www.radlex.org/RID/RID50508) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
+- [TR5](http://www.radlex.org/RID/RID50508) [Source](http://www.radlex.org/RID/Source) "TI-RADS 2017" 
 
-- [TI-RADS 5](http://www.radlex.org/RID/RID50508) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 5"@en 
+- [TR5](http://www.radlex.org/RID/RID50508) [label](http://www.w3.org/2000/01/rdf-schema#label) "TI-RADS 5"@en 
 
 
 ### VI-RADS 1 `http://www.radlex.org/RID/RID50746`

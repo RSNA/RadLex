@@ -15,3 +15,4 @@ ERROR	file:./tests/sparql/robot/dangling_replaced_by_target.rq
 ERROR	file:./tests/sparql/robot/live_class_with_replaced_by.rq
 ERROR	file:./tests/sparql/robot/live_class_with_preferred_name_for_obsolete.rq
 ERROR	file:./tests/sparql/robot/live_class_under_obsolete_parent.rq
+ERROR	file:./tests/sparql/robot/direct_mapping_term_value.rq

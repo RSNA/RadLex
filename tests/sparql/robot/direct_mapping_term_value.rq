@@ -1,0 +1,19 @@
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no entity has a value asserted directly on rid:mapping_term. That property only groups the
+# properties that hold terms for a concept (rdfs:label, oboInOwl:hasExactSynonym, rid:Acronym, etc.). Move
+# each value onto the sub-property that says what kind of term it is.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity carrying the value.
+# - rid:mapping_term.
+# - The value.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    BIND(rid:mapping_term AS ?property)
+    ?entity ?property ?value .
+}

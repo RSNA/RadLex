@@ -205,7 +205,7 @@ Give each new class:
 * an IRI of the form `http://www.radlex.org/RID/RIDnnnnn`, with the same `RIDnnnnn` as its `RID:RadLexID` value
 * a preferred name as an English `rdfs:label` (language tag `en`)
 * a parent class, via `rdfs:subClassOf`
-* a definition, as `RID:Definition`, with its source in `RID:Source`
+* a definition, as `obo:IAO_0000115` (definition), with its source in `RID:Source`
 * any synonyms (see **Synonym additions** in [step 3](#3-edit-the-ontology-in-protégé))
 * `RID:Radlex_version_of_class_change` set to the release that introduces it, e.g. `4.4 new`, and `oboInOwl:created_by` / `oboInOwl:creation_date`, as recently added terms have
 

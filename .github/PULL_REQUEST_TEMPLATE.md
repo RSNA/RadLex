@@ -20,7 +20,7 @@ Fixes #
 <!--
 List each class or property this PR adds, changes, or obsoletes:
   - classes as `RIDnnnnn` label, e.g. `RID58` liver
-  - properties by name, e.g. `RID:Synonym`
+  - properties by name, e.g. `RID:Acronym`
 For changed entries, add what changed, e.g. "`RID58` liver: definition reworded".
 If a group would have more than 25 entries, replace its list with a description and a count, e.g.
   "212 classes under `RID3` (anatomical entity): German labels added".

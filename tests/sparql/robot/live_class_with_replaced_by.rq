@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rid: <http://www.radlex.org/RID/>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that only obsolete classes carry rid:Replaced_by. An obsolete class is one filed, directly or through
+# another obsolete class, under RID15849 ("Obsolete RadLex Term"). A live class with a replacement pointer is
+# contradictory: either the class was never filed as obsolete or the pointer is stray.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The live class carrying the pointer.
+# - rid:Replaced_by.
+# - The pointer's target.
+#
+SELECT ?entity ?property ?value
+WHERE {
+    BIND(rid:Replaced_by AS ?property)
+    ?entity ?property ?value .
+    FILTER NOT EXISTS { ?entity rdfs:subClassOf+ rid:RID15849 }
+}

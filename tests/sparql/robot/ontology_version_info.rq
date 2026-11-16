@@ -1,0 +1,24 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that the ontology header has exactly one owl:versionInfo, and that its whole value matches the regular expression
+# \d+\.\d+(-dev)?: a release version such as "4.4", or "4.4-dev" for unreleased work toward that release.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The ontology.
+# - owl:versionInfo.
+# - The empty string when the ontology has no owl:versionInfo; otherwise a value that is malformed or is one of
+#   several.
+#
+SELECT DISTINCT ?entity ?property ?value
+WHERE {
+    VALUES ?property { owl:versionInfo }
+    ?entity a owl:Ontology .
+    OPTIONAL { ?entity ?property ?version }
+    FILTER(!BOUND(?version)
+           || !REGEX(STR(?version), "^\\d+\\.\\d+(-dev)?$")
+           || EXISTS { ?entity ?property ?other . FILTER(!sameTerm(?other, ?version)) })
+    BIND(COALESCE(?version, "") AS ?value)
+}

@@ -678097,6 +678097,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36028</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 1</RID:Synonym>
@@ -985631,6 +985632,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Definition>Definitely benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49794</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 1</RID:Synonym>
@@ -985649,6 +985651,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Definition>Probably benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49795</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 2</RID:Synonym>
@@ -985667,6 +985670,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Definition>Intermediate probability for HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49796</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 3</RID:Synonym>
@@ -985683,6 +985687,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
         <RID:Definition>Probably HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49797</RID:RadLexID>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 4</RID:Synonym>
@@ -985701,6 +985706,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Definition>Definitely HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49799</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 5</RID:Synonym>
@@ -985780,6 +985786,7 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
         <RID:Definition>Probably or definitely malignant but not HCC specific</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49803</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS M</RID:Synonym>
@@ -991262,6 +991269,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50139</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4A</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4a</rdfs:label>
@@ -991306,6 +991314,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Very Suspicious -</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50140</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4B</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4b</rdfs:label>
@@ -991321,6 +991330,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Additional features or findings that increase suspicion for lung cancer</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50141</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4X</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4x</rdfs:label>
@@ -995943,6 +995953,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50504</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 1</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 1</rdfs:label>
@@ -995960,6 +995971,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Not suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50505</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 2</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 2</rdfs:label>
@@ -995977,6 +995989,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Mildly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50506</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 3</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 3</rdfs:label>
@@ -995994,6 +996007,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Moderately suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50507</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 4</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 4</rdfs:label>
@@ -996017,6 +996031,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Highly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50508</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 5</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 5</rdfs:label>

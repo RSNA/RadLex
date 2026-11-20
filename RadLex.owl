@@ -12699,7 +12699,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10561">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>scan delay</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10561</RID:RadLexID>
         <rdfs:label xml:lang="en">scan delay</rdfs:label>
@@ -15130,7 +15130,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10817">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>common coil name</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10817</RID:RadLexID>
         <rdfs:label xml:lang="en">common coil name</rdfs:label>
@@ -15142,7 +15142,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10818">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>coil geometry</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10818</RID:RadLexID>
         <rdfs:label xml:lang="en">coil geometry</rdfs:label>
@@ -15154,7 +15154,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10819">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>coil type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10819</RID:RadLexID>
         <rdfs:label xml:lang="en">coil type</rdfs:label>
@@ -15231,7 +15231,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10827">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transmission mode</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10827</RID:RadLexID>
         <rdfs:label xml:lang="en">transmission mode</rdfs:label>
@@ -15283,7 +15283,7 @@ duplicate term</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID10832">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detection mode</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID10832</RID:RadLexID>
         <rdfs:label xml:lang="en">detection mode</rdfs:label>
@@ -18168,10 +18168,10 @@ duplicate term</RID:Comment>
 • Hepatic artery and branches are fully enhanced
 AND
 • Hepatic veins are not yet enhanced by antegrade flow</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">first phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>AP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>angiographic phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>early phase</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">first phase</oboInOwl:hasExactSynonym>
         <RID:Comment>[LI-RADS] On CEUS: AP usually starts around 10-15 seconds after injection, and lasts for 10 20 seconds.
 On CT and MRI: the AP is divided into two temporal subtypes:
 • Early AP: Subtype of AP in which portal vein is minimally or not yet enhanced.
@@ -18264,10 +18264,10 @@ Liver parenchyma is enhanced but usually less than in portal venous phase</RID:C
 • Portal veins are fully and maximally enhanced
 AND
 • Hepatic veins are enhanced by antegrade flow</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">portal phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PVP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>early postarterial phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>portal dominant phase</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">portal phase</oboInOwl:hasExactSynonym>
         <RID:Comment>[LI-RADS] On CEUS: PVP lasts from about 30-45 s to 2 min after contrast injection.
 On CEUS: PVP usually starts around 30-45 seconds, lasts for 90-100 seconds, for up to 2 minutes after injection.
 On CT and MRI: PVP lasts from about 50 s to 80 s after contrast injection.
@@ -20672,7 +20672,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11253">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>gating timeframe</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11253</RID:RadLexID>
         <rdfs:label xml:lang="en">gating timeframe</rdfs:label>
@@ -21527,7 +21527,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11318">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>body substance involved</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11318</RID:RadLexID>
         <rdfs:label xml:lang="en">body substance involved</rdfs:label>
@@ -23806,7 +23806,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11516">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>progression site</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11516</RID:RadLexID>
         <rdfs:label xml:lang="en">progression site</rdfs:label>
@@ -23963,7 +23963,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11526">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>complication timing</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11526</RID:RadLexID>
         <rdfs:label xml:lang="en">complication timing</rdfs:label>
@@ -23975,7 +23975,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11527">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>compilcation site</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11527</RID:RadLexID>
         <rdfs:label xml:lang="en">compilcation site</rdfs:label>
@@ -24746,7 +24746,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11584">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>iodine concentration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11584</RID:RadLexID>
         <rdfs:label xml:lang="en">iodine concentration</rdfs:label>
@@ -25073,7 +25073,7 @@ Regardless of modality, liver parenchyma usually is at peak enhancement.</RID:Co
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11606">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transpulmonary characteristics of microbubbles</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11606</RID:RadLexID>
         <rdfs:label xml:lang="en">transpulmonary characteristics of microbubbles</rdfs:label>
@@ -26053,7 +26053,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11691">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>inner chamber contents</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11691</RID:RadLexID>
         <rdfs:label xml:lang="en">inner chamber contents</rdfs:label>
@@ -26077,7 +26077,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID11693">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radiopharmaceutical name</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID11693</RID:RadLexID>
         <rdfs:label xml:lang="en">radiopharmaceutical name</rdfs:label>
@@ -39385,7 +39385,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12235">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>imaging modality used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12235</RID:RadLexID>
         <rdfs:label xml:lang="en">imaging modality used</rdfs:label>
@@ -39421,7 +39421,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12239">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>patient position imaged</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12239</RID:RadLexID>
         <rdfs:label xml:lang="en">patient position imaged</rdfs:label>
@@ -39450,7 +39450,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12240">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>view modifier</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12240</RID:RadLexID>
         <rdfs:label xml:lang="en">view modifier</rdfs:label>
@@ -39462,7 +39462,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12242">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>imaging device model</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12242</RID:RadLexID>
         <rdfs:label xml:lang="en">imaging device model</rdfs:label>
@@ -39510,7 +39510,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12247">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>numerical focal-spot size</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12247</RID:RadLexID>
         <rdfs:label xml:lang="en">numerical focal-spot size</rdfs:label>
@@ -39562,7 +39562,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12250">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>filter material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12250</RID:RadLexID>
         <rdfs:label xml:lang="en">filter material</rdfs:label>
@@ -39574,7 +39574,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12251">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>filter thickness</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12251</RID:RadLexID>
         <rdfs:label xml:lang="en">filter thickness</rdfs:label>
@@ -39586,7 +39586,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12252">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>tube current</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12252</RID:RadLexID>
         <rdfs:label xml:lang="en">tube current</rdfs:label>
@@ -39598,7 +39598,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12253">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>exposure time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12253</RID:RadLexID>
         <rdfs:label xml:lang="en">exposure time</rdfs:label>
@@ -39610,7 +39610,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12254">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>filter type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12254</RID:RadLexID>
         <rdfs:label xml:lang="en">filter type</rdfs:label>
@@ -39622,7 +39622,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12255">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>x-ray image receptor type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12255</RID:RadLexID>
         <rdfs:label xml:lang="en">x-ray image receptor type</rdfs:label>
@@ -39634,7 +39634,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12256">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>x-ray receptor material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12256</RID:RadLexID>
         <rdfs:label xml:lang="en">x-ray receptor material</rdfs:label>
@@ -39646,7 +39646,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12257">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>x-ray receptor pixel size</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12257</RID:RadLexID>
         <rdfs:label xml:lang="en">x-ray receptor pixel size</rdfs:label>
@@ -39702,7 +39702,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12269">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>grid material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12269</RID:RadLexID>
         <rdfs:label xml:lang="en">grid material</rdfs:label>
@@ -39731,7 +39731,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12270">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>grid ratio</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12270</RID:RadLexID>
         <rdfs:label xml:lang="en">grid ratio</rdfs:label>
@@ -39743,7 +39743,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12271">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>interspersed material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12271</RID:RadLexID>
         <rdfs:label xml:lang="en">interspersed material</rdfs:label>
@@ -39755,7 +39755,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12273">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>grid focus</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12273</RID:RadLexID>
         <rdfs:label xml:lang="en">grid focus</rdfs:label>
@@ -39779,7 +39779,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12275">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator shape</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12275</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator shape</rdfs:label>
@@ -39791,7 +39791,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12276">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radiation exposure measure method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12276</RID:RadLexID>
         <rdfs:label xml:lang="en">radiation exposure measure method</rdfs:label>
@@ -39803,7 +39803,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12277">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radiation exposure value</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12277</RID:RadLexID>
         <rdfs:label xml:lang="en">radiation exposure value</rdfs:label>
@@ -39815,7 +39815,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12278">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radiographic projection used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12278</RID:RadLexID>
         <rdfs:label xml:lang="en">radiographic projection used</rdfs:label>
@@ -39846,7 +39846,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12280">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>common name</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12280</RID:RadLexID>
         <rdfs:label xml:lang="en">common name</rdfs:label>
@@ -39884,7 +39884,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12284">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>fluoroscopic projection</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12284</RID:RadLexID>
         <rdfs:label xml:lang="en">fluoroscopic projection</rdfs:label>
@@ -39896,7 +39896,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12286">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>fluoroscopy acquisition rate</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12286</RID:RadLexID>
         <rdfs:label xml:lang="en">fluoroscopy acquisition rate</rdfs:label>
@@ -39908,7 +39908,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12288">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>fluoroscopy image capture mode used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12288</RID:RadLexID>
         <rdfs:label xml:lang="en">fluoroscopy image capture mode used</rdfs:label>
@@ -39989,7 +39989,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12296">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>image acquisition rate</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12296</RID:RadLexID>
         <rdfs:label xml:lang="en">image acquisition rate</rdfs:label>
@@ -40045,7 +40045,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12300">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>coverage angle</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12300</RID:RadLexID>
         <rdfs:label xml:lang="en">coverage angle</rdfs:label>
@@ -40057,7 +40057,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12301">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>revolution rate</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12301</RID:RadLexID>
         <rdfs:label xml:lang="en">revolution rate</rdfs:label>
@@ -40202,7 +40202,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12317">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector configuration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12317</RID:RadLexID>
         <rdfs:label xml:lang="en">detector configuration</rdfs:label>
@@ -40447,7 +40447,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12339">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT patient orientation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12339</RID:RadLexID>
         <rdfs:label xml:lang="en">CT patient orientation</rdfs:label>
@@ -40459,7 +40459,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12340">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT patient position</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12340</RID:RadLexID>
         <rdfs:label xml:lang="en">CT patient position</rdfs:label>
@@ -40471,7 +40471,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12341">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT breathing control</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12341</RID:RadLexID>
         <rdfs:label xml:lang="en">CT breathing control</rdfs:label>
@@ -40483,7 +40483,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12342">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT breathing instruction given</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12342</RID:RadLexID>
         <rdfs:label xml:lang="en">CT breathing instruction given</rdfs:label>
@@ -40517,7 +40517,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12347">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT anatomic location end</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12347</RID:RadLexID>
         <rdfs:label xml:lang="en">CT anatomic location end</rdfs:label>
@@ -40540,7 +40540,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12349">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT number</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12349</RID:RadLexID>
         <rdfs:label xml:lang="en">CT number</rdfs:label>
@@ -40689,7 +40689,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12365">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>table translation distance per gantry rotation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12365</RID:RadLexID>
         <rdfs:label xml:lang="en">table translation distance per gantry rotation</rdfs:label>
@@ -40723,7 +40723,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12371">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of data channels</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12371</RID:RadLexID>
         <rdfs:label xml:lang="en">number of data channels</rdfs:label>
@@ -40746,7 +40746,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12374">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>effective channel width</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12374</RID:RadLexID>
         <rdfs:label xml:lang="en">effective channel width</rdfs:label>
@@ -40786,7 +40786,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12380">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>gantry revolution time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12380</RID:RadLexID>
         <rdfs:label xml:lang="en">gantry revolution time</rdfs:label>
@@ -41024,7 +41024,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12413">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dual-energy image processing</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12413</RID:RadLexID>
         <rdfs:label xml:lang="en">dual-energy image processing</rdfs:label>
@@ -41110,7 +41110,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12427">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR imaging plane</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12427</RID:RadLexID>
         <rdfs:label xml:lang="en">MR imaging plane</rdfs:label>
@@ -41122,7 +41122,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12428">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR patient orientation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12428</RID:RadLexID>
         <rdfs:label xml:lang="en">MR patient orientation</rdfs:label>
@@ -41134,7 +41134,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12429">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR scanning direction</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12429</RID:RadLexID>
         <rdfs:label xml:lang="en">MR scanning direction</rdfs:label>
@@ -41265,7 +41265,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12431">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR section thickness</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12431</RID:RadLexID>
         <rdfs:label xml:lang="en">MR section thickness</rdfs:label>
@@ -41277,7 +41277,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12435">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR section gap</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12435</RID:RadLexID>
         <rdfs:label xml:lang="en">MR section gap</rdfs:label>
@@ -41289,7 +41289,7 @@ Applies mainly to CEUS microbubble agents. Can also apply to iron-based or prote
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12438">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR section interval</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12438</RID:RadLexID>
         <rdfs:label xml:lang="en">MR section interval</rdfs:label>
@@ -41316,7 +41316,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12443">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of spin echoes</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12443</RID:RadLexID>
         <rdfs:label xml:lang="en">number of spin echoes</rdfs:label>
@@ -41328,7 +41328,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12444">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of gradient echoes</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12444</RID:RadLexID>
         <rdfs:label xml:lang="en">number of gradient echoes</rdfs:label>
@@ -41340,7 +41340,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12445">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total number of k-space lines</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12445</RID:RadLexID>
         <rdfs:label xml:lang="en">total number of k-space lines</rdfs:label>
@@ -41352,7 +41352,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12446">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of k-space lines per excitation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12446</RID:RadLexID>
         <rdfs:label xml:lang="en">number of k-space lines per excitation</rdfs:label>
@@ -41364,7 +41364,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12447">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of required radiofrequency excitations</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12447</RID:RadLexID>
         <rdfs:label xml:lang="en">number of required radiofrequency excitations</rdfs:label>
@@ -41401,7 +41401,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12450">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>intended tissue contrast</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12450</RID:RadLexID>
         <rdfs:label xml:lang="en">intended tissue contrast</rdfs:label>
@@ -41426,7 +41426,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12452">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>preparation or modification technique</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12452</RID:RadLexID>
         <rdfs:label xml:lang="en">preparation or modification technique</rdfs:label>
@@ -41449,7 +41449,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12456">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>echo type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12456</RID:RadLexID>
         <rdfs:label xml:lang="en">echo type</rdfs:label>
@@ -41687,7 +41687,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12460">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>repetition time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12460</RID:RadLexID>
         <rdfs:label xml:lang="en">repetition time</rdfs:label>
@@ -41699,7 +41699,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12462">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>time between sections</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12462</RID:RadLexID>
         <rdfs:label xml:lang="en">time between sections</rdfs:label>
@@ -41722,7 +41722,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12465">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>effective echo time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12465</RID:RadLexID>
         <rdfs:label xml:lang="en">effective echo time</rdfs:label>
@@ -41734,7 +41734,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12467">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>echo train length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12467</RID:RadLexID>
         <rdfs:label xml:lang="en">echo train length</rdfs:label>
@@ -41823,7 +41823,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12473">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of signals averaged</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12473</RID:RadLexID>
         <rdfs:label xml:lang="en">number of signals averaged</rdfs:label>
@@ -41835,7 +41835,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12477">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>field of view</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12477</RID:RadLexID>
         <rdfs:label xml:lang="en">field of view</rdfs:label>
@@ -41865,7 +41865,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12480">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>motion artifact reduction</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12480</RID:RadLexID>
         <rdfs:label xml:lang="en">motion artifact reduction</rdfs:label>
@@ -41877,7 +41877,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12483">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nucleus imaged</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12483</RID:RadLexID>
         <rdfs:label xml:lang="en">nucleus imaged</rdfs:label>
@@ -41903,7 +41903,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12487">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>ultrasound image acquisition mode used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12487</RID:RadLexID>
         <rdfs:label xml:lang="en">ultrasound image acquisition mode used</rdfs:label>
@@ -41915,7 +41915,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12488">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer description</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12488</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer description</rdfs:label>
@@ -41952,7 +41952,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12493">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer array type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12493</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer array type</rdfs:label>
@@ -41990,7 +41990,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12497">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer shape</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12497</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer shape</rdfs:label>
@@ -42002,7 +42002,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12499">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer element configuration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12499</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer element configuration</rdfs:label>
@@ -42081,7 +42081,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12500">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer frequency</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12500</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer frequency</rdfs:label>
@@ -42093,7 +42093,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12501">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>ultrasound pulse repetition frequency</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12501</RID:RadLexID>
         <rdfs:label xml:lang="en">ultrasound pulse repetition frequency</rdfs:label>
@@ -42116,7 +42116,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12503">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer contact location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12503</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer contact location</rdfs:label>
@@ -42128,7 +42128,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12504">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer orientation to organ</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12504</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer orientation to organ</rdfs:label>
@@ -42140,7 +42140,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12505">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>transducer orientation to patient</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12505</RID:RadLexID>
         <rdfs:label xml:lang="en">transducer orientation to patient</rdfs:label>
@@ -42164,7 +42164,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12507">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radiopharmaceutical administered</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12507</RID:RadLexID>
         <rdfs:label xml:lang="en">radiopharmaceutical administered</rdfs:label>
@@ -42215,7 +42215,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12510">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>procedure duration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12510</RID:RadLexID>
         <rdfs:label xml:lang="en">procedure duration</rdfs:label>
@@ -42227,7 +42227,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12511">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>time interval between acquisitions</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12511</RID:RadLexID>
         <rdfs:label xml:lang="en">time interval between acquisitions</rdfs:label>
@@ -42239,7 +42239,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12512">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>camera type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12512</RID:RadLexID>
         <rdfs:label xml:lang="en">camera type</rdfs:label>
@@ -42251,7 +42251,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12513">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector quantity</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12513</RID:RadLexID>
         <rdfs:label xml:lang="en">detector quantity</rdfs:label>
@@ -42263,7 +42263,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12514">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector thickness</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12514</RID:RadLexID>
         <rdfs:label xml:lang="en">detector thickness</rdfs:label>
@@ -42275,7 +42275,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12516">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>solid state detector material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12516</RID:RadLexID>
         <rdfs:label xml:lang="en">solid state detector material</rdfs:label>
@@ -42287,7 +42287,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12517">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nuclear detector geometry</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12517</RID:RadLexID>
         <rdfs:label xml:lang="en">nuclear detector geometry</rdfs:label>
@@ -42299,7 +42299,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12518">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector head quantity</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12518</RID:RadLexID>
         <rdfs:label xml:lang="en">detector head quantity</rdfs:label>
@@ -42364,7 +42364,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12524">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector head size</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12524</RID:RadLexID>
         <rdfs:label xml:lang="en">detector head size</rdfs:label>
@@ -42376,7 +42376,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12525">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>crystal doping</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12525</RID:RadLexID>
         <rdfs:label xml:lang="en">crystal doping</rdfs:label>
@@ -42388,7 +42388,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12526">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of photo multiplier tubes</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12526</RID:RadLexID>
         <rdfs:label xml:lang="en">number of photo multiplier tubes</rdfs:label>
@@ -42400,7 +42400,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12527">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>size of photomultiplier tubes</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12527</RID:RadLexID>
         <rdfs:label xml:lang="en">size of photomultiplier tubes</rdfs:label>
@@ -42412,7 +42412,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12528">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>geometry of photomultiplier tubes</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12528</RID:RadLexID>
         <rdfs:label xml:lang="en">geometry of photomultiplier tubes</rdfs:label>
@@ -42424,7 +42424,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12529">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>semiconductor diode type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12529</RID:RadLexID>
         <rdfs:label xml:lang="en">semiconductor diode type</rdfs:label>
@@ -42436,7 +42436,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12530">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nuclear breathing control</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12530</RID:RadLexID>
         <rdfs:label xml:lang="en">nuclear breathing control</rdfs:label>
@@ -42448,7 +42448,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12531">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nuclear breathing instruction given</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12531</RID:RadLexID>
         <rdfs:label xml:lang="en">nuclear breathing instruction given</rdfs:label>
@@ -42460,7 +42460,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12532">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>detector gantry tilt angle</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12532</RID:RadLexID>
         <rdfs:label xml:lang="en">detector gantry tilt angle</rdfs:label>
@@ -42472,7 +42472,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12533">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nuclear projection</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12533</RID:RadLexID>
         <rdfs:label xml:lang="en">nuclear projection</rdfs:label>
@@ -42484,7 +42484,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12534">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>patient status</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12534</RID:RadLexID>
         <rdfs:label xml:lang="en">patient status</rdfs:label>
@@ -42518,7 +42518,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12539">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>nuclear collimator type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12539</RID:RadLexID>
         <rdfs:label xml:lang="en">nuclear collimator type</rdfs:label>
@@ -42549,7 +42549,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12540">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12540</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator material</rdfs:label>
@@ -42561,7 +42561,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12541">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator geometry</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12541</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator geometry</rdfs:label>
@@ -42573,7 +42573,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12542">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator hole opening shape</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12542</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator hole opening shape</rdfs:label>
@@ -42585,7 +42585,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12543">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator hole opening diameter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12543</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator hole opening diameter</rdfs:label>
@@ -42641,7 +42641,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12549">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator septal length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12549</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator septal length</rdfs:label>
@@ -42653,7 +42653,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12550">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator septal thickness</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12550</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator septal thickness</rdfs:label>
@@ -42677,7 +42677,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12552">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>table to detector-head translation type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12552</RID:RadLexID>
         <rdfs:label xml:lang="en">table to detector-head translation type</rdfs:label>
@@ -42723,7 +42723,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12556">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>table to detector head translation rate</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12556</RID:RadLexID>
         <rdfs:label xml:lang="en">table to detector head translation rate</rdfs:label>
@@ -42735,7 +42735,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12557">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>data acquisition</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12557</RID:RadLexID>
         <rdfs:label xml:lang="en">data acquisition</rdfs:label>
@@ -42747,7 +42747,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12559">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>image matrix size</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12559</RID:RadLexID>
         <rdfs:label xml:lang="en">image matrix size</rdfs:label>
@@ -42778,7 +42778,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12560">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>planar body contouring</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12560</RID:RadLexID>
         <rdfs:label xml:lang="en">planar body contouring</rdfs:label>
@@ -42790,7 +42790,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12561">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>flood augmentation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12561</RID:RadLexID>
         <rdfs:label xml:lang="en">flood augmentation</rdfs:label>
@@ -42836,7 +42836,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12566">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of stops</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12566</RID:RadLexID>
         <rdfs:label xml:lang="en">number of stops</rdfs:label>
@@ -42848,7 +42848,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12568">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>time at each stop</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12568</RID:RadLexID>
         <rdfs:label xml:lang="en">time at each stop</rdfs:label>
@@ -42860,7 +42860,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12569">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total data acquisition time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12569</RID:RadLexID>
         <rdfs:label xml:lang="en">total data acquisition time</rdfs:label>
@@ -42897,7 +42897,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12574">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>radius of revolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12574</RID:RadLexID>
         <rdfs:label xml:lang="en">radius of revolution</rdfs:label>
@@ -42909,7 +42909,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12576">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>length of arc of revolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12576</RID:RadLexID>
         <rdfs:label xml:lang="en">length of arc of revolution</rdfs:label>
@@ -42921,7 +42921,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12578">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>arc start position</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12578</RID:RadLexID>
         <rdfs:label xml:lang="en">arc start position</rdfs:label>
@@ -42933,7 +42933,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12579">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>arc stop position</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12579</RID:RadLexID>
         <rdfs:label xml:lang="en">arc stop position</rdfs:label>
@@ -42963,7 +42963,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12580">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>SPECT arc shape</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12580</RID:RadLexID>
         <rdfs:label xml:lang="en">SPECT arc shape</rdfs:label>
@@ -43021,7 +43021,7 @@ values of &lt;Index1&gt; and &lt;Index2&gt; can be either integer numbers or for
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12586">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>collimator used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12586</RID:RadLexID>
         <rdfs:label xml:lang="en">collimator used</rdfs:label>
@@ -43625,7 +43625,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12635">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstructed section thickness</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12635</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstructed section thickness</rdfs:label>
@@ -43637,7 +43637,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12639">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>slice profile</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12639</RID:RadLexID>
         <rdfs:label xml:lang="en">slice profile</rdfs:label>
@@ -43666,7 +43666,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12640">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstruction interval</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12640</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstruction interval</rdfs:label>
@@ -43678,7 +43678,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12642">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstruction field of view</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12642</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstruction field of view</rdfs:label>
@@ -43690,7 +43690,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12643">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstruction center anatomic location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12643</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstruction center anatomic location</rdfs:label>
@@ -43750,7 +43750,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12649">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of projections per rotation</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12649</RID:RadLexID>
         <rdfs:label xml:lang="en">number of projections per rotation</rdfs:label>
@@ -43781,7 +43781,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12651">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of detector rows</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12651</RID:RadLexID>
         <rdfs:label xml:lang="en">number of detector rows</rdfs:label>
@@ -43793,7 +43793,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12653">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of detector bins per row</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12653</RID:RadLexID>
         <rdfs:label xml:lang="en">number of detector bins per row</rdfs:label>
@@ -43805,7 +43805,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12654">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total number of projections</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12654</RID:RadLexID>
         <rdfs:label xml:lang="en">total number of projections</rdfs:label>
@@ -43817,7 +43817,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12656">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstruction method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12656</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstruction method</rdfs:label>
@@ -43829,7 +43829,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12658">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>reconstruction filter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12658</RID:RadLexID>
         <rdfs:label xml:lang="en">reconstruction filter</rdfs:label>
@@ -43841,7 +43841,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12660">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT image noise</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12660</RID:RadLexID>
         <rdfs:label xml:lang="en">CT image noise</rdfs:label>
@@ -43853,7 +43853,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12661">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT low-contrast resolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12661</RID:RadLexID>
         <rdfs:label xml:lang="en">CT low-contrast resolution</rdfs:label>
@@ -43865,7 +43865,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12662">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT high-contrast resolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12662</RID:RadLexID>
         <rdfs:label xml:lang="en">CT high-contrast resolution</rdfs:label>
@@ -43877,7 +43877,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12664">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT in-plane spatial resolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12664</RID:RadLexID>
         <rdfs:label xml:lang="en">CT in-plane spatial resolution</rdfs:label>
@@ -43889,7 +43889,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12666">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT cross-plane spatial resolution</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12666</RID:RadLexID>
         <rdfs:label xml:lang="en">CT cross-plane spatial resolution</rdfs:label>
@@ -43901,7 +43901,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12668">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT slice sensitivity profile</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12668</RID:RadLexID>
         <rdfs:label xml:lang="en">CT slice sensitivity profile</rdfs:label>
@@ -43913,7 +43913,7 @@ error should be less than half a pixel</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12669">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>CT number uniformity</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12669</RID:RadLexID>
         <rdfs:label xml:lang="en">CT number uniformity</rdfs:label>
@@ -44625,7 +44625,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12747">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of acquisitions reconstructed</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12747</RID:RadLexID>
         <rdfs:label xml:lang="en">number of acquisitions reconstructed</rdfs:label>
@@ -44794,7 +44794,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12761">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>thickness of projected image</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12761</RID:RadLexID>
         <rdfs:label xml:lang="en">thickness of projected image</rdfs:label>
@@ -44883,7 +44883,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12770">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>rendering method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12770</RID:RadLexID>
         <rdfs:label xml:lang="en">rendering method</rdfs:label>
@@ -44895,7 +44895,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12771">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>opacity threshold</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12771</RID:RadLexID>
         <rdfs:label xml:lang="en">opacity threshold</rdfs:label>
@@ -45184,7 +45184,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12799">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>code for administered drug</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12799</RID:RadLexID>
         <rdfs:label xml:lang="en">code for administered drug</rdfs:label>
@@ -45237,7 +45237,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12800">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dose of administered drug</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12800</RID:RadLexID>
         <rdfs:label xml:lang="en">dose of administered drug</rdfs:label>
@@ -45261,7 +45261,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12804">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>side of access site</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12804</RID:RadLexID>
         <rdfs:label xml:lang="en">side of access site</rdfs:label>
@@ -45273,7 +45273,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12805">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>injection method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12805</RID:RadLexID>
         <rdfs:label xml:lang="en">injection method</rdfs:label>
@@ -45329,7 +45329,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12810">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>duration of injection</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12810</RID:RadLexID>
         <rdfs:label xml:lang="en">duration of injection</rdfs:label>
@@ -45341,7 +45341,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12811">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>rate of injection</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12811</RID:RadLexID>
         <rdfs:label xml:lang="en">rate of injection</rdfs:label>
@@ -45353,7 +45353,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12812">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>timing of medication administration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12812</RID:RadLexID>
         <rdfs:label xml:lang="en">timing of medication administration</rdfs:label>
@@ -45365,7 +45365,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12813">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>qualitative rate of infusion</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12813</RID:RadLexID>
         <rdfs:label xml:lang="en">qualitative rate of infusion</rdfs:label>
@@ -45418,7 +45418,7 @@ determined by calculating the signal loss in data obtained with different b-valu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12818">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>frequency of administered drug</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12818</RID:RadLexID>
         <rdfs:label xml:lang="en">frequency of administered drug</rdfs:label>
@@ -45463,7 +45463,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12820">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>contrast agent administered</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12820</RID:RadLexID>
         <rdfs:label xml:lang="en">contrast agent administered</rdfs:label>
@@ -45475,7 +45475,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12822">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>contrast dilution ratio</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12822</RID:RadLexID>
         <rdfs:label xml:lang="en">contrast dilution ratio</rdfs:label>
@@ -45487,7 +45487,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12823">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>contrast dilutant</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12823</RID:RadLexID>
         <rdfs:label xml:lang="en">contrast dilutant</rdfs:label>
@@ -45511,7 +45511,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12825">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>concentration of iodinated contrast material</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12825</RID:RadLexID>
         <rdfs:label xml:lang="en">concentration of iodinated contrast material</rdfs:label>
@@ -45523,7 +45523,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12826">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>grams of iodine administered</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12826</RID:RadLexID>
         <rdfs:label xml:lang="en">grams of iodine administered</rdfs:label>
@@ -45590,7 +45590,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12831">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>concentration of saline</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12831</RID:RadLexID>
         <rdfs:label xml:lang="en">concentration of saline</rdfs:label>
@@ -45614,7 +45614,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12833">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>bolus trigger</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12833</RID:RadLexID>
         <rdfs:label xml:lang="en">bolus trigger</rdfs:label>
@@ -45638,7 +45638,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12835">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>site of region of interest</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12835</RID:RadLexID>
         <rdfs:label xml:lang="en">site of region of interest</rdfs:label>
@@ -45650,7 +45650,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12836">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>test bolus start time</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12836</RID:RadLexID>
         <rdfs:label xml:lang="en">test bolus start time</rdfs:label>
@@ -45662,7 +45662,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12837">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>test bolus interval for monitoring scan</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12837</RID:RadLexID>
         <rdfs:label xml:lang="en">test bolus interval for monitoring scan</rdfs:label>
@@ -45674,7 +45674,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12838">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>test bolus estimated delay</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12838</RID:RadLexID>
         <rdfs:label xml:lang="en">test bolus estimated delay</rdfs:label>
@@ -45686,7 +45686,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12839">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>test bolus added delay</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12839</RID:RadLexID>
         <rdfs:label xml:lang="en">test bolus added delay</rdfs:label>
@@ -45768,7 +45768,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12847">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>medication restricted</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12847</RID:RadLexID>
         <rdfs:label xml:lang="en">medication restricted</rdfs:label>
@@ -45908,7 +45908,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12858">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>target anatomic location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12858</RID:RadLexID>
         <rdfs:label xml:lang="en">target anatomic location</rdfs:label>
@@ -45932,7 +45932,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12861">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>interventional procedure sedation depth</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12861</RID:RadLexID>
         <rdfs:label xml:lang="en">interventional procedure sedation depth</rdfs:label>
@@ -45944,7 +45944,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12862">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>image guidance modality</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12862</RID:RadLexID>
         <rdfs:label xml:lang="en">image guidance modality</rdfs:label>
@@ -45968,7 +45968,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12864">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>organ system access location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12864</RID:RadLexID>
         <rdfs:label xml:lang="en">organ system access location</rdfs:label>
@@ -45980,7 +45980,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12865">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>cutaneous access location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12865</RID:RadLexID>
         <rdfs:label xml:lang="en">cutaneous access location</rdfs:label>
@@ -45992,7 +45992,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12866">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>tunnel</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12866</RID:RadLexID>
         <rdfs:label xml:lang="en">tunnel</rdfs:label>
@@ -46004,7 +46004,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12867">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>interventional approach</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12867</RID:RadLexID>
         <rdfs:label xml:lang="en">interventional approach</rdfs:label>
@@ -46028,7 +46028,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12869">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>needle stylet</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12869</RID:RadLexID>
         <rdfs:label xml:lang="en">needle stylet</rdfs:label>
@@ -46057,7 +46057,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12870">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>needle tip type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12870</RID:RadLexID>
         <rdfs:label xml:lang="en">needle tip type</rdfs:label>
@@ -46102,7 +46102,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12875">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>needle length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12875</RID:RadLexID>
         <rdfs:label xml:lang="en">needle length</rdfs:label>
@@ -46114,7 +46114,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12876">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>wire diameter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12876</RID:RadLexID>
         <rdfs:label xml:lang="en">wire diameter</rdfs:label>
@@ -46126,7 +46126,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12877">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>wire length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12877</RID:RadLexID>
         <rdfs:label xml:lang="en">wire length</rdfs:label>
@@ -46138,7 +46138,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12878">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>wire type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12878</RID:RadLexID>
         <rdfs:label xml:lang="en">wire type</rdfs:label>
@@ -46224,7 +46224,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12885">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>wire infusibility</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12885</RID:RadLexID>
         <rdfs:label xml:lang="en">wire infusibility</rdfs:label>
@@ -46259,7 +46259,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12888">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>sheath type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12888</RID:RadLexID>
         <rdfs:label xml:lang="en">sheath type</rdfs:label>
@@ -46302,7 +46302,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12891">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>sheath diameter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12891</RID:RadLexID>
         <rdfs:label xml:lang="en">sheath diameter</rdfs:label>
@@ -46314,7 +46314,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12892">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>sheath length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12892</RID:RadLexID>
         <rdfs:label xml:lang="en">sheath length</rdfs:label>
@@ -46326,7 +46326,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12893">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>sheath shape</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12893</RID:RadLexID>
         <rdfs:label xml:lang="en">sheath shape</rdfs:label>
@@ -46360,7 +46360,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12896">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dilator outer diameter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12896</RID:RadLexID>
         <rdfs:label xml:lang="en">dilator outer diameter</rdfs:label>
@@ -46372,7 +46372,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12897">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dilator inner diameter</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12897</RID:RadLexID>
         <rdfs:label xml:lang="en">dilator inner diameter</rdfs:label>
@@ -46384,7 +46384,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12898">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dilator type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12898</RID:RadLexID>
         <rdfs:label xml:lang="en">dilator type</rdfs:label>
@@ -46437,7 +46437,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12901">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dilator taper length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12901</RID:RadLexID>
         <rdfs:label xml:lang="en">dilator taper length</rdfs:label>
@@ -46449,7 +46449,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12902">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>dilator length</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12902</RID:RadLexID>
         <rdfs:label xml:lang="en">dilator length</rdfs:label>
@@ -46473,7 +46473,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12904">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>closure technique</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12904</RID:RadLexID>
         <rdfs:label xml:lang="en">closure technique</rdfs:label>
@@ -46497,7 +46497,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12906">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>highest order branch selected number</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12906</RID:RadLexID>
         <rdfs:label xml:lang="en">highest order branch selected number</rdfs:label>
@@ -46509,7 +46509,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12907">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>highest order branch selected location</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12907</RID:RadLexID>
         <rdfs:label xml:lang="en">highest order branch selected location</rdfs:label>
@@ -46676,7 +46676,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12921">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>device type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12921</RID:RadLexID>
         <rdfs:label xml:lang="en">device type</rdfs:label>
@@ -46700,7 +46700,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12923">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>object retrieved</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12923</RID:RadLexID>
         <rdfs:label xml:lang="en">object retrieved</rdfs:label>
@@ -46757,7 +46757,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12929">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>substance removed</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12929</RID:RadLexID>
         <rdfs:label xml:lang="en">substance removed</rdfs:label>
@@ -46782,7 +46782,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12931">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>biopsy instrument type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12931</RID:RadLexID>
         <rdfs:label xml:lang="en">biopsy instrument type</rdfs:label>
@@ -46844,7 +46844,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12936">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of samples</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12936</RID:RadLexID>
         <rdfs:label xml:lang="en">number of samples</rdfs:label>
@@ -46912,7 +46912,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12941">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>volume of substance removed</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12941</RID:RadLexID>
         <rdfs:label xml:lang="en">volume of substance removed</rdfs:label>
@@ -46950,7 +46950,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12944">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>embolic material type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12944</RID:RadLexID>
         <rdfs:label xml:lang="en">embolic material type</rdfs:label>
@@ -46962,7 +46962,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12945">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>embolic particle size</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12945</RID:RadLexID>
         <rdfs:label xml:lang="en">embolic particle size</rdfs:label>
@@ -46974,7 +46974,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12947">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>endpoint of embolization</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12947</RID:RadLexID>
         <rdfs:label xml:lang="en">endpoint of embolization</rdfs:label>
@@ -47008,7 +47008,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12951">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>embolization technique</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12951</RID:RadLexID>
         <rdfs:label xml:lang="en">embolization technique</rdfs:label>
@@ -47131,7 +47131,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12961">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>substance infused</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12961</RID:RadLexID>
         <rdfs:label xml:lang="en">substance infused</rdfs:label>
@@ -47143,7 +47143,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12962">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>substance activity</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12962</RID:RadLexID>
         <rdfs:label xml:lang="en">substance activity</rdfs:label>
@@ -47179,7 +47179,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12965">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>treatment session number</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12965</RID:RadLexID>
         <rdfs:label xml:lang="en">treatment session number</rdfs:label>
@@ -47203,7 +47203,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12967">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>chemical agent name</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12967</RID:RadLexID>
         <rdfs:label xml:lang="en">chemical agent name</rdfs:label>
@@ -47215,7 +47215,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12968">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>chemical concentration</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12968</RID:RadLexID>
         <rdfs:label xml:lang="en">chemical concentration</rdfs:label>
@@ -47227,7 +47227,7 @@ if multiphasic injection, treat each segment as a separate procedure step</RID:C
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12969">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>delivery vehicle</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12969</RID:RadLexID>
         <rdfs:label xml:lang="en">delivery vehicle</rdfs:label>
@@ -47433,7 +47433,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12987">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>number of applicators used</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12987</RID:RadLexID>
         <rdfs:label xml:lang="en">number of applicators used</rdfs:label>
@@ -47481,7 +47481,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12992">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total duration of energy application</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12992</RID:RadLexID>
         <rdfs:label xml:lang="en">total duration of energy application</rdfs:label>
@@ -47493,7 +47493,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12993">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>generator power</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12993</RID:RadLexID>
         <rdfs:label xml:lang="en">generator power</rdfs:label>
@@ -47505,7 +47505,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12994">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>endpoint determinant</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12994</RID:RadLexID>
         <rdfs:label xml:lang="en">endpoint determinant</rdfs:label>
@@ -47550,7 +47550,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID12999">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>laser power</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID12999</RID:RadLexID>
         <rdfs:label xml:lang="en">laser power</rdfs:label>
@@ -47678,7 +47678,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13000">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>laser source</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13000</RID:RadLexID>
         <rdfs:label xml:lang="en">laser source</rdfs:label>
@@ -47690,7 +47690,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13002">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>laser wavelength</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13002</RID:RadLexID>
         <rdfs:label xml:lang="en">laser wavelength</rdfs:label>
@@ -47702,7 +47702,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13003">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>laser tip type</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13003</RID:RadLexID>
         <rdfs:label xml:lang="en">laser tip type</rdfs:label>
@@ -47736,7 +47736,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13006">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total energy applied per site</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13006</RID:RadLexID>
         <rdfs:label xml:lang="en">total energy applied per site</rdfs:label>
@@ -47860,7 +47860,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13011">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>device frequency</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13011</RID:RadLexID>
         <rdfs:label xml:lang="en">device frequency</rdfs:label>
@@ -47883,7 +47883,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13013">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>energy application method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13013</RID:RadLexID>
         <rdfs:label xml:lang="en">energy application method</rdfs:label>
@@ -47919,7 +47919,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13016">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>thrombolytic agent</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13016</RID:RadLexID>
         <rdfs:label xml:lang="en">thrombolytic agent (obsolete)</rdfs:label>
@@ -47931,7 +47931,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13017">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>concentration of agent</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13017</RID:RadLexID>
         <rdfs:label xml:lang="en">concentration of agent</rdfs:label>
@@ -47943,7 +47943,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13018">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>infusion rate of agent</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13018</RID:RadLexID>
         <rdfs:label xml:lang="en">infusion rate of agent</rdfs:label>
@@ -47955,7 +47955,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13019">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>delivery method</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13019</RID:RadLexID>
         <rdfs:label xml:lang="en">delivery method</rdfs:label>
@@ -48059,7 +48059,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13022">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>total dose of agent</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13022</RID:RadLexID>
         <rdfs:label xml:lang="en">total dose of agent</rdfs:label>
@@ -48083,7 +48083,7 @@ Radiographs and CT scans.—Bronchioles are not identifiable in healthy individu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13024">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>mechanical thrombolysis technique</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13024</RID:RadLexID>
         <rdfs:label xml:lang="en">mechanical thrombolysis technique</rdfs:label>
@@ -48204,7 +48204,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13032">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>location of measurement</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13032</RID:RadLexID>
         <rdfs:label xml:lang="en">location of measurement</rdfs:label>
@@ -48216,7 +48216,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13033">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>object of measure</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13033</RID:RadLexID>
         <rdfs:label xml:lang="en">object of measure</rdfs:label>
@@ -48251,7 +48251,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13036">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>measurement device</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13036</RID:RadLexID>
         <rdfs:label xml:lang="en">measurement device</rdfs:label>
@@ -48275,7 +48275,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13038">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>measured pressure</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13038</RID:RadLexID>
         <rdfs:label xml:lang="en">measured pressure</rdfs:label>
@@ -48287,7 +48287,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13039">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>pressure gradient</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13039</RID:RadLexID>
         <rdfs:label xml:lang="en">pressure gradient</rdfs:label>
@@ -48329,7 +48329,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13041">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>flow measurement mode</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13041</RID:RadLexID>
         <rdfs:label xml:lang="en">flow measurement mode</rdfs:label>
@@ -48363,7 +48363,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13044">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>flow rate</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13044</RID:RadLexID>
         <rdfs:label xml:lang="en">flow rate</rdfs:label>
@@ -48546,9 +48546,9 @@ use LOINC code</RID:Comment>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13060">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID1559"/>
         <obo:IAO_0000115>the exams that can be ordered by referring physicians. Each is composed of one or more Radiology Procedure Steps.  Procedure steps are those entities that are performed by the radiology department to create the images and other data that comprise the exam that has been ordered. For example “CT-CHEST-ANGIO-PULMONARYARTERY-IV” would be the name for a CT angiogram of the chest with IV contrast targeted at the pulmonary arteries, such as a “rule out pulmonary embolus” exam.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>imaging exam</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">imaging service request</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">radiology orderable</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>imaging exam</oboInOwl:hasExactSynonym>
         <RID:RadLexID xml:lang="en">RID13060</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 syn</RID:Radlex_version_of_class_change>
         <RID:Source>Playbook; Syn &quot;imaging exam&quot; from &apos;CT Kidney and Abdomen Renal Mass&apos; reporting template</RID:Source>
@@ -48562,7 +48562,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13062">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>imaging modality requested</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13062</RID:RadLexID>
         <rdfs:label xml:lang="en">imaging modality requested</rdfs:label>
@@ -48585,7 +48585,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13064">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>imaging modality modifier</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13064</RID:RadLexID>
         <rdfs:label xml:lang="en">imaging modality modifier</rdfs:label>
@@ -48633,7 +48633,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13068">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>technique</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13068</RID:RadLexID>
         <rdfs:label xml:lang="en">technique</rdfs:label>
@@ -48668,7 +48668,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13072">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>static magnetic field strength</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13072</RID:RadLexID>
         <rdfs:label xml:lang="en">static magnetic field strength</rdfs:label>
@@ -48680,7 +48680,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13073">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>breathing instruction given</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13073</RID:RadLexID>
         <rdfs:label xml:lang="en">breathing instruction given</rdfs:label>
@@ -48692,7 +48692,7 @@ use LOINC code</RID:Comment>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID13074">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>MR enhancement phase</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID13074</RID:RadLexID>
         <rdfs:label xml:lang="en">MR enhancement phase</rdfs:label>
@@ -178592,9 +178592,9 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID1750">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID1744"/>
         <obo:IAO_0000115>the removal of renal and proximal ureteral calculi via a nephrostomy tube tract placed into the kidney</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">nephrostolithotomy, percutaneous</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PCNL</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nephrolithotomy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">nephrostolithotomy, percutaneous</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>percutaneous nephrolithotomy</oboInOwl:hasExactSynonym>
         <RID:RadLexID xml:lang="en">RID1750</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 syn</RID:Radlex_version_of_class_change>
@@ -585306,8 +585306,8 @@ US: A mass that is spherical, ball-shaped, circular or globular.  A round mass h
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym xml:lang="de">Achillessehne</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>calcaneal tendon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="la">tendo calcaneus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcaneal tendon</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:51061</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID3184</RID:RadLexID>
         <RID:Radlex_version_of_class_change>08/19/2014 source</RID:Radlex_version_of_class_change>
@@ -617985,8 +617985,8 @@ same as &quot;portocaval lymph node&quot;,  RID454</RID:Comment>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13213"/>
         <obo:IAO_0000115>Organ zone in the kidney.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="de">Nierenloge</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>polar zone of kidney</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">renal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>polar zone of kidney</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:86310</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID33423</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 syn</RID:Radlex_version_of_class_change>
@@ -640990,7 +640990,7 @@ CausesObstructive uropathy occurs when urine cannot drain through a ureter (a tu
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID34576">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID15849"/>
-        <RID:Comment>Was used as an instance-level  slot for a procedure; not needed</RID:Comment>
+        <RID:Comment>Was used as an instance-level slot for a procedure; not needed</RID:Comment>
         <RID:Preferred_Name_for_Obsolete>Mr anatomic location start</RID:Preferred_Name_for_Obsolete>
         <RID:RadLexID xml:lang="en">RID34576</RID:RadLexID>
         <rdfs:label xml:lang="en">Mr anatomic location start</rdfs:label>
@@ -663143,9 +663143,9 @@ Duplicate of RID3506</RID:Comment>
         <obo:IAO_0000115>thin fibrous tissue surrounding prostate, posterolaterally.  The capsule is not present anteriorly and at the apex.  [PI-RADS]: Histologically, there is no distinct capsule that surrounds the prostate, however historically the “capsule” has been defined as an outer band of the prostatic fibromuscular stroma blending with endopelvic fascia and may be visible on imaging as a distinct thin layer of tissue surrounding or partially surrounding the peripheral zone. [Radiopaedia]: The prostate gland lacks a true capsule and the so-called &quot;prostate capsule&quot; is a pseudocapsule formed from fibromuscular tissue surrounding three distinct layers of fascia; the anterior, lateral, and posterior fasciae.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="de">Prostatakapsel</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="la">capsula prostatica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">prostatic capsule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>capsule of prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>prostate pseudocapsule</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">prostatic capsule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>prostatic pseudocapsule</oboInOwl:hasExactSynonym>
         <RID:Comment>Preferred name changed to &quot;pseudocapsule&quot; rather than &quot;capsule&quot;. Location moved from child of &quot;capsule&quot; to child of &quot;membranous layer&quot; in concordance with that.</RID:Comment>
         <RID:ExternalRefID>FMA:19583</RID:ExternalRefID>
@@ -678149,10 +678149,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Negative</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 1: Negative</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 1</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: Essentially 0% likelihood of malignancy</RID:Comment>
         <RID:Comment>Management:  Routine mammographic screening</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36028</RID:RadLexID>
@@ -678177,10 +678177,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Benign</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 2: Benign</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 2</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: Essentially 0% likelihood of malignancy</RID:Comment>
         <RID:Comment>Management:  Routine mammographic screening</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36029</RID:RadLexID>
@@ -678224,10 +678224,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Suspicious</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 4: Suspicious</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 4</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: &gt;2% but &lt;95% likelihood of malignancy</RID:Comment>
         <RID:Comment>Management: Tissue diagnosis</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36030</RID:RadLexID>
@@ -678333,10 +678333,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Highly Suggestive of Malignancy</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 5: Highly Suggestive of Malignancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 5</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: &gt;=95% likelihood of malignancy</RID:Comment>
         <RID:Comment>Management: Tissue diagnosis</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36034</RID:RadLexID>
@@ -678361,10 +678361,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Known Biopsy-Proven Malignancy</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 6: Known Biopsy-Proven Malignancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 6</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: N/A</RID:Comment>
         <RID:Comment>Management: Surgical excision when clinically appropriate</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36035</RID:RadLexID>
@@ -678389,9 +678389,9 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Incomplete--Need Additional Imaging Evaluation and/or Prior Mammograms for Comparison</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 0</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 0</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 0</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 0</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: N/A</RID:Comment>
         <RID:Comment>Management: Recall for additional imaging and/or comparison with prior examination(s)</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36036</RID:RadLexID>
@@ -678485,10 +678485,10 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Probably Benign</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BI-RADS 3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS Category 3: Probably Benign</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BI-RADS category 3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BIRADS 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BI-RADS 3</oboInOwl:hasExactSynonym>
         <RID:Comment>Likelihood of Cancer: &lt;0% but &lt;=2% likelihood of malignancy</RID:Comment>
         <RID:Comment>Management: Short-interval (6-month) follow-up or continued surveillance mammography</RID:Comment>
         <RID:RadLexID xml:lang="en">RID36041</RID:RadLexID>
@@ -732251,10 +732251,10 @@ In the lung, a micronodule is defined as a nodule less than 3mm in size.</obo:IA
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>[PI-RADS] The middle 1/3 of the prostate that includes verumontanum in the mid prostatic urethra;midgland</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>mid prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mid-gland of prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">middle zone of prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">proper part of prostate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mid prostate</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:258868</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID38899</RID:RadLexID>
         <rdfs:label xml:lang="en">middle region of prostate</rdfs:label>
@@ -736685,9 +736685,9 @@ In the lung, mass is defined as greater than 30mm in size.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID39149">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID43366"/>
         <obo:IAO_0000115>[LI-RADS] Presence of any combination of internal nodules, compartments, or septations, within a mass.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>mosaic architecture</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mosaic attenuation pattern</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mosaic enhancement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mosaic architecture</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mosaic pattern</oboInOwl:hasExactSynonym>
         <RID:Comment>The internal nodules or compartments differ in imaging features from each other.
 If there is a single inner nodule within a mass, the term nodule-in-nodule may be used.</RID:Comment>
@@ -736718,8 +736718,8 @@ If there is a single inner nodule within a mass, the term nodule-in-nodule may b
     <owl:Class rdf:about="http://www.radlex.org/RID/RID39150">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID39431"/>
         <obo:IAO_0000115>[LI-RADS] Presence of a smaller inner nodule within a larger outer nodule or mass.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>nodule-in-nodule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">nodule-in-nodule architecture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nodule-in-nodule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nodule-in-nodule pattern</oboInOwl:hasExactSynonym>
         <RID:Comment>The inner nodule differs in imaging features from the outer nodule or mass.
 It may be:
@@ -741290,10 +741290,10 @@ ALL of the following:
    • Greater fat signal on fat-only images
    • Greater fat fraction on fat-fraction maps
    • Greater signal loss on fat-suppressed compared to non-fat-suppressed images</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>fatty lesion</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fatty metamorphosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">intra-lesional fat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">intralesional fat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fatty lesion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fatty metamorphosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>intralesional fatty metaplasia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>steatotic nodule</oboInOwl:hasExactSynonym>
         <RID:Comment>If using fat-suppressed compared to non-fat-suppressed images for assessing this feature, make sure the two sets of images have similar or identical weighting.
@@ -741338,10 +741338,10 @@ The liver has any of the following:
 
 AND
 • The observation has none of the above features or has the features to a lesser degree than liver</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>iron resistance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">lesional iron depleted</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">lesional iron depletion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">lesional iron sparing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iron resistance</oboInOwl:hasExactSynonym>
         <RID:Comment>Cannot be reliably characterized on US or CT.
 Use caution in applying this feature if OP has a longer TE than IP.</RID:Comment>
         <RID:Comment>iron resistance</RID:Comment>
@@ -980642,9 +980642,9 @@ with indistinct, blurred or irregular margin</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49509">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID49513"/>
         <obo:IAO_0000115>Tumor involvement of pseudocapsule with indistinct margin</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">invasion of prostatic pseudocapsule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>extra-capsular extension ECE</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>extraprostatic extension EPE</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">invasion of prostatic pseudocapsule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>prostate extraglandular extension</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tumor invasion of prostate capsule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tumor invasion of prostatic pseudocapsule</oboInOwl:hasExactSynonym>
@@ -981049,8 +981049,8 @@ Obliteration of the prostate-seminal vesicle angle.
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49529">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID11079"/>
         <obo:IAO_0000115>[LI-RADS] Broad term that refers to all phases after the arterial phase.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>late phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">second phase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>late phase</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>venous phase</oboInOwl:hasExactSynonym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-24T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49529</RID:RadLexID>
@@ -986035,8 +986035,8 @@ Excretion of contrast into the biliary tree may or may not be present.</RID:Comm
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49814">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID6053"/>
         <obo:IAO_0000115>[LI-RADS] Uniform intensity in hepatobiliary phase identical or nearly identical to liver.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>HBP isoenhancement</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hepatobiliary phase iso-intensity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HBP isoenhancement</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>occult in HBP</oboInOwl:hasExactSynonym>
         <RID:Comment>[LI-RADS] Favors benignity if HBP enhancement of liver parenchyma is adequate</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
@@ -990715,8 +990715,8 @@ strong association with benignity</RID:Comment>
         <oboInOwl:hasExactSynonym xml:lang="en">Harris view</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Harris-Beath view</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">axial calcaneus view</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ski jump view</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">skier&apos;s view</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ski jump view</oboInOwl:hasExactSynonym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-30T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID50098</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
@@ -1000541,8 +1000541,8 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <obo:IAO_0000115>Likely clinically important; further workup needed</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <oboInOwl:creation_date>2025-07-02T19:05:42.782382Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym>E4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">E4 - Likely clinically important; further workup needed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>E4</oboInOwl:hasExactSynonym>
         <RID:RadLexID xml:lang="en">RID50736</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
         <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>

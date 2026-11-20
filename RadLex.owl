@@ -678097,7 +678097,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36028</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 1</RID:Synonym>
@@ -678125,7 +678125,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36029</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 2</RID:Synonym>
@@ -678172,7 +678172,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36030</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 4</RID:Synonym>
@@ -678200,7 +678200,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Low suspicion for malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36031</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS Category 4A: Low suspicion for malignancy</RID:Synonym>
@@ -678227,7 +678227,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Moderate suspicion of malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36032</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS Category 4B: Moderate suspicion for malignancy</RID:Synonym>
@@ -678254,7 +678254,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>High suspicion for malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36033</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym xml:lang="en">BI-RADS Category 4C: High suspicion for malignancy</RID:Synonym>
@@ -678281,7 +678281,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Highly Suggestive of Malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36034</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 5</RID:Synonym>
@@ -678309,7 +678309,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Known Biopsy-Proven Malignancy</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36035</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 6</RID:Synonym>
@@ -678433,7 +678433,7 @@ background prostate tissue or referencetissue/structure</RID:Definition>
         <RID:Definition>Probably Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID36041</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.2 pref</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>BI-RADS v2025</RID:Source>
         <RID:Source>BI-RADS v5</RID:Source>
         <RID:Synonym>BI-RADS 3</RID:Synonym>
@@ -985628,11 +985628,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49794">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-1</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definitely benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49794</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 1</RID:Synonym>
@@ -985647,11 +985648,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49795">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-2</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Probably benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49795</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 2</RID:Synonym>
@@ -985666,11 +985668,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49796">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-3</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Intermediate probability for HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49796</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 3</RID:Synonym>
@@ -985685,9 +985688,10 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49797">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-4</RID:Acronym>
         <RID:Definition>Probably HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49797</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 4</RID:Synonym>
@@ -985702,11 +985706,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49799">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-5</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definitely HCC</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49799</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS 5</RID:Synonym>
@@ -985762,11 +985767,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49802">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-5V</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Definite tumor in vein</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49802</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2017</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym>CT/MR LR-TIV</RID:Synonym>
@@ -985782,11 +985788,12 @@ MR: May be simple or complicated. may contain bright signal on T1W images; usual
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID49803">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50790"/>
+        <RID:Acronym>LR-M</RID:Acronym>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-09T00:00:00</RID:Created>
         <RID:Definition>Probably or definitely malignant but not HCC specific</RID:Definition>
         <RID:RadLexID xml:lang="en">RID49803</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.13 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def, loc, syn, source</RID:Radlex_version_of_class_change>
         <RID:Source>LI-RADS v2018</RID:Source>
         <RID:Source>LI-RADS v2024</RID:Source>
         <RID:Synonym xml:lang="en">LI-RADS M</RID:Synonym>
@@ -991213,6 +991220,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Incomplete</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50135</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 0</rdfs:label>
     </owl:Class>
@@ -991227,6 +991235,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Negative</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50136</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 1</rdfs:label>
     </owl:Class>
@@ -991241,6 +991250,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50137</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 2</rdfs:label>
     </owl:Class>
@@ -991255,6 +991265,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Probably Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50138</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <rdfs:label xml:lang="en">Lung-RADS 3</rdfs:label>
     </owl:Class>
@@ -991269,7 +991280,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50139</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4A</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4a</rdfs:label>
@@ -991314,7 +991325,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Very Suspicious -</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50140</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4B</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4b</rdfs:label>
@@ -991330,7 +991341,7 @@ strong association with benignity</RID:Comment>
         <RID:Definition>Additional features or findings that increase suspicion for lung cancer</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50141</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.14 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def, source</RID:Radlex_version_of_class_change>
         <RID:Source>Lung-RADS v2022</RID:Source>
         <RID:Synonym>Lung-RADS 4X</RID:Synonym>
         <rdfs:label xml:lang="en">Lung-RADS 4x</rdfs:label>
@@ -995953,7 +995964,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition>Benign</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50504</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 1</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 1</rdfs:label>
@@ -995971,7 +995982,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Not suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50505</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 2</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 2</rdfs:label>
@@ -995989,7 +996000,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Mildly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50506</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 3</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 3</rdfs:label>
@@ -996007,7 +996018,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Moderately suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50507</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 4</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 4</rdfs:label>
@@ -996031,7 +996042,7 @@ or diffuse multifocal enhancement NOT corresponding to a focal finding on T2W an
         <RID:Definition xml:lang="en">Highly suspicious</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50508</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.1</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, source</RID:Radlex_version_of_class_change>
         <RID:Source>TI-RADS v2017</RID:Source>
         <RID:Synonym xml:lang="en">TI-RAD Risk Level 5</RID:Synonym>
         <rdfs:label xml:lang="en">TI-RADS 5</rdfs:label>
@@ -1000174,7 +1000185,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Inadequate study or awaiting prior comparisons</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50719</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C0 - Inadequate Study/Awaiting Prior Comparisons</RID:Synonym>
         <RID:Synonym>C0</RID:Synonym>
@@ -1000289,7 +1000300,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Normal Colon or Benign Lesion</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50726</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C1 - Normal Colon or Benign Lesion</RID:Synonym>
         <RID:Synonym>C1</RID:Synonym>
@@ -1000322,7 +1000333,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Intermediate Polyp or Indeterminate Finding</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50728</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C2a - Intermediate Polyp or Indeterminate Finding</RID:Synonym>
         <RID:Synonym>C2a</RID:Synonym>
@@ -1000340,7 +1000351,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Likely Benign Diverticular Finding</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50729</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C2b - Likely Benign Diverticular Finding</RID:Synonym>
         <RID:Synonym>C2b</RID:Synonym>
@@ -1000375,7 +1000386,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Polyp, Possibly Advanced Adenoma</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50730</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C3 - Polyp, Possibly Advanced Adenoma</RID:Synonym>
         <RID:Synonym>C3</RID:Synonym>
@@ -1000393,7 +1000404,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Colonic Mass, Likely Malignant</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50731</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS C4 - Colonic Mass, Likely Malignant</RID:Synonym>
         <RID:Synonym>C4</RID:Synonym>
@@ -1000440,7 +1000451,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50734</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS E1/E2 - No clinically important extracolonic findings or stable previously known extracolonic findings that require no additional workup</RID:Synonym>
         <RID:Synonym>E1/E2</RID:Synonym>
@@ -1000458,7 +1000469,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Likely clinically unimportant finding; further workup may be warranted</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50735</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym xml:lang="en">C-RADS E3 - Likely clinically unimportant finding; further workup may be warranted</RID:Synonym>
         <RID:Synonym>E3</RID:Synonym>
@@ -1000476,7 +1000487,7 @@ the American College of Radiology (ACR), and the North America Society of Cardio
         <RID:Definition>Likely clinically important; further workup needed</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50736</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
-        <RID:Radlex_version_of_class_change>4.4 pref</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 pref, def</RID:Radlex_version_of_class_change>
         <RID:Source>C-RADS v2023</RID:Source>
         <RID:Synonym>E4</RID:Synonym>
         <RID:Synonym xml:lang="en">E4 - Likely clinically important; further workup needed</RID:Synonym>
@@ -1000648,6 +1000659,7 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <RID:Definition>Muscle invasion is highly unlikely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50746</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>VI-RADS v2018</RID:Source>
         <RID:Source>VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 1</rdfs:label>
@@ -1000664,6 +1000676,7 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <RID:Definition>Muscle invasion is unlikely to be present</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50747</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>VI-RADS v2018</RID:Source>
         <RID:Source>VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 2</rdfs:label>
@@ -1000680,6 +1000693,7 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <RID:Definition>The presence of muscle invasion is equivocal</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50748</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>VI-RADS v2018</RID:Source>
         <RID:Source>VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 3</rdfs:label>
@@ -1000696,6 +1000710,7 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <RID:Definition>Muscle invasion is likely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50749</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>VI-RADS v2018</RID:Source>
         <RID:Source>VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 4</rdfs:label>
@@ -1000712,6 +1000727,7 @@ System (VI-RADS) v2023 Assessment Category for bladder</RID:Definition>
         <RID:Definition>Invasion of muscle and beyond the bladder is very likely</RID:Definition>
         <RID:RadLexID xml:lang="en">RID50750</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.3 new</RID:Radlex_version_of_class_change>
+        <RID:Radlex_version_of_class_change>4.4 def, source</RID:Radlex_version_of_class_change>
         <RID:Source>VI-RADS v2018</RID:Source>
         <RID:Source>VI-RADS v2023</RID:Source>
         <rdfs:label xml:lang="en">VI-RADS 5</rdfs:label>

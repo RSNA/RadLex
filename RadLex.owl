@@ -980752,10 +980752,10 @@ outside the gland, across the “capsule”(extracapsular extension of tumor, ex
         <RID:Comment>Asymmetry, enlargement or direct tumor involvement of the neurovascular bundles
 Assess the recto-prostatic angles (right and left):
 1. Asymmetry - abnormal one is either obliterated or flattened.
-2. Fat in the angle – 
-inflitrated (individual elements cannot be identified or seperated)
-clean (individual elements are visible )
-3.Direct tumor extension</RID:Comment>
+2. Fat in the angle:
+ - inflitrated (individual elements cannot be identified or seperated)
+ - clean (individual elements are visible)
+3. Direct tumor extension</RID:Comment>
         <RID:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-07T00:00:00</RID:Created>
         <RID:RadLexID xml:lang="en">RID49515</RID:RadLexID>
         <RID:Radlex_version_of_class_change>3.12 new</RID:Radlex_version_of_class_change>

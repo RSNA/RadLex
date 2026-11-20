@@ -8,7 +8,15 @@ PREFIX rid: <http://www.radlex.org/RID/>
 # Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
 #
 # Test for stray whitespace on values (strings) of all annotation properties.  Specifically, this test
-# prohibits: leading or trailing whitespace, or consecutive whitespace characters within a string.
+# prohibits:
+#  - leading, trailing, or consecutive whitespace characters within a string.
+#  - nonbreaking spaces (sometimes added via copy/paste), which \s does not match:
+#      U+00A0  NO-BREAK SPACE
+#      U+2007  FIGURE SPACE (a no-break space as wide as a digit)
+#      U+202F  NARROW NO-BREAK SPACE
+#      U+FEFF  ZERO WIDTH NO-BREAK SPACE (also used as the byte order mark)
+#
+# EXCEPTIONS: Double-spaces are allowed immediately after a period, accommodating that typographical convention (for now?)
 #
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The entity on which the violation occurs (e.g., the class).
@@ -17,7 +25,7 @@ PREFIX rid: <http://www.radlex.org/RID/>
 #
 SELECT ?entity ?property ?value
 WHERE {
-    ?property rdfs:subPropertyOf owl:AnnotationProperty .
+    ?property a owl:AnnotationProperty .
     ?entity ?property ?value .
-    FILTER(REGEX(STR(?value), "^\\s|\\s+$|\\s\\s"))
+    FILTER(REGEX(STR(?value), "^\\s|\\s+$|(?<!\\.)\\s\\s|[\\x{00A0}\\x{2007}\\x{202F}\\x{FEFF}]"))
 }

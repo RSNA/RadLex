@@ -2,13 +2,26 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX rid: <http://www.radlex.org/RID/>
 
 #
 # Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
 #
 # Test for stray whitespace on values (strings) of all annotation properties.  Specifically, this test
-# prohibits: leading or trailing whitespace, or consecutive whitespace characters within a string.
+# prohibits:
+#  - leading, trailing, or consecutive whitespace characters within a string.
+#  - nonbreaking spaces (sometimes added via copy/paste), which \s does not match:
+#      U+00A0  NO-BREAK SPACE
+#      U+2007  FIGURE SPACE (a no-break space as wide as a digit)
+#      U+202F  NARROW NO-BREAK SPACE
+#      U+FEFF  ZERO WIDTH NO-BREAK SPACE (also used as the byte order mark)
+#
+# EXCEPTIONS: Double-spaces are allowed immediately after a period, accommodating that typographical convention (for now?)
+#   In prose properties (definition, comment), line breaks are allowed between non-whitespace characters:
+#   one newline (a line break) or two (a blank line between paragraphs), optionally followed by spaces
+#   that indent the next line (e.g. nested bullets).  Any other whitespace in those values is still
+#   checked, e.g. a space before a newline is a violation.
 #
 # VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
 # - The entity on which the violation occurs (e.g., the class).
@@ -17,7 +30,11 @@ PREFIX rid: <http://www.radlex.org/RID/>
 #
 SELECT ?entity ?property ?value
 WHERE {
-    ?property rdfs:subPropertyOf owl:AnnotationProperty .
+    ?property a owl:AnnotationProperty .
     ?entity ?property ?value .
-    FILTER(REGEX(STR(?value), "^\\s|\\s+$|\\s\\s"))
+    # In prose properties, treat each allowed line break as a single space before checking.
+    BIND(IF(?property IN (obo:IAO_0000115, rid:Comment, rdfs:comment),
+            REPLACE(STR(?value), "(?<=\\S)\\n\\n? *(?=\\S)", " "),
+            STR(?value)) AS ?text)
+    FILTER REGEX(?text, "^\\s|\\s+$|(?<!\\.)\\s\\s|[\\x{00A0}\\x{2007}\\x{202F}\\x{FEFF}]")
 }

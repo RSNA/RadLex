@@ -576,6 +576,38 @@
 - [bolus trigger](http://www.radlex.org/RID/RID12833) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level slot for a procedure; not needed"`
 
 
+### brachium of left inferior colliculus `http://www.radlex.org/RID/RID18042`
+#### Removed
+- [brachium of left inferior colliculus](http://www.radlex.org/RID/RID18042) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi inferioris links"@de`
+
+#### Added
+- [brachium of left inferior colliculus](http://www.radlex.org/RID/RID18042) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi inferioris links"@de`
+
+
+### brachium of left superior colliculus `http://www.radlex.org/RID/RID18040`
+#### Removed
+- [brachium of left superior colliculus](http://www.radlex.org/RID/RID18040) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi superiores links"@de`
+
+#### Added
+- [brachium of left superior colliculus](http://www.radlex.org/RID/RID18040) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi superiores links"@de`
+
+
+### brachium of right inferior colliculus `http://www.radlex.org/RID/RID18041`
+#### Removed
+- [brachium of right inferior colliculus](http://www.radlex.org/RID/RID18041) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi inferioris rechts"@de`
+
+#### Added
+- [brachium of right inferior colliculus](http://www.radlex.org/RID/RID18041) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi inferioris rechts"@de`
+
+
+### brachium of right superior colliculus `http://www.radlex.org/RID/RID18039`
+#### Removed
+- [brachium of right superior colliculus](http://www.radlex.org/RID/RID18039) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi superiores rechts"@de`
+
+#### Added
+- [brachium of right superior colliculus](http://www.radlex.org/RID/RID18039) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Brachium colliculi superiores rechts"@de`
+
+
 ### brain `http://www.radlex.org/RID/RID6434`
 #### Removed
 - [brain](http://www.radlex.org/RID/RID6434) [definition](http://purl.obolibrary.org/obo/IAO_0000115) `"Segment of neuraxis that has as its parts gray matter and white matter that surround the cerebral ventricular system;  Examples: There is only one brain."`
@@ -2162,6 +2194,22 @@
 - [lateral branch of superficial radial nerve](http://www.radlex.org/RID/RID7265) [Comment](http://www.radlex.org/RID/Comment) `"Erroneous term: the superficial radial nerve does not have a lateral branch but rather a dorsal branch which in turn has lateral and medial branches"`
 
 
+### lateral medullary branch of left vertebral artery `http://www.radlex.org/RID/RID44659`
+#### Removed
+- [lateral medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44659) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris lateralis der linken Arteria vertebralis"@de`
+
+#### Added
+- [lateral medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44659) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris lateralis der linken Arteria vertebralis"@de`
+
+
+### lateral medullary branch of right vertebral artery `http://www.radlex.org/RID/RID44658`
+#### Removed
+- [lateral medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44658) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris lateralis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [lateral medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44658) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris lateralis der rechten Arteria vertebralis"@de`
+
+
 ### lateral recess `http://www.radlex.org/RID/RID6128`
 #### Removed
 - [lateral recess](http://www.radlex.org/RID/RID6128) [definition](http://purl.obolibrary.org/obo/IAO_0000115) `"The zone, within the vertebral canal, sagittally between the plane of the medial edges of the pedicles and the plane of the medial edges of the facets, and coronally between the planes of the posterior surfaces of the vertebral bodies and the under anterior surfaces of the superior facets. Syn:  lateral recess, posterolateral zone.  Note: The subarticular zone cannot be precisely delineated because the structures that define the planes of the zone are irregular. The lateral recess refers more appropriately to the space beneath the facet at the pedicular level than as synonymous with the entire subarticular zone. AJNR"`
@@ -2320,6 +2368,46 @@
 - [medial branch of superficial radial nerve](http://www.radlex.org/RID/RID7266) [Comment](http://www.radlex.org/RID/Comment) `"Erroneous term: the superficial radial nerve does not have a medial branch but rather a dorsal branch which in turn has lateral and medial branches"`
 
 
+### medial medullary branch of left vertebral artery `http://www.radlex.org/RID/RID44657`
+#### Removed
+- [medial medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44657) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der linken Arteria vertebralis"@de`
+
+#### Added
+- [medial medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44657) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der linken Arteria vertebralis"@de`
+
+
+### medial medullary branch of right vertebral artery `http://www.radlex.org/RID/RID44656`
+#### Removed
+- [medial medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44656) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [medial medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44656) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der rechten Arteria vertebralis"@de`
+
+
+### medial medullary branch of vertebral artery `http://www.radlex.org/RID/RID44655`
+#### Removed
+- [medial medullary branch of vertebral artery](http://www.radlex.org/RID/RID44655) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der Arteria vertebralis"@de`
+
+#### Added
+- [medial medullary branch of vertebral artery](http://www.radlex.org/RID/RID44655) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris medialis der Arteria vertebralis"@de`
+
+
+### medial medullary lamina of left globus pallidus `http://www.radlex.org/RID/RID18035`
+#### Removed
+- [medial medullary lamina of left globus pallidus](http://www.radlex.org/RID/RID18035) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Lamina medullaris medialis des linken Globus pallidus"@de`
+
+#### Added
+- [medial medullary lamina of left globus pallidus](http://www.radlex.org/RID/RID18035) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Lamina medullaris medialis des linken Globus pallidus"@de`
+
+
+### medial medullary lamina of right globus pallidus `http://www.radlex.org/RID/RID18034`
+#### Removed
+- [medial medullary lamina of right globus pallidus](http://www.radlex.org/RID/RID18034) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Lamina medullaris medialis des rechten Globus pallidus"@de`
+
+#### Added
+- [medial medullary lamina of right globus pallidus](http://www.radlex.org/RID/RID18034) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Lamina medullaris medialis des rechten Globus pallidus"@de`
+
+
 ### medication restricted `http://www.radlex.org/RID/RID12847`
 #### Removed
 - [medication restricted](http://www.radlex.org/RID/RID12847) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level  slot for a procedure; not needed"`
@@ -2334,6 +2422,22 @@
 
 #### Added
 - [medium initial phase](http://www.radlex.org/RID/RID49709) [definition](http://purl.obolibrary.org/obo/IAO_0000115) `"[BI-RADS] MR: 50-100% increase in signal intensity within the first 2 minutes."`
+
+
+### meningeal branch of left vertebral artery `http://www.radlex.org/RID/RID44637`
+#### Removed
+- [meningeal branch of left vertebral artery](http://www.radlex.org/RID/RID44637) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus der linken Arteria vertebralis"@de`
+
+#### Added
+- [meningeal branch of left vertebral artery](http://www.radlex.org/RID/RID44637) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus der linken Arteria vertebralis"@de`
+
+
+### meningeal branch of right vertebral artery `http://www.radlex.org/RID/RID44636`
+#### Removed
+- [meningeal branch of right vertebral artery](http://www.radlex.org/RID/RID44636) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus der rechten Arteria vertebralis"@de`
+
+#### Added
+- [meningeal branch of right vertebral artery](http://www.radlex.org/RID/RID44636) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus der rechten Arteria vertebralis"@de`
 
 
 ### midbrain `http://www.radlex.org/RID/RID6768`
@@ -2374,6 +2478,22 @@
 
 #### Added
 - [muscle of trunk](http://www.radlex.org/RID/RID13420) [definition](http://purl.obolibrary.org/obo/IAO_0000115) `"Muscle organ which is a part of the trunk. Examples: external intercostal muscle, external oblique, levator ani."`
+
+
+### muscular branch of left vertebral artery `http://www.radlex.org/RID/RID44634`
+#### Removed
+- [muscular branch of left vertebral artery](http://www.radlex.org/RID/RID44634) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus muscularis der linken Arteria vertebralis"@de`
+
+#### Added
+- [muscular branch of left vertebral artery](http://www.radlex.org/RID/RID44634) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus muscularis der linken Arteria vertebralis"@de`
+
+
+### muscular branch of right vertebral artery `http://www.radlex.org/RID/RID44633`
+#### Removed
+- [muscular branch of right vertebral artery](http://www.radlex.org/RID/RID44633) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus muscularis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [muscular branch of right vertebral artery](http://www.radlex.org/RID/RID44633) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus muscularis der rechten Arteria vertebralis"@de`
 
 
 ### musculoskeletal crescent sign `http://www.radlex.org/RID/RID35391`
@@ -3098,6 +3218,14 @@
 - [radiation exposure value](http://www.radlex.org/RID/RID12277) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level slot for a procedure; not needed"`
 
 
+### radicular branch of right vertebral artery `http://www.radlex.org/RID/RID44627`
+#### Removed
+- [radicular branch of right vertebral artery](http://www.radlex.org/RID/RID44627) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus radicularis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [radicular branch of right vertebral artery](http://www.radlex.org/RID/RID44627) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus radicularis der rechten Arteria vertebralis"@de`
+
+
 ### radiographic projection used `http://www.radlex.org/RID/RID12278`
 #### Removed
 - [radiographic projection used](http://www.radlex.org/RID/RID12278) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level  slot for a procedure; not needed"`
@@ -3184,6 +3312,22 @@
 
 #### Added
 - [reconstruction method](http://www.radlex.org/RID/RID12656) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level slot for a procedure; not needed"`
+
+
+### recurrent meningeal branch of left lacrimal artery `http://www.radlex.org/RID/RID36297`
+#### Removed
+- [recurrent meningeal branch of left lacrimal artery](http://www.radlex.org/RID/RID36297) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus recurrens der linken Arteria lacrimalis"@de`
+
+#### Added
+- [recurrent meningeal branch of left lacrimal artery](http://www.radlex.org/RID/RID36297) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus recurrens der linken Arteria lacrimalis"@de`
+
+
+### recurrent meningeal branch of right lacrimal artery `http://www.radlex.org/RID/RID36296`
+#### Removed
+- [recurrent meningeal branch of right lacrimal artery](http://www.radlex.org/RID/RID36296) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus recurrens der rechten Arteria lacrimalis"@de`
+
+#### Added
+- [recurrent meningeal branch of right lacrimal artery](http://www.radlex.org/RID/RID36296) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus meningeus recurrens der rechten Arteria lacrimalis"@de`
 
 
 ### regional `http://www.radlex.org/RID/RID34260`
@@ -3310,6 +3454,22 @@
 
 #### Added
 - [scan delay](http://www.radlex.org/RID/RID10561) [Comment](http://www.radlex.org/RID/Comment) `"Was used as an instance-level slot for a procedure; not needed"`
+
+
+### segmental medullary branch of left vertebral artery `http://www.radlex.org/RID/RID44631`
+#### Removed
+- [segmental medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44631) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris segmentalis der linken Arteria vertebralis"@de`
+
+#### Added
+- [segmental medullary branch of left vertebral artery](http://www.radlex.org/RID/RID44631) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris segmentalis der linken Arteria vertebralis"@de`
+
+
+### segmental medullary branch of right vertebral artery `http://www.radlex.org/RID/RID44630`
+#### Removed
+- [segmental medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44630) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris segmentalis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [segmental medullary branch of right vertebral artery](http://www.radlex.org/RID/RID44630) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus medullaris segmentalis der rechten Arteria vertebralis"@de`
 
 
 ### semiconductor diode type `http://www.radlex.org/RID/RID12529`
@@ -3490,6 +3650,22 @@
 - [spiculated margin](http://www.radlex.org/RID/RID5713) [definition](http://purl.obolibrary.org/obo/IAO_0000115) `"PI-RADS: Radiating lines extending from the margin of a mass.  BI-RADS Mammo/MRI: Margin is characterized by lines radiating from the mass.  US: Margin is characterized by sharp lines radiating from the mass."`
 
 
+### spinal branch of left vertebral artery `http://www.radlex.org/RID/RID44625`
+#### Removed
+- [spinal branch of left vertebral artery](http://www.radlex.org/RID/RID44625) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus spinalis der linken Arteria vertebralis"@de`
+
+#### Added
+- [spinal branch of left vertebral artery](http://www.radlex.org/RID/RID44625) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus spinalis der linken Arteria vertebralis"@de`
+
+
+### spinal branch of right vertebral artery `http://www.radlex.org/RID/RID44624`
+#### Removed
+- [spinal branch of right vertebral artery](http://www.radlex.org/RID/RID44624) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus spinalis der rechten Arteria vertebralis"@de`
+
+#### Added
+- [spinal branch of right vertebral artery](http://www.radlex.org/RID/RID44624) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Ramus spinalis der rechten Arteria vertebralis"@de`
+
+
 ### spontaneous hemorrhage `http://www.radlex.org/RID/RID39479`
 #### Removed
 - [spontaneous hemorrhage](http://www.radlex.org/RID/RID39479) [definition](http://purl.obolibrary.org/obo/IAO_0000115)
@@ -3520,6 +3696,14 @@
 
 #### Added
 - [subdivision of middle frontal gyrus](http://www.radlex.org/RID/RID14063) [Comment](http://www.radlex.org/RID/Comment) `"subdivision of middle frontal gyrus; duplicate of RID33809"`
+
+
+### subiculum of promontory `http://www.radlex.org/RID/RID10126`
+#### Removed
+- [subiculum of promontory](http://www.radlex.org/RID/RID10126) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Subiculum promontorii"@de`
+
+#### Added
+- [subiculum of promontory](http://www.radlex.org/RID/RID10126) [label](http://www.w3.org/2000/01/rdf-schema#label) `"Subiculum promontorii"@de`
 
 
 ### substance activity `http://www.radlex.org/RID/RID12962`

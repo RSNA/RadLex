@@ -4759,7 +4759,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <RID:RadLexID xml:lang="en">RID10126</RID:RadLexID>
-        <rdfs:label xml:lang="de">Subiculum promontorii</rdfs:label>
+        <rdfs:label xml:lang="de">Subiculum promontorii</rdfs:label>
         <rdfs:label xml:lang="en">subiculum of promontory</rdfs:label>
     </owl:Class>
     
@@ -192581,7 +192581,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID18033"/>
         <RID:ExternalRefID>FMA:72947</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18034</RID:RadLexID>
-        <rdfs:label xml:lang="de">Lamina medullaris medialis des rechten Globus pallidus</rdfs:label>
+        <rdfs:label xml:lang="de">Lamina medullaris medialis des rechten Globus pallidus</rdfs:label>
         <rdfs:label xml:lang="en">medial medullary lamina of right globus pallidus</rdfs:label>
     </owl:Class>
     
@@ -192593,7 +192593,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID18033"/>
         <RID:ExternalRefID>FMA:72948</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18035</RID:RadLexID>
-        <rdfs:label xml:lang="de">Lamina medullaris medialis des linken Globus pallidus</rdfs:label>
+        <rdfs:label xml:lang="de">Lamina medullaris medialis des linken Globus pallidus</rdfs:label>
         <rdfs:label xml:lang="en">medial medullary lamina of left globus pallidus</rdfs:label>
     </owl:Class>
     
@@ -192649,7 +192649,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <oboInOwl:hasExactSynonym xml:lang="en">right superior colliculus brachium</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:73461</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18039</RID:RadLexID>
-        <rdfs:label xml:lang="de">Brachium colliculi superiores rechts</rdfs:label>
+        <rdfs:label xml:lang="de">Brachium colliculi superiores rechts</rdfs:label>
         <rdfs:label xml:lang="en">brachium of right superior colliculus</rdfs:label>
     </owl:Class>
     
@@ -192673,7 +192673,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <oboInOwl:hasExactSynonym xml:lang="en">left superior colliculus brachium</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:73462</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18040</RID:RadLexID>
-        <rdfs:label xml:lang="de">Brachium colliculi superiores links</rdfs:label>
+        <rdfs:label xml:lang="de">Brachium colliculi superiores links</rdfs:label>
         <rdfs:label xml:lang="en">brachium of left superior colliculus</rdfs:label>
     </owl:Class>
     
@@ -192686,7 +192686,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <oboInOwl:hasExactSynonym xml:lang="en">right inferior colliculus brachium</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:73463</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18041</RID:RadLexID>
-        <rdfs:label xml:lang="de">Brachium colliculi inferioris rechts</rdfs:label>
+        <rdfs:label xml:lang="de">Brachium colliculi inferioris rechts</rdfs:label>
         <rdfs:label xml:lang="en">brachium of right inferior colliculus</rdfs:label>
     </owl:Class>
     
@@ -192699,7 +192699,7 @@ the node consisting of fat, are also normal. Large rounded nodes lymph nodes, 3 
         <oboInOwl:hasExactSynonym xml:lang="en">left inferior colliculus brachium</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>FMA:73464</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID18042</RID:RadLexID>
-        <rdfs:label xml:lang="de">Brachium colliculi inferioris links</rdfs:label>
+        <rdfs:label xml:lang="de">Brachium colliculi inferioris links</rdfs:label>
         <rdfs:label xml:lang="en">brachium of left inferior colliculus</rdfs:label>
     </owl:Class>
     
@@ -683182,7 +683182,7 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
         </rdfs:subClassOf>
         <RID:ExternalRefID>FMA:51966</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID36296</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus meningeus recurrens der rechten Arteria lacrimalis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus meningeus recurrens der rechten Arteria lacrimalis</rdfs:label>
         <rdfs:label xml:lang="en">recurrent meningeal branch of right lacrimal artery</rdfs:label>
     </owl:Class>
     
@@ -683200,7 +683200,7 @@ background prostate tissue or referencetissue/structure</obo:IAO_0000115>
         </rdfs:subClassOf>
         <RID:ExternalRefID>FMA:51967</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID36297</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus meningeus recurrens der linken Arteria lacrimalis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus meningeus recurrens der linken Arteria lacrimalis</rdfs:label>
         <rdfs:label xml:lang="en">recurrent meningeal branch of left lacrimal artery</rdfs:label>
     </owl:Class>
     
@@ -846955,7 +846955,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44623"/>
         <RID:ExternalRefID>FMA:50507</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44624</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus spinalis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus spinalis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">spinal branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -846973,7 +846973,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         </rdfs:subClassOf>
         <RID:ExternalRefID>FMA:50508</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44625</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus spinalis der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus spinalis der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">spinal branch of left vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847003,7 +847003,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         </rdfs:subClassOf>
         <RID:ExternalRefID>FMA:50511</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44627</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus radicularis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus radicularis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">radicular branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847040,7 +847040,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44629"/>
         <RID:ExternalRefID>FMA:50513</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44630</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris segmentalis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris segmentalis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">segmental medullary branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847052,7 +847052,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44629"/>
         <RID:ExternalRefID>FMA:50514</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44631</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris segmentalis der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris segmentalis der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">segmental medullary branch of left vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847076,7 +847076,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44632"/>
         <RID:ExternalRefID>FMA:50540</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44633</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus muscularis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus muscularis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">muscular branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847088,7 +847088,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44632"/>
         <RID:ExternalRefID>FMA:50541</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44634</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus muscularis der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus muscularis der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">muscular branch of left vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847112,7 +847112,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44635"/>
         <RID:ExternalRefID>FMA:50516</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44636</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus meningeus der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus meningeus der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">meningeal branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847124,7 +847124,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44635"/>
         <RID:ExternalRefID>FMA:50517</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44637</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus meningeus der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus meningeus der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">meningeal branch of left vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847353,7 +847353,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID35892"/>
         <RID:ExternalRefID>FMA:50534</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44655</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris medialis der Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris medialis der Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">medial medullary branch of vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847365,7 +847365,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44655"/>
         <RID:ExternalRefID>FMA:50535</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44656</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris medialis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris medialis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">medial medullary branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847377,7 +847377,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID44655"/>
         <RID:ExternalRefID>FMA:50536</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44657</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris medialis der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris medialis der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">medial medullary branch of left vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847389,7 +847389,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID782"/>
         <RID:ExternalRefID>FMA:50538</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44658</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris lateralis der rechten Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris lateralis der rechten Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">lateral medullary branch of right vertebral artery</rdfs:label>
     </owl:Class>
     
@@ -847401,7 +847401,7 @@ Enhancement from hypo on precontrast to iso on arterial phase does not qualify a
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID782"/>
         <RID:ExternalRefID>FMA:50539</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID44659</RID:RadLexID>
-        <rdfs:label xml:lang="de">Ramus medullaris lateralis der linken Arteria vertebralis</rdfs:label>
+        <rdfs:label xml:lang="de">Ramus medullaris lateralis der linken Arteria vertebralis</rdfs:label>
         <rdfs:label xml:lang="en">lateral medullary branch of left vertebral artery</rdfs:label>
     </owl:Class>
     

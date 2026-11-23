@@ -15,7 +15,8 @@ Actions workflow, defined in
 The workflow:
 
 1. Installs ROBOT.
-2. Runs a reasoner-based consistency check (`tests/scripts/robot-check.sh`).
+2. Runs a reasoner-based consistency check and an OWL 2 DL profile check
+   (`tests/scripts/robot-check.sh`).
 3. Runs SPARQL-query-based checks (`tests/scripts/robot-report-tests.sh`).
 
 If either check fails, the workflow run is marked failed and the relevant
@@ -24,6 +25,8 @@ output is uploaded as a build artifact:
 - `robot-unsatisfiable-explanation` — a minimal explanation of why the
   ontology is logically inconsistent or incoherent, if the reasoner check
   fails.
+- `robot-dl-profile-report`: The `dl-profile-report.txt` list of OWL 2 DL
+  profile violations, if the profile check fails.
 - `robot-report`: The `robot-report.tsv` violations report, if the
   SPARQL-query-based checks fail.
 
@@ -54,17 +57,27 @@ export PATH="$PWD/tests/scripts/.robot:$PATH"
 You only need to re-run `install-robot.sh` when the pinned `ROBOT_VERSION`
 changes — it's a no-op if the correct version is already installed.
 
-### 2. Run the reasoner-based consistency check
+### 2. Run the reasoner-based consistency check and the OWL 2 DL profile check
 
 ```sh
 tests/scripts/robot-check.sh
 ```
 
-This runs the ELK reasoner over `RadLex.owl` and fails if the ontology is
+This first runs the ELK reasoner over `RadLex.owl` and fails if the ontology is
 logically inconsistent, has unsatisfiable classes, or if the reasoner infers
 equivalences between classes that weren't explicitly asserted (a common
 symptom of accidentally duplicated or merged terms). On failure, see
 `unsatisfiable-explanation.owl` for details.
+
+It then runs `robot validate-profile --profile DL`, which fails if
+`RadLex.owl` isn't valid OWL 2 DL. The most likely cause is a property or
+class that's used but never declared: every annotation property other than
+OWL's built-in ones (`rdfs:label`, `rdfs:comment`, `rdfs:seeAlso`,
+`rdfs:isDefinedBy`, `owl:deprecated`, `owl:versionInfo`, `owl:priorVersion`,
+`owl:backwardCompatibleWith`, `owl:incompatibleWith`) must be declared in
+`RadLex.owl`. The SPARQL-query-based checks below can't catch this, because
+ROBOT adds the missing declarations when it loads the ontology for them. On
+failure, `dl-profile-report.txt` lists each violation.
 
 ### 3. Run the SPARQL-query-based checks
 

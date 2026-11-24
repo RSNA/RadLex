@@ -1,0 +1,1014 @@
+RadLex ID	ALI ID	Label	Proposed definition
+RID51000	RID294_RID5824	left uterine adnexa	The uterine adnexa on the left side: the left uterine (fallopian) tube and left ovary, with their supporting ligaments.
+RID51001	RID294_RID5825	right uterine adnexa	The uterine adnexa on the right side: the right uterine (fallopian) tube and right ovary, with their supporting ligaments.
+RID51002	RID935_RID5824	left adrenal artery	An adrenal artery located on the left side of the body.
+RID51003	RID935_RID5825	right adrenal artery	An adrenal artery located on the right side of the body.
+RID51004	RID1011_RID5824	left brachiocephalic vein	The brachiocephalic vein on the left side of the body.
+RID51005	RID1011_RID5825	right brachiocephalic vein	The brachiocephalic vein on the right side of the body.
+RID51006	RID29955_RID5824	left accessory breast tissue	Accessory breast tissue located on the left side of the body.
+RID51007	RID29955_RID5825	right accessory breast tissue	Accessory breast tissue located on the right side of the body.
+RID51008	RID944_RID5824	left common iliac artery	The common iliac artery on the left side of the body.
+RID51009	RID944_RID5825	right common iliac artery	The common iliac artery on the right side of the body.
+RID51010	RID1193_RID5824	left common iliac vein	The common iliac vein on the left side of the body.
+RID51011	RID1193_RID5825	right common iliac vein	The common iliac vein on the right side of the body.
+RID51012	RID1362_RID5824	left pleura	The pleura on the left side of the body.
+RID51013	RID1362_RID5825	right pleura	The pleura on the right side of the body.
+RID51014	RID2553_RID5824	left pubis	The pubis on the left side of the body.
+RID51015	RID2553_RID5825	right pubis	The pubis on the right side of the body.
+RID51016	RID375_RID5824	left spermatic cord	The spermatic cord on the left side of the body.
+RID51017	RID375_RID5825	right spermatic cord	The spermatic cord on the right side of the body.
+RID51018	RID371_RID5824	left epididymis	The epididymis on the left side of the body.
+RID51019	RID371_RID5825	right epididymis	The epididymis on the right side of the body.
+RID51020	RID2638_RID5824	left lower extremity	The lower extremity on the left side of the body.
+RID51021	RID2638_RID5825	right lower extremity	The lower extremity on the right side of the body.
+RID51022	RID2639_RID5824	left hip	The hip on the left side of the body.
+RID51023	RID2639_RID5825	right hip	The hip on the right side of the body.
+RID51024	RID2660_RID5824	left thigh	The thigh on the left side of the body.
+RID51025	RID2660_RID5825	right thigh	The thigh on the right side of the body.
+RID51026	RID2869_RID5824	left leg	The leg on the left side of the body.
+RID51027	RID2869_RID5825	right leg	The leg on the right side of the body.
+RID51028	RID28545_RID5824	left ankle	The ankle on the left side of the body.
+RID51029	RID28545_RID5825	right ankle	The ankle on the right side of the body.
+RID51030	RID28829_RID5824	left foot	The foot on the left side of the body.
+RID51031	RID28829_RID5825	right foot	The foot on the right side of the body.
+RID51032	RID2934_RID5824	left deep posterior compartment of leg	The deep posterior compartment of the leg on the left side of the body.
+RID51033	RID2934_RID5825	right deep posterior compartment of leg	The deep posterior compartment of the leg on the right side of the body.
+RID51034	RID2933_RID5824	left superficial posterior compartment of leg	The superficial posterior compartment of the leg on the left side of the body.
+RID51035	RID2933_RID5825	right superficial posterior compartment of leg	The superficial posterior compartment of the leg on the right side of the body.
+RID51036	RID2640_RID5824	left hip joint	The hip joint on the left side of the body.
+RID51037	RID2640_RID5825	right hip joint	The hip joint on the right side of the body.
+RID51038	RID2531_RID5824	left ilium	The ilium on the left side of the body.
+RID51039	RID2531_RID5825	right ilium	The ilium on the right side of the body.
+RID51040	RID2545_RID5824	left ischium	The ischium on the left side of the body.
+RID51041	RID2545_RID5825	right ischium	The ischium on the right side of the body.
+RID51042	RID2564_RID5824	left acetabulum	The acetabulum on the left side of the body.
+RID51043	RID2564_RID5825	right acetabulum	The acetabulum on the right side of the body.
+RID51044	RID2644_RID5824	left acetabular labrum	The acetabular labrum on the left side of the body.
+RID51045	RID2644_RID5825	right acetabular labrum	The acetabular labrum on the right side of the body.
+RID51046	RID2567_RID5824	left acetabular notch	The acetabular notch on the left side of the body.
+RID51047	RID2567_RID5825	right acetabular notch	The acetabular notch on the right side of the body.
+RID51048	RID2664_RID5824	left head of femur	The head of the femur on the left side of the body.
+RID51049	RID2664_RID5825	right head of femur	The head of the femur on the right side of the body.
+RID51050	RID2668_RID5824	left femoral neck	The femoral neck on the left side of the body.
+RID51051	RID2668_RID5825	right femoral neck	The femoral neck on the right side of the body.
+RID51052	RID2652_RID5824	left pubofemoral ligament	The pubofemoral ligament on the left side of the body.
+RID51053	RID2652_RID5825	right pubofemoral ligament	The pubofemoral ligament on the right side of the body.
+RID51054	RID2650_RID5824	left iliofemoral ligament	The iliofemoral ligament on the left side of the body.
+RID51055	RID2650_RID5825	right iliofemoral ligament	The iliofemoral ligament on the right side of the body.
+RID51056	RID2651_RID5824	left ischiofemoral ligament	The ischiofemoral ligament on the left side of the body.
+RID51057	RID2651_RID5825	right ischiofemoral ligament	The ischiofemoral ligament on the right side of the body.
+RID51058	RID2872_RID5824	left head of fibula	The head of the fibula on the left side of the body.
+RID51059	RID2872_RID5825	right head of fibula	The head of the fibula on the right side of the body.
+RID51060	RID2875_RID5824	left neck of fibula	The neck of the fibula on the left side of the body.
+RID51061	RID2875_RID5825	right neck of fibula	The neck of the fibula on the right side of the body.
+RID51062	RID3004_RID5824	left ankle joint	The ankle joint on the left side of the body.
+RID51063	RID3004_RID5825	right ankle joint	The ankle joint on the right side of the body.
+RID51064	RID2959_RID5824	left calcaneus	The calcaneus on the left side of the body.
+RID51065	RID2959_RID5825	right calcaneus	The calcaneus on the right side of the body.
+RID51066	RID2962_RID5824	left calcaneal tuberosity	The calcaneal tuberosity on the left side of the body.
+RID51067	RID2962_RID5825	right calcaneal tuberosity	The calcaneal tuberosity on the right side of the body.
+RID51068	RID2949_RID5824	left talus	The talus on the left side of the body.
+RID51069	RID2949_RID5825	right talus	The talus on the right side of the body.
+RID51070	RID2957_RID5824	left talar sulcus	The talar sulcus on the left side of the body.
+RID51071	RID2957_RID5825	right talar sulcus	The talar sulcus on the right side of the body.
+RID51072	RID2952_RID5824	left medial tubercle of talus	The medial tubercle of the talus on the left side of the body.
+RID51073	RID2952_RID5825	right medial tubercle of talus	The medial tubercle of the talus on the right side of the body.
+RID51074	RID2976_RID5824	left tarsal navicular	The tarsal navicular on the left side of the body.
+RID51075	RID2976_RID5825	right tarsal navicular	The tarsal navicular on the right side of the body.
+RID51076	RID2973_RID5824	left cuboid	The cuboid on the left side of the body.
+RID51077	RID2973_RID5825	right cuboid	The cuboid on the right side of the body.
+RID51078	RID2978_RID5824	left medial cuneiform	The medial cuneiform on the left side of the body.
+RID51079	RID2978_RID5825	right medial cuneiform	The medial cuneiform on the right side of the body.
+RID51080	RID2983_RID5824	left lateral cuneiform	The lateral cuneiform on the left side of the body.
+RID51081	RID2983_RID5825	right lateral cuneiform	The lateral cuneiform on the right side of the body.
+RID51082	RID2981_RID5824	left intermediate cuneiform	The intermediate cuneiform on the left side of the body.
+RID51083	RID2981_RID5825	right intermediate cuneiform	The intermediate cuneiform on the right side of the body.
+RID51084	RID3184_RID5824	left Achilles tendon	The Achilles tendon on the left side of the body.
+RID51085	RID3184_RID5825	right Achilles tendon	The Achilles tendon on the right side of the body.
+RID51086	RID3055_RID5824	left calcaneocuboid joint	The calcaneocuboid joint on the left side of the body.
+RID51087	RID3055_RID5825	right calcaneocuboid joint	The calcaneocuboid joint on the right side of the body.
+RID51088	RID38808_RID5824	left anterior tibiofibular ligament	The anterior tibiofibular ligament on the left side of the body.
+RID51089	RID38808_RID5825	right anterior tibiofibular ligament	The anterior tibiofibular ligament on the right side of the body.
+RID51090	RID38809_RID5824	left posterior tibiofibular ligament	The posterior tibiofibular ligament on the left side of the body.
+RID51091	RID38809_RID5825	right posterior tibiofibular ligament	The posterior tibiofibular ligament on the right side of the body.
+RID51092	RID3022_RID5824	left anterior talofibular ligament	The anterior talofibular ligament on the left side of the body.
+RID51093	RID3022_RID5825	right anterior talofibular ligament	The anterior talofibular ligament on the right side of the body.
+RID51094	RID3024_RID5824	left posterior talofibular ligament	The posterior talofibular ligament on the left side of the body.
+RID51095	RID3024_RID5825	right posterior talofibular ligament	The posterior talofibular ligament on the right side of the body.
+RID51096	RID3015_RID5824	left anterior tibiotalar ligament	The anterior tibiotalar ligament on the left side of the body.
+RID51097	RID3015_RID5825	right anterior tibiotalar ligament	The anterior tibiotalar ligament on the right side of the body.
+RID51098	RID3016_RID5824	left deep posterior tibiotalar ligament	The deep posterior tibiotalar ligament on the left side of the body.
+RID51099	RID3016_RID5825	right deep posterior tibiotalar ligament	The deep posterior tibiotalar ligament on the right side of the body.
+RID51100	RID3020_RID5824	left tibionavicular ligament	The tibionavicular ligament on the left side of the body.
+RID51101	RID3020_RID5825	right tibionavicular ligament	The tibionavicular ligament on the right side of the body.
+RID51102	RID3018_RID5824	left tibiocalcaneal ligament	The tibiocalcaneal ligament on the left side of the body.
+RID51103	RID3018_RID5825	right tibiocalcaneal ligament	The tibiocalcaneal ligament on the right side of the body.
+RID51104	RID3023_RID5824	left calcaneofibular ligament	The calcaneofibular ligament on the left side of the body.
+RID51105	RID3023_RID5825	right calcaneofibular ligament	The calcaneofibular ligament on the right side of the body.
+RID51106	RID3129_RID2993	metatarsophalangeal joint of great toe	The metatarsophalangeal joint between the head of the first metatarsal and the base of the proximal phalanx of the great toe.
+RID51107	RID3129_RID2993_RID5824	left metatarsophalangeal joint of great toe	The metatarsophalangeal joint between the head of the first metatarsal and the base of the proximal phalanx of the great toe, on the left side of the body.
+RID51108	RID3129_RID2993_RID5825	right metatarsophalangeal joint of great toe	The metatarsophalangeal joint between the head of the first metatarsal and the base of the proximal phalanx of the great toe, on the right side of the body.
+RID51109	RID3129_RID2996	metatarsophalangeal joint of second toe	The metatarsophalangeal joint between the head of the second metatarsal and the base of the proximal phalanx of the second toe.
+RID51110	RID3129_RID2996_RID5824	left metatarsophalangeal joint of second toe	The metatarsophalangeal joint between the head of the second metatarsal and the base of the proximal phalanx of the second toe, on the left side of the body.
+RID51111	RID3129_RID2996_RID5825	right metatarsophalangeal joint of second toe	The metatarsophalangeal joint between the head of the second metatarsal and the base of the proximal phalanx of the second toe, on the right side of the body.
+RID51112	RID3129_RID2997	metatarsophalangeal joint of third toe	The metatarsophalangeal joint between the head of the third metatarsal and the base of the proximal phalanx of the third toe.
+RID51113	RID3129_RID2997_RID5824	left metatarsophalangeal joint of third toe	The metatarsophalangeal joint between the head of the third metatarsal and the base of the proximal phalanx of the third toe, on the left side of the body.
+RID51114	RID3129_RID2997_RID5825	right metatarsophalangeal joint of third toe	The metatarsophalangeal joint between the head of the third metatarsal and the base of the proximal phalanx of the third toe, on the right side of the body.
+RID51115	RID3129_RID2998	metatarsophalangeal joint of fourth toe	The metatarsophalangeal joint between the head of the fourth metatarsal and the base of the proximal phalanx of the fourth toe.
+RID51116	RID3129_RID2998_RID5824	left metatarsophalangeal joint of fourth toe	The metatarsophalangeal joint between the head of the fourth metatarsal and the base of the proximal phalanx of the fourth toe, on the left side of the body.
+RID51117	RID3129_RID2998_RID5825	right metatarsophalangeal joint of fourth toe	The metatarsophalangeal joint between the head of the fourth metatarsal and the base of the proximal phalanx of the fourth toe, on the right side of the body.
+RID51118	RID3129_RID2999	metatarsophalangeal joint of fifth toe	The metatarsophalangeal joint between the head of the fifth metatarsal and the base of the proximal phalanx of the fifth toe.
+RID51119	RID3129_RID2999_RID5824	left metatarsophalangeal joint of fifth toe	The metatarsophalangeal joint between the head of the fifth metatarsal and the base of the proximal phalanx of the fifth toe, on the left side of the body.
+RID51120	RID3129_RID2999_RID5825	right metatarsophalangeal joint of fifth toe	The metatarsophalangeal joint between the head of the fifth metatarsal and the base of the proximal phalanx of the fifth toe, on the right side of the body.
+RID51121	RID34530_RID2993	interphalangeal joint of great toe	The interphalangeal joint between the proximal and distal phalanges of the great toe.
+RID51122	RID34530_RID2993_RID5824	left interphalangeal joint of great toe	The interphalangeal joint between the proximal and distal phalanges of the great toe, on the left side of the body.
+RID51123	RID34530_RID2993_RID5825	right interphalangeal joint of great toe	The interphalangeal joint between the proximal and distal phalanges of the great toe, on the right side of the body.
+RID51124	RID3139_RID2996	proximal interphalangeal joint of second toe	The proximal interphalangeal joint of the second toe, between its proximal and middle phalanges.
+RID51125	RID3139_RID2996_RID5824	left proximal interphalangeal joint of second toe	The proximal interphalangeal joint of the second toe, between its proximal and middle phalanges, on the left side of the body.
+RID51126	RID3139_RID2996_RID5825	right proximal interphalangeal joint of second toe	The proximal interphalangeal joint of the second toe, between its proximal and middle phalanges, on the right side of the body.
+RID51127	RID3139_RID2997	proximal interphalangeal joint of third toe	The proximal interphalangeal joint of the third toe, between its proximal and middle phalanges.
+RID51128	RID3139_RID2997_RID5824	left proximal interphalangeal joint of third toe	The proximal interphalangeal joint of the third toe, between its proximal and middle phalanges, on the left side of the body.
+RID51129	RID3139_RID2997_RID5825	right proximal interphalangeal joint of third toe	The proximal interphalangeal joint of the third toe, between its proximal and middle phalanges, on the right side of the body.
+RID51130	RID3139_RID2998	proximal interphalangeal joint of fourth toe	The proximal interphalangeal joint of the fourth toe, between its proximal and middle phalanges.
+RID51131	RID3139_RID2998_RID5824	left proximal interphalangeal joint of fourth toe	The proximal interphalangeal joint of the fourth toe, between its proximal and middle phalanges, on the left side of the body.
+RID51132	RID3139_RID2998_RID5825	right proximal interphalangeal joint of fourth toe	The proximal interphalangeal joint of the fourth toe, between its proximal and middle phalanges, on the right side of the body.
+RID51133	RID3139_RID2999	proximal interphalangeal joint of fifth toe	The proximal interphalangeal joint of the fifth toe, between its proximal and middle phalanges.
+RID51134	RID3139_RID2999_RID5824	left proximal interphalangeal joint of fifth toe	The proximal interphalangeal joint of the fifth toe, between its proximal and middle phalanges, on the left side of the body.
+RID51135	RID3139_RID2999_RID5825	right proximal interphalangeal joint of fifth toe	The proximal interphalangeal joint of the fifth toe, between its proximal and middle phalanges, on the right side of the body.
+RID51136	RID3148_RID2996	distal interphalangeal joint of second toe	The distal interphalangeal joint of the second toe, between its middle and distal phalanges.
+RID51137	RID3148_RID2996_RID5824	left distal interphalangeal joint of second toe	The distal interphalangeal joint of the second toe, between its middle and distal phalanges, on the left side of the body.
+RID51138	RID3148_RID2996_RID5825	right distal interphalangeal joint of second toe	The distal interphalangeal joint of the second toe, between its middle and distal phalanges, on the right side of the body.
+RID51139	RID3148_RID2997	distal interphalangeal joint of third toe	The distal interphalangeal joint of the third toe, between its middle and distal phalanges.
+RID51140	RID3148_RID2997_RID5824	left distal interphalangeal joint of third toe	The distal interphalangeal joint of the third toe, between its middle and distal phalanges, on the left side of the body.
+RID51141	RID3148_RID2997_RID5825	right distal interphalangeal joint of third toe	The distal interphalangeal joint of the third toe, between its middle and distal phalanges, on the right side of the body.
+RID51142	RID3148_RID2998	distal interphalangeal joint of fourth toe	The distal interphalangeal joint of the fourth toe, between its middle and distal phalanges.
+RID51143	RID3148_RID2998_RID5824	left distal interphalangeal joint of fourth toe	The distal interphalangeal joint of the fourth toe, between its middle and distal phalanges, on the left side of the body.
+RID51144	RID3148_RID2998_RID5825	right distal interphalangeal joint of fourth toe	The distal interphalangeal joint of the fourth toe, between its middle and distal phalanges, on the right side of the body.
+RID51145	RID3148_RID2999	distal interphalangeal joint of fifth toe	The distal interphalangeal joint of the fifth toe, between its middle and distal phalanges.
+RID51146	RID3148_RID2999_RID5824	left distal interphalangeal joint of fifth toe	The distal interphalangeal joint of the fifth toe, between its middle and distal phalanges, on the left side of the body.
+RID51147	RID3148_RID2999_RID5825	right distal interphalangeal joint of fifth toe	The distal interphalangeal joint of the fifth toe, between its middle and distal phalanges, on the right side of the body.
+RID51148	RID2986_RID2993	first metatarsal	The first metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the great toe.
+RID51149	RID2986_RID2993_RID5824	left first metatarsal	The first metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the great toe, on the left side of the body.
+RID51150	RID2986_RID2993_RID5825	right first metatarsal	The first metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the great toe, on the right side of the body.
+RID51151	RID2986_RID2996	second metatarsal	The second metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the second toe.
+RID51152	RID2986_RID2996_RID5824	left second metatarsal	The second metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the second toe, on the left side of the body.
+RID51153	RID2986_RID2996_RID5825	right second metatarsal	The second metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the second toe, on the right side of the body.
+RID51154	RID2986_RID2997	third metatarsal	The third metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the third toe.
+RID51155	RID2986_RID2997_RID5824	left third metatarsal	The third metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the third toe, on the left side of the body.
+RID51156	RID2986_RID2997_RID5825	right third metatarsal	The third metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the third toe, on the right side of the body.
+RID51157	RID2986_RID2998	fourth metatarsal	The fourth metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the fourth toe.
+RID51158	RID2986_RID2998_RID5824	left fourth metatarsal	The fourth metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the fourth toe, on the left side of the body.
+RID51159	RID2986_RID2998_RID5825	right fourth metatarsal	The fourth metatarsal bone, the long bone of the foot whose head articulates with the proximal phalanx of the fourth toe, on the right side of the body.
+RID51160	RID13324_RID5824	left fifth metatarsal	The fifth metatarsal on the left side of the body.
+RID51161	RID13324_RID5825	right fifth metatarsal	The fifth metatarsal on the right side of the body.
+RID51162	RID3000_RID2993	proximal phalanx of great toe	The proximal phalanx of the great toe, which articulates proximally with the head of the first metatarsal and distally with the distal phalanx of the great toe.
+RID51163	RID3000_RID2993_RID5824	left proximal phalanx of great toe	The proximal phalanx of the great toe, which articulates proximally with the head of the first metatarsal and distally with the distal phalanx of the great toe, on the left side of the body.
+RID51164	RID3000_RID2993_RID5825	right proximal phalanx of great toe	The proximal phalanx of the great toe, which articulates proximally with the head of the first metatarsal and distally with the distal phalanx of the great toe, on the right side of the body.
+RID51165	RID3000_RID2996	proximal phalanx of second toe	The proximal phalanx of the second toe, which articulates proximally with the head of the second metatarsal and distally with the middle phalanx of the second toe.
+RID51166	RID3000_RID2996_RID5824	left proximal phalanx of second toe	The proximal phalanx of the second toe, which articulates proximally with the head of the second metatarsal and distally with the middle phalanx of the second toe, on the left side of the body.
+RID51167	RID3000_RID2996_RID5825	right proximal phalanx of second toe	The proximal phalanx of the second toe, which articulates proximally with the head of the second metatarsal and distally with the middle phalanx of the second toe, on the right side of the body.
+RID51168	RID3000_RID2997	proximal phalanx of third toe	The proximal phalanx of the third toe, which articulates proximally with the head of the third metatarsal and distally with the middle phalanx of the third toe.
+RID51169	RID3000_RID2997_RID5824	left proximal phalanx of third toe	The proximal phalanx of the third toe, which articulates proximally with the head of the third metatarsal and distally with the middle phalanx of the third toe, on the left side of the body.
+RID51170	RID3000_RID2997_RID5825	right proximal phalanx of third toe	The proximal phalanx of the third toe, which articulates proximally with the head of the third metatarsal and distally with the middle phalanx of the third toe, on the right side of the body.
+RID51171	RID3000_RID2998	proximal phalanx of fourth toe	The proximal phalanx of the fourth toe, which articulates proximally with the head of the fourth metatarsal and distally with the middle phalanx of the fourth toe.
+RID51172	RID3000_RID2998_RID5824	left proximal phalanx of fourth toe	The proximal phalanx of the fourth toe, which articulates proximally with the head of the fourth metatarsal and distally with the middle phalanx of the fourth toe, on the left side of the body.
+RID51173	RID3000_RID2998_RID5825	right proximal phalanx of fourth toe	The proximal phalanx of the fourth toe, which articulates proximally with the head of the fourth metatarsal and distally with the middle phalanx of the fourth toe, on the right side of the body.
+RID51174	RID3000_RID2999	proximal phalanx of fifth toe	The proximal phalanx of the fifth toe, which articulates proximally with the head of the fifth metatarsal and distally with the middle phalanx of the fifth toe.
+RID51175	RID3000_RID2999_RID5824	left proximal phalanx of fifth toe	The proximal phalanx of the fifth toe, which articulates proximally with the head of the fifth metatarsal and distally with the middle phalanx of the fifth toe, on the left side of the body.
+RID51176	RID3000_RID2999_RID5825	right proximal phalanx of fifth toe	The proximal phalanx of the fifth toe, which articulates proximally with the head of the fifth metatarsal and distally with the middle phalanx of the fifth toe, on the right side of the body.
+RID51177	RID3001_RID2996	middle phalanx of second toe	The middle phalanx of the second toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the second toe.
+RID51178	RID3001_RID2996_RID5824	left middle phalanx of second toe	The middle phalanx of the second toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the second toe, on the left side of the body.
+RID51179	RID3001_RID2996_RID5825	right middle phalanx of second toe	The middle phalanx of the second toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the second toe, on the right side of the body.
+RID51180	RID3001_RID2997	middle phalanx of third toe	The middle phalanx of the third toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the third toe.
+RID51181	RID3001_RID2997_RID5824	left middle phalanx of third toe	The middle phalanx of the third toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the third toe, on the left side of the body.
+RID51182	RID3001_RID2997_RID5825	right middle phalanx of third toe	The middle phalanx of the third toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the third toe, on the right side of the body.
+RID51183	RID3001_RID2998	middle phalanx of fourth toe	The middle phalanx of the fourth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fourth toe.
+RID51184	RID3001_RID2998_RID5824	left middle phalanx of fourth toe	The middle phalanx of the fourth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fourth toe, on the left side of the body.
+RID51185	RID3001_RID2998_RID5825	right middle phalanx of fourth toe	The middle phalanx of the fourth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fourth toe, on the right side of the body.
+RID51186	RID3001_RID2999	middle phalanx of fifth toe	The middle phalanx of the fifth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fifth toe.
+RID51187	RID3001_RID2999_RID5824	left middle phalanx of fifth toe	The middle phalanx of the fifth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fifth toe, on the left side of the body.
+RID51188	RID3001_RID2999_RID5825	right middle phalanx of fifth toe	The middle phalanx of the fifth toe, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the fifth toe, on the right side of the body.
+RID51189	RID3002_RID2993	distal phalanx of great toe	The distal (terminal) phalanx of the great toe, which articulates proximally with the proximal phalanx of the great toe.
+RID51190	RID3002_RID2993_RID5824	left distal phalanx of great toe	The distal (terminal) phalanx of the great toe, which articulates proximally with the proximal phalanx of the great toe, on the left side of the body.
+RID51191	RID3002_RID2993_RID5825	right distal phalanx of great toe	The distal (terminal) phalanx of the great toe, which articulates proximally with the proximal phalanx of the great toe, on the right side of the body.
+RID51192	RID3002_RID2996	distal phalanx of second toe	The distal (terminal) phalanx of the second toe, which articulates proximally with the middle phalanx of the second toe.
+RID51193	RID3002_RID2996_RID5824	left distal phalanx of second toe	The distal (terminal) phalanx of the second toe, which articulates proximally with the middle phalanx of the second toe, on the left side of the body.
+RID51194	RID3002_RID2996_RID5825	right distal phalanx of second toe	The distal (terminal) phalanx of the second toe, which articulates proximally with the middle phalanx of the second toe, on the right side of the body.
+RID51195	RID3002_RID2997	distal phalanx of third toe	The distal (terminal) phalanx of the third toe, which articulates proximally with the middle phalanx of the third toe.
+RID51196	RID3002_RID2997_RID5824	left distal phalanx of third toe	The distal (terminal) phalanx of the third toe, which articulates proximally with the middle phalanx of the third toe, on the left side of the body.
+RID51197	RID3002_RID2997_RID5825	right distal phalanx of third toe	The distal (terminal) phalanx of the third toe, which articulates proximally with the middle phalanx of the third toe, on the right side of the body.
+RID51198	RID3002_RID2998	distal phalanx of fourth toe	The distal (terminal) phalanx of the fourth toe, which articulates proximally with the middle phalanx of the fourth toe.
+RID51199	RID3002_RID2998_RID5824	left distal phalanx of fourth toe	The distal (terminal) phalanx of the fourth toe, which articulates proximally with the middle phalanx of the fourth toe, on the left side of the body.
+RID51200	RID3002_RID2998_RID5825	right distal phalanx of fourth toe	The distal (terminal) phalanx of the fourth toe, which articulates proximally with the middle phalanx of the fourth toe, on the right side of the body.
+RID51201	RID3002_RID2999	distal phalanx of fifth toe	The distal (terminal) phalanx of the fifth toe, which articulates proximally with the middle phalanx of the fifth toe.
+RID51202	RID3002_RID2999_RID5824	left distal phalanx of fifth toe	The distal (terminal) phalanx of the fifth toe, which articulates proximally with the middle phalanx of the fifth toe, on the left side of the body.
+RID51203	RID3002_RID2999_RID5825	right distal phalanx of fifth toe	The distal (terminal) phalanx of the fifth toe, which articulates proximally with the middle phalanx of the fifth toe, on the right side of the body.
+RID51204	RID949_RID5824	left superior gluteal artery	The superior gluteal artery on the left side of the body.
+RID51205	RID949_RID5825	right superior gluteal artery	The superior gluteal artery on the right side of the body.
+RID51206	RID950_RID5824	left inferior gluteal artery	The inferior gluteal artery on the left side of the body.
+RID51207	RID950_RID5825	right inferior gluteal artery	The inferior gluteal artery on the right side of the body.
+RID51208	RID957_RID5824	left external iliac artery	The external iliac artery on the left side of the body.
+RID51209	RID957_RID5825	right external iliac artery	The external iliac artery on the right side of the body.
+RID51210	RID1195_RID5824	left external iliac vein	The external iliac vein on the left side of the body.
+RID51211	RID1195_RID5825	right external iliac vein	The external iliac vein on the right side of the body.
+RID51212	RID958_RID5824	left common femoral artery	The common femoral artery on the left side of the body.
+RID51213	RID958_RID5825	right common femoral artery	The common femoral artery on the right side of the body.
+RID51214	RID961_RID5824	left superficial femoral artery	The superficial femoral artery on the left side of the body.
+RID51215	RID961_RID5825	right superficial femoral artery	The superficial femoral artery on the right side of the body.
+RID51216	RID1199_RID5824	left femoral vein	The femoral vein on the left side of the body.
+RID51217	RID1199_RID5825	right femoral vein	The femoral vein on the right side of the body.
+RID51218	RID959_RID5824	left deep femoral artery	The deep femoral artery on the left side of the body.
+RID51219	RID959_RID5825	right deep femoral artery	The deep femoral artery on the right side of the body.
+RID51220	RID1197_RID5824	left great saphenous vein	The great saphenous vein on the left side of the body.
+RID51221	RID1197_RID5825	right great saphenous vein	The great saphenous vein on the right side of the body.
+RID51222	RID1202_RID5824	left small saphenous vein	The small saphenous vein on the left side of the body.
+RID51223	RID1202_RID5825	right small saphenous vein	The small saphenous vein on the right side of the body.
+RID51224	RID962_RID5824	left popliteal artery	The popliteal artery on the left side of the body.
+RID51225	RID962_RID5825	right popliteal artery	The popliteal artery on the right side of the body.
+RID51226	RID1201_RID5824	left popliteal vein	The popliteal vein on the left side of the body.
+RID51227	RID1201_RID5825	right popliteal vein	The popliteal vein on the right side of the body.
+RID51228	RID971_RID5824	left anterior tibial artery	The anterior tibial artery on the left side of the body.
+RID51229	RID971_RID5825	right anterior tibial artery	The anterior tibial artery on the right side of the body.
+RID51230	RID1205_RID5824	left anterior tibial vein	An anterior tibial vein located on the left side of the body.
+RID51231	RID1205_RID5825	right anterior tibial vein	An anterior tibial vein located on the right side of the body.
+RID51232	RID967_RID5824	left posterior tibial artery	The posterior tibial artery on the left side of the body.
+RID51233	RID967_RID5825	right posterior tibial artery	The posterior tibial artery on the right side of the body.
+RID51234	RID1207_RID5824	left posterior tibial vein	A posterior tibial vein located on the left side of the body.
+RID51235	RID1207_RID5825	right posterior tibial vein	A posterior tibial vein located on the right side of the body.
+RID51236	RID964_RID5824	left peroneal artery	The peroneal artery on the left side of the body.
+RID51237	RID964_RID5825	right peroneal artery	The peroneal artery on the right side of the body.
+RID51238	RID1206_RID5824	left peroneal vein	A peroneal vein located on the left side of the body.
+RID51239	RID1206_RID5825	right peroneal vein	A peroneal vein located on the right side of the body.
+RID51240	RID972_RID5824	left dorsalis pedis artery	The dorsalis pedis artery on the left side of the body.
+RID51241	RID972_RID5825	right dorsalis pedis artery	The dorsalis pedis artery on the right side of the body.
+RID51242	RID970_RID5824	left plantar arterial arch	The plantar arterial arch on the left side of the body.
+RID51243	RID970_RID5825	right plantar arterial arch	The plantar arterial arch on the right side of the body.
+RID51244	RID7348_RID5824	left common peroneal nerve	The common peroneal nerve on the left side of the body.
+RID51245	RID7348_RID5825	right common peroneal nerve	The common peroneal nerve on the right side of the body.
+RID51246	RID2629_RID5824	left gluteus maximus muscle	The gluteus maximus muscle on the left side of the body.
+RID51247	RID2629_RID5825	right gluteus maximus muscle	The gluteus maximus muscle on the right side of the body.
+RID51248	RID2630_RID5824	left gluteus medius muscle	The gluteus medius muscle on the left side of the body.
+RID51249	RID2630_RID5825	right gluteus medius muscle	The gluteus medius muscle on the right side of the body.
+RID51250	RID2631_RID5824	left gluteus minimus muscle	The gluteus minimus muscle on the left side of the body.
+RID51251	RID2631_RID5825	right gluteus minimus muscle	The gluteus minimus muscle on the right side of the body.
+RID51252	RID2703_RID5824	left tensor fasciae latae muscle	The tensor fasciae latae muscle on the left side of the body.
+RID51253	RID2703_RID5825	right tensor fasciae latae muscle	The tensor fasciae latae muscle on the right side of the body.
+RID51254	RID2700_RID5824	left vastus medialis muscle	The vastus medialis muscle on the left side of the body.
+RID51255	RID2700_RID5825	right vastus medialis muscle	The vastus medialis muscle on the right side of the body.
+RID51256	RID2702_RID5824	left vastus intermedius muscle	The vastus intermedius muscle on the left side of the body.
+RID51257	RID2702_RID5825	right vastus intermedius muscle	The vastus intermedius muscle on the right side of the body.
+RID51258	RID2699_RID5824	left vastus lateralis muscle	The vastus lateralis muscle on the left side of the body.
+RID51259	RID2699_RID5825	right vastus lateralis muscle	The vastus lateralis muscle on the right side of the body.
+RID51260	RID2698_RID5824	left rectus femoris muscle	The rectus femoris muscle on the left side of the body.
+RID51261	RID2698_RID5825	right rectus femoris muscle	The rectus femoris muscle on the right side of the body.
+RID51262	RID3162_RID5824	left extensor digitorum brevis muscle	The extensor digitorum brevis muscle on the left side of the body.
+RID51263	RID3162_RID5825	right extensor digitorum brevis muscle	The extensor digitorum brevis muscle on the right side of the body.
+RID51264	RID3163_RID5824	left extensor hallucis brevis muscle	The extensor hallucis brevis muscle on the left side of the body.
+RID51265	RID3163_RID5825	right extensor hallucis brevis muscle	The extensor hallucis brevis muscle on the right side of the body.
+RID51266	RID3166_RID5824	left flexor digitorum brevis muscle	The flexor digitorum brevis muscle of the foot on the left side of the body.
+RID51267	RID3166_RID5825	right flexor digitorum brevis muscle	The flexor digitorum brevis muscle of the foot on the right side of the body.
+RID51268	RID3173_RID5824	left flexor hallucis brevis muscle	The flexor hallucis brevis muscle on the left side of the body.
+RID51269	RID3173_RID5825	right flexor hallucis brevis muscle	The flexor hallucis brevis muscle on the right side of the body.
+RID51270	RID3165_RID5824	left abductor hallucis muscle	The abductor hallucis muscle on the left side of the body.
+RID51271	RID3165_RID5825	right abductor hallucis muscle	The abductor hallucis muscle on the right side of the body.
+RID51272	RID3176_RID5824	left adductor hallucis muscle	The adductor hallucis muscle on the left side of the body.
+RID51273	RID3176_RID5825	right adductor hallucis muscle	The adductor hallucis muscle on the right side of the body.
+RID51274	RID3169_RID5824	left quadratus plantae muscle	The quadratus plantae muscle on the left side of the body.
+RID51275	RID3169_RID5825	right quadratus plantae muscle	The quadratus plantae muscle on the right side of the body.
+RID51276	RID3172_RID5824	left lumbrical muscle of foot	A lumbrical muscle of foot located on the left side of the body.
+RID51277	RID3172_RID5825	right lumbrical muscle of foot	A lumbrical muscle of foot located on the right side of the body.
+RID51278	RID3167_RID5824	left abductor digiti minimi muscle of foot	The abductor digiti minimi muscle of the foot on the left side of the body.
+RID51279	RID3167_RID5825	right abductor digiti minimi muscle of foot	The abductor digiti minimi muscle of the foot on the right side of the body.
+RID51280	RID3181_RID5824	left plantar interosseous muscle of foot	A plantar interosseous muscle of foot located on the left side of the body.
+RID51281	RID3181_RID5825	right plantar interosseous muscle of foot	A plantar interosseous muscle of foot located on the right side of the body.
+RID51282	RID3182_RID5824	left dorsal interosseous muscle of foot	A dorsal interosseous muscle of foot located on the left side of the body.
+RID51283	RID3182_RID5825	right dorsal interosseous muscle of foot	A dorsal interosseous muscle of foot located on the right side of the body.
+RID51284	RID465_RID5824	left inguinal lymph node	An inguinal lymph node located on the left side of the body.
+RID51285	RID465_RID5825	right inguinal lymph node	An inguinal lymph node located on the right side of the body.
+RID51286	RID1850_RID5824	left upper extremity	The upper extremity on the left side of the body.
+RID51287	RID1850_RID5825	right upper extremity	The upper extremity on the right side of the body.
+RID51288	RID39518_RID5824	left shoulder	The shoulder on the left side of the body.
+RID51289	RID39518_RID5825	right shoulder	The shoulder on the right side of the body.
+RID51290	RID1968_RID5824	left arm	The arm on the left side of the body.
+RID51291	RID1968_RID5825	right arm	The arm on the right side of the body.
+RID51292	RID2010_RID5824	left elbow	The elbow on the left side of the body.
+RID51293	RID2010_RID5825	right elbow	The elbow on the right side of the body.
+RID51294	RID2107_RID5824	left forearm	The forearm on the left side of the body.
+RID51295	RID2107_RID5825	right forearm	The forearm on the right side of the body.
+RID51296	RID2177_RID5824	left wrist	The wrist on the left side of the body.
+RID51297	RID2177_RID5825	right wrist	The wrist on the right side of the body.
+RID51298	RID2318_RID5824	left hand	The hand on the left side of the body.
+RID51299	RID2318_RID5825	right hand	The hand on the right side of the body.
+RID51300	RID1892_RID5824	left costoclavicular ligament	The costoclavicular ligament on the left side of the body.
+RID51301	RID1892_RID5825	right costoclavicular ligament	The costoclavicular ligament on the right side of the body.
+RID51302	RID1916_RID5824	left glenohumeral ligament	A glenohumeral ligament located on the left side of the body.
+RID51303	RID1916_RID5825	right glenohumeral ligament	A glenohumeral ligament located on the right side of the body.
+RID51304	RID1972_RID5824	left anatomical neck of humerus	The anatomical neck of the humerus on the left side of the body.
+RID51305	RID1972_RID5825	right anatomical neck of humerus	The anatomical neck of the humerus on the right side of the body.
+RID51306	RID1973_RID5824	left greater tuberosity of humerus	The greater tuberosity of the humerus on the left side of the body.
+RID51307	RID1973_RID5825	right greater tuberosity of humerus	The greater tuberosity of the humerus on the right side of the body.
+RID51308	RID1978_RID5824	left lesser tuberosity of humerus	The lesser tuberosity of the humerus on the left side of the body.
+RID51309	RID1978_RID5825	right lesser tuberosity of humerus	The lesser tuberosity of the humerus on the right side of the body.
+RID51310	RID1944_RID5824	left long head of biceps brachii tendon	The long head of the biceps brachii tendon on the left side of the body.
+RID51311	RID1944_RID5825	right long head of biceps brachii tendon	The long head of the biceps brachii tendon on the right side of the body.
+RID51312	RID1945_RID5824	left short head of biceps brachii tendon	The short head of the biceps brachii tendon on the left side of the body.
+RID51313	RID1945_RID5825	right short head of biceps brachii tendon	The short head of the biceps brachii tendon on the right side of the body.
+RID51314	RID1985_RID5824	left medial epicondyle of humerus	The medial epicondyle of the humerus on the left side of the body.
+RID51315	RID1985_RID5825	right medial epicondyle of humerus	The medial epicondyle of the humerus on the right side of the body.
+RID51316	RID1984_RID5824	left lateral epicondyle of humerus	The lateral epicondyle of the humerus on the left side of the body.
+RID51317	RID1984_RID5825	right lateral epicondyle of humerus	The lateral epicondyle of the humerus on the right side of the body.
+RID51318	RID1987_RID5824	left capitellum of humerus	The capitellum of the humerus on the left side of the body.
+RID51319	RID1987_RID5825	right capitellum of humerus	The capitellum of the humerus on the right side of the body.
+RID51320	RID2011_RID5824	left elbow joint	The elbow joint on the left side of the body.
+RID51321	RID2011_RID5825	right elbow joint	The elbow joint on the right side of the body.
+RID51322	RID2086_RID5824	left bicipitoradial bursa	The bicipitoradial bursa on the left side of the body.
+RID51323	RID2086_RID5825	right bicipitoradial bursa	The bicipitoradial bursa on the right side of the body.
+RID51324	RID2068_RID5824	left common extensor tendon	The common extensor tendon on the left side of the body.
+RID51325	RID2068_RID5825	right common extensor tendon	The common extensor tendon on the right side of the body.
+RID51326	RID2044_RID5824	left radial collateral ligament of elbow	The radial collateral ligament of the elbow on the left side of the body.
+RID51327	RID2044_RID5825	right radial collateral ligament of elbow	The radial collateral ligament of the elbow on the right side of the body.
+RID51328	RID2048_RID5824	left annular ligament of radius	The annular ligament of the radius on the left side of the body.
+RID51329	RID2048_RID5825	right annular ligament of radius	The annular ligament of the radius on the right side of the body.
+RID51330	RID28590_RID5824	left head of radius	The head of the radius on the left side of the body.
+RID51331	RID28590_RID5825	right head of radius	The head of the radius on the right side of the body.
+RID51332	RID42286_RID5824	left head of ulna	The head of the ulna on the left side of the body.
+RID51333	RID42286_RID5825	right head of ulna	The head of the ulna on the right side of the body.
+RID51334	RID2203_RID5824	left distal radioulnar joint	The distal radioulnar joint on the left side of the body.
+RID51335	RID2203_RID5825	right distal radioulnar joint	The distal radioulnar joint on the right side of the body.
+RID51336	RID2230_RID5824	left palmar radioulnar ligament	The palmar radioulnar ligament on the left side of the body.
+RID51337	RID2230_RID5825	right palmar radioulnar ligament	The palmar radioulnar ligament on the right side of the body.
+RID51338	RID2257_RID5824	left radial collateral ligament of wrist	The radial collateral ligament of the wrist on the left side of the body.
+RID51339	RID2257_RID5825	right radial collateral ligament of wrist	The radial collateral ligament of the wrist on the right side of the body.
+RID51340	RID2235_RID5824	left ulnar collateral ligament of wrist	The ulnar collateral ligament of the wrist on the left side of the body.
+RID51341	RID2235_RID5825	right ulnar collateral ligament of wrist	The ulnar collateral ligament of the wrist on the right side of the body.
+RID51342	RID2229_RID5824	left dorsal radioulnar ligament	The dorsal radioulnar ligament on the left side of the body.
+RID51343	RID2229_RID5825	right dorsal radioulnar ligament	The dorsal radioulnar ligament on the right side of the body.
+RID51344	RID2259_RID5824	left scapholunate ligament	The scapholunate ligament on the left side of the body.
+RID51345	RID2259_RID5825	right scapholunate ligament	The scapholunate ligament on the right side of the body.
+RID51346	RID2249_RID5824	left capitohamate joint	The capitohamate joint on the left side of the body.
+RID51347	RID2249_RID5825	right capitohamate joint	The capitohamate joint on the right side of the body.
+RID51348	RID2247_RID5824	left capitolunate joint	The capitolunate joint on the left side of the body.
+RID51349	RID2247_RID5825	right capitolunate joint	The capitolunate joint on the right side of the body.
+RID51350	RID2313_RID5824	left flexor retinaculum	A flexor retinaculum located on the left side of the body.
+RID51351	RID2313_RID5825	right flexor retinaculum	A flexor retinaculum located on the right side of the body.
+RID51352	RID2309_RID5824	left extensor retinaculum	An extensor retinaculum located on the left side of the body.
+RID51353	RID2309_RID5825	right extensor retinaculum	An extensor retinaculum located on the right side of the body.
+RID51354	RID2202_RID5824	left wrist joint	The wrist joint on the left side of the body.
+RID51355	RID2202_RID5825	right wrist joint	The wrist joint on the right side of the body.
+RID51356	RID2181_RID5824	left scaphoid	The scaphoid on the left side of the body.
+RID51357	RID2181_RID5825	right scaphoid	The scaphoid on the right side of the body.
+RID51358	RID2187_RID5824	left lunate	The lunate on the left side of the body.
+RID51359	RID2187_RID5825	right lunate	The lunate on the right side of the body.
+RID51360	RID2189_RID5824	left triquetrum	The triquetrum on the left side of the body.
+RID51361	RID2189_RID5825	right triquetrum	The triquetrum on the right side of the body.
+RID51362	RID2191_RID5824	left pisiform	The pisiform on the left side of the body.
+RID51363	RID2191_RID5825	right pisiform	The pisiform on the right side of the body.
+RID51364	RID2193_RID5824	left trapezium	The trapezium on the left side of the body.
+RID51365	RID2193_RID5825	right trapezium	The trapezium on the right side of the body.
+RID51366	RID2195_RID5824	left trapezoid	The trapezoid on the left side of the body.
+RID51367	RID2195_RID5825	right trapezoid	The trapezoid on the right side of the body.
+RID51368	RID2197_RID5824	left capitate	The capitate on the left side of the body.
+RID51369	RID2197_RID5825	right capitate	The capitate on the right side of the body.
+RID51370	RID2198_RID5824	left hamate	The hamate on the left side of the body.
+RID51371	RID2198_RID5825	right hamate	The hamate on the right side of the body.
+RID51372	RID2200_RID5824	left hook of hamate	The hook of the hamate on the left side of the body.
+RID51373	RID2200_RID5825	right hook of hamate	The hook of the hamate on the right side of the body.
+RID51374	RID2320_RID5824	left metacarpal bone	A metacarpal bone located on the left side of the body.
+RID51375	RID2320_RID5825	right metacarpal bone	A metacarpal bone located on the right side of the body.
+RID51376	RID34545_RID5824	left first metacarpal bone	The first metacarpal bone on the left side of the body.
+RID51377	RID34545_RID5825	right first metacarpal bone	The first metacarpal bone on the right side of the body.
+RID51378	RID34546_RID5824	left second metacarpal bone	The second metacarpal bone on the left side of the body.
+RID51379	RID34546_RID5825	right second metacarpal bone	The second metacarpal bone on the right side of the body.
+RID51380	RID34547_RID5824	left third metacarpal bone	The third metacarpal bone on the left side of the body.
+RID51381	RID34547_RID5825	right third metacarpal bone	The third metacarpal bone on the right side of the body.
+RID51382	RID34548_RID5824	left fourth metacarpal bone	The fourth metacarpal bone on the left side of the body.
+RID51383	RID34548_RID5825	right fourth metacarpal bone	The fourth metacarpal bone on the right side of the body.
+RID51384	RID34549_RID5824	left fifth metacarpal bone	The fifth metacarpal bone on the left side of the body.
+RID51385	RID34549_RID5825	right fifth metacarpal bone	The fifth metacarpal bone on the right side of the body.
+RID51386	RID2332_RID2392	metacarpophalangeal joint of thumb	The metacarpophalangeal joint between the head of the first metacarpal bone and the base of the proximal phalanx of the thumb.
+RID51387	RID2332_RID2392_RID5824	metacarpophalangeal joint of left thumb	The metacarpophalangeal joint between the head of the first metacarpal bone and the base of the proximal phalanx of the thumb, on the left side of the body.
+RID51388	RID2332_RID2392_RID5825	metacarpophalangeal joint of right thumb	The metacarpophalangeal joint between the head of the first metacarpal bone and the base of the proximal phalanx of the thumb, on the right side of the body.
+RID51389	RID2332_RID2394	metacarpophalangeal joint of index finger	The metacarpophalangeal joint between the head of the second metacarpal bone and the base of the proximal phalanx of the index finger.
+RID51390	RID2332_RID2394_RID5824	metacarpophalangeal joint of left index finger	The metacarpophalangeal joint between the head of the second metacarpal bone and the base of the proximal phalanx of the index finger, on the left side of the body.
+RID51391	RID2332_RID2394_RID5825	metacarpophalangeal joint of right index finger	The metacarpophalangeal joint between the head of the second metacarpal bone and the base of the proximal phalanx of the index finger, on the right side of the body.
+RID51392	RID2332_RID2396	metacarpophalangeal joint of middle finger	The metacarpophalangeal joint between the head of the third metacarpal bone and the base of the proximal phalanx of the middle finger.
+RID51393	RID2332_RID2396_RID5824	metacarpophalangeal joint of left middle finger	The metacarpophalangeal joint between the head of the third metacarpal bone and the base of the proximal phalanx of the middle finger, on the left side of the body.
+RID51394	RID2332_RID2396_RID5825	metacarpophalangeal joint of right middle finger	The metacarpophalangeal joint between the head of the third metacarpal bone and the base of the proximal phalanx of the middle finger, on the right side of the body.
+RID51395	RID2332_RID2398	metacarpophalangeal joint of ring finger	The metacarpophalangeal joint between the head of the fourth metacarpal bone and the base of the proximal phalanx of the ring finger.
+RID51396	RID2332_RID2398_RID5824	metacarpophalangeal joint of left ring finger	The metacarpophalangeal joint between the head of the fourth metacarpal bone and the base of the proximal phalanx of the ring finger, on the left side of the body.
+RID51397	RID2332_RID2398_RID5825	metacarpophalangeal joint of right ring finger	The metacarpophalangeal joint between the head of the fourth metacarpal bone and the base of the proximal phalanx of the ring finger, on the right side of the body.
+RID51398	RID2332_RID2400	metacarpophalangeal joint of small finger	The metacarpophalangeal joint between the head of the fifth metacarpal bone and the base of the proximal phalanx of the small finger.
+RID51399	RID2332_RID2400_RID5824	metacarpophalangeal joint of left small finger	The metacarpophalangeal joint between the head of the fifth metacarpal bone and the base of the proximal phalanx of the small finger, on the left side of the body.
+RID51400	RID2332_RID2400_RID5825	metacarpophalangeal joint of right small finger	The metacarpophalangeal joint between the head of the fifth metacarpal bone and the base of the proximal phalanx of the small finger, on the right side of the body.
+RID51401	RID34533_RID5824	interphalangeal joint of left thumb	The interphalangeal joint of the thumb on the left side of the body.
+RID51402	RID34533_RID5825	interphalangeal joint of right thumb	The interphalangeal joint of the thumb on the right side of the body.
+RID51403	RID2408_RID2394	proximal interphalangeal joint of index finger	The proximal interphalangeal joint of the index finger, between its proximal and middle phalanges.
+RID51404	RID2408_RID2394_RID5824	proximal interphalangeal joint of left index finger	The proximal interphalangeal joint of the index finger, between its proximal and middle phalanges, on the left side of the body.
+RID51405	RID2408_RID2394_RID5825	proximal interphalangeal joint of right index finger	The proximal interphalangeal joint of the index finger, between its proximal and middle phalanges, on the right side of the body.
+RID51406	RID2408_RID2396	proximal interphalangeal joint of middle finger	The proximal interphalangeal joint of the middle finger, between its proximal and middle phalanges.
+RID51407	RID2408_RID2396_RID5824	proximal interphalangeal joint of left middle finger	The proximal interphalangeal joint of the middle finger, between its proximal and middle phalanges, on the left side of the body.
+RID51408	RID2408_RID2396_RID5825	proximal interphalangeal joint of right middle finger	The proximal interphalangeal joint of the middle finger, between its proximal and middle phalanges, on the right side of the body.
+RID51409	RID2408_RID2398	proximal interphalangeal joint of ring finger	The proximal interphalangeal joint of the ring finger, between its proximal and middle phalanges.
+RID51410	RID2408_RID2398_RID5824	proximal interphalangeal joint of left ring finger	The proximal interphalangeal joint of the ring finger, between its proximal and middle phalanges, on the left side of the body.
+RID51411	RID2408_RID2398_RID5825	proximal interphalangeal joint of right ring finger	The proximal interphalangeal joint of the ring finger, between its proximal and middle phalanges, on the right side of the body.
+RID51412	RID2408_RID2400	proximal interphalangeal joint of small finger	The proximal interphalangeal joint of the small finger, between its proximal and middle phalanges.
+RID51413	RID2408_RID2400_RID5824	proximal interphalangeal joint of left small finger	The proximal interphalangeal joint of the small finger, between its proximal and middle phalanges, on the left side of the body.
+RID51414	RID2408_RID2400_RID5825	proximal interphalangeal joint of right small finger	The proximal interphalangeal joint of the small finger, between its proximal and middle phalanges, on the right side of the body.
+RID51415	RID2418_RID2394	distal interphalangeal joint of index finger	The distal interphalangeal joint of the index finger, between its middle and distal phalanges.
+RID51416	RID2418_RID2394_RID5824	distal interphalangeal joint of left index finger	The distal interphalangeal joint of the index finger, between its middle and distal phalanges, on the left side of the body.
+RID51417	RID2418_RID2394_RID5825	distal interphalangeal joint of right index finger	The distal interphalangeal joint of the index finger, between its middle and distal phalanges, on the right side of the body.
+RID51418	RID2418_RID2396	distal interphalangeal joint of middle finger	The distal interphalangeal joint of the middle finger, between its middle and distal phalanges.
+RID51419	RID2418_RID2396_RID5824	distal interphalangeal joint of left middle finger	The distal interphalangeal joint of the middle finger, between its middle and distal phalanges, on the left side of the body.
+RID51420	RID2418_RID2396_RID5825	distal interphalangeal joint of right middle finger	The distal interphalangeal joint of the middle finger, between its middle and distal phalanges, on the right side of the body.
+RID51421	RID2418_RID2398	distal interphalangeal joint of ring finger	The distal interphalangeal joint of the ring finger, between its middle and distal phalanges.
+RID51422	RID2418_RID2398_RID5824	distal interphalangeal joint of left ring finger	The distal interphalangeal joint of the ring finger, between its middle and distal phalanges, on the left side of the body.
+RID51423	RID2418_RID2398_RID5825	distal interphalangeal joint of right ring finger	The distal interphalangeal joint of the ring finger, between its middle and distal phalanges, on the right side of the body.
+RID51424	RID2418_RID2400	distal interphalangeal joint of small finger	The distal interphalangeal joint of the small finger, between its middle and distal phalanges.
+RID51425	RID2418_RID2400_RID5824	distal interphalangeal joint of left small finger	The distal interphalangeal joint of the small finger, between its middle and distal phalanges, on the left side of the body.
+RID51426	RID2418_RID2400_RID5825	distal interphalangeal joint of right small finger	The distal interphalangeal joint of the small finger, between its middle and distal phalanges, on the right side of the body.
+RID51427	RID2404_RID2392	proximal phalanx of thumb	The proximal phalanx of the thumb, which articulates proximally with the head of the first metacarpal bone and distally with the distal phalanx of the thumb.
+RID51428	RID2404_RID2392_RID5824	proximal phalanx of left thumb	The proximal phalanx of the thumb, which articulates proximally with the head of the first metacarpal bone and distally with the distal phalanx of the thumb, on the left side of the body.
+RID51429	RID2404_RID2392_RID5825	proximal phalanx of right thumb	The proximal phalanx of the thumb, which articulates proximally with the head of the first metacarpal bone and distally with the distal phalanx of the thumb, on the right side of the body.
+RID51430	RID2404_RID2394	proximal phalanx of index finger	The proximal phalanx of the index finger, which articulates proximally with the head of the second metacarpal bone and distally with the middle phalanx of the index finger.
+RID51431	RID2404_RID2394_RID5824	proximal phalanx of left index finger	The proximal phalanx of the index finger, which articulates proximally with the head of the second metacarpal bone and distally with the middle phalanx of the index finger, on the left side of the body.
+RID51432	RID2404_RID2394_RID5825	proximal phalanx of right index finger	The proximal phalanx of the index finger, which articulates proximally with the head of the second metacarpal bone and distally with the middle phalanx of the index finger, on the right side of the body.
+RID51433	RID2404_RID2396	proximal phalanx of middle finger	The proximal phalanx of the middle finger, which articulates proximally with the head of the third metacarpal bone and distally with the middle phalanx of the middle finger.
+RID51434	RID2404_RID2396_RID5824	proximal phalanx of left middle finger	The proximal phalanx of the middle finger, which articulates proximally with the head of the third metacarpal bone and distally with the middle phalanx of the middle finger, on the left side of the body.
+RID51435	RID2404_RID2396_RID5825	proximal phalanx of right middle finger	The proximal phalanx of the middle finger, which articulates proximally with the head of the third metacarpal bone and distally with the middle phalanx of the middle finger, on the right side of the body.
+RID51436	RID2404_RID2398	proximal phalanx of ring finger	The proximal phalanx of the ring finger, which articulates proximally with the head of the fourth metacarpal bone and distally with the middle phalanx of the ring finger.
+RID51437	RID2404_RID2398_RID5824	proximal phalanx of left ring finger	The proximal phalanx of the ring finger, which articulates proximally with the head of the fourth metacarpal bone and distally with the middle phalanx of the ring finger, on the left side of the body.
+RID51438	RID2404_RID2398_RID5825	proximal phalanx of right ring finger	The proximal phalanx of the ring finger, which articulates proximally with the head of the fourth metacarpal bone and distally with the middle phalanx of the ring finger, on the right side of the body.
+RID51439	RID2404_RID2400	proximal phalanx of small finger	The proximal phalanx of the small finger, which articulates proximally with the head of the fifth metacarpal bone and distally with the middle phalanx of the small finger.
+RID51440	RID2404_RID2400_RID5824	proximal phalanx of left small finger	The proximal phalanx of the small finger, which articulates proximally with the head of the fifth metacarpal bone and distally with the middle phalanx of the small finger, on the left side of the body.
+RID51441	RID2404_RID2400_RID5825	proximal phalanx of right small finger	The proximal phalanx of the small finger, which articulates proximally with the head of the fifth metacarpal bone and distally with the middle phalanx of the small finger, on the right side of the body.
+RID51442	RID2405_RID2394	middle phalanx of index finger	The middle phalanx of the index finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the index finger.
+RID51443	RID2405_RID2394_RID5824	middle phalanx of left index finger	The middle phalanx of the index finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the index finger, on the left side of the body.
+RID51444	RID2405_RID2394_RID5825	middle phalanx of right index finger	The middle phalanx of the index finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the index finger, on the right side of the body.
+RID51445	RID2405_RID2396	middle phalanx of middle finger	The middle phalanx of the middle finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the middle finger.
+RID51446	RID2405_RID2396_RID5824	middle phalanx of left middle finger	The middle phalanx of the middle finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the middle finger, on the left side of the body.
+RID51447	RID2405_RID2396_RID5825	middle phalanx of right middle finger	The middle phalanx of the middle finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the middle finger, on the right side of the body.
+RID51448	RID2405_RID2398	middle phalanx of ring finger	The middle phalanx of the ring finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the ring finger.
+RID51449	RID2405_RID2398_RID5824	middle phalanx of left ring finger	The middle phalanx of the ring finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the ring finger, on the left side of the body.
+RID51450	RID2405_RID2398_RID5825	middle phalanx of right ring finger	The middle phalanx of the ring finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the ring finger, on the right side of the body.
+RID51451	RID2405_RID2400	middle phalanx of small finger	The middle phalanx of the small finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the small finger.
+RID51452	RID2405_RID2400_RID5824	middle phalanx of left small finger	The middle phalanx of the small finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the small finger, on the left side of the body.
+RID51453	RID2405_RID2400_RID5825	middle phalanx of right small finger	The middle phalanx of the small finger, which articulates proximally with the proximal phalanx and distally with the distal phalanx of the small finger, on the right side of the body.
+RID51454	RID2406_RID2392	distal phalanx of thumb	The distal (terminal) phalanx of the thumb, which articulates proximally with the proximal phalanx of the thumb.
+RID51455	RID2406_RID2392_RID5824	distal phalanx of left thumb	The distal (terminal) phalanx of the thumb, which articulates proximally with the proximal phalanx of the thumb, on the left side of the body.
+RID51456	RID2406_RID2392_RID5825	distal phalanx of right thumb	The distal (terminal) phalanx of the thumb, which articulates proximally with the proximal phalanx of the thumb, on the right side of the body.
+RID51457	RID2406_RID2394	distal phalanx of index finger	The distal (terminal) phalanx of the index finger, which articulates proximally with the middle phalanx of the index finger.
+RID51458	RID2406_RID2394_RID5824	distal phalanx of left index finger	The distal (terminal) phalanx of the index finger, which articulates proximally with the middle phalanx of the index finger, on the left side of the body.
+RID51459	RID2406_RID2394_RID5825	distal phalanx of right index finger	The distal (terminal) phalanx of the index finger, which articulates proximally with the middle phalanx of the index finger, on the right side of the body.
+RID51460	RID2406_RID2396	distal phalanx of middle finger	The distal (terminal) phalanx of the middle finger, which articulates proximally with the middle phalanx of the middle finger.
+RID51461	RID2406_RID2396_RID5824	distal phalanx of left middle finger	The distal (terminal) phalanx of the middle finger, which articulates proximally with the middle phalanx of the middle finger, on the left side of the body.
+RID51462	RID2406_RID2396_RID5825	distal phalanx of right middle finger	The distal (terminal) phalanx of the middle finger, which articulates proximally with the middle phalanx of the middle finger, on the right side of the body.
+RID51463	RID2406_RID2398	distal phalanx of ring finger	The distal (terminal) phalanx of the ring finger, which articulates proximally with the middle phalanx of the ring finger.
+RID51464	RID2406_RID2398_RID5824	distal phalanx of left ring finger	The distal (terminal) phalanx of the ring finger, which articulates proximally with the middle phalanx of the ring finger, on the left side of the body.
+RID51465	RID2406_RID2398_RID5825	distal phalanx of right ring finger	The distal (terminal) phalanx of the ring finger, which articulates proximally with the middle phalanx of the ring finger, on the right side of the body.
+RID51466	RID2406_RID2400	distal phalanx of small finger	The distal (terminal) phalanx of the small finger, which articulates proximally with the middle phalanx of the small finger.
+RID51467	RID2406_RID2400_RID5824	distal phalanx of left small finger	The distal (terminal) phalanx of the small finger, which articulates proximally with the middle phalanx of the small finger, on the left side of the body.
+RID51468	RID2406_RID2400_RID5825	distal phalanx of right small finger	The distal (terminal) phalanx of the small finger, which articulates proximally with the middle phalanx of the small finger, on the right side of the body.
+RID51469	RID1015_RID5824	left brachial vein	A brachial vein located on the left side of the body.
+RID51470	RID1015_RID5825	right brachial vein	A brachial vein located on the right side of the body.
+RID51471	RID867_RID5824	left deep palmar arch	The deep palmar arch on the left side of the body.
+RID51472	RID867_RID5825	right deep palmar arch	The deep palmar arch on the right side of the body.
+RID51473	RID871_RID5824	left superficial palmar arch	The superficial palmar arch on the left side of the body.
+RID51474	RID871_RID5825	right superficial palmar arch	The superficial palmar arch on the right side of the body.
+RID51475	RID1517_RID5824	left axillary lymph node	An axillary lymph node located on the left side of the body.
+RID51476	RID1517_RID5825	right axillary lymph node	An axillary lymph node located on the right side of the body.
+RID51477	RID13091_RID5824	left inferior epigastric artery	The inferior epigastric artery on the left side of the body.
+RID51478	RID13091_RID5825	right inferior epigastric artery	The inferior epigastric artery on the right side of the body.
+RID51479	RID225_RID5824	left renal calyx	A renal calyx located on the left side of the body.
+RID51480	RID225_RID5825	right renal calyx	A renal calyx located on the right side of the body.
+RID51481	RID7780_RID5824	left erector spinae muscle group	The erector spinae muscle group on the left side of the body.
+RID51482	RID7780_RID5825	right erector spinae muscle group	The erector spinae muscle group on the right side of the body.
+RID51483	RID50392_RID6182	C2/C3 cervical intervertebral disk	The intervertebral disk between the bodies of the second cervical and third cervical vertebrae (C2 and C3).
+RID51484	RID50392_RID6183	C3/C4 cervical intervertebral disk	The intervertebral disk between the bodies of the third cervical and fourth cervical vertebrae (C3 and C4).
+RID51485	RID50392_RID6184	C4/C5 cervical intervertebral disk	The intervertebral disk between the bodies of the fourth cervical and fifth cervical vertebrae (C4 and C5).
+RID51486	RID50392_RID6185	C5/C6 cervical intervertebral disk	The intervertebral disk between the bodies of the fifth cervical and sixth cervical vertebrae (C5 and C6).
+RID51487	RID50392_RID6186	C6/C7 cervical intervertebral disk	The intervertebral disk between the bodies of the sixth cervical and seventh cervical vertebrae (C6 and C7).
+RID51488	RID50392_RID6187	C7/T1 cervical intervertebral disk	The intervertebral disk between the bodies of the seventh cervical and first thoracic vertebrae (C7 and T1).
+RID51489	RID28830_RID6202	L1/L2 lumbar intervertebral disk	The intervertebral disk between the bodies of the first lumbar and second lumbar vertebrae (L1 and L2).
+RID51490	RID28830_RID6203	L2/L3 lumbar intervertebral disk	The intervertebral disk between the bodies of the second lumbar and third lumbar vertebrae (L2 and L3).
+RID51491	RID28830_RID6204	L3/L4 lumbar intervertebral disk	The intervertebral disk between the bodies of the third lumbar and fourth lumbar vertebrae (L3 and L4).
+RID51492	RID28830_RID6205	L4/L5 lumbar intervertebral disk	The intervertebral disk between the bodies of the fourth lumbar and fifth lumbar vertebrae (L4 and L5).
+RID51493	RID28830_RID6206	L5/S1 lumbar intervertebral disk	The intervertebral disk between the bodies of the fifth lumbar and first sacral vertebrae (L5 and S1).
+RID51494	RID28591_RID6151	first rib	The first of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum. It articulates posteriorly with the first thoracic vertebra.
+RID51495	RID28591_RID6151_RID5824	left first rib	The first rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum. It articulates posteriorly with the first thoracic vertebra.
+RID51496	RID28591_RID6151_RID5825	right first rib	The first rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum. It articulates posteriorly with the first thoracic vertebra.
+RID51497	RID28591_RID6152	second rib	The second of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51498	RID28591_RID6152_RID5824	left second rib	The second rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51499	RID28591_RID6152_RID5825	right second rib	The second rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51500	RID28591_RID6153	third rib	The third of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51501	RID28591_RID6153_RID5824	left third rib	The third rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51502	RID28591_RID6153_RID5825	right third rib	The third rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51503	RID28591_RID6154	fourth rib	The fourth of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51504	RID28591_RID6154_RID5824	left fourth rib	The fourth rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51505	RID28591_RID6154_RID5825	right fourth rib	The fourth rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51506	RID28591_RID6155	fifth rib	The fifth of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51507	RID28591_RID6155_RID5824	left fifth rib	The fifth rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51508	RID28591_RID6155_RID5825	right fifth rib	The fifth rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51509	RID28591_RID6156	sixth rib	The sixth of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51510	RID28591_RID6156_RID5824	left sixth rib	The sixth rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51511	RID28591_RID6156_RID5825	right sixth rib	The sixth rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51512	RID28591_RID6157	seventh rib	The seventh of the twelve ribs on each side, counting from the top; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51513	RID28591_RID6157_RID5824	left seventh rib	The seventh rib on the left side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51514	RID28591_RID6157_RID5825	right seventh rib	The seventh rib on the right side of the body; a true (vertebrosternal) rib, whose costal cartilage articulates directly with the sternum.
+RID51515	RID28591_RID6158	eighth rib	The eighth of the twelve ribs on each side, counting from the top; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51516	RID28591_RID6158_RID5824	left eighth rib	The eighth rib on the left side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51517	RID28591_RID6158_RID5825	right eighth rib	The eighth rib on the right side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51518	RID28591_RID6159	ninth rib	The ninth of the twelve ribs on each side, counting from the top; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51519	RID28591_RID6159_RID5824	left ninth rib	The ninth rib on the left side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51520	RID28591_RID6159_RID5825	right ninth rib	The ninth rib on the right side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51521	RID28591_RID6160	tenth rib	The tenth of the twelve ribs on each side, counting from the top; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51522	RID28591_RID6160_RID5824	left tenth rib	The tenth rib on the left side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51523	RID28591_RID6160_RID5825	right tenth rib	The tenth rib on the right side of the body; a false (vertebrochondral) rib, whose costal cartilage joins the costal cartilage of the rib above.
+RID51524	RID28591_RID6161	eleventh rib	The eleventh of the twelve ribs on each side, counting from the top; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51525	RID28591_RID6161_RID5824	left eleventh rib	The eleventh rib on the left side of the body; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51526	RID28591_RID6161_RID5825	right eleventh rib	The eleventh rib on the right side of the body; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51527	RID28591_RID6162	twelfth rib	The twelfth of the twelve ribs on each side, counting from the top; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51528	RID28591_RID6162_RID5824	left twelfth rib	The twelfth rib on the left side of the body; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51529	RID28591_RID6162_RID5825	right twelfth rib	The twelfth rib on the right side of the body; a floating (vertebral) rib, whose anterior end ends free in the abdominal wall without attachment to the sternum or another costal cartilage.
+RID51530	RID228_RID5824	left renal pelvis	The renal pelvis on the left side of the body.
+RID51531	RID228_RID5825	right renal pelvis	The renal pelvis on the right side of the body.
+RID51532	RID38762_RID5824	left inferior phrenic artery	The inferior phrenic artery on the left side of the body.
+RID51533	RID38762_RID5825	right inferior phrenic artery	The inferior phrenic artery on the right side of the body.
+RID51534	RID39500_RID5824	left levator ani	The levator ani on the left side of the body.
+RID51535	RID39500_RID5825	right levator ani	The levator ani on the right side of the body.
+RID51536	RID2633_RID5825	right obturator internus muscle	The obturator internus muscle on the right side of the body.
+RID51537	RID2633_RID5824	left obturator internus muscle	The obturator internus muscle on the left side of the body.
+RID51538	RID2636_RID5824	left obturator externus muscle	The obturator externus muscle on the left side of the body.
+RID51539	RID2636_RID5825	right obturator externus muscle	The obturator externus muscle on the right side of the body.
+RID51540	RID953_RID5824	left obturator artery	The obturator artery on the left side of the body.
+RID51541	RID953_RID5825	right obturator artery	The obturator artery on the right side of the body.
+RID51542	RID954_RID5824	left internal pudendal artery	The internal pudendal artery on the left side of the body.
+RID51543	RID954_RID5825	right internal pudendal artery	The internal pudendal artery on the right side of the body.
+RID51544	RID358_RID5824	left vas deferens	The vas deferens on the left side of the body.
+RID51545	RID358_RID5825	right vas deferens	The vas deferens on the right side of the body.
+RID51546	RID2632_RID5824	left piriformis muscle	The piriformis muscle on the left side of the body.
+RID51547	RID2632_RID5825	right piriformis muscle	The piriformis muscle on the right side of the body.
+RID51548	RID7819_RID5825	right coccygeus muscle	The coccygeus muscle on the right side of the body.
+RID51549	RID7819_RID5824	left coccygeus muscle	The coccygeus muscle on the left side of the body.
+RID51550	RID13315_RID5824	left inguinal ligament	The inguinal ligament on the left side of the body.
+RID51551	RID13315_RID5825	right inguinal ligament	The inguinal ligament on the right side of the body.
+RID51552	RID13087_RID5824	left superior vesical artery	A superior vesical artery located on the left side of the body.
+RID51553	RID13087_RID5825	right superior vesical artery	A superior vesical artery located on the right side of the body.
+RID51554	RID13086_RID5824	left inferior vesical artery	The inferior vesical artery on the left side of the body.
+RID51555	RID13086_RID5825	right inferior vesical artery	The inferior vesical artery on the right side of the body.
+RID51556	RID956_RID5824	left middle rectal artery	The middle rectal artery on the left side of the body.
+RID51557	RID956_RID5825	right middle rectal artery	The middle rectal artery on the right side of the body.
+RID51558	RID947_RID5824	left lateral sacral artery	The lateral sacral artery on the left side of the body.
+RID51559	RID947_RID5825	right lateral sacral artery	The lateral sacral artery on the right side of the body.
+RID51560	RID948_RID5824	left iliolumbar artery	The iliolumbar artery on the left side of the body.
+RID51561	RID948_RID5825	right iliolumbar artery	The iliolumbar artery on the right side of the body.
+RID51562	RID1176_RID5824	left ascending lumbar vein	The ascending lumbar vein on the left side of the body.
+RID51563	RID1176_RID5825	right ascending lumbar vein	The ascending lumbar vein on the right side of the body.
+RID51564	RID34263_RID5824	left intramammary lymph node	An intramammary lymph node located on the left side of the body.
+RID51565	RID34263_RID5825	right intramammary lymph node	An intramammary lymph node located on the right side of the body.
+RID51566	RID466_RID5824	left mesorectal lymph node	A mesorectal lymph node located on the left side of the body.
+RID51567	RID466_RID5825	right mesorectal lymph node	A mesorectal lymph node located on the right side of the body.
+RID51568	RID1522_RID5824	left superior diaphragmatic lymph node	A superior diaphragmatic lymph node located on the left side of the body.
+RID51569	RID1522_RID5825	right superior diaphragmatic lymph node	A superior diaphragmatic lymph node located on the right side of the body.
+RID51570	RID584_RID5824	left common carotid artery	The common carotid artery on the left side of the body.
+RID51571	RID584_RID5825	right common carotid artery	The common carotid artery on the right side of the body.
+RID51572	RID585_RID5824	left internal carotid artery	The internal carotid artery on the left side of the body.
+RID51573	RID585_RID5825	right internal carotid artery	The internal carotid artery on the right side of the body.
+RID51574	RID684_RID5824	left external carotid artery	The external carotid artery on the left side of the body.
+RID51575	RID684_RID5825	right external carotid artery	The external carotid artery on the right side of the body.
+RID51576	RID685_RID5824	left superior thyroid artery	The superior thyroid artery on the left side of the body.
+RID51577	RID685_RID5825	right superior thyroid artery	The superior thyroid artery on the right side of the body.
+RID51578	RID692_RID5824	left ascending pharyngeal artery	The ascending pharyngeal artery on the left side of the body.
+RID51579	RID692_RID5825	right ascending pharyngeal artery	The ascending pharyngeal artery on the right side of the body.
+RID51580	RID837_RID5824	left thyrocervical trunk	The thyrocervical trunk on the left side of the body.
+RID51581	RID837_RID5825	right thyrocervical trunk	The thyrocervical trunk on the right side of the body.
+RID51582	RID853_RID5824	left costocervical trunk	The costocervical trunk on the left side of the body.
+RID51583	RID853_RID5825	right costocervical trunk	The costocervical trunk on the right side of the body.
+RID51584	RID1024_RID5824	left internal jugular vein	The internal jugular vein on the left side of the body.
+RID51585	RID1024_RID5825	right internal jugular vein	The internal jugular vein on the right side of the body.
+RID51586	RID1037_RID5824	left superior thyroid vein	The superior thyroid vein on the left side of the body.
+RID51587	RID1037_RID5825	right superior thyroid vein	The superior thyroid vein on the right side of the body.
+RID51588	RID1079_RID5824	left vertebral vein	The vertebral vein on the left side of the body.
+RID51589	RID1079_RID5825	right vertebral vein	The vertebral vein on the right side of the body.
+RID51590	RID6383_RID9080	cranial cavity	The space enclosed by the bones of the neurocranium, which contains the brain, the meninges and their associated blood vessels and cranial nerve roots.
+RID51591	RID7565_RID5824	left retropharyngeal space	The part of the retropharyngeal space to the left of the midsagittal plane.
+RID51592	RID7565_RID5825	right retropharyngeal space	The part of the retropharyngeal space to the right of the midsagittal plane.
+RID51593	RID7569_RID5824	left masticator space	The masticator space on the left side of the body.
+RID51594	RID7569_RID5825	right masticator space	The masticator space on the right side of the body.
+RID51595	RID7572_RID5824	left perivertebral space	The part of the perivertebral space to the left of the midsagittal plane.
+RID51596	RID7572_RID5825	right perivertebral space	The part of the perivertebral space to the right of the midsagittal plane.
+RID51597	RID7568_RID5824	left carotid space	The carotid space on the left side of the body.
+RID51598	RID7568_RID5825	right carotid space	The carotid space on the right side of the body.
+RID51599	RID7500_RID5824	left sternocleidomastoid muscle	The sternocleidomastoid muscle on the left side of the body.
+RID51600	RID7500_RID5825	right sternocleidomastoid muscle	The sternocleidomastoid muscle on the right side of the body.
+RID51601	RID7519_RID5824	left sternohyoid muscle	The sternohyoid muscle on the left side of the body.
+RID51602	RID7519_RID5825	right sternohyoid muscle	The sternohyoid muscle on the right side of the body.
+RID51603	RID7520_RID5824	left omohyoid muscle	The omohyoid muscle on the left side of the body.
+RID51604	RID7520_RID5825	right omohyoid muscle	The omohyoid muscle on the right side of the body.
+RID51605	RID7523_RID5824	left sternothyroid muscle	The sternothyroid muscle on the left side of the body.
+RID51606	RID7523_RID5825	right sternothyroid muscle	The sternothyroid muscle on the right side of the body.
+RID51607	RID7524_RID5824	left thyrohyoid muscle	The thyrohyoid muscle on the left side of the body.
+RID51608	RID7524_RID5825	right thyrohyoid muscle	The thyrohyoid muscle on the right side of the body.
+RID51609	RID7512_RID5824	left digastric muscle	The digastric muscle on the left side of the body.
+RID51610	RID7512_RID5825	right digastric muscle	The digastric muscle on the right side of the body.
+RID51611	RID7516_RID5824	left mylohyoid muscle	The mylohyoid muscle on the left side of the body.
+RID51612	RID7516_RID5825	right mylohyoid muscle	The mylohyoid muscle on the right side of the body.
+RID51613	RID7515_RID5824	left stylohyoid muscle	The stylohyoid muscle on the left side of the body.
+RID51614	RID7515_RID5825	right stylohyoid muscle	The stylohyoid muscle on the right side of the body.
+RID51615	RID7517_RID5824	left geniohyoid muscle	The geniohyoid muscle on the left side of the body.
+RID51616	RID7517_RID5825	right geniohyoid muscle	The geniohyoid muscle on the right side of the body.
+RID51617	RID7496_RID5824	left anterior scalene muscle	The anterior scalene muscle on the left side of the body.
+RID51618	RID7496_RID5825	right anterior scalene muscle	The anterior scalene muscle on the right side of the body.
+RID51619	RID7497_RID5824	left middle scalene muscle	The middle scalene muscle on the left side of the body.
+RID51620	RID7497_RID5825	right middle scalene muscle	The middle scalene muscle on the right side of the body.
+RID51621	RID7498_RID5824	left posterior scalene muscle	The posterior scalene muscle on the left side of the body.
+RID51622	RID7498_RID5825	right posterior scalene muscle	The posterior scalene muscle on the right side of the body.
+RID51623	RID7815_RID5824	left spinalis cervicis	The spinalis cervicis on the left side of the body.
+RID51624	RID7815_RID5825	right spinalis cervicis	The spinalis cervicis on the right side of the body.
+RID51625	RID7649_RID5824	left oblique arytenoid muscle	The oblique arytenoid muscle on the left side of the body.
+RID51626	RID7649_RID5825	right oblique arytenoid muscle	The oblique arytenoid muscle on the right side of the body.
+RID51627	RID7643_RID5824	left posterior cricoarytenoid muscle	The posterior cricoarytenoid muscle on the left side of the body.
+RID51628	RID7643_RID5825	right posterior cricoarytenoid muscle	The posterior cricoarytenoid muscle on the right side of the body.
+RID51629	RID7645_RID5824	left lateral cricoarytenoid muscle	The lateral cricoarytenoid muscle on the left side of the body.
+RID51630	RID7645_RID5825	right lateral cricoarytenoid muscle	The lateral cricoarytenoid muscle on the right side of the body.
+RID51631	RID7647_RID5824	left thyroarytenoid muscle	The thyroarytenoid muscle on the left side of the body.
+RID51632	RID7647_RID5825	right thyroarytenoid muscle	The thyroarytenoid muscle on the right side of the body.
+RID51633	RID7640_RID5824	left cricothyroid muscle	The cricothyroid muscle on the left side of the body.
+RID51634	RID7640_RID5825	right cricothyroid muscle	The cricothyroid muscle on the right side of the body.
+RID51635	RID7563_RID5824	left salpingopharyngeus muscle	The salpingopharyngeus muscle on the left side of the body.
+RID51636	RID7563_RID5825	right salpingopharyngeus muscle	The salpingopharyngeus muscle on the right side of the body.
+RID51637	RID7548_RID5824	left superior constrictor muscle	The superior constrictor muscle on the left side of the body.
+RID51638	RID7548_RID5825	right superior constrictor muscle	The superior constrictor muscle on the right side of the body.
+RID51639	RID7553_RID5824	left middle constrictor muscle	The middle constrictor muscle on the left side of the body.
+RID51640	RID7553_RID5825	right middle constrictor muscle	The middle constrictor muscle on the right side of the body.
+RID51641	RID7560_RID5824	left palatopharyngeus muscle	The palatopharyngeus muscle on the left side of the body.
+RID51642	RID7560_RID5825	right palatopharyngeus muscle	The palatopharyngeus muscle on the right side of the body.
+RID51643	RID7556_RID5824	left inferior constrictor muscle	The inferior constrictor muscle on the left side of the body.
+RID51644	RID7556_RID5825	right inferior constrictor muscle	The inferior constrictor muscle on the right side of the body.
+RID51645	RID7559_RID5824	left stylopharyngeus muscle	The stylopharyngeus muscle on the left side of the body.
+RID51646	RID7559_RID5825	right stylopharyngeus muscle	The stylopharyngeus muscle on the right side of the body.
+RID51647	RID1516_RID5824	left supraclavicular lymph node	A supraclavicular lymph node located on the left side of the body.
+RID51648	RID1516_RID5825	right supraclavicular lymph node	A supraclavicular lymph node located on the right side of the body.
+RID51649	RID9993_RID5824	left half of pharyngeal tonsil	The part of the pharyngeal tonsil (adenoid) to the left of the midsagittal plane.
+RID51650	RID9993_RID5825	right half of pharyngeal tonsil	The part of the pharyngeal tonsil (adenoid) to the right of the midsagittal plane.
+RID51651	RID10010_RID5824	left palatine tonsil	The palatine tonsil on the left side of the body.
+RID51652	RID10010_RID5825	right palatine tonsil	The palatine tonsil on the right side of the body.
+RID51653	RID9998_RID5824	left tubal tonsil	The tubal tonsil on the left side of the body.
+RID51654	RID9998_RID5825	right tubal tonsil	The tubal tonsil on the right side of the body.
+RID51655	RID10008_RID5824	left lingual tonsil	The part of the lingual tonsil to the left of the midsagittal plane.
+RID51656	RID10008_RID5825	right lingual tonsil	The part of the lingual tonsil to the right of the midsagittal plane.
+RID51657	RID9573_RID5824	left orbit	The orbit on the left side of the body.
+RID51658	RID9573_RID5825	right orbit	The orbit on the right side of the body.
+RID51659	RID9592_RID5824	left globe	The globe on the left side of the body.
+RID51660	RID9592_RID5825	right globe	The globe on the right side of the body.
+RID51661	RID9725_RID5824	left intraconal space of orbit	The intraconal space of the orbit on the left side of the body.
+RID51662	RID9725_RID5825	right intraconal space of orbit	The intraconal space of the orbit on the right side of the body.
+RID51663	RID9726_RID5824	left extraconal space of orbit	The extraconal space of the orbit on the left side of the body.
+RID51664	RID9726_RID5825	right extraconal space of orbit	The extraconal space of the orbit on the right side of the body.
+RID51665	RID9675_RID5824	left anterior chamber of globe	The anterior chamber of the globe on the left side of the body.
+RID51666	RID9675_RID5825	right anterior chamber of globe	The anterior chamber of the globe on the right side of the body.
+RID51667	RID9678_RID5824	left posterior chamber of globe	The posterior chamber of the globe on the left side of the body.
+RID51668	RID9678_RID5825	right posterior chamber of globe	The posterior chamber of the globe on the right side of the body.
+RID51669	RID9606_RID5824	left cornea	The cornea on the left side of the body.
+RID51670	RID9606_RID5825	right cornea	The cornea on the right side of the body.
+RID51671	RID9688_RID5824	left lens	The lens on the left side of the body.
+RID51672	RID9688_RID5825	right lens	The lens on the right side of the body.
+RID51673	RID9635_RID5824	left iris	The iris on the left side of the body.
+RID51674	RID9635_RID5825	right iris	The iris on the right side of the body.
+RID51675	RID9682_RID5824	left vitreous body	The vitreous body on the left side of the body.
+RID51676	RID9682_RID5825	right vitreous body	The vitreous body on the right side of the body.
+RID51677	RID9651_RID5824	left retina	The retina on the left side of the body.
+RID51678	RID9651_RID5825	right retina	The retina on the right side of the body.
+RID51679	RID9594_RID5824	left sclera	The sclera on the left side of the body.
+RID51680	RID9594_RID5825	right sclera	The sclera on the right side of the body.
+RID51681	RID9624_RID5824	left ciliary body	The ciliary body on the left side of the body.
+RID51682	RID9624_RID5825	right ciliary body	The ciliary body on the right side of the body.
+RID51683	RID9617_RID5824	left choroid of globe	The choroid of the globe on the left side of the body.
+RID51684	RID9617_RID5825	right choroid of globe	The choroid of the globe on the right side of the body.
+RID51685	RID10053_RID5824	left ear	The ear on the left side of the body.
+RID51686	RID10053_RID5825	right ear	The ear on the right side of the body.
+RID51687	RID10054_RID5824	left external ear	The external ear on the left side of the body.
+RID51688	RID10054_RID5825	right external ear	The external ear on the right side of the body.
+RID51689	RID13303_RID5824	left middle ear	The middle ear on the left side of the body.
+RID51690	RID13303_RID5825	right middle ear	The middle ear on the right side of the body.
+RID51691	RID10199_RID5824	left inner ear	The inner ear on the left side of the body.
+RID51692	RID10199_RID5825	right inner ear	The inner ear on the right side of the body.
+RID51693	RID10094_RID5824	left external auditory canal	The external auditory canal on the left side of the body.
+RID51694	RID10094_RID5825	right external auditory canal	The external auditory canal on the right side of the body.
+RID51695	RID10100_RID5824	left tympanic membrane	The tympanic membrane on the left side of the body.
+RID51696	RID10100_RID5825	right tympanic membrane	The tympanic membrane on the right side of the body.
+RID51697	RID10109_RID5824	left tympanic cavity	The tympanic cavity on the left side of the body.
+RID51698	RID10109_RID5825	right tympanic cavity	The tympanic cavity on the right side of the body.
+RID51699	RID9419_RID5824	left eustachian tube	The eustachian tube on the left side of the body.
+RID51700	RID9419_RID5825	right eustachian tube	The eustachian tube on the right side of the body.
+RID51701	RID10223_RID5824	left cochlea	The cochlea on the left side of the body.
+RID51702	RID10223_RID5825	right cochlea	The cochlea on the right side of the body.
+RID51703	RID9392_RID5824	left internal auditory canal	The internal auditory canal on the left side of the body.
+RID51704	RID9392_RID5825	right internal auditory canal	The internal auditory canal on the right side of the body.
+RID51705	RID10163_RID5824	left malleus	The malleus on the left side of the body.
+RID51706	RID10163_RID5825	right malleus	The malleus on the right side of the body.
+RID51707	RID10165_RID5824	left handle of malleus	The handle of the malleus on the left side of the body.
+RID51708	RID10165_RID5825	right handle of malleus	The handle of the malleus on the right side of the body.
+RID51709	RID10166_RID5824	left head of malleus	The head of the malleus on the left side of the body.
+RID51710	RID10166_RID5825	right head of malleus	The head of the malleus on the right side of the body.
+RID51711	RID10167_RID5824	left neck of malleus	The neck of the malleus on the left side of the body.
+RID51712	RID10167_RID5825	right neck of malleus	The neck of the malleus on the right side of the body.
+RID51713	RID10168_RID5824	left lateral process of malleus	The lateral process of the malleus on the left side of the body.
+RID51714	RID10168_RID5825	right lateral process of malleus	The lateral process of the malleus on the right side of the body.
+RID51715	RID10169_RID5824	left anterior process of malleus	The anterior process of the malleus on the left side of the body.
+RID51716	RID10169_RID5825	right anterior process of malleus	The anterior process of the malleus on the right side of the body.
+RID51717	RID10190_RID5824	left posterior fold of malleus	The posterior fold of the malleus on the left side of the body.
+RID51718	RID10190_RID5825	right posterior fold of malleus	The posterior fold of the malleus on the right side of the body.
+RID51719	RID10191_RID5824	left anterior fold of malleus	The anterior fold of the malleus on the left side of the body.
+RID51720	RID10191_RID5825	right anterior fold of malleus	The anterior fold of the malleus on the right side of the body.
+RID51721	RID10157_RID5824	left incus	The incus on the left side of the body.
+RID51722	RID10157_RID5825	right incus	The incus on the right side of the body.
+RID51723	RID10159_RID5824	left body of incus	The body of the incus on the left side of the body.
+RID51724	RID10159_RID5825	right body of incus	The body of the incus on the right side of the body.
+RID51725	RID10160_RID5824	left long process of incus	The long process of the incus on the left side of the body.
+RID51726	RID10160_RID5825	right long process of incus	The long process of the incus on the right side of the body.
+RID51727	RID10161_RID5824	left lenticular process of incus	The lenticular process of the incus on the left side of the body.
+RID51728	RID10161_RID5825	right lenticular process of incus	The lenticular process of the incus on the right side of the body.
+RID51729	RID10162_RID5824	left short process of incus	The short process of the incus on the left side of the body.
+RID51730	RID10162_RID5825	right short process of incus	The short process of the incus on the right side of the body.
+RID51731	RID10197_RID5824	left fold of incus	A fold of incus located on the left side of the body.
+RID51732	RID10197_RID5825	right fold of incus	A fold of incus located on the right side of the body.
+RID51733	RID10151_RID5824	left stapes	The stapes on the left side of the body.
+RID51734	RID10151_RID5825	right stapes	The stapes on the right side of the body.
+RID51735	RID10153_RID5824	left head of stapes	The head of the stapes on the left side of the body.
+RID51736	RID10153_RID5825	right head of stapes	The head of the stapes on the right side of the body.
+RID51737	RID10154_RID5824	left anterior limb of stapes	The anterior limb of the stapes on the left side of the body.
+RID51738	RID10154_RID5825	right anterior limb of stapes	The anterior limb of the stapes on the right side of the body.
+RID51739	RID10155_RID5824	left posterior limb of stapes	The posterior limb of the stapes on the left side of the body.
+RID51740	RID10155_RID5825	right posterior limb of stapes	The posterior limb of the stapes on the right side of the body.
+RID51741	RID10156_RID5824	left footplate of stapes	The footplate of the stapes on the left side of the body.
+RID51742	RID10156_RID5825	right footplate of stapes	The footplate of the stapes on the right side of the body.
+RID51743	RID10202_RID5824	left vestibule of bony labyrinth	The vestibule of the bony labyrinth on the left side of the body.
+RID51744	RID10202_RID5825	right vestibule of bony labyrinth	The vestibule of the bony labyrinth on the right side of the body.
+RID51745	RID10143_RID5824	left mastoid antrum	The mastoid antrum on the left side of the body.
+RID51746	RID10143_RID5825	right mastoid antrum	The mastoid antrum on the right side of the body.
+RID51747	RID10214_RID5824	left superior semicircular canal	The superior semicircular canal on the left side of the body.
+RID51748	RID10214_RID5825	right superior semicircular canal	The superior semicircular canal on the right side of the body.
+RID51749	RID10216_RID5824	left posterior semicircular canal	The posterior semicircular canal on the left side of the body.
+RID51750	RID10216_RID5825	right posterior semicircular canal	The posterior semicircular canal on the right side of the body.
+RID51751	RID10218_RID5824	left lateral semicircular canal	The lateral semicircular canal on the left side of the body.
+RID51752	RID10218_RID5825	right lateral semicircular canal	The lateral semicircular canal on the right side of the body.
+RID51753	RID9567_RID5824	left ethmoidal infundibulum	The ethmoidal infundibulum on the left side of the body.
+RID51754	RID9567_RID5825	right ethmoidal infundibulum	The ethmoidal infundibulum on the right side of the body.
+RID51755	RID9535_RID5824	left superior meatus	The superior nasal meatus on the left side of the body.
+RID51756	RID9535_RID5825	right superior meatus	The superior nasal meatus on the right side of the body.
+RID51757	RID9536_RID5824	left middle meatus	The middle nasal meatus on the left side of the body.
+RID51758	RID9536_RID5825	right middle meatus	The middle nasal meatus on the right side of the body.
+RID51759	RID9537_RID5824	left inferior meatus	The inferior nasal meatus on the left side of the body.
+RID51760	RID9537_RID5825	right inferior meatus	The inferior nasal meatus on the right side of the body.
+RID51761	RID9566_RID5824	left ethmoidal bulla	The ethmoidal bulla on the left side of the body.
+RID51762	RID9566_RID5825	right ethmoidal bulla	The ethmoidal bulla on the right side of the body.
+RID51763	RID10049_RID5824	left superior turbinate	The superior nasal turbinate on the left side of the body.
+RID51764	RID10049_RID5825	right superior turbinate	The superior nasal turbinate on the right side of the body.
+RID51765	RID10050_RID5824	left middle turbinate	The middle nasal turbinate on the left side of the body.
+RID51766	RID10050_RID5825	right middle turbinate	The middle nasal turbinate on the right side of the body.
+RID51767	RID10051_RID5824	left inferior turbinate	The inferior nasal turbinate on the left side of the body.
+RID51768	RID10051_RID5825	right inferior turbinate	The inferior nasal turbinate on the right side of the body.
+RID51769	RID9206_RID5824	left uncinate process of ethmoid	The uncinate process of the ethmoid on the left side of the body.
+RID51770	RID9206_RID5825	right uncinate process of ethmoid	The uncinate process of the ethmoid on the right side of the body.
+RID51771	RID9555_RID5824	left frontal sinus	The frontal sinus on the left side of the body.
+RID51772	RID9555_RID5825	right frontal sinus	The frontal sinus on the right side of the body.
+RID51773	RID9557_RID5824	left maxillary sinus	The maxillary sinus on the left side of the body.
+RID51774	RID9557_RID5825	right maxillary sinus	The maxillary sinus on the right side of the body.
+RID51775	RID9569_RID5824	left sphenoid sinus	The sphenoid sinus on the left side of the body.
+RID51776	RID9569_RID5825	right sphenoid sinus	The sphenoid sinus on the right side of the body.
+RID51777	RID9561_RID5824	left ethmoid sinus	The ethmoid sinus on the left side of the body.
+RID51778	RID9561_RID5825	right ethmoid sinus	The ethmoid sinus on the right side of the body.
+RID51779	RID650_RID5824	left A1 segment of anterior cerebral artery	The A1 segment of the anterior cerebral artery on the left side of the body.
+RID51780	RID650_RID5825	right A1 segment of anterior cerebral artery	The A1 segment of the anterior cerebral artery on the right side of the body.
+RID51781	RID651_RID5824	left A2 segment of anterior cerebral artery	The A2 segment of the anterior cerebral artery on the left side of the body.
+RID51782	RID651_RID5825	right A2 segment of anterior cerebral artery	The A2 segment of the anterior cerebral artery on the right side of the body.
+RID51783	RID674_RID5824	left medial orbitofrontal artery	The medial orbitofrontal artery on the left side of the body.
+RID51784	RID674_RID5825	right medial orbitofrontal artery	The medial orbitofrontal artery on the right side of the body.
+RID51785	RID666_RID5824	left M1 segment of middle cerebral artery	The M1 segment of the middle cerebral artery on the left side of the body.
+RID51786	RID666_RID5825	right M1 segment of middle cerebral artery	The M1 segment of the middle cerebral artery on the right side of the body.
+RID51787	RID671_RID5824	left M2 segment of middle cerebral artery	The M2 segment of the middle cerebral artery on the left side of the body.
+RID51788	RID671_RID5825	right M2 segment of middle cerebral artery	The M2 segment of the middle cerebral artery on the right side of the body.
+RID51789	RID680_RID5824	left M3 segment of middle cerebral artery	The M3 segment of the middle cerebral artery on the left side of the body.
+RID51790	RID680_RID5825	right M3 segment of middle cerebral artery	The M3 segment of the middle cerebral artery on the right side of the body.
+RID51791	RID682_RID5824	left M4 segment of middle cerebral artery	The M4 segment of the middle cerebral artery on the left side of the body.
+RID51792	RID682_RID5825	right M4 segment of middle cerebral artery	The M4 segment of the middle cerebral artery on the right side of the body.
+RID51793	RID668_RID5824	left lenticulostriate artery	A lenticulostriate artery located on the left side of the body.
+RID51794	RID668_RID5825	right lenticulostriate artery	A lenticulostriate artery located on the right side of the body.
+RID51795	RID670_RID5824	left medial lenticulostriate artery	A medial lenticulostriate artery located on the left side of the body.
+RID51796	RID670_RID5825	right medial lenticulostriate artery	A medial lenticulostriate artery located on the right side of the body.
+RID51797	RID669_RID5824	left lateral lenticulostriate artery	A lateral lenticulostriate artery located on the left side of the body.
+RID51798	RID669_RID5825	right lateral lenticulostriate artery	A lateral lenticulostriate artery located on the right side of the body.
+RID51799	RID676_RID5824	left artery of central sulcus	The artery of the central sulcus on the left side of the body.
+RID51800	RID676_RID5825	right artery of central sulcus	The artery of the central sulcus on the right side of the body.
+RID51801	RID658_RID5824	left superior internal parietal artery	The superior internal parietal artery on the left side of the body.
+RID51802	RID658_RID5825	right superior internal parietal artery	The superior internal parietal artery on the right side of the body.
+RID51803	RID659_RID5824	left inferior internal parietal artery	The inferior internal parietal artery on the left side of the body.
+RID51804	RID659_RID5825	right inferior internal parietal artery	The inferior internal parietal artery on the right side of the body.
+RID51805	RID731_RID5824	left middle temporal artery	The middle temporal artery on the left side of the body.
+RID51806	RID731_RID5825	right middle temporal artery	The middle temporal artery on the right side of the body.
+RID51807	RID805_RID5824	left P1 segment of posterior cerebral artery	The P1 segment of the posterior cerebral artery on the left side of the body.
+RID51808	RID805_RID5825	right P1 segment of posterior cerebral artery	The P1 segment of the posterior cerebral artery on the right side of the body.
+RID51809	RID807_RID5824	left P2 segment of posterior cerebral artery	The P2 segment of the posterior cerebral artery on the left side of the body.
+RID51810	RID807_RID5825	right P2 segment of posterior cerebral artery	The P2 segment of the posterior cerebral artery on the right side of the body.
+RID51811	RID818_RID5824	left P3 segment of posterior cerebral artery	The P3 segment of the posterior cerebral artery on the left side of the body.
+RID51812	RID818_RID5825	right P3 segment of posterior cerebral artery	The P3 segment of the posterior cerebral artery on the right side of the body.
+RID51813	RID813_RID5824	left medial posterior choroidal artery	The medial posterior choroidal artery on the left side of the body.
+RID51814	RID813_RID5825	right medial posterior choroidal artery	The medial posterior choroidal artery on the right side of the body.
+RID51815	RID814_RID5824	left lateral posterior choroidal artery	A lateral posterior choroidal artery located on the left side of the body.
+RID51816	RID814_RID5825	right lateral posterior choroidal artery	A lateral posterior choroidal artery located on the right side of the body.
+RID51817	RID810_RID5824	left anterior thalamoperforating artery	An anterior thalamoperforating artery located on the left side of the body.
+RID51818	RID810_RID5825	right anterior thalamoperforating artery	An anterior thalamoperforating artery located on the right side of the body.
+RID51819	RID811_RID5824	left posterior thalamoperforating artery	A posterior thalamoperforating artery located on the left side of the body.
+RID51820	RID811_RID5825	right posterior thalamoperforating artery	A posterior thalamoperforating artery located on the right side of the body.
+RID51821	RID711_RID5824	left occipital artery	The occipital artery on the left side of the body.
+RID51822	RID711_RID5825	right occipital artery	The occipital artery on the right side of the body.
+RID51823	RID781_RID5824	left anterior medullary segment of posterior inferior cerebellar artery	The anterior medullary segment of the posterior inferior cerebellar artery on the left side of the body.
+RID51824	RID781_RID5825	right anterior medullary segment of posterior inferior cerebellar artery	The anterior medullary segment of the posterior inferior cerebellar artery on the right side of the body.
+RID51825	RID783_RID5824	left posterior medullary segment of posterior inferior cerebellar artery	The posterior medullary segment of the posterior inferior cerebellar artery on the left side of the body.
+RID51826	RID783_RID5825	right posterior medullary segment of posterior inferior cerebellar artery	The posterior medullary segment of the posterior inferior cerebellar artery on the right side of the body.
+RID51827	RID784_RID5824	left supratonsillar segment of posterior inferior cerebellar artery	The supratonsillar segment of the posterior inferior cerebellar artery on the left side of the body.
+RID51828	RID784_RID5825	right supratonsillar segment of posterior inferior cerebellar artery	The supratonsillar segment of the posterior inferior cerebellar artery on the right side of the body.
+RID51829	RID786_RID5824	left retrotonsillar segment of posterior inferior cerebellar artery	The retrotonsillar segment of the posterior inferior cerebellar artery on the left side of the body.
+RID51830	RID786_RID5825	right retrotonsillar segment of posterior inferior cerebellar artery	The retrotonsillar segment of the posterior inferior cerebellar artery on the right side of the body.
+RID51831	RID787_RID5824	left inferior vermian artery of posterior inferior cerebellar artery	The inferior vermian artery of the posterior inferior cerebellar artery on the left side of the body.
+RID51832	RID787_RID5825	right inferior vermian artery of posterior inferior cerebellar artery	The inferior vermian artery of the posterior inferior cerebellar artery on the right side of the body.
+RID51833	RID793_RID5824	left circumflex pontine artery	A circumflex pontine artery located on the left side of the body.
+RID51834	RID793_RID5825	right circumflex pontine artery	A circumflex pontine artery located on the right side of the body.
+RID51835	RID696_RID5824	left lingual artery	The lingual artery on the left side of the body.
+RID51836	RID696_RID5825	right lingual artery	The lingual artery on the right side of the body.
+RID51837	RID701_RID5824	left facial artery	The facial artery on the left side of the body.
+RID51838	RID701_RID5825	right facial artery	The facial artery on the right side of the body.
+RID51839	RID734_RID5824	left maxillary artery	The maxillary artery on the left side of the body.
+RID51840	RID734_RID5825	right maxillary artery	The maxillary artery on the right side of the body.
+RID51841	RID34446_RID5824	left superficial cerebral vein	A superficial cerebral vein located on the left side of the body.
+RID51842	RID34446_RID5825	right superficial cerebral vein	A superficial cerebral vein located on the right side of the body.
+RID51843	RID36152_RID5824	left inferior cerebral vein	An inferior cerebral vein located on the left side of the body.
+RID51844	RID36152_RID5825	right inferior cerebral vein	An inferior cerebral vein located on the right side of the body.
+RID51845	RID1122_RID5824	left transverse sinus	The transverse sinus on the left side of the body.
+RID51846	RID1122_RID5825	right transverse sinus	The transverse sinus on the right side of the body.
+RID51847	RID1092_RID5824	left sigmoid sinus	The sigmoid sinus on the left side of the body.
+RID51848	RID1092_RID5825	right sigmoid sinus	The sigmoid sinus on the right side of the body.
+RID51849	RID1094_RID5824	left cavernous sinus	The cavernous sinus on the left side of the body.
+RID51850	RID1094_RID5825	right cavernous sinus	The cavernous sinus on the right side of the body.
+RID51851	RID1119_RID5824	left sphenoparietal sinus	The sphenoparietal sinus on the left side of the body.
+RID51852	RID1119_RID5825	right sphenoparietal sinus	The sphenoparietal sinus on the right side of the body.
+RID51853	RID1121_RID5824	left superior petrosal sinus	The superior petrosal sinus on the left side of the body.
+RID51854	RID1121_RID5825	right superior petrosal sinus	The superior petrosal sinus on the right side of the body.
+RID51855	RID1093_RID5824	left inferior petrosal sinus	The inferior petrosal sinus on the left side of the body.
+RID51856	RID1093_RID5825	right inferior petrosal sinus	The inferior petrosal sinus on the right side of the body.
+RID51857	RID9912_RID5824	left temporalis muscle	The temporalis muscle on the left side of the body.
+RID51858	RID9912_RID5825	right temporalis muscle	The temporalis muscle on the right side of the body.
+RID51859	RID9908_RID5824	left masseter muscle	The masseter muscle on the left side of the body.
+RID51860	RID9908_RID5825	right masseter muscle	The masseter muscle on the right side of the body.
+RID51861	RID9911_RID5824	left medial pterygoid muscle	The medial pterygoid muscle on the left side of the body.
+RID51862	RID9911_RID5825	right medial pterygoid muscle	The medial pterygoid muscle on the right side of the body.
+RID51863	RID9905_RID5824	left lateral pterygoid muscle	The lateral pterygoid muscle on the left side of the body.
+RID51864	RID9905_RID5825	right lateral pterygoid muscle	The lateral pterygoid muscle on the right side of the body.
+RID51865	RID9887_RID5824	left occipitofrontalis muscle	The occipitofrontalis muscle on the left side of the body.
+RID51866	RID9887_RID5825	right occipitofrontalis muscle	The occipitofrontalis muscle on the right side of the body.
+RID51867	RID9875_RID5824	left orbicularis oculi muscle	The orbicularis oculi muscle on the left side of the body.
+RID51868	RID9875_RID5825	right orbicularis oculi muscle	The orbicularis oculi muscle on the right side of the body.
+RID51869	RID9869_RID5824	left nasalis muscle	The nasalis muscle on the left side of the body.
+RID51870	RID9869_RID5825	right nasalis muscle	The nasalis muscle on the right side of the body.
+RID51871	RID9854_RID5824	left levator labii superioris muscle	The levator labii superioris muscle on the left side of the body.
+RID51872	RID9854_RID5825	right levator labii superioris muscle	The levator labii superioris muscle on the right side of the body.
+RID51873	RID9863_RID5824	left zygomaticus major muscle	The zygomaticus major muscle on the left side of the body.
+RID51874	RID9863_RID5825	right zygomaticus major muscle	The zygomaticus major muscle on the right side of the body.
+RID51875	RID9864_RID5824	left zygomaticus minor muscle	The zygomaticus minor muscle on the left side of the body.
+RID51876	RID9864_RID5825	right zygomaticus minor muscle	The zygomaticus minor muscle on the right side of the body.
+RID51877	RID9860_RID5824	left depressor anguli oris muscle	The depressor anguli oris muscle on the left side of the body.
+RID51878	RID9860_RID5825	right depressor anguli oris muscle	The depressor anguli oris muscle on the right side of the body.
+RID51879	RID9867_RID5824	left mentalis muscle	The mentalis muscle on the left side of the body.
+RID51880	RID9867_RID5825	right mentalis muscle	The mentalis muscle on the right side of the body.
+RID51881	RID9853_RID5824	left depressor labii inferioris muscle	The depressor labii inferioris muscle on the left side of the body.
+RID51882	RID9853_RID5825	right depressor labii inferioris muscle	The depressor labii inferioris muscle on the right side of the body.
+RID51883	RID9866_RID5824	left buccinator muscle	The buccinator muscle on the left side of the body.
+RID51884	RID9866_RID5825	right buccinator muscle	The buccinator muscle on the right side of the body.
+RID51885	RID9862_RID5824	left risorius muscle	The risorius muscle on the left side of the body.
+RID51886	RID9862_RID5825	right risorius muscle	The risorius muscle on the right side of the body.
+RID51887	RID9881_RID5824	left depressor supercilii muscle	The depressor supercilii muscle on the left side of the body.
+RID51888	RID9881_RID5825	right depressor supercilii muscle	The depressor supercilii muscle on the right side of the body.
+RID51889	RID9880_RID5824	left corrugator supercilii muscle	The corrugator supercilii muscle on the left side of the body.
+RID51890	RID9880_RID5825	right corrugator supercilii muscle	The corrugator supercilii muscle on the right side of the body.
+RID51891	RID9855_RID5824	left levator labii superioris alaeque nasi muscle	The levator labii superioris alaeque nasi muscle on the left side of the body.
+RID51892	RID9855_RID5825	right levator labii superioris alaeque nasi muscle	The levator labii superioris alaeque nasi muscle on the right side of the body.
+RID51893	RID9706_RID5824	left superior oblique muscle	The superior oblique muscle on the left side of the body.
+RID51894	RID9706_RID5825	right superior oblique muscle	The superior oblique muscle on the right side of the body.
+RID51895	RID9701_RID5824	left superior rectus muscle	The superior rectus muscle on the left side of the body.
+RID51896	RID9701_RID5825	right superior rectus muscle	The superior rectus muscle on the right side of the body.
+RID51897	RID9702_RID5824	left inferior rectus muscle	The inferior rectus muscle on the left side of the body.
+RID51898	RID9702_RID5825	right inferior rectus muscle	The inferior rectus muscle on the right side of the body.
+RID51899	RID9703_RID5824	left medial rectus muscle	The medial rectus muscle on the left side of the body.
+RID51900	RID9703_RID5825	right medial rectus muscle	The medial rectus muscle on the right side of the body.
+RID51901	RID9704_RID5824	left lateral rectus muscle	The lateral rectus muscle on the left side of the body.
+RID51902	RID9704_RID5825	right lateral rectus muscle	The lateral rectus muscle on the right side of the body.
+RID51903	RID9709_RID5824	left inferior oblique muscle	The inferior oblique muscle on the left side of the body.
+RID51904	RID9709_RID5825	right inferior oblique muscle	The inferior oblique muscle on the right side of the body.
+RID51905	RID9707_RID5824	left trochlea of superior oblique muscle	The trochlea of the superior oblique muscle on the left side of the body.
+RID51906	RID9707_RID5825	right trochlea of superior oblique muscle	The trochlea of the superior oblique muscle on the right side of the body.
+RID51907	RID9718_RID5824	left common tendinous ring of extraocular muscles	The common tendinous ring of the extraocular muscles on the left side of the body.
+RID51908	RID9718_RID5825	right common tendinous ring of extraocular muscles	The common tendinous ring of the extraocular muscles on the right side of the body.
+RID51909	RID9900_RID5824	left superior longitudinal muscle of tongue	The superior longitudinal muscle of the tongue on the left side of the body.
+RID51910	RID9900_RID5825	right superior longitudinal muscle of tongue	The superior longitudinal muscle of the tongue on the right side of the body.
+RID51911	RID9901_RID5824	left inferior longitudinal muscle of tongue	The inferior longitudinal muscle of the tongue on the left side of the body.
+RID51912	RID9901_RID5825	right inferior longitudinal muscle of tongue	The inferior longitudinal muscle of the tongue on the right side of the body.
+RID51913	RID9902_RID5824	left transverse muscle of tongue	The transverse muscle of the tongue on the left side of the body.
+RID51914	RID9902_RID5825	right transverse muscle of tongue	The transverse muscle of the tongue on the right side of the body.
+RID51915	RID9894_RID5824	left genioglossus muscle	The genioglossus muscle on the left side of the body.
+RID51916	RID9894_RID5825	right genioglossus muscle	The genioglossus muscle on the right side of the body.
+RID51917	RID9895_RID5824	left hyoglossus muscle	The hyoglossus muscle on the left side of the body.
+RID51918	RID9895_RID5825	right hyoglossus muscle	The hyoglossus muscle on the right side of the body.
+RID51919	RID9898_RID5824	left styloglossus muscle	The styloglossus muscle on the left side of the body.
+RID51920	RID9898_RID5825	right styloglossus muscle	The styloglossus muscle on the right side of the body.
+RID51921	RID9899_RID5824	left palatoglossus muscle	The palatoglossus muscle on the left side of the body.
+RID51922	RID9899_RID5825	right palatoglossus muscle	The palatoglossus muscle on the right side of the body.
+RID51923	RID9903_RID5824	left vertical muscle of tongue	The vertical muscle of the tongue on the left side of the body.
+RID51924	RID9903_RID5825	right vertical muscle of tongue	The vertical muscle of the tongue on the right side of the body.
+RID51925	RID9710_RID5824	left levator palpebrae superioris muscle	The levator palpebrae superioris muscle on the left side of the body.
+RID51926	RID9710_RID5825	right levator palpebrae superioris muscle	The levator palpebrae superioris muscle on the right side of the body.
+RID51927	RID9750_RID5824	left superior tarsal muscle	The superior tarsal muscle on the left side of the body.
+RID51928	RID9750_RID5825	right superior tarsal muscle	The superior tarsal muscle on the right side of the body.
+RID51929	RID9751_RID5824	left inferior tarsal muscle	The inferior tarsal muscle on the left side of the body.
+RID51930	RID9751_RID5825	right inferior tarsal muscle	The inferior tarsal muscle on the right side of the body.
+RID51931	RID9989_RID5824	left retromolar trigone	The retromolar trigone on the left side of the body.
+RID51932	RID9989_RID5825	right retromolar trigone	The retromolar trigone on the right side of the body.
+RID51933	RID9590_RID5824	left superior orbital fissure	The superior orbital fissure on the left side of the body.
+RID51934	RID9590_RID5825	right superior orbital fissure	The superior orbital fissure on the right side of the body.
+RID51935	RID9591_RID5824	left inferior orbital fissure	The inferior orbital fissure on the left side of the body.
+RID51936	RID9591_RID5825	right inferior orbital fissure	The inferior orbital fissure on the right side of the body.
+RID51937	RID9779_RID5824	left temporomandibular joint	The temporomandibular joint on the left side of the body.
+RID51938	RID9779_RID5825	right temporomandibular joint	The temporomandibular joint on the right side of the body.
+RID51939	RID9361_RID5824	left temporal bone	The temporal bone on the left side of the body.
+RID51940	RID9361_RID5825	right temporal bone	The temporal bone on the right side of the body.
+RID51941	RID9108_RID5824	left ramus of mandible	The ramus of the mandible on the left side of the body.
+RID51942	RID9108_RID5825	right ramus of mandible	The ramus of the mandible on the right side of the body.
+RID51943	RID9110_RID5824	left condyle of mandible	The condyle of the mandible on the left side of the body.
+RID51944	RID9110_RID5825	right condyle of mandible	The condyle of the mandible on the right side of the body.
+RID51945	RID9115_RID5824	left coronoid process of mandible	The coronoid process of the mandible on the left side of the body.
+RID51946	RID9115_RID5825	right coronoid process of mandible	The coronoid process of the mandible on the right side of the body.
+RID51947	RID6389_RID6434	supratentorial brain	The part of the brain above the tentorium cerebelli, comprising the cerebral hemispheres and the diencephalon.
+RID51948	RID6381_RID6434	infratentorial brain	The part of the brain below the tentorium cerebelli, in the posterior cranial fossa, comprising the cerebellum and the brainstem (midbrain, pons and medulla oblongata).
+RID51949	RID726_RID5824	left superficial temporal artery	The superficial temporal artery on the left side of the body.
+RID51950	RID726_RID5825	right superficial temporal artery	The superficial temporal artery on the right side of the body.
+RID51951	RID718_RID5824	left posterior auricular artery	The posterior auricular artery on the left side of the body.
+RID51952	RID718_RID5825	right posterior auricular artery	The posterior auricular artery on the right side of the body.
+RID51953	RID9127_RID9279_RID5827_RID5825	right maxillary central incisor tooth	The permanent central incisor tooth of the right upper (maxillary) quadrant of the dentition.
+RID51954	RID9127_RID9279_RID39121_RID5825	right maxillary lateral incisor tooth	The permanent lateral incisor tooth of the right upper (maxillary) quadrant of the dentition.
+RID51955	RID9126_RID9279_RID5825	right maxillary canine tooth	The permanent canine tooth of the right upper (maxillary) quadrant of the dentition.
+RID51956	RID9129_RID9279_RID5996_RID5825	right maxillary first premolar tooth	The permanent first premolar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51957	RID9129_RID9279_RID5998_RID5825	right maxillary second premolar tooth	The permanent second premolar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51958	RID9128_RID9279_RID5996_RID5825	right maxillary first molar tooth	The permanent first molar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51959	RID9128_RID9279_RID5998_RID5825	right maxillary second molar tooth	The permanent second molar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51960	RID9128_RID9279_RID6000_RID5825	right maxillary third molar tooth	The permanent third molar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51961	RID9127_RID9279_RID5827_RID5824	left maxillary central incisor tooth	The permanent central incisor tooth of the left upper (maxillary) quadrant of the dentition.
+RID51962	RID9127_RID9279_RID39121_RID5824	left maxillary lateral incisor tooth	The permanent lateral incisor tooth of the left upper (maxillary) quadrant of the dentition.
+RID51963	RID9126_RID9279_RID5824	left maxillary canine tooth	The permanent canine tooth of the left upper (maxillary) quadrant of the dentition.
+RID51964	RID9129_RID9279_RID5996_RID5824	left maxillary first premolar tooth	The permanent first premolar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51965	RID9129_RID9279_RID5998_RID5824	left maxillary second premolar tooth	The permanent second premolar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51966	RID9128_RID9279_RID5996_RID5824	left maxillary first molar tooth	The permanent first molar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51967	RID9128_RID9279_RID5998_RID5824	left maxillary second molar tooth	The permanent second molar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51968	RID9128_RID9279_RID6000_RID5824	left maxillary third molar tooth	The permanent third molar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51969	RID9127_RID9106_RID5827_RID5825	right mandibular central incisor tooth	The permanent central incisor tooth of the right lower (mandibular) quadrant of the dentition.
+RID51970	RID9127_RID9106_RID39121_RID5825	right mandibular lateral incisor tooth	The permanent lateral incisor tooth of the right lower (mandibular) quadrant of the dentition.
+RID51971	RID9126_RID9106_RID5825	right mandibular canine tooth	The permanent canine tooth of the right lower (mandibular) quadrant of the dentition.
+RID51972	RID9129_RID9106_RID5996_RID5825	right mandibular first premolar tooth	The permanent first premolar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51973	RID9129_RID9106_RID5998_RID5825	right mandibular second premolar tooth	The permanent second premolar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51974	RID9128_RID9106_RID5996_RID5825	right mandibular first molar tooth	The permanent first molar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51975	RID9128_RID9106_RID5998_RID5825	right mandibular second molar tooth	The permanent second molar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51976	RID9128_RID9106_RID6000_RID5825	right mandibular third molar tooth	The permanent third molar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51977	RID9127_RID9106_RID5827_RID5824	left mandibular central incisor tooth	The permanent central incisor tooth of the left lower (mandibular) quadrant of the dentition.
+RID51978	RID9127_RID9106_RID39121_RID5824	left mandibular lateral incisor tooth	The permanent lateral incisor tooth of the left lower (mandibular) quadrant of the dentition.
+RID51979	RID9126_RID9106_RID5824	left mandibular canine tooth	The permanent canine tooth of the left lower (mandibular) quadrant of the dentition.
+RID51980	RID9129_RID9106_RID5996_RID5824	left mandibular first premolar tooth	The permanent first premolar tooth of the left lower (mandibular) quadrant of the dentition.
+RID51981	RID9129_RID9106_RID5998_RID5824	left mandibular second premolar tooth	The permanent second premolar tooth of the left lower (mandibular) quadrant of the dentition.
+RID51982	RID9128_RID9106_RID5996_RID5824	left mandibular first molar tooth	The permanent first molar tooth of the left lower (mandibular) quadrant of the dentition.
+RID51983	RID9128_RID9106_RID5998_RID5824	left mandibular second molar tooth	The permanent second molar tooth of the left lower (mandibular) quadrant of the dentition.
+RID51984	RID9128_RID9106_RID6000_RID5824	left mandibular third molar tooth	The permanent third molar tooth of the left lower (mandibular) quadrant of the dentition.
+RID51985	RID9127_RID9131_RID9279_RID5827_RID5825	right deciduous maxillary central incisor tooth	The deciduous (primary) central incisor tooth of the right upper (maxillary) quadrant of the dentition.
+RID51986	RID9127_RID9131_RID9279_RID39121_RID5825	right deciduous maxillary lateral incisor tooth	The deciduous (primary) lateral incisor tooth of the right upper (maxillary) quadrant of the dentition.
+RID51987	RID9126_RID9131_RID9279_RID5825	right deciduous maxillary canine tooth	The deciduous (primary) canine tooth of the right upper (maxillary) quadrant of the dentition.
+RID51988	RID9128_RID9131_RID9279_RID5996_RID5825	right deciduous maxillary first molar tooth	The deciduous (primary) first molar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51989	RID9128_RID9131_RID9279_RID5998_RID5825	right deciduous maxillary second molar tooth	The deciduous (primary) second molar tooth of the right upper (maxillary) quadrant of the dentition.
+RID51990	RID9127_RID9131_RID9279_RID5827_RID5824	left deciduous maxillary central incisor tooth	The deciduous (primary) central incisor tooth of the left upper (maxillary) quadrant of the dentition.
+RID51991	RID9127_RID9131_RID9279_RID39121_RID5824	left deciduous maxillary lateral incisor tooth	The deciduous (primary) lateral incisor tooth of the left upper (maxillary) quadrant of the dentition.
+RID51992	RID9126_RID9131_RID9279_RID5824	left deciduous maxillary canine tooth	The deciduous (primary) canine tooth of the left upper (maxillary) quadrant of the dentition.
+RID51993	RID9128_RID9131_RID9279_RID5996_RID5824	left deciduous maxillary first molar tooth	The deciduous (primary) first molar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51994	RID9128_RID9131_RID9279_RID5998_RID5824	left deciduous maxillary second molar tooth	The deciduous (primary) second molar tooth of the left upper (maxillary) quadrant of the dentition.
+RID51995	RID9127_RID9131_RID9106_RID5827_RID5825	right deciduous mandibular central incisor tooth	The deciduous (primary) central incisor tooth of the right lower (mandibular) quadrant of the dentition.
+RID51996	RID9127_RID9131_RID9106_RID39121_RID5825	right deciduous mandibular lateral incisor tooth	The deciduous (primary) lateral incisor tooth of the right lower (mandibular) quadrant of the dentition.
+RID51997	RID9126_RID9131_RID9106_RID5825	right deciduous mandibular canine tooth	The deciduous (primary) canine tooth of the right lower (mandibular) quadrant of the dentition.
+RID51998	RID9128_RID9131_RID9106_RID5996_RID5825	right deciduous mandibular first molar tooth	The deciduous (primary) first molar tooth of the right lower (mandibular) quadrant of the dentition.
+RID51999	RID9128_RID9131_RID9106_RID5998_RID5825	right deciduous mandibular second molar tooth	The deciduous (primary) second molar tooth of the right lower (mandibular) quadrant of the dentition.
+RID52000	RID9127_RID9131_RID9106_RID5827_RID5824	left deciduous mandibular central incisor tooth	The deciduous (primary) central incisor tooth of the left lower (mandibular) quadrant of the dentition.
+RID52001	RID9127_RID9131_RID9106_RID39121_RID5824	left deciduous mandibular lateral incisor tooth	The deciduous (primary) lateral incisor tooth of the left lower (mandibular) quadrant of the dentition.
+RID52002	RID9126_RID9131_RID9106_RID5824	left deciduous mandibular canine tooth	The deciduous (primary) canine tooth of the left lower (mandibular) quadrant of the dentition.
+RID52003	RID9128_RID9131_RID9106_RID5996_RID5824	left deciduous mandibular first molar tooth	The deciduous (primary) first molar tooth of the left lower (mandibular) quadrant of the dentition.
+RID52004	RID9128_RID9131_RID9106_RID5998_RID5824	left deciduous mandibular second molar tooth	The deciduous (primary) second molar tooth of the left lower (mandibular) quadrant of the dentition.
+RID52005	RID6391_RID5824	left frontal brain region	The frontal brain region in the left cerebral hemisphere.
+RID52006	RID6391_RID5825	right frontal brain region	The frontal brain region in the right cerebral hemisphere.
+RID52007	RID6392_RID5824	left temporal brain region	The temporal brain region in the left cerebral hemisphere.
+RID52008	RID6392_RID5825	right temporal brain region	The temporal brain region in the right cerebral hemisphere.
+RID52009	RID6393_RID5824	left occipital brain region	The occipital brain region in the left cerebral hemisphere.
+RID52010	RID6393_RID5825	right occipital brain region	The occipital brain region in the right cerebral hemisphere.
+RID52011	RID6394_RID5824	left parietal brain region	The parietal brain region in the left cerebral hemisphere.
+RID52012	RID6394_RID5825	right parietal brain region	The parietal brain region in the right cerebral hemisphere.

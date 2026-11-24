@@ -9,7 +9,9 @@ Sources checked:
 - FMA 5.1.0 as served by EBI OLS (`https://www.ebi.ac.uk/ols4`), looked up by IRI.
 - SNOMED CT International Edition, release 2025-10-17, as served by the same OLS (ontology `snomed`).
 
-UMLS was not checked: it needs a license (applied for). SNOMED International's own browser (snomedbrowser.org) refuses scripted access, so the six SNOMED CT codes OLS can't resolve were checked by hand in that browser, against the US Edition 2026-09-01. All six are correct (1.5).
+- UMLS Metathesaurus 2026AB, through the UTS REST API (2026-11-24). It carries SNOMED CT US Edition 2026-09-01 and FMA 4.15. RadLex itself isn't in UMLS.
+
+SNOMED International's own browser (snomedbrowser.org) refuses scripted access, so the six SNOMED CT codes OLS can't resolve were first checked by hand in that browser, against the US Edition 2026-09-01. All six are correct (1.5), and the UMLS check confirms them (1.6).
 
 ## 1. Cross-reference IDs
 
@@ -20,6 +22,7 @@ UMLS was not checked: it needs a license (applied for). SNOMED International's o
 - **All 878 FMA codes are valid and correct.** Each one resolves in FMA 5.1.0, none is obsolete, and each FMA label agrees with the class on side and meaning. Some left/right pairs have FMA IDs far apart (the finger phalanges, the ribs, the carotids). I checked those by label, and they are correct.
 - **44 FMA codes are already on existing RadLex classes.** These rows are duplicates, not just shared codes. See 1.2, the most serious finding so far.
 - 135 rows have no FMA code. I found good FMA candidates for 26 of them (1.3).
+- **UMLS (1.6) found no new errors.** Every SNOMED CT code is active in the US Edition. Every row's FMA and SNOMED CT codes name the same structure, on the same side. The US Edition has no plain codes for the rows that have only an expression. A check of shared UMLS concepts found no duplicates beyond those in 1.2.
 
 ### 1.2 Duplicates of existing RadLex classes (blocking)
 
@@ -163,7 +166,30 @@ Don't use FMA's "C2-C3 intervertebral disk level" classes (`fma0326024` and the 
 
 This answers the question the README's "Not included" list leaves open. Dropping the expressions loses the only SNOMED CT coding for 384 rows, and no plain code replaces them. If RadLex wants SNOMED CT for these rows, it would need to store the expressions, perhaps as a separate annotation property, since `RID:ExternalRefID` is a plain code.
 
-### 1.6 How these checks were run
+### 1.6 UMLS checks (Metathesaurus 2026AB)
+
+Run on 2026-11-24, after the UMLS license came through. These checks found no new errors. They confirm what 1.1–1.5 found, using the US Edition and a cross-check between vocabularies.
+
+**All 569 SNOMED CT codes are active in the US Edition 2026-09-01**, including the six that OLS couldn't resolve (1.5). None is obsolete or suppressible.
+
+**The FMA and SNOMED CT codes on each row agree.** UMLS groups codes from different vocabularies under one concept ID (CUI), so a row whose two codes land under different CUIs could mean one code is wrong. 534 rows have both codes:
+
+- **330 share a CUI.** These are confirmed by UMLS itself.
+- **204 don't**, but in every one the two names describe the same structure. Almost all are sided SNOMED CT concepts added in the last few years ("Bone structure of left ilium", "Structure of left femoral vein"). UMLS hasn't merged these with FMA's sided concepts, and they have no "Entire …" child that could bridge them. The differences are only in wording, e.g. *Left calcaneal tendon* / *Structure of left Achilles tendon*, *Left triquetral* / *Structure of triangular bone of left wrist*, *Left orbital cavity* / *Structure of left orbit proper*.
+- **The side agrees everywhere.** In every row, the label, the FMA name and the SNOMED CT name all have the same side, or are all unsided.
+
+All 878 FMA codes are also in UMLS (FMA 4.15). That's an older version than the FMA 5.1.0 used in 1.1, so this only adds a second confirmation.
+
+**No plain SNOMED CT codes for the rows with only an expression, in the US Edition either.** 1.5 reached this conclusion for the International Edition. The US Edition adds many sided concepts, so I searched it again for all 444 rows without a plain code (the 384 with an expression and the 60 with nothing). For each row I listed the children of the expression's focus concept and the children of its "Entire …" child. I also searched the label and up to three synonyms, with both word search and normalized (fuzzy) search. Nothing matched. Spot checks of rows such as *left lateral pterygoid muscle*, *left posterior semicircular canal* and *left superior gluteal artery* found no sided concept in any wording. The search does work: *left femoral artery* and *left masseter muscle* find their sided concepts. The generator appears to have used a plain code wherever one exists.
+
+**No duplicates beyond 1.2.** For every CUI reached from a row's codes, I collected all the FMA codes UMLS puts under that CUI and compared them with the FMA codes already on RadLex classes. This catches duplicates the direct FMA comparison in 1.2 can't, e.g. rows with no FMA code or with a different FMA code for the same structure. It found three:
+
+- RID51058/RID51059 *left/right head of fibula* → RID39763/RID39762 *proximal epiphysis of left/right fibula*. This is the first of the two "second opinion" pairs in 1.2. UMLS puts FMA's head of the left fibula (321500) and proximal epiphysis of the left fibula (33731) under one CUI (C0825606, likewise on the right), so UMLS treats them as the same structure. FMA keeps them apart. This is a reason to look at that pair again, but not proof that it's a duplicate.
+- RID51590 *cranial cavity* → RID15567 *cavity of brain* (FMA:242395). This is a UMLS error, not a duplicate: UMLS puts FMA's *Cavity of brain*, which is the ventricular system, under the same CUI as cranial cavity (C0230041). No change to the table is needed.
+
+RadLex's 1,376 existing `UMLS:` cross-references don't match the CUI of any new row.
+
+### 1.7 How these checks were run
 
 The scripts are in the session scratchpad, not the repo:
 
@@ -174,6 +200,11 @@ The scripts are in the session scratchpad, not the repo:
 5. For rows without FMA, run an OLS text search on the label and synonyms, then targeted searches using FMA phrasing.
 6. Look up each SNOMED CT code by IRI in OLS (`/api/ontologies/snomed/terms?iri=http://snomed.info/id/<SCTID>`) and compare it with the row as in step 4.
 7. For rows without a SNOMED CT code, list the children and grandchildren of the expression's focus concept (via the "Entire …" child) and keep those whose label has the row's side. Then run an OLS text search on the label and synonyms.
+8. UMLS (2026AB, UTS REST API, throttled to 5 requests per second and cached; NLM's limit is 20 per second per IP address):
+   - Look up each SNOMED CT code (`/content/current/source/SNOMEDCT_US/<code>`) and check `obsolete`.
+   - Find the CUIs of each FMA and SNOMED CT code (`/search/current?inputType=sourceUi&searchType=exact&sabs=…`) and compare them per row. For rows whose CUIs differ, look for an "Entire …" child or a parent of the SNOMED CT code that shares the FMA code's CUI, then compare the names by hand.
+   - For the 444 rows without a plain SNOMED CT code, repeat step 7 against `SNOMEDCT_US`, using `words` and `normalizedWords` searches.
+   - For each row's CUIs, list the FMA atoms (`/content/current/CUI/<cui>/atoms`) and match their codes against RadLex's FMA cross-references.
 
 ## 2. Parents
 
@@ -265,7 +296,7 @@ When a sided row's label differs from its parent's label, it's usually because t
 - **Child drops a word the parent has:** *left superior/middle/inferior meatus* under *… nasal meatus*, and *left superior/middle/inferior turbinate* under *… nasal turbinate* (RID51755–RID51768). The synonyms carry the "nasal" form. *Left/right flexor digitorum brevis muscle* is under *flexor digitorum brevis muscle of foot*. *Left/right retropharyngeal space* is under *retropharyngeal space of head*. I'd make "nasal" part of the label: a bare "superior meatus" is ambiguous in a terminology that also has auditory meatuses.
 - **Child adds a word or spells out an acronym:** the PICA segments spell out *posterior inferior cerebellar artery*, while their parents say *PICA*. The child is better here, so the parents' labels could be expanded. Also *accessory breast tissue* under *accessory breast*.
 
-**Suggested rule:** a sided label is "left/right" plus the parent's label, with any other wording as a synonym. Where the child's wording is better, change the parent's label in the existing-entries step instead. The full list of 76 is easy to regenerate (1.6 describes the method).
+**Suggested rule:** a sided label is "left/right" plus the parent's label, with any other wording as a synonym. Where the child's wording is better, change the parent's label in the existing-entries step instead. The full list of 76 is easy to regenerate (1.7 describes the method).
 
 ### 3.6 Missing synonyms and acronyms (secondary)
 

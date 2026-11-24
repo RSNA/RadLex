@@ -1,8 +1,6 @@
 ALI ID	ALI label	ALI FMA code	RadLex ID	RadLex label	RadLex FMA code	RadLex parent	Under the ALI's unsided class	Basis
 RID2664_RID5824	left head of femur	FMA:55012	RID42283	head of left femur	FMA:55012	RID2664 (head of femur)	yes	same FMA code
 RID2664_RID5825	right head of femur	FMA:55011	RID42282	head of right femur	FMA:55011	RID2664 (head of femur)	yes	same FMA code
-RID2872_RID5824	left head of fibula	FMA:321500	RID39763	proximal epiphysis of left fibula	FMA:33731	RID2872 (head of fibula)	yes	found in review
-RID2872_RID5825	right head of fibula	FMA:321499	RID39762	proximal epiphysis of right fibula	FMA:33730	RID2872 (head of fibula)	yes	found in review
 RID7348_RID5824	left common peroneal nerve	FMA:45358	RID28038	left common fibular nerve	FMA:45358	RID7348 (common peroneal nerve)	yes	same FMA code
 RID7348_RID5825	right common peroneal nerve	FMA:45357	RID28037	right common fibular nerve	FMA:45357	RID7348 (common peroneal nerve)	yes	same FMA code
 RID2700_RID5824	left vastus medialis muscle	FMA:38933	RID48221	left vastus medialis	FMA:38933	RID48219 (vastus medialis)	no	same FMA code

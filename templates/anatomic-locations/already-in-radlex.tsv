@@ -1,0 +1,57 @@
+ALI ID	ALI label	ALI FMA code	RadLex ID	RadLex label	RadLex FMA code	RadLex parent	Under the ALI's unsided class	Basis
+RID2664_RID5824	left head of femur	FMA:55012	RID42283	head of left femur	FMA:55012	RID2664 (head of femur)	yes	same FMA code
+RID2664_RID5825	right head of femur	FMA:55011	RID42282	head of right femur	FMA:55011	RID2664 (head of femur)	yes	same FMA code
+RID2872_RID5824	left head of fibula	FMA:321500	RID39763	proximal epiphysis of left fibula	FMA:33731	RID2872 (head of fibula)	yes	found in review
+RID2872_RID5825	right head of fibula	FMA:321499	RID39762	proximal epiphysis of right fibula	FMA:33730	RID2872 (head of fibula)	yes	found in review
+RID7348_RID5824	left common peroneal nerve	FMA:45358	RID28038	left common fibular nerve	FMA:45358	RID7348 (common peroneal nerve)	yes	same FMA code
+RID7348_RID5825	right common peroneal nerve	FMA:45357	RID28037	right common fibular nerve	FMA:45357	RID7348 (common peroneal nerve)	yes	same FMA code
+RID2700_RID5824	left vastus medialis muscle	FMA:38933	RID48221	left vastus medialis	FMA:38933	RID48219 (vastus medialis)	no	same FMA code
+RID2700_RID5825	right vastus medialis muscle	FMA:38932	RID48220	right vastus medialis	FMA:38932	RID48219 (vastus medialis)	no	same FMA code
+RID2702_RID5824	left vastus intermedius muscle	FMA:38935	RID48224	left vastus intermedius	FMA:38935	RID48222 (vastus intermedius)	no	same FMA code
+RID2702_RID5825	right vastus intermedius muscle	FMA:38934	RID48223	right vastus intermedius	FMA:38934	RID48222 (vastus intermedius)	no	same FMA code
+RID2699_RID5824	left vastus lateralis muscle	FMA:38931	RID48218	left vastus lateralis	FMA:38931	RID48216 (vastus lateralis)	no	same FMA code
+RID2699_RID5825	right vastus lateralis muscle	FMA:38930	RID48217	right vastus lateralis	FMA:38930	RID48216 (vastus lateralis)	no	same FMA code
+RID2698_RID5824	left rectus femoris muscle	FMA:38929	RID48215	left rectus femoris	FMA:38929	RID2698 (rectus femoris muscle)	yes	same FMA code
+RID2698_RID5825	right rectus femoris muscle	FMA:38928	RID48214	right rectus femoris	FMA:38928	RID2698 (rectus femoris muscle)	yes	same FMA code
+RID1973_RID5824	left greater tuberosity of humerus	FMA:23392	RID42471	greater tubercle of left humerus	FMA:23392	RID1973 (greater tuberosity of humerus)	yes	same FMA code
+RID1973_RID5825	right greater tuberosity of humerus	FMA:23391	RID42470	greater tubercle of right humerus	FMA:23391	RID1973 (greater tuberosity of humerus)	yes	same FMA code
+RID1978_RID5824	left lesser tuberosity of humerus	FMA:23395	RID43190	lesser tubercle of left humerus	FMA:23395	RID1978 (lesser tuberosity of humerus)	yes	same FMA code
+RID1978_RID5825	right lesser tuberosity of humerus	FMA:23394	RID43189	lesser tubercle of right humerus	FMA:23394	RID1978 (lesser tuberosity of humerus)	yes	same FMA code
+RID1944_RID5824	left long head of biceps brachii tendon	FMA:65153	RID41465	tendon of long head of left biceps brachii	FMA:65153	RID1944 (tendon of long head of biceps brachii)	yes	same FMA code
+RID1944_RID5825	right long head of biceps brachii tendon	FMA:65152	RID41464	tendon of long head of right biceps brachii	FMA:65152	RID1944 (tendon of long head of biceps brachii)	yes	same FMA code
+RID1945_RID5824	left short head of biceps brachii tendon	FMA:65155	RID41467	tendon of short head of left biceps brachii	FMA:65155	RID1945 (tendon of short head of biceps brachii)	yes	same FMA code
+RID1945_RID5825	right short head of biceps brachii tendon	FMA:65154	RID41466	tendon of short head of right biceps brachii	FMA:65154	RID1945 (tendon of short head of biceps brachii)	yes	same FMA code
+RID1987_RID5824	left capitellum of humerus	FMA:23375	RID39786	capitulum of left humerus	FMA:23375	RID1987 (capitellum of humerus)	yes	same FMA code
+RID1987_RID5825	right capitellum of humerus	FMA:23374	RID39785	capitulum of right humerus	FMA:23374	RID1987 (capitellum of humerus)	yes	same FMA code
+RID2044_RID5824	left radial collateral ligament of elbow	FMA:38868	RID40854	radial collateral ligament of left elbow joint	FMA:38868	RID40852 (radial collateral ligament of elbow joint)	no	same FMA code
+RID2044_RID5825	right radial collateral ligament of elbow	FMA:38867	RID40853	radial collateral ligament of right elbow joint	FMA:38867	RID40852 (radial collateral ligament of elbow joint)	no	same FMA code
+RID2048_RID5824	left annular ligament of radius	FMA:38880	RID40861	annular ligament of left radius	FMA:38880	RID2048 (annular ligament of radius)	yes	same FMA code
+RID2048_RID5825	right annular ligament of radius	FMA:38879	RID40860	annular ligament of right radius	FMA:38879	RID2048 (annular ligament of radius)	yes	same FMA code
+RID28590_RID5824	left head of radius	FMA:39781	RID42285	head of left radius	FMA:39781	RID28590 (head of radius)	yes	same FMA code
+RID28590_RID5825	right head of radius	FMA:39782	RID42284	head of right radius	FMA:39782	RID28590 (head of radius)	yes	same FMA code
+RID42286_RID5824	left head of ulna	FMA:299868	RID42288	head of left ulna	FMA:299868	RID42286 (head of ulna)	yes	same FMA code
+RID42286_RID5825	right head of ulna	FMA:299866	RID42287	head of right ulna	FMA:299866	RID42286 (head of ulna)	yes	same FMA code
+RID2257_RID5824	left radial collateral ligament of wrist	FMA:40018	RID40888	radial collateral ligament of left wrist joint	FMA:40018	RID40886 (radial collateral ligament of wrist joint)	no	same FMA code
+RID2257_RID5825	right radial collateral ligament of wrist	FMA:40017	RID40887	radial collateral ligament of right wrist joint	FMA:40017	RID40886 (radial collateral ligament of wrist joint)	no	same FMA code
+RID2235_RID5824	left ulnar collateral ligament of wrist	FMA:40016	RID40885	ulnar collateral ligament of left wrist joint	FMA:40016	RID40883 (ulnar collateral ligament)	no	same FMA code
+RID2235_RID5825	right ulnar collateral ligament of wrist	FMA:40015	RID40884	ulnar collateral ligament of right wrist joint	FMA:40015	RID40883 (ulnar collateral ligament)	no	same FMA code
+RID13374_RID5824	left latissimus dorsi muscle	FMA:13359	RID43048	left latissimus dorsi	FMA:13359	RID13374 (latissimus dorsi muscle)	yes	same name
+RID13374_RID5825	right latissimus dorsi muscle	FMA:13358	RID43047	right latissimus dorsi	FMA:13358	RID13374 (latissimus dorsi muscle)	yes	same name
+RID43260_RID5824	left oblique fissure	FMA:7440	RID1379	left major fissure		RID1378 (left pleural fissure)	no	same name
+RID43260_RID5825	right oblique fissure	FMA:7439	RID1374	right major fissure		RID1373 (right pleural fissure)	no	same name
+RID652_RID5824	left recurrent artery of Heubner	FMA:50342	RID36413	left distal medial striate artery	FMA:50342	RID652 (distal medial striate artery)	yes	same name
+RID652_RID5825	right recurrent artery of Heubner	FMA:50341	RID36412	right distal medial striate artery	FMA:50341	RID652 (distal medial striate artery)	yes	same name
+RID674_RID5824	left medial orbitofrontal artery	FMA:50344	RID36415	left medial frontobasal artery	FMA:50344	RID674 (orbitofrontal artery)	yes	same FMA code
+RID674_RID5825	right medial orbitofrontal artery	FMA:50343	RID36414	right medial frontobasal artery	FMA:50343	RID674 (orbitofrontal artery)	yes	same FMA code
+RID655_RID5824	left polar frontal artery	FMA:50346	RID36417	left polar frontal artery	FMA:50346	RID655 (polar frontal artery)	yes	same name
+RID655_RID5825	right polar frontal artery	FMA:50345	RID36416	right polar frontal artery	FMA:50345	RID655 (polar frontal artery)	yes	same name
+RID668_RID5824	left lenticulostriate artery	FMA:50378	RID36446	anterolateral central branch of left middle cerebral artery	FMA:50378	RID668 (lenticulostriate artery)	yes	same FMA code
+RID668_RID5825	right lenticulostriate artery	FMA:50377	RID36445	anterolateral central branch of right middle cerebral artery	FMA:50377	RID668 (lenticulostriate artery)	yes	same FMA code
+RID670_RID5824	left medial lenticulostriate artery	FMA:50432	RID36448	medial striate branch of left middle cerebral artery	FMA:50432	RID670 (medial lenticulostriate artery)	yes	same FMA code
+RID670_RID5825	right medial lenticulostriate artery	FMA:50431	RID36447	medial striate branch of right middle cerebral artery	FMA:50431	RID670 (medial lenticulostriate artery)	yes	same FMA code
+RID818_RID5824	left P3 segment of posterior cerebral artery		RID44763	left lateral occipital artery	FMA:50644	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the left lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; the ALI lists both. Same structure or not?
+RID818_RID5825	right P3 segment of posterior cerebral artery		RID44762	right lateral occipital artery	FMA:50643	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the right lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; the ALI lists both. Same structure or not?
+RID813_RID5824	left medial posterior choroidal artery	FMA:50673	RID44733	left posterior medial choroidal artery	FMA:50673	RID813 (medial posterior choroidal artery)	yes	same FMA code
+RID813_RID5825	right medial posterior choroidal artery	FMA:50672	RID44732	right posterior medial choroidal artery	FMA:50672	RID813 (medial posterior choroidal artery)	yes	same FMA code
+RID814_RID5824	left lateral posterior choroidal artery	FMA:50675	RID44735	left posterior lateral choroidal artery	FMA:50675	RID814 (lateral posterior choroidal artery)	yes	same FMA code
+RID814_RID5825	right lateral posterior choroidal artery	FMA:50674	RID44734	right posterior lateral choroidal artery	FMA:50674	RID814 (lateral posterior choroidal artery)	yes	same FMA code

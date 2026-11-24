@@ -17,7 +17,7 @@ This is the first step of the Anatomic Locations work. It adds the classes and w
 
 ## Reading the template
 
-Row 1 is the column name and row 2 is the ROBOT template string. The `ALI ID` and `Parent label` columns have an empty row 2: they are there for reviewers, and ROBOT ignores them. A `|` separates several values in one cell.
+Row 1 is the column name and row 2 is the ROBOT template string. The `Anatomic Locations ID` and `Parent label` columns have an empty row 2: they are there for reviewers, and ROBOT ignores them. A `|` separates several values in one cell.
 
 ## What each new class gets
 

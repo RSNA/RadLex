@@ -1,4 +1,4 @@
-ALI ID	ALI label	ALI FMA code	RadLex ID	RadLex label	RadLex FMA code	RadLex parent	Under the ALI's unsided class	Basis
+Anatomic Locations ID	Anatomic Locations label	Anatomic Locations FMA code	RadLex ID	RadLex label	RadLex FMA code	RadLex parent	Under the same unsided class	Basis
 RID2664_RID5824	left head of femur	FMA:55012	RID42283	head of left femur	FMA:55012	RID2664 (head of femur)	yes	same FMA code
 RID2664_RID5825	right head of femur	FMA:55011	RID42282	head of right femur	FMA:55011	RID2664 (head of femur)	yes	same FMA code
 RID7348_RID5824	left common peroneal nerve	FMA:45358	RID28038	left common fibular nerve	FMA:45358	RID7348 (common peroneal nerve)	yes	same FMA code
@@ -47,8 +47,8 @@ RID668_RID5824	left lenticulostriate artery	FMA:50378	RID36446	anterolateral cen
 RID668_RID5825	right lenticulostriate artery	FMA:50377	RID36445	anterolateral central branch of right middle cerebral artery	FMA:50377	RID668 (lenticulostriate artery)	yes	same FMA code
 RID670_RID5824	left medial lenticulostriate artery	FMA:50432	RID36448	medial striate branch of left middle cerebral artery	FMA:50432	RID670 (medial lenticulostriate artery)	yes	same FMA code
 RID670_RID5825	right medial lenticulostriate artery	FMA:50431	RID36447	medial striate branch of right middle cerebral artery	FMA:50431	RID670 (medial lenticulostriate artery)	yes	same FMA code
-RID818_RID5824	left P3 segment of posterior cerebral artery		RID44763	left lateral occipital artery	FMA:50644	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the left lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; the ALI lists both. Same structure or not?
-RID818_RID5825	right P3 segment of posterior cerebral artery		RID44762	right lateral occipital artery	FMA:50643	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the right lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; the ALI lists both. Same structure or not?
+RID818_RID5824	left P3 segment of posterior cerebral artery		RID44763	left lateral occipital artery	FMA:50644	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the left lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; Anatomic Locations lists both. Same structure or not?
+RID818_RID5825	right P3 segment of posterior cerebral artery		RID44762	right lateral occipital artery	FMA:50643	RID818 (P3 segment of posterior cerebral artery)	yes	held back: RadLex puts the right lateral occipital artery under P3 segment and gives P3 the synonym arteria occipitalis lateralis; Anatomic Locations lists both. Same structure or not?
 RID813_RID5824	left medial posterior choroidal artery	FMA:50673	RID44733	left posterior medial choroidal artery	FMA:50673	RID813 (medial posterior choroidal artery)	yes	same FMA code
 RID813_RID5825	right medial posterior choroidal artery	FMA:50672	RID44732	right posterior medial choroidal artery	FMA:50672	RID813 (medial posterior choroidal artery)	yes	same FMA code
 RID814_RID5824	left lateral posterior choroidal artery	FMA:50675	RID44735	left posterior lateral choroidal artery	FMA:50675	RID814 (lateral posterior choroidal artery)	yes	same FMA code

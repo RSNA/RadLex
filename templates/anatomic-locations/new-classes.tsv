@@ -1,4 +1,4 @@
-ID	ALI ID	Label	RadLexID	Parent	Parent label	Synonyms	Acronyms	Definition	Codes	Version	Source
+ID	Anatomic Locations ID	Label	RadLexID	Parent	Parent label	Synonyms	Acronyms	Definition	Codes	Version	Source
 ID		AL rdfs:label@en	AL RID:RadLexID@en	SC % SPLIT=|		AL oboInOwl:hasExactSynonym@en SPLIT=|	AL RID:Acronym@en SPLIT=|	A obo:IAO_0000115	A RID:ExternalRefID SPLIT=|	A RID:Radlex_version_of_class_change	A RID:Source
 RID:RID51000	RID294_RID5824	left uterine adnexa	RID51000	RID:RID294	uterine adnexa [unsided entry]				ANAT_LOC:RID294_RID5824|FMA:302826|SNOMEDCT:110635008	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51001	RID294_RID5825	right uterine adnexa	RID51001	RID:RID294	uterine adnexa [unsided entry]				ANAT_LOC:RID294_RID5825|FMA:302824|SNOMEDCT:110634007	4.4 new	Anatomic Locations Index 1.0.1

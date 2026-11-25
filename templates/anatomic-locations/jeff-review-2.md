@@ -10,11 +10,11 @@ New findings from 2026-11-24/25, after the first review in [`jeff-review.md`](je
 
 - **The synonyms flagged in the first review are still in the table, and PR #55 adds them to `RadLex.owl` as exact synonyms** (0.1). The PR's README lists them as "still open". But once the PR merges, they're in the release. I'd remove the clearly wrong ones before it merges.
 - **Copilot's review of PR #55 found a parent error that the first review missed, and it applies to four pairs, not one** (0.4). The left and right halves of midline structures are filed as *kinds* of the whole structure.
-- **No errors of commission in the synonyms.** No synonym in the table belongs to a different UMLS concept, except three that are UMLS's own errors (3).
+- **The UMLS synonym check found no *new* problems** (3). No synonym in the table belongs to a different UMLS concept, apart from three UMLS errors. This doesn't clear the synonyms in 0.1. They're broader or ambiguous terms that UMLS either doesn't have or has under the right concept, so a UMLS lookup can't catch them.
 - **The 75 `UMLS:` codes added since the first review are correct.** Each CUI exists and is the same CUI as the row's FMA or SNOMED CT code, and the sides agree (1.1).
 - **FMA has classes for the A2 and M3 segments, but they're broader.** My first review missed them. They'd be broad matches only (1.2).
 - **P3: more evidence that the P3 rows duplicate the lateral occipital artery classes.** This is for the decision Tarik held back (1.3).
-- **Tooth numbers: UMLS confirms all 52**, and SNOMED CT can supply the FDI numbers (2).
+- **Tooth numbers: UMLS confirms that all 52 are correct in the Universal system** (2). They're still ambiguous without the system's name (0.1), and SNOMED CT can supply the FDI numbers too.
 - **About 35 standard synonyms worth adding** (3).
 
 ## 0. Status of the first review's items
@@ -123,7 +123,7 @@ For the FDI numbers suggested there, SNOMED CT gives each tooth an "ISO designat
 
 **Method.** For each row, I took the UMLS concepts (CUIs) of its FMA and SNOMED CT codes. For 6 rows with neither code, I found the CUI by searching the label: the glenohumeral ligaments and the A2 and M3 segments. 92 rows have no CUI either way; they're mostly the newer index entries (PICA segments, neck spaces, posterior leg compartments, brain regions). I then looked up each synonym with UMLS's normalized-string search.
 
-**Errors of commission: none found.** The table has 426 synonyms and no acronyms:
+**Errors of commission: none beyond those already known.** This check catches a synonym that UMLS assigns to a different concept. It can't catch one that's broader or ambiguous, like those in 0.1. The table has 426 synonyms and no acronyms:
 
 | Result | Synonyms |
 |---|---|

@@ -9,6 +9,7 @@ New findings from 2026-11-24/25, after the first review in [`jeff-review.md`](je
 ## Summary
 
 - **The synonyms flagged in the first review are still in the table, and PR #55 adds them to `RadLex.owl` as exact synonyms** (0.1). The PR's README lists them as "still open". But once the PR merges, they're in the release. I'd remove the clearly wrong ones before it merges.
+- **Copilot's review of PR #55 found a parent error that the first review missed, and it applies to four pairs, not one** (0.4). The left and right halves of midline structures are filed as *kinds* of the whole structure.
 - **No errors of commission in the synonyms.** No synonym in the table belongs to a different UMLS concept, except three that are UMLS's own errors (3).
 - **The 75 `UMLS:` codes added since the first review are correct.** Each CUI exists and is the same CUI as the row's FMA or SNOMED CT code, and the sides agree (1.1).
 - **FMA has classes for the A2 and M3 segments, but they're broader.** My first review missed them. They'd be broad matches only (1.2).
@@ -50,7 +51,27 @@ Exact synonyms in a release are hard to take back once tools pick them up. The f
 - **P3 segment:** held back; see 1.3 below for new evidence.
 - **New code prefixes (5).**
 
-### 0.4 Addressed
+### 0.4 New: halves of midline structures are filed as kinds of the whole
+
+Copilot's review of PR #55 (2026-11-24) flags RID51615/RID51616 *left/right half of pharyngeal tonsil*. Their parent is RID9993 *pharyngeal tonsil*, so `SubClassOf` makes each half a pharyngeal tonsil and gives it everything stated about the whole organ. A half is a *part* of the tonsil, not a kind of tonsil. Copilot suggests RID13259 *organ region* as the parent, leaving the link to RID9993 to the deferred part-whole step.
+
+The first review missed this. Its 2.5 accepted these parents, and its 3.2 flagged only the synonym. The same pattern applies to every row whose definition (in `proposed-definitions.tsv`) is "the part of X to the left/right of the midsagittal plane", because each is half of a single midline structure:
+
+| Rows (new RIDs) | Current parent | Kind of thing | Suggested parent |
+|---|---|---|---|
+| RID51615 / RID51616 *left/right half of pharyngeal tonsil* | RID9993 *pharyngeal tonsil* | organ region | RID13259 *organ region* (Copilot) |
+| RID51621 / RID51622 *left/right lingual tonsil* | RID10008 *lingual tonsil* | organ region | RID13259 *organ region* |
+| RID51557 / RID51558 *left/right retropharyngeal space* | RID7565 *retropharyngeal space of head* | part of a space | RID13217 *anatomical space*, or a closer space class |
+| RID51561 / RID51562 *left/right perivertebral space* | RID7572 *perivertebral space* | part of a space | RID13217 *anatomical space*, or a closer space class |
+
+Two caveats:
+
+- The lingual tonsil is sometimes described as paired, one on each side of the tongue base. If the group reads it that way, its pair is an ordinary left/right split and can stay where it is. FMA has it as a single structure.
+- Radiologists do say "left retropharyngeal space", meaning the part of the space on that side, so the labels are fine. Only the parent is wrong.
+
+In every case, the relation to the whole belongs to the part-whole step that comes next (`Part_Of`), so nothing is lost by moving these rows out from under the whole for now. The 830 other left/right rows are different: there the unsided class means "either one", and *left kidney* really is a kind of kidney.
+
+### 0.5 Addressed
 
 - The 44 duplicates (1.2) were removed and listed in `already-in-radlex.tsv`.
 - The parent fixes (2.2, 2.3): cranial cavity is under RID32949. The interphalangeal joint of the great toe is under RID34532. All 32 permanent teeth are also under RID9132 *permanent tooth*.

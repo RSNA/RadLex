@@ -1,0 +1,23 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+#
+# Part of the RadLex ontology SPARQL test suite. Bindings to this query represent violations of the test.
+#
+# Test that no entity has more than one rdfs:label in the same language (issue #31). RadLex is multilingual, so
+# an entity may have one label per language, e.g. one @en and one @de; ROBOT's standard multiple_labels check
+# would flag those. Labels with no language tag count as one more language. A second label in the same
+# language is usually a copy error, or a synonym that belongs in a synonym property.
+#
+# VIOLATIONS will be bindings that have, on ?entity, ?property, and ?value respectively:
+# - The entity.
+# - rdfs:label.
+# - Each of its labels in a language that has more than one, so an entity with two English labels is reported
+#   twice, once for each label.
+#
+SELECT DISTINCT ?entity ?property ?value
+WHERE {
+    VALUES ?property { rdfs:label }
+    ?entity ?property ?value .
+    ?entity ?property ?other .
+    FILTER(?other != ?value && LANG(?other) = LANG(?value))
+}

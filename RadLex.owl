@@ -1002273,7 +1002273,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
     
 

@@ -19,16 +19,16 @@ Row 1 is the column name and row 2 is the ROBOT template string. The `Anatomic L
 
 - A label and a `RID:RadLexID`, from `RID51000` to `RID51966`.
 - One or more parent classes (see below).
-- Its synonyms as `oboInOwl:hasExactSynonym`, 426 in all.
+- Its synonyms as `oboInOwl:hasExactSynonym`, 312 in all. Some Anatomic Locations synonyms are left out (see below).
 - A `RID:ExternalRefID` of `ANAT_LOC:` followed by its Anatomic Locations ID, such as `ANAT_LOC:RID294_RID5824`. Anatomic Locations names these entries by combining two or more RIDs; this links the new RID back to that ID.
 - Its other codes as `RID:ExternalRefID`: 856 classes have an FMA code, 551 SNOMED CT, 75 UMLS, and 3 TA2. 88 classes have no code besides the `ANAT_LOC:` one.
 - `RID:Radlex_version_of_class_change` of `4.4 new`, and `RID:Source` of `Anatomic Locations Index 1.0.1`.
 
 ### Parents
 
-- 830 classes are under their unsided class: left uterine adnexa under `RID294` uterine adnexa.
+- 822 classes are under their unsided class: left uterine adnexa under `RID294` uterine adnexa.
 - 121 are under the part of the combined ID that names the same kind of structure: "first metatarsal" is under metatarsal, not great toe. Each sided tooth is under its tooth type and under `RID9131` deciduous tooth or `RID9132` permanent tooth.
-- 16 parents were chosen by hand: the twelve numbered ribs under `RID2471` rib, the cranial cavity under `RID32949` anatomical compartment space, the interphalangeal joint of great toe under `RID34532` interphalangeal joint of toe, and the supratentorial and infratentorial brain under `RID13853` segment of brain.
+- 24 parents were chosen by hand: the twelve numbered ribs under `RID2471` rib, the cranial cavity under `RID32949` anatomical compartment space, the interphalangeal joint of great toe under `RID34532` interphalangeal joint of toe, and the supratentorial and infratentorial brain under `RID13853` segment of brain. The left and right halves of four midline structures are parts of the structure, not kinds of it, so they are not under it: the halves of the pharyngeal tonsil and the lingual tonsil are under `RID13259` organ region, and the halves of the retropharyngeal space and the perivertebral space are under `RID13217` anatomical space.
 - 142 parents are themselves new classes in this table.
 
 ## Entries RadLex already had
@@ -39,11 +39,19 @@ Row 1 is the column name and row 2 is the ROBOT template string. The `Anatomic L
 - 8 have the same name as an existing class.
 - 2 are held back: the left and right P3 segment of posterior cerebral artery. RadLex puts the left and right lateral occipital artery under P3 segment and treats the two names as synonyms; Anatomic Locations lists both. They stay out until that is settled.
 
+## Synonyms left out
+
+114 synonyms that Anatomic Locations has are not in the template:
+
+- The 104 tooth-number synonyms on the 52 sided teeth, such as `tooth 8` and `ADA 8`. They are Universal Numbering System numbers, and the same number names a different tooth in the ISO 3950 (FDI) system. They stay out until RadLex can record the numbering system with each one (#59).
+- 10 synonyms that are not exact names for their class, on the left and right of five classes: *medial tubercle* (of talus), *posterior tibiotalar ligament* (the class is the deep one), *abductor digiti minimi muscle* (of foot), *pharyngeal tonsil* (the class is half of it), and *depressor labii inferior muscle* (a misspelling of *inferioris*).
+
 ## Still open
 
 - **Definitions.** None are given.
 - **`oboInOwl:created_by` and `oboInOwl:creation_date`.** Not given.
-- **Synonyms** found inexact or ambiguous in review, and the tooth-number synonyms, which don't name their numbering system. They are as Anatomic Locations has them.
+- **Tooth numbers.** See "Synonyms left out" (#59).
+- **Part-of links** from the eight halves of midline structures to the whole structure. They come with the relationships (#15).
 - **FMA codes** where the match needs a decision: wrist joint, common femoral artery, deep posterior tibiotalar ligament.
 - **Left and right head of fibula** are new classes. The head is not the proximal epiphysis, though RadLex has `RID39763` and `RID39762`, proximal epiphysis of left and right fibula, as subclasses of `RID2872` head of fibula.
 - **New code prefixes.** `ANAT_LOC`, `SNOMEDCT`, and `TA2` were not used in `RID:ExternalRefID` before; `FMA` and `UMLS` were.

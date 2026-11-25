@@ -1681,8 +1681,6 @@
 #### Added
 - Class: [left abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51266) 
 
-- [left abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51266) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "left abductor digiti minimi muscle"@en 
-
 - [left abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51266) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID3167_RID5824" 
 
 - [left abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51266) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:37464" 
@@ -2805,7 +2803,7 @@
 
 - [left cornea](http://www.radlex.org/RID/RID51635) [label](http://www.w3.org/2000/01/rdf-schema#label) "left cornea"@en 
 
-- [left cornea](http://www.radlex.org/RID/RID51635) SubClassOf [Kornea](http://www.radlex.org/RID/RID9606) 
+- [left cornea](http://www.radlex.org/RID/RID51635) SubClassOf [cornea](http://www.radlex.org/RID/RID9606) 
 
 
 ### left coronoid process of mandible `http://www.radlex.org/RID/RID51899`
@@ -2937,11 +2935,7 @@
 #### Added
 - Class: [left deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51956) 
 
-- [left deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51956) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA M"@en 
-
 - [left deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51956) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left mandibular canine tooth"@en 
-
-- [left deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51956) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth M"@en 
 
 - [left deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51956) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9131_RID9106_RID5824" 
 
@@ -2969,11 +2963,7 @@
 #### Added
 - Class: [left deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51954) 
 
-- [left deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51954) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA O"@en 
-
 - [left deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51954) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left mandibular central incisor tooth"@en 
-
-- [left deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51954) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth O"@en 
 
 - [left deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51954) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9106_RID5827_RID5824" 
 
@@ -3001,11 +2991,7 @@
 #### Added
 - Class: [left deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51957) 
 
-- [left deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51957) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA L"@en 
-
 - [left deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51957) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left mandibular first molar tooth"@en 
-
-- [left deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51957) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth L"@en 
 
 - [left deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51957) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9106_RID5996_RID5824" 
 
@@ -3033,11 +3019,7 @@
 #### Added
 - Class: [left deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51955) 
 
-- [left deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51955) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA N"@en 
-
 - [left deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51955) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left mandibular lateral incisor tooth"@en 
-
-- [left deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51955) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth N"@en 
 
 - [left deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51955) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9106_RID39121_RID5824" 
 
@@ -3065,11 +3047,7 @@
 #### Added
 - Class: [left deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51958) 
 
-- [left deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51958) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA K"@en 
-
 - [left deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51958) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left mandibular second molar tooth"@en 
-
-- [left deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51958) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth K"@en 
 
 - [left deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51958) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9106_RID5998_RID5824" 
 
@@ -3097,11 +3075,7 @@
 #### Added
 - Class: [left deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51946) 
 
-- [left deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51946) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA H"@en 
-
 - [left deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51946) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left maxillary canine tooth"@en 
-
-- [left deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51946) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth H"@en 
 
 - [left deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51946) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9131_RID9279_RID5824" 
 
@@ -3129,11 +3103,7 @@
 #### Added
 - Class: [left deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51944) 
 
-- [left deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51944) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA F"@en 
-
 - [left deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51944) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left maxillary central incisor tooth"@en 
-
-- [left deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51944) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth F"@en 
 
 - [left deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51944) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9279_RID5827_RID5824" 
 
@@ -3161,11 +3131,7 @@
 #### Added
 - Class: [left deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51947) 
 
-- [left deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51947) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA I"@en 
-
 - [left deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51947) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left maxillary first molar tooth"@en 
-
-- [left deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51947) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth I"@en 
 
 - [left deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51947) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9279_RID5996_RID5824" 
 
@@ -3193,11 +3159,7 @@
 #### Added
 - Class: [left deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51945) 
 
-- [left deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51945) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA G"@en 
-
 - [left deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51945) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left maxillary lateral incisor tooth"@en 
-
-- [left deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51945) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth G"@en 
 
 - [left deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51945) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9279_RID39121_RID5824" 
 
@@ -3225,11 +3187,7 @@
 #### Added
 - Class: [left deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51948) 
 
-- [left deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51948) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA J"@en 
-
 - [left deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51948) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous left maxillary second molar tooth"@en 
-
-- [left deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51948) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth J"@en 
 
 - [left deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51948) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9279_RID5998_RID5824" 
 
@@ -3321,8 +3279,6 @@
 #### Added
 - Class: [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) 
 
-- [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "left posterior tibiotalar ligament"@en 
-
 - [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID3016_RID5824" 
 
 - [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51096"@en 
@@ -3333,7 +3289,7 @@
 
 - [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) [label](http://www.w3.org/2000/01/rdf-schema#label) "left deep posterior tibiotalar ligament"@en 
 
-- [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) SubClassOf [posterior tibiotalar ligament](http://www.radlex.org/RID/RID3016) 
+- [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) SubClassOf [Ligamentum tibiotalare posterius](http://www.radlex.org/RID/RID3016) 
 
 
 ### left depressor anguli oris muscle `http://www.radlex.org/RID/RID51831`
@@ -3360,8 +3316,6 @@
 
 #### Added
 - Class: [left depressor labii inferioris muscle](http://www.radlex.org/RID/RID51835) 
-
-- [left depressor labii inferioris muscle](http://www.radlex.org/RID/RID51835) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "left depressor labii inferior muscle"@en 
 
 - [left depressor labii inferioris muscle](http://www.radlex.org/RID/RID51835) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9853_RID5824" 
 
@@ -4733,8 +4687,6 @@
 #### Added
 - Class: [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) 
 
-- [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "left pharyngeal tonsil"@en 
-
 - [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9993_RID5824" 
 
 - [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "SNOMEDCT:781383005" 
@@ -4747,7 +4699,7 @@
 
 - [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) [label](http://www.w3.org/2000/01/rdf-schema#label) "left half of pharyngeal tonsil"@en 
 
-- [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) SubClassOf [Tonsilla pharyngea](http://www.radlex.org/RID/RID9993) 
+- [left half of pharyngeal tonsil](http://www.radlex.org/RID/RID51615) SubClassOf [organ region](http://www.radlex.org/RID/RID13259) 
 
 
 ### left hamate `http://www.radlex.org/RID/RID51336`
@@ -6025,7 +5977,7 @@
 
 - [left lingual tonsil](http://www.radlex.org/RID/RID51621) [label](http://www.w3.org/2000/01/rdf-schema#label) "left lingual tonsil"@en 
 
-- [left lingual tonsil](http://www.radlex.org/RID/RID51621) SubClassOf [lingual tonsil](http://www.radlex.org/RID/RID10008) 
+- [left lingual tonsil](http://www.radlex.org/RID/RID51621) SubClassOf [organ region](http://www.radlex.org/RID/RID13259) 
 
 
 ### left long process of incus `http://www.radlex.org/RID/RID51691`
@@ -6135,10 +6087,6 @@
 #### Added
 - Class: [left mandibular canine tooth](http://www.radlex.org/RID/RID51933) 
 
-- [left mandibular canine tooth](http://www.radlex.org/RID/RID51933) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 22"@en 
-
-- [left mandibular canine tooth](http://www.radlex.org/RID/RID51933) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 22"@en 
-
 - [left mandibular canine tooth](http://www.radlex.org/RID/RID51933) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9106_RID5824" 
 
 - [left mandibular canine tooth](http://www.radlex.org/RID/RID51933) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55687" 
@@ -6164,10 +6112,6 @@
 
 #### Added
 - Class: [left mandibular central incisor tooth](http://www.radlex.org/RID/RID51931) 
-
-- [left mandibular central incisor tooth](http://www.radlex.org/RID/RID51931) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 24"@en 
-
-- [left mandibular central incisor tooth](http://www.radlex.org/RID/RID51931) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 24"@en 
 
 - [left mandibular central incisor tooth](http://www.radlex.org/RID/RID51931) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9106_RID5827_RID5824" 
 
@@ -6195,10 +6139,6 @@
 #### Added
 - Class: [left mandibular first molar tooth](http://www.radlex.org/RID/RID51936) 
 
-- [left mandibular first molar tooth](http://www.radlex.org/RID/RID51936) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 19"@en 
-
-- [left mandibular first molar tooth](http://www.radlex.org/RID/RID51936) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 19"@en 
-
 - [left mandibular first molar tooth](http://www.radlex.org/RID/RID51936) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID5996_RID5824" 
 
 - [left mandibular first molar tooth](http://www.radlex.org/RID/RID51936) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55704" 
@@ -6224,10 +6164,6 @@
 
 #### Added
 - Class: [left mandibular first premolar tooth](http://www.radlex.org/RID/RID51934) 
-
-- [left mandibular first premolar tooth](http://www.radlex.org/RID/RID51934) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 21"@en 
-
-- [left mandibular first premolar tooth](http://www.radlex.org/RID/RID51934) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 21"@en 
 
 - [left mandibular first premolar tooth](http://www.radlex.org/RID/RID51934) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9106_RID5996_RID5824" 
 
@@ -6255,10 +6191,6 @@
 #### Added
 - Class: [left mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51932) 
 
-- [left mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51932) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 23"@en 
-
-- [left mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51932) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 23"@en 
-
 - [left mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51932) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9106_RID39121_RID5824" 
 
 - [left mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51932) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:57141" 
@@ -6284,10 +6216,6 @@
 
 #### Added
 - Class: [left mandibular second molar tooth](http://www.radlex.org/RID/RID51937) 
-
-- [left mandibular second molar tooth](http://www.radlex.org/RID/RID51937) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 18"@en 
-
-- [left mandibular second molar tooth](http://www.radlex.org/RID/RID51937) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 18"@en 
 
 - [left mandibular second molar tooth](http://www.radlex.org/RID/RID51937) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID5998_RID5824" 
 
@@ -6315,10 +6243,6 @@
 #### Added
 - Class: [left mandibular second premolar tooth](http://www.radlex.org/RID/RID51935) 
 
-- [left mandibular second premolar tooth](http://www.radlex.org/RID/RID51935) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 20"@en 
-
-- [left mandibular second premolar tooth](http://www.radlex.org/RID/RID51935) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 20"@en 
-
 - [left mandibular second premolar tooth](http://www.radlex.org/RID/RID51935) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9106_RID5998_RID5824" 
 
 - [left mandibular second premolar tooth](http://www.radlex.org/RID/RID51935) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55692" 
@@ -6344,10 +6268,6 @@
 
 #### Added
 - Class: [left mandibular third molar tooth](http://www.radlex.org/RID/RID51938) 
-
-- [left mandibular third molar tooth](http://www.radlex.org/RID/RID51938) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 17"@en 
-
-- [left mandibular third molar tooth](http://www.radlex.org/RID/RID51938) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 17"@en 
 
 - [left mandibular third molar tooth](http://www.radlex.org/RID/RID51938) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID6000_RID5824" 
 
@@ -6457,10 +6377,6 @@
 #### Added
 - Class: [left maxillary canine tooth](http://www.radlex.org/RID/RID51917) 
 
-- [left maxillary canine tooth](http://www.radlex.org/RID/RID51917) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 11"@en 
-
-- [left maxillary canine tooth](http://www.radlex.org/RID/RID51917) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 11"@en 
-
 - [left maxillary canine tooth](http://www.radlex.org/RID/RID51917) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9279_RID5824" 
 
 - [left maxillary canine tooth](http://www.radlex.org/RID/RID51917) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55799" 
@@ -6486,10 +6402,6 @@
 
 #### Added
 - Class: [left maxillary central incisor tooth](http://www.radlex.org/RID/RID51915) 
-
-- [left maxillary central incisor tooth](http://www.radlex.org/RID/RID51915) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 9"@en 
-
-- [left maxillary central incisor tooth](http://www.radlex.org/RID/RID51915) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 9"@en 
 
 - [left maxillary central incisor tooth](http://www.radlex.org/RID/RID51915) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9279_RID5827_RID5824" 
 
@@ -6517,10 +6429,6 @@
 #### Added
 - Class: [left maxillary first molar tooth](http://www.radlex.org/RID/RID51920) 
 
-- [left maxillary first molar tooth](http://www.radlex.org/RID/RID51920) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 14"@en 
-
-- [left maxillary first molar tooth](http://www.radlex.org/RID/RID51920) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 14"@en 
-
 - [left maxillary first molar tooth](http://www.radlex.org/RID/RID51920) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID5996_RID5824" 
 
 - [left maxillary first molar tooth](http://www.radlex.org/RID/RID51920) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55699" 
@@ -6546,10 +6454,6 @@
 
 #### Added
 - Class: [left maxillary first premolar tooth](http://www.radlex.org/RID/RID51918) 
-
-- [left maxillary first premolar tooth](http://www.radlex.org/RID/RID51918) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 12"@en 
-
-- [left maxillary first premolar tooth](http://www.radlex.org/RID/RID51918) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 12"@en 
 
 - [left maxillary first premolar tooth](http://www.radlex.org/RID/RID51918) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9279_RID5996_RID5824" 
 
@@ -6577,10 +6481,6 @@
 #### Added
 - Class: [left maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51916) 
 
-- [left maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51916) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 10"@en 
-
-- [left maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51916) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 10"@en 
-
 - [left maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51916) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9279_RID39121_RID5824" 
 
 - [left maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51916) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55683" 
@@ -6607,10 +6507,6 @@
 #### Added
 - Class: [left maxillary second molar tooth](http://www.radlex.org/RID/RID51921) 
 
-- [left maxillary second molar tooth](http://www.radlex.org/RID/RID51921) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 15"@en 
-
-- [left maxillary second molar tooth](http://www.radlex.org/RID/RID51921) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 15"@en 
-
 - [left maxillary second molar tooth](http://www.radlex.org/RID/RID51921) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID5998_RID5824" 
 
 - [left maxillary second molar tooth](http://www.radlex.org/RID/RID51921) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55700" 
@@ -6636,10 +6532,6 @@
 
 #### Added
 - Class: [left maxillary second premolar tooth](http://www.radlex.org/RID/RID51919) 
-
-- [left maxillary second premolar tooth](http://www.radlex.org/RID/RID51919) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 13"@en 
-
-- [left maxillary second premolar tooth](http://www.radlex.org/RID/RID51919) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 13"@en 
 
 - [left maxillary second premolar tooth](http://www.radlex.org/RID/RID51919) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9279_RID5998_RID5824" 
 
@@ -6688,10 +6580,6 @@
 
 #### Added
 - Class: [left maxillary third molar tooth](http://www.radlex.org/RID/RID51922) 
-
-- [left maxillary third molar tooth](http://www.radlex.org/RID/RID51922) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 16"@en 
-
-- [left maxillary third molar tooth](http://www.radlex.org/RID/RID51922) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 16"@en 
 
 - [left maxillary third molar tooth](http://www.radlex.org/RID/RID51922) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID6000_RID5824" 
 
@@ -6804,8 +6692,6 @@
 
 #### Added
 - Class: [left medial tubercle of talus](http://www.radlex.org/RID/RID51070) 
-
-- [left medial tubercle of talus](http://www.radlex.org/RID/RID51070) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "left medial tubercle"@en 
 
 - [left medial tubercle of talus](http://www.radlex.org/RID/RID51070) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2952_RID5824" 
 
@@ -7283,7 +7169,7 @@
 
 - [left neck of fibula](http://www.radlex.org/RID/RID51058) [label](http://www.w3.org/2000/01/rdf-schema#label) "left neck of fibula"@en 
 
-- [left neck of fibula](http://www.radlex.org/RID/RID51058) SubClassOf [Fibulahals](http://www.radlex.org/RID/RID2875) 
+- [left neck of fibula](http://www.radlex.org/RID/RID51058) SubClassOf [neck of fibula](http://www.radlex.org/RID/RID2875) 
 
 
 ### left neck of malleus `http://www.radlex.org/RID/RID51677`
@@ -7589,7 +7475,7 @@
 
 - [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) [label](http://www.w3.org/2000/01/rdf-schema#label) "left palatopharyngeus muscle"@en 
 
-- [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) SubClassOf [Musculus palatopharyngeus](http://www.radlex.org/RID/RID7560) 
+- [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) SubClassOf [palatopharyngeus muscle](http://www.radlex.org/RID/RID7560) 
 
 
 ### left palmar radioulnar ligament `http://www.radlex.org/RID/RID51306`
@@ -7645,7 +7531,7 @@
 
 - [left perivertebral space](http://www.radlex.org/RID/RID51561) [label](http://www.w3.org/2000/01/rdf-schema#label) "left perivertebral space"@en 
 
-- [left perivertebral space](http://www.radlex.org/RID/RID51561) SubClassOf [Perivertebralraum](http://www.radlex.org/RID/RID7572) 
+- [left perivertebral space](http://www.radlex.org/RID/RID51561) SubClassOf [anatomical space](http://www.radlex.org/RID/RID13217) 
 
 
 ### left peroneal artery `http://www.radlex.org/RID/RID51234`
@@ -8003,7 +7889,7 @@
 
 - [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) [label](http://www.w3.org/2000/01/rdf-schema#label) "left posterior semicircular canal"@en 
 
-- [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) SubClassOf [posterior semicircular canal](http://www.radlex.org/RID/RID10216) 
+- [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) SubClassOf [Canalis semicircularis posterior](http://www.radlex.org/RID/RID10216) 
 
 
 ### left posterior talofibular ligament `http://www.radlex.org/RID/RID51092`
@@ -8483,7 +8369,7 @@
 
 - [left retropharyngeal space](http://www.radlex.org/RID/RID51557) [label](http://www.w3.org/2000/01/rdf-schema#label) "left retropharyngeal space"@en 
 
-- [left retropharyngeal space](http://www.radlex.org/RID/RID51557) SubClassOf [retropharyngeal space of head](http://www.radlex.org/RID/RID7565) 
+- [left retropharyngeal space](http://www.radlex.org/RID/RID51557) SubClassOf [anatomical space](http://www.radlex.org/RID/RID13217) 
 
 
 ### left retrotonsillar segment of posterior inferior cerebellar artery `http://www.radlex.org/RID/RID51783`
@@ -9673,7 +9559,7 @@
 
 - [left tensor fasciae latae muscle](http://www.radlex.org/RID/RID51248) [label](http://www.w3.org/2000/01/rdf-schema#label) "left tensor fasciae latae muscle"@en 
 
-- [left tensor fasciae latae muscle](http://www.radlex.org/RID/RID51248) SubClassOf [Musculus tensor fasciae latae](http://www.radlex.org/RID/RID2703) 
+- [left tensor fasciae latae muscle](http://www.radlex.org/RID/RID51248) SubClassOf [tensor fascia lata muscle](http://www.radlex.org/RID/RID2703) 
 
 
 ### left tenth rib `http://www.radlex.org/RID/RID51488`
@@ -10185,7 +10071,7 @@
 
 - [left vas deferens](http://www.radlex.org/RID/RID51510) [label](http://www.w3.org/2000/01/rdf-schema#label) "left vas deferens"@en 
 
-- [left vas deferens](http://www.radlex.org/RID/RID51510) SubClassOf [vas deferens](http://www.radlex.org/RID/RID358) 
+- [left vas deferens](http://www.radlex.org/RID/RID51510) SubClassOf [Ductus deferens](http://www.radlex.org/RID/RID358) 
 
 
 ### left vertebral vein `http://www.radlex.org/RID/RID51554`
@@ -12433,8 +12319,6 @@
 #### Added
 - Class: [right abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51267) 
 
-- [right abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51267) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right abductor digiti minimi muscle"@en 
-
 - [right abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51267) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID3167_RID5825" 
 
 - [right abductor digiti minimi muscle of foot](http://www.radlex.org/RID/RID51267) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:37463" 
@@ -13557,7 +13441,7 @@
 
 - [right cornea](http://www.radlex.org/RID/RID51636) [label](http://www.w3.org/2000/01/rdf-schema#label) "right cornea"@en 
 
-- [right cornea](http://www.radlex.org/RID/RID51636) SubClassOf [Kornea](http://www.radlex.org/RID/RID9606) 
+- [right cornea](http://www.radlex.org/RID/RID51636) SubClassOf [cornea](http://www.radlex.org/RID/RID9606) 
 
 
 ### right coronoid process of mandible `http://www.radlex.org/RID/RID51900`
@@ -13689,11 +13573,7 @@
 #### Added
 - Class: [right deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51951) 
 
-- [right deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51951) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA R"@en 
-
 - [right deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51951) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right mandibular canine tooth"@en 
-
-- [right deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51951) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth R"@en 
 
 - [right deciduous mandibular canine tooth](http://www.radlex.org/RID/RID51951) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9131_RID9106_RID5825" 
 
@@ -13721,11 +13601,7 @@
 #### Added
 - Class: [right deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51949) 
 
-- [right deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51949) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA P"@en 
-
 - [right deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51949) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right mandibular central incisor tooth"@en 
-
-- [right deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51949) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth P"@en 
 
 - [right deciduous mandibular central incisor tooth](http://www.radlex.org/RID/RID51949) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9106_RID5827_RID5825" 
 
@@ -13753,11 +13629,7 @@
 #### Added
 - Class: [right deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51952) 
 
-- [right deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51952) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA S"@en 
-
 - [right deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51952) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right mandibular first molar tooth"@en 
-
-- [right deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51952) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth S"@en 
 
 - [right deciduous mandibular first molar tooth](http://www.radlex.org/RID/RID51952) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9106_RID5996_RID5825" 
 
@@ -13785,11 +13657,7 @@
 #### Added
 - Class: [right deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51950) 
 
-- [right deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51950) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA Q"@en 
-
 - [right deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51950) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right mandibular lateral incisor tooth"@en 
-
-- [right deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51950) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth Q"@en 
 
 - [right deciduous mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51950) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9106_RID39121_RID5825" 
 
@@ -13817,11 +13685,7 @@
 #### Added
 - Class: [right deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51953) 
 
-- [right deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51953) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA T"@en 
-
 - [right deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51953) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right mandibular second molar tooth"@en 
-
-- [right deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51953) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth T"@en 
 
 - [right deciduous mandibular second molar tooth](http://www.radlex.org/RID/RID51953) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9106_RID5998_RID5825" 
 
@@ -13849,11 +13713,7 @@
 #### Added
 - Class: [right deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51941) 
 
-- [right deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51941) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA C"@en 
-
 - [right deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51941) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right maxillary canine tooth"@en 
-
-- [right deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51941) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth C"@en 
 
 - [right deciduous maxillary canine tooth](http://www.radlex.org/RID/RID51941) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9131_RID9279_RID5825" 
 
@@ -13881,11 +13741,7 @@
 #### Added
 - Class: [right deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51939) 
 
-- [right deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51939) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA E"@en 
-
 - [right deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51939) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right maxillary central incisor tooth"@en 
-
-- [right deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51939) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth E"@en 
 
 - [right deciduous maxillary central incisor tooth](http://www.radlex.org/RID/RID51939) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9279_RID5827_RID5825" 
 
@@ -13913,11 +13769,7 @@
 #### Added
 - Class: [right deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51942) 
 
-- [right deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51942) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA B"@en 
-
 - [right deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51942) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right maxillary first molar tooth"@en 
-
-- [right deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51942) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth B"@en 
 
 - [right deciduous maxillary first molar tooth](http://www.radlex.org/RID/RID51942) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9279_RID5996_RID5825" 
 
@@ -13945,11 +13797,7 @@
 #### Added
 - Class: [right deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51940) 
 
-- [right deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51940) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA D"@en 
-
 - [right deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51940) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right maxillary lateral incisor tooth"@en 
-
-- [right deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51940) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth D"@en 
 
 - [right deciduous maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51940) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9131_RID9279_RID39121_RID5825" 
 
@@ -13977,11 +13825,7 @@
 #### Added
 - Class: [right deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51943) 
 
-- [right deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51943) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA A"@en 
-
 - [right deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51943) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deciduous right maxillary second molar tooth"@en 
-
-- [right deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51943) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth A"@en 
 
 - [right deciduous maxillary second molar tooth](http://www.radlex.org/RID/RID51943) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9131_RID9279_RID5998_RID5825" 
 
@@ -14073,8 +13917,6 @@
 #### Added
 - Class: [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) 
 
-- [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right posterior tibiotalar ligament"@en 
-
 - [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID3016_RID5825" 
 
 - [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51097"@en 
@@ -14085,7 +13927,7 @@
 
 - [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) [label](http://www.w3.org/2000/01/rdf-schema#label) "right deep posterior tibiotalar ligament"@en 
 
-- [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) SubClassOf [posterior tibiotalar ligament](http://www.radlex.org/RID/RID3016) 
+- [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) SubClassOf [Ligamentum tibiotalare posterius](http://www.radlex.org/RID/RID3016) 
 
 
 ### right depressor anguli oris muscle `http://www.radlex.org/RID/RID51832`
@@ -14112,8 +13954,6 @@
 
 #### Added
 - Class: [right depressor labii inferioris muscle](http://www.radlex.org/RID/RID51836) 
-
-- [right depressor labii inferioris muscle](http://www.radlex.org/RID/RID51836) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right depressor labii inferior muscle"@en 
 
 - [right depressor labii inferioris muscle](http://www.radlex.org/RID/RID51836) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9853_RID5825" 
 
@@ -15485,8 +15325,6 @@
 #### Added
 - Class: [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) 
 
-- [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right pharyngeal tonsil"@en 
-
 - [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9993_RID5825" 
 
 - [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "SNOMEDCT:781384004" 
@@ -15499,7 +15337,7 @@
 
 - [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) [label](http://www.w3.org/2000/01/rdf-schema#label) "right half of pharyngeal tonsil"@en 
 
-- [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) SubClassOf [Tonsilla pharyngea](http://www.radlex.org/RID/RID9993) 
+- [right half of pharyngeal tonsil](http://www.radlex.org/RID/RID51616) SubClassOf [organ region](http://www.radlex.org/RID/RID13259) 
 
 
 ### right hamate `http://www.radlex.org/RID/RID51337`
@@ -16777,7 +16615,7 @@
 
 - [right lingual tonsil](http://www.radlex.org/RID/RID51622) [label](http://www.w3.org/2000/01/rdf-schema#label) "right lingual tonsil"@en 
 
-- [right lingual tonsil](http://www.radlex.org/RID/RID51622) SubClassOf [lingual tonsil](http://www.radlex.org/RID/RID10008) 
+- [right lingual tonsil](http://www.radlex.org/RID/RID51622) SubClassOf [organ region](http://www.radlex.org/RID/RID13259) 
 
 
 ### right long process of incus `http://www.radlex.org/RID/RID51692`
@@ -16887,10 +16725,6 @@
 #### Added
 - Class: [right mandibular canine tooth](http://www.radlex.org/RID/RID51925) 
 
-- [right mandibular canine tooth](http://www.radlex.org/RID/RID51925) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 27"@en 
-
-- [right mandibular canine tooth](http://www.radlex.org/RID/RID51925) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 27"@en 
-
 - [right mandibular canine tooth](http://www.radlex.org/RID/RID51925) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9106_RID5825" 
 
 - [right mandibular canine tooth](http://www.radlex.org/RID/RID51925) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55686" 
@@ -16916,10 +16750,6 @@
 
 #### Added
 - Class: [right mandibular central incisor tooth](http://www.radlex.org/RID/RID51923) 
-
-- [right mandibular central incisor tooth](http://www.radlex.org/RID/RID51923) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 25"@en 
-
-- [right mandibular central incisor tooth](http://www.radlex.org/RID/RID51923) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 25"@en 
 
 - [right mandibular central incisor tooth](http://www.radlex.org/RID/RID51923) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9106_RID5827_RID5825" 
 
@@ -16947,10 +16777,6 @@
 #### Added
 - Class: [right mandibular first molar tooth](http://www.radlex.org/RID/RID51928) 
 
-- [right mandibular first molar tooth](http://www.radlex.org/RID/RID51928) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 30"@en 
-
-- [right mandibular first molar tooth](http://www.radlex.org/RID/RID51928) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 30"@en 
-
 - [right mandibular first molar tooth](http://www.radlex.org/RID/RID51928) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID5996_RID5825" 
 
 - [right mandibular first molar tooth](http://www.radlex.org/RID/RID51928) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55705" 
@@ -16976,10 +16802,6 @@
 
 #### Added
 - Class: [right mandibular first premolar tooth](http://www.radlex.org/RID/RID51926) 
-
-- [right mandibular first premolar tooth](http://www.radlex.org/RID/RID51926) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 28"@en 
-
-- [right mandibular first premolar tooth](http://www.radlex.org/RID/RID51926) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 28"@en 
 
 - [right mandibular first premolar tooth](http://www.radlex.org/RID/RID51926) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9106_RID5996_RID5825" 
 
@@ -17007,10 +16829,6 @@
 #### Added
 - Class: [right mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51924) 
 
-- [right mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51924) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 26"@en 
-
-- [right mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51924) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 26"@en 
-
 - [right mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51924) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9106_RID39121_RID5825" 
 
 - [right mandibular lateral incisor tooth](http://www.radlex.org/RID/RID51924) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:57140" 
@@ -17036,10 +16854,6 @@
 
 #### Added
 - Class: [right mandibular second molar tooth](http://www.radlex.org/RID/RID51929) 
-
-- [right mandibular second molar tooth](http://www.radlex.org/RID/RID51929) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 31"@en 
-
-- [right mandibular second molar tooth](http://www.radlex.org/RID/RID51929) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 31"@en 
 
 - [right mandibular second molar tooth](http://www.radlex.org/RID/RID51929) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID5998_RID5825" 
 
@@ -17067,10 +16881,6 @@
 #### Added
 - Class: [right mandibular second premolar tooth](http://www.radlex.org/RID/RID51927) 
 
-- [right mandibular second premolar tooth](http://www.radlex.org/RID/RID51927) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 29"@en 
-
-- [right mandibular second premolar tooth](http://www.radlex.org/RID/RID51927) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 29"@en 
-
 - [right mandibular second premolar tooth](http://www.radlex.org/RID/RID51927) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9106_RID5998_RID5825" 
 
 - [right mandibular second premolar tooth](http://www.radlex.org/RID/RID51927) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55695" 
@@ -17096,10 +16906,6 @@
 
 #### Added
 - Class: [right mandibular third molar tooth](http://www.radlex.org/RID/RID51930) 
-
-- [right mandibular third molar tooth](http://www.radlex.org/RID/RID51930) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 32"@en 
-
-- [right mandibular third molar tooth](http://www.radlex.org/RID/RID51930) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 32"@en 
 
 - [right mandibular third molar tooth](http://www.radlex.org/RID/RID51930) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9106_RID6000_RID5825" 
 
@@ -17209,11 +17015,7 @@
 #### Added
 - Class: [right maxillary canine tooth](http://www.radlex.org/RID/RID51909) 
 
-- [right maxillary canine tooth](http://www.radlex.org/RID/RID51909) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 6"@en 
-
 - [right maxillary canine tooth](http://www.radlex.org/RID/RID51909) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right maxillary cuspid tooth"@en 
-
-- [right maxillary canine tooth](http://www.radlex.org/RID/RID51909) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 6"@en 
 
 - [right maxillary canine tooth](http://www.radlex.org/RID/RID51909) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9126_RID9279_RID5825" 
 
@@ -17241,11 +17043,7 @@
 #### Added
 - Class: [right maxillary central incisor tooth](http://www.radlex.org/RID/RID51907) 
 
-- [right maxillary central incisor tooth](http://www.radlex.org/RID/RID51907) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 8"@en 
-
 - [right maxillary central incisor tooth](http://www.radlex.org/RID/RID51907) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right upper central incisor tooth"@en 
-
-- [right maxillary central incisor tooth](http://www.radlex.org/RID/RID51907) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 8"@en 
 
 - [right maxillary central incisor tooth](http://www.radlex.org/RID/RID51907) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9279_RID5827_RID5825" 
 
@@ -17273,11 +17071,7 @@
 #### Added
 - Class: [right maxillary first molar tooth](http://www.radlex.org/RID/RID51912) 
 
-- [right maxillary first molar tooth](http://www.radlex.org/RID/RID51912) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 3"@en 
-
 - [right maxillary first molar tooth](http://www.radlex.org/RID/RID51912) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right maxillary 1st molar tooth"@en 
-
-- [right maxillary first molar tooth](http://www.radlex.org/RID/RID51912) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 3"@en 
 
 - [right maxillary first molar tooth](http://www.radlex.org/RID/RID51912) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID5996_RID5825" 
 
@@ -17305,11 +17099,7 @@
 #### Added
 - Class: [right maxillary first premolar tooth](http://www.radlex.org/RID/RID51910) 
 
-- [right maxillary first premolar tooth](http://www.radlex.org/RID/RID51910) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 5"@en 
-
 - [right maxillary first premolar tooth](http://www.radlex.org/RID/RID51910) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right maxillary first bicuspid tooth"@en 
-
-- [right maxillary first premolar tooth](http://www.radlex.org/RID/RID51910) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 5"@en 
 
 - [right maxillary first premolar tooth](http://www.radlex.org/RID/RID51910) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9279_RID5996_RID5825" 
 
@@ -17337,10 +17127,6 @@
 #### Added
 - Class: [right maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51908) 
 
-- [right maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51908) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 7"@en 
-
-- [right maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51908) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 7"@en 
-
 - [right maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51908) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9127_RID9279_RID39121_RID5825" 
 
 - [right maxillary lateral incisor tooth](http://www.radlex.org/RID/RID51908) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:55680" 
@@ -17366,10 +17152,6 @@
 
 #### Added
 - Class: [right maxillary second molar tooth](http://www.radlex.org/RID/RID51913) 
-
-- [right maxillary second molar tooth](http://www.radlex.org/RID/RID51913) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 2"@en 
-
-- [right maxillary second molar tooth](http://www.radlex.org/RID/RID51913) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 2"@en 
 
 - [right maxillary second molar tooth](http://www.radlex.org/RID/RID51913) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID5998_RID5825" 
 
@@ -17397,11 +17179,7 @@
 #### Added
 - Class: [right maxillary second premolar tooth](http://www.radlex.org/RID/RID51911) 
 
-- [right maxillary second premolar tooth](http://www.radlex.org/RID/RID51911) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 4"@en 
-
 - [right maxillary second premolar tooth](http://www.radlex.org/RID/RID51911) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right maxillary second bicuspid tooth"@en 
-
-- [right maxillary second premolar tooth](http://www.radlex.org/RID/RID51911) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 4"@en 
 
 - [right maxillary second premolar tooth](http://www.radlex.org/RID/RID51911) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9129_RID9279_RID5998_RID5825" 
 
@@ -17451,11 +17229,7 @@
 #### Added
 - Class: [right maxillary third molar tooth](http://www.radlex.org/RID/RID51914) 
 
-- [right maxillary third molar tooth](http://www.radlex.org/RID/RID51914) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADA 1"@en 
-
 - [right maxillary third molar tooth](http://www.radlex.org/RID/RID51914) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right maxillary wisdom tooth"@en 
-
-- [right maxillary third molar tooth](http://www.radlex.org/RID/RID51914) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tooth 1"@en 
 
 - [right maxillary third molar tooth](http://www.radlex.org/RID/RID51914) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID9128_RID9279_RID6000_RID5825" 
 
@@ -17568,8 +17342,6 @@
 
 #### Added
 - Class: [right medial tubercle of talus](http://www.radlex.org/RID/RID51071) 
-
-- [right medial tubercle of talus](http://www.radlex.org/RID/RID51071) [exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "right medial tubercle"@en 
 
 - [right medial tubercle of talus](http://www.radlex.org/RID/RID51071) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2952_RID5825" 
 
@@ -18047,7 +17819,7 @@
 
 - [right neck of fibula](http://www.radlex.org/RID/RID51059) [label](http://www.w3.org/2000/01/rdf-schema#label) "right neck of fibula"@en 
 
-- [right neck of fibula](http://www.radlex.org/RID/RID51059) SubClassOf [Fibulahals](http://www.radlex.org/RID/RID2875) 
+- [right neck of fibula](http://www.radlex.org/RID/RID51059) SubClassOf [neck of fibula](http://www.radlex.org/RID/RID2875) 
 
 
 ### right neck of malleus `http://www.radlex.org/RID/RID51678`
@@ -18353,7 +18125,7 @@
 
 - [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) [label](http://www.w3.org/2000/01/rdf-schema#label) "right palatopharyngeus muscle"@en 
 
-- [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) SubClassOf [Musculus palatopharyngeus](http://www.radlex.org/RID/RID7560) 
+- [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) SubClassOf [palatopharyngeus muscle](http://www.radlex.org/RID/RID7560) 
 
 
 ### right palmar radioulnar ligament `http://www.radlex.org/RID/RID51307`
@@ -18409,7 +18181,7 @@
 
 - [right perivertebral space](http://www.radlex.org/RID/RID51562) [label](http://www.w3.org/2000/01/rdf-schema#label) "right perivertebral space"@en 
 
-- [right perivertebral space](http://www.radlex.org/RID/RID51562) SubClassOf [Perivertebralraum](http://www.radlex.org/RID/RID7572) 
+- [right perivertebral space](http://www.radlex.org/RID/RID51562) SubClassOf [anatomical space](http://www.radlex.org/RID/RID13217) 
 
 
 ### right peroneal artery `http://www.radlex.org/RID/RID51235`
@@ -18767,7 +18539,7 @@
 
 - [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) [label](http://www.w3.org/2000/01/rdf-schema#label) "right posterior semicircular canal"@en 
 
-- [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) SubClassOf [posterior semicircular canal](http://www.radlex.org/RID/RID10216) 
+- [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) SubClassOf [Canalis semicircularis posterior](http://www.radlex.org/RID/RID10216) 
 
 
 ### right posterior talofibular ligament `http://www.radlex.org/RID/RID51093`
@@ -19247,7 +19019,7 @@
 
 - [right retropharyngeal space](http://www.radlex.org/RID/RID51558) [label](http://www.w3.org/2000/01/rdf-schema#label) "right retropharyngeal space"@en 
 
-- [right retropharyngeal space](http://www.radlex.org/RID/RID51558) SubClassOf [retropharyngeal space of head](http://www.radlex.org/RID/RID7565) 
+- [right retropharyngeal space](http://www.radlex.org/RID/RID51558) SubClassOf [anatomical space](http://www.radlex.org/RID/RID13217) 
 
 
 ### right retrotonsillar segment of posterior inferior cerebellar artery `http://www.radlex.org/RID/RID51784`
@@ -20437,7 +20209,7 @@
 
 - [right tensor fasciae latae muscle](http://www.radlex.org/RID/RID51249) [label](http://www.w3.org/2000/01/rdf-schema#label) "right tensor fasciae latae muscle"@en 
 
-- [right tensor fasciae latae muscle](http://www.radlex.org/RID/RID51249) SubClassOf [Musculus tensor fasciae latae](http://www.radlex.org/RID/RID2703) 
+- [right tensor fasciae latae muscle](http://www.radlex.org/RID/RID51249) SubClassOf [tensor fascia lata muscle](http://www.radlex.org/RID/RID2703) 
 
 
 ### right tenth rib `http://www.radlex.org/RID/RID51489`
@@ -20949,7 +20721,7 @@
 
 - [right vas deferens](http://www.radlex.org/RID/RID51511) [label](http://www.w3.org/2000/01/rdf-schema#label) "right vas deferens"@en 
 
-- [right vas deferens](http://www.radlex.org/RID/RID51511) SubClassOf [vas deferens](http://www.radlex.org/RID/RID358) 
+- [right vas deferens](http://www.radlex.org/RID/RID51511) SubClassOf [Ductus deferens](http://www.radlex.org/RID/RID358) 
 
 
 ### right vertebral vein `http://www.radlex.org/RID/RID51555`

@@ -1003825,7 +1003825,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51070">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2952"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">left medial tubercle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID2952_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:66225</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51070</RID:RadLexID>
@@ -1003840,7 +1003839,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51071">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2952"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">right medial tubercle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID2952_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:66224</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51071</RID:RadLexID>
@@ -1004227,7 +1004225,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51096">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID3016"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">left posterior tibiotalar ligament</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID3016_RID5824</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51096</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1004241,7 +1004238,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51097">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID3016"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">right posterior tibiotalar ligament</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID3016_RID5825</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51097</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1007087,7 +1007083,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51266">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID3167"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">left abductor digiti minimi muscle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID3167_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:37464</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51266</RID:RadLexID>
@@ -1007102,7 +1007097,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51267">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID3167"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">right abductor digiti minimi muscle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID3167_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:37463</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51267</RID:RadLexID>
@@ -1011915,7 +1011909,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51557 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51557">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7565"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13217"/>
         <RID:ExternalRefID>ANAT_LOC:RID7565_RID5824</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51557</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1011928,7 +1011922,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51558 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51558">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7565"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13217"/>
         <RID:ExternalRefID>ANAT_LOC:RID7565_RID5825</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51558</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1011969,7 +1011963,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51561 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51561">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7572"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13217"/>
         <RID:ExternalRefID>ANAT_LOC:RID7572_RID5824</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51561</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1011982,7 +1011976,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51562 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51562">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID7572"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13217"/>
         <RID:ExternalRefID>ANAT_LOC:RID7572_RID5825</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51562</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1012790,8 +1012784,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51615 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51615">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9993"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">left pharyngeal tonsil</oboInOwl:hasExactSynonym>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13259"/>
         <RID:ExternalRefID>ANAT_LOC:RID9993_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:781383005</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51615</RID:RadLexID>
@@ -1012805,8 +1012798,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51616 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51616">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9993"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">right pharyngeal tonsil</oboInOwl:hasExactSynonym>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13259"/>
         <RID:ExternalRefID>ANAT_LOC:RID9993_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:781384004</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51616</RID:RadLexID>
@@ -1012897,7 +1012889,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51621 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51621">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID10008"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13259"/>
         <RID:ExternalRefID>ANAT_LOC:RID10008_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:54838</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51621</RID:RadLexID>
@@ -1012911,7 +1012903,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     <!-- http://www.radlex.org/RID/RID51622 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51622">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID10008"/>
+        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID13259"/>
         <RID:ExternalRefID>ANAT_LOC:RID10008_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:54837</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51622</RID:RadLexID>
@@ -1016333,7 +1016325,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51835">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9853"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">left depressor labii inferior muscle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9853_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:46818</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51835</RID:RadLexID>
@@ -1016348,7 +1016339,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51836">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9853"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">right depressor labii inferior muscle</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9853_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:46817</RID:ExternalRefID>
         <RID:RadLexID xml:lang="en">RID51836</RID:RadLexID>
@@ -1017518,9 +1017508,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51907">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 8</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right upper central incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 8</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9279_RID5827_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55681</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:422653006</RID:ExternalRefID>
@@ -1017538,8 +1017526,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51908">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 7</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 7</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9279_RID39121_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55680</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:424877001</RID:ExternalRefID>
@@ -1017557,9 +1017543,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51909">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right maxillary cuspid tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 6</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9279_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55798</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:860767006</RID:ExternalRefID>
@@ -1017588,9 +1017572,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51910">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right maxillary first bicuspid tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 5</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9279_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55689</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:57826002</RID:ExternalRefID>
@@ -1017608,9 +1017590,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51911">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right maxillary second bicuspid tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 4</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9279_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55688</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:36492000</RID:ExternalRefID>
@@ -1017628,9 +1017608,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51912">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right maxillary 1st molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 3</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55698</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:865995000</RID:ExternalRefID>
@@ -1017648,8 +1017626,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51913">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 2</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55697</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:863902006</RID:ExternalRefID>
@@ -1017667,9 +1017643,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51914">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">right maxillary wisdom tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 1</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID6000_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55696</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:68085002</RID:ExternalRefID>
@@ -1017687,8 +1017661,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51915">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 9</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 9</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9279_RID5827_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55682</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:424399000</RID:ExternalRefID>
@@ -1017706,8 +1017678,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51916">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 10</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 10</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9279_RID39121_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55683</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:423185002</RID:ExternalRefID>
@@ -1017725,8 +1017695,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51917">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 11</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 11</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9279_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55799</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:860780009</RID:ExternalRefID>
@@ -1017744,8 +1017712,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51918">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 12</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 12</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9279_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55690</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:61897005</RID:ExternalRefID>
@@ -1017763,8 +1017729,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51919">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 13</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 13</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9279_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55691</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:23226009</RID:ExternalRefID>
@@ -1017793,8 +1017757,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51920">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 14</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 14</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55699</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:865988009</RID:ExternalRefID>
@@ -1017812,8 +1017774,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51921">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 15</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 15</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55700</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:863901004</RID:ExternalRefID>
@@ -1017831,8 +1017791,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51922">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 16</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 16</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9279_RID6000_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55701</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:87704003</RID:ExternalRefID>
@@ -1017850,8 +1017808,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51923">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 25</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 25</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9106_RID5827_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:57142</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:424575004</RID:ExternalRefID>
@@ -1017869,8 +1017825,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51924">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 26</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 26</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9106_RID39121_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:57140</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:423937004</RID:ExternalRefID>
@@ -1017888,8 +1017842,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51925">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 27</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 27</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9106_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55686</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:860785004</RID:ExternalRefID>
@@ -1017907,8 +1017859,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51926">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 28</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 28</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9106_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55694</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:80140008</RID:ExternalRefID>
@@ -1017926,8 +1017876,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51927">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 29</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 29</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9106_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55695</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:8873007</RID:ExternalRefID>
@@ -1017945,8 +1017893,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51928">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 30</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 30</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55705</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:866005003</RID:ExternalRefID>
@@ -1017964,8 +1017910,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51929">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 31</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 31</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55706</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:863899008</RID:ExternalRefID>
@@ -1017995,8 +1017939,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51930">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 32</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 32</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID6000_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55707</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:38994002</RID:ExternalRefID>
@@ -1018014,8 +1017956,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51931">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 24</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 24</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9106_RID5827_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:57143</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:425106001</RID:ExternalRefID>
@@ -1018033,8 +1017973,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51932">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 23</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 23</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9106_RID39121_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:57141</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:423331005</RID:ExternalRefID>
@@ -1018052,8 +1017990,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51933">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 22</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 22</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9106_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55687</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:860782001</RID:ExternalRefID>
@@ -1018071,8 +1018007,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51934">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 21</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 21</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9106_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55693</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:2400006</RID:ExternalRefID>
@@ -1018090,8 +1018024,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51935">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9129"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 20</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 20</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9129_RID9106_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55692</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:24573005</RID:ExternalRefID>
@@ -1018109,8 +1018041,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51936">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 19</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 19</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55704</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:866006002</RID:ExternalRefID>
@@ -1018128,8 +1018058,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51937">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 18</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 18</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55703</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:863898000</RID:ExternalRefID>
@@ -1018147,8 +1018075,6 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51938">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9132"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA 17</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth 17</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9106_RID6000_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:55702</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:74344005</RID:ExternalRefID>
@@ -1018166,9 +1018092,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51939">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA E</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right maxillary central incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth E</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9279_RID5827_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84220</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:88824007</RID:ExternalRefID>
@@ -1018198,9 +1018122,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51940">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA D</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right maxillary lateral incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth D</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9279_RID39121_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84222</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:65624003</RID:ExternalRefID>
@@ -1018218,9 +1018140,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51941">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA C</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right maxillary canine tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth C</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9131_RID9279_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84230</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:30618001</RID:ExternalRefID>
@@ -1018238,9 +1018158,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51942">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA B</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right maxillary first molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth B</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9279_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84238</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:17505006</RID:ExternalRefID>
@@ -1018258,9 +1018176,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51943">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right maxillary second molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth A</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9279_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84240</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:27855007</RID:ExternalRefID>
@@ -1018278,9 +1018194,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51944">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA F</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left maxillary central incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth F</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9279_RID5827_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84221</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:51678005</RID:ExternalRefID>
@@ -1018298,9 +1018212,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51945">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA G</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left maxillary lateral incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth G</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9279_RID39121_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84223</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:43622005</RID:ExternalRefID>
@@ -1018318,9 +1018230,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51946">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA H</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left maxillary canine tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth H</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9131_RID9279_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84231</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:73937000</RID:ExternalRefID>
@@ -1018338,9 +1018248,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51947">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left maxillary first molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth I</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9279_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84239</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:45234009</RID:ExternalRefID>
@@ -1018358,9 +1018266,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51948">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left maxillary second molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth J</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9279_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84241</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:51943008</RID:ExternalRefID>
@@ -1018378,9 +1018284,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51949">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA P</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right mandibular central incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth P</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9106_RID5827_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84224</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:67834006</RID:ExternalRefID>
@@ -1018398,9 +1018302,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51950">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA Q</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right mandibular lateral incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth Q</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9106_RID39121_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84226</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:22445006</RID:ExternalRefID>
@@ -1018418,9 +1018320,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51951">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA R</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right mandibular canine tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth R</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9131_RID9106_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84232</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:6062009</RID:ExternalRefID>
@@ -1018438,9 +1018338,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51952">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA S</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right mandibular first molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth S</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9106_RID5996_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84242</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:58646007</RID:ExternalRefID>
@@ -1018458,9 +1018356,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51953">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA T</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous right mandibular second molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth T</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9106_RID5998_RID5825</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84244</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:61868007</RID:ExternalRefID>
@@ -1018478,9 +1018374,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51954">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA O</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left mandibular central incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth O</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9106_RID5827_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84225</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:89552004</RID:ExternalRefID>
@@ -1018498,9 +1018392,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51955">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9127"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA N</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left mandibular lateral incisor tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth N</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9127_RID9131_RID9106_RID39121_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84227</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:14770005</RID:ExternalRefID>
@@ -1018518,9 +1018410,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51956">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9126"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA M</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left mandibular canine tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth M</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9126_RID9131_RID9106_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84233</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:43281008</RID:ExternalRefID>
@@ -1018538,9 +1018428,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51957">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA L</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left mandibular first molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth L</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9106_RID5996_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84243</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:38896004</RID:ExternalRefID>
@@ -1018558,9 +1018446,7 @@ Radiographs and CT scans.—A pulmonary infarct is typically triangular or dome-
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51958">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9128"/>
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID9131"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">ADA K</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deciduous left mandibular second molar tooth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tooth K</oboInOwl:hasExactSynonym>
         <RID:ExternalRefID>ANAT_LOC:RID9128_RID9131_RID9106_RID5998_RID5824</RID:ExternalRefID>
         <RID:ExternalRefID>FMA:84245</RID:ExternalRefID>
         <RID:ExternalRefID>SNOMEDCT:49330006</RID:ExternalRefID>

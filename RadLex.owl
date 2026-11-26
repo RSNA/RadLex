@@ -1002281,7 +1002281,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50846">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion: deep, ill-defined soft tissue, not discrete; little to no differential enhancement; mild or moderate FDG uptake</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: deep, ill-defined soft tissue, not discrete; little to no differential enhancement; mild or moderate FDG uptake; recommended management: short-interval follow-up MRI</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50846</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>

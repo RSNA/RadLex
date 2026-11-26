@@ -1002274,6 +1002274,12 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: focal mucosal enhancement, but not mass-like; focal mild to moderate mucosal FDG uptake; recommended management: direct visual inspection</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NI-RADS-MRI-v2025-Primary-Site-Assessment-Categories-Algorithm.pdf</RID:Source>
+    </owl:Axiom>
     
 
 
@@ -1002281,13 +1002287,19 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50846">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion: deep, ill-defined soft tissue, not discrete; little to no differential enhancement; mild or moderate FDG uptake; recommended management: short-interval follow-up MRI</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: deep, ill-defined soft tissue, not discrete; little to no differential enhancement; mild or moderate FDG uptake; recommended management: short-interval follow-up imaging</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50846</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50846"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: deep, ill-defined soft tissue, not discrete; little to no differential enhancement; mild or moderate FDG uptake; recommended management: short-interval follow-up imaging</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NI-RADS-MRI-v2025-Primary-Site-Assessment-Categories-Algorithm.pdf</RID:Source>
+    </owl:Axiom>
     
 
 

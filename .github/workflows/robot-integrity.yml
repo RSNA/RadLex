@@ -60,6 +60,14 @@ jobs:
           path: unsatisfiable-explanation.owl
           if-no-files-found: ignore
 
+      - name: Upload OWL 2 DL profile report
+        if: failure() && steps.robot-check.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: robot-dl-profile-report
+          path: dl-profile-report.txt
+          if-no-files-found: ignore
+
       - name: Run ROBOT report tests
         id: robot-report
         run: tests/scripts/robot-report-tests.sh

@@ -118,11 +118,11 @@ export PATH="$PWD/tests/scripts/.robot:$PATH"   # so that `robot` resolves to th
 
 Run checks:
 ```sh
-tests/scripts/robot-check.sh                    # reasoner-based consistency check
+tests/scripts/robot-check.sh                    # reasoner-based consistency check and OWL 2 DL profile check
 tests/scripts/robot-report-tests.sh             # SPARQL-query-based checks
 ```
 
-If `robot-check.sh` fails, see `unsatisfiable-explanation.owl` for why. If `robot-report-tests.sh` fails, `robot-report.tsv` lists each violation and the term that caused it. [TESTING.md](TESTING.md) explains each check, and how to read and fix its failures.
+If `robot-check.sh` fails, see `unsatisfiable-explanation.owl` (reasoner check) or `dl-profile-report.txt` (OWL 2 DL profile check, e.g. an undeclared property) for why. If `robot-report-tests.sh` fails, `robot-report.tsv` lists each violation and the term that caused it. [TESTING.md](TESTING.md) explains each check, and how to read and fix its failures.
 
 ### 5. Generate a Diff with ROBOT *(Recommended)*
 

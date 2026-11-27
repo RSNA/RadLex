@@ -19,3 +19,4 @@ docs/source/
 tests/scripts/.robot/
 unsatisfiable-explanation.owl
 robot-report.tsv
+dl-profile-report.txt

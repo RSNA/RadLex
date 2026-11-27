@@ -1002267,14 +1002267,20 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50845">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: focal non-mass-like mucosal enhancement or focal reduced diffusion; recommended management: direct visual inspection</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50845</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (MRI)</rdfs:label>
-        <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: focal non-mass-like mucosal enhancement or focal reduced diffusion; recommended management: direct visual inspection</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NI-RADS-MRI-v2025-Primary-Site-Assessment-Categories-Algorithm.pdf</RID:Source>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NIRADS-MRI-2025-Assessment-Categories.pdf</RID:Source>
+    </owl:Axiom>
     
 
 
@@ -1002282,13 +1002288,20 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50846">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: deep, ill-defined, non-nodular soft tissue; soft tissue whose DWI, enhancement, or T1 and T2 signal differs from the original tumor; soft tissue with intermediate (not hyperintense) T2 signal and intermediate (not intense) enhancement; increased perineural or skull base foraminal enhancement without nodularity after radiotherapy; or, on the first post-treatment study, partial resolution of tumor, unchanged perineural or skull base foraminal soft tissue matching the pre-treatment study, or new thin smooth perineural or skull base foraminal enhancement within the radiation field; recommended management: short-interval follow-up imaging, with MRI preferred for perineural or skull base foraminal findings and MRI or PET for deep soft tissue</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50846</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (MRI)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50846"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: deep, ill-defined, non-nodular soft tissue; soft tissue whose DWI, enhancement, or T1 and T2 signal differs from the original tumor; soft tissue with intermediate (not hyperintense) T2 signal and intermediate (not intense) enhancement; increased perineural or skull base foraminal enhancement without nodularity after radiotherapy; or, on the first post-treatment study, partial resolution of tumor, unchanged perineural or skull base foraminal soft tissue matching the pre-treatment study, or new thin smooth perineural or skull base foraminal enhancement within the radiation field; recommended management: short-interval follow-up imaging, with MRI preferred for perineural or skull base foraminal findings and MRI or PET for deep soft tissue</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NI-RADS-MRI-v2025-Primary-Site-Assessment-Categories-Algorithm.pdf</RID:Source>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NIRADS-MRI-2025-Assessment-Categories.pdf</RID:Source>
+    </owl:Axiom>
     
 
 
@@ -1002446,7 +1002459,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50856">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: focal mucosal enhancement or FDG uptake on the initial post-treatment scan; recommended management: direct visual inspection</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50856</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1002454,6 +1002467,12 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2a (PET/CT)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50856"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: focal mucosal enhancement or FDG uptake on the initial post-treatment scan; recommended management: direct visual inspection</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NIRADS-PET-CT-Management-Table.pdf</RID:Source>
+    </owl:Axiom>
     
 
 
@@ -1002461,7 +1002480,7 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID50857">
         <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID50837"/>
-        <obo:IAO_0000115>Low suspicion</obo:IAO_0000115>
+        <obo:IAO_0000115>Low suspicion: deep, ill-defined soft tissue with only mild or moderate FDG uptake if PET is available; or discordance between PET and contrast-enhanced CT (if the original tumor was FDG avid): a discrete CT abnormality with little to no FDG uptake, or focal FDG uptake with no CT correlate; recommended management: short-interval follow-up MRI (3 months), or PET if scoring on contrast-enhanced CT alone</obo:IAO_0000115>
         <oboInOwl:created_by>Beverly Collins</oboInOwl:created_by>
         <RID:RadLexID>RID50857</RID:RadLexID>
         <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
@@ -1002469,6 +1002488,12 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
         <RID:Source>NI-RADS v2025</RID:Source>
         <rdfs:label xml:lang="en">NI-RADS Primary Site Score 2b (PET/CT)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.radlex.org/RID/RID50857"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Low suspicion: deep, ill-defined soft tissue with only mild or moderate FDG uptake if PET is available; or discordance between PET and contrast-enhanced CT (if the original tumor was FDG avid): a discrete CT abnormality with little to no FDG uptake, or focal FDG uptake with no CT correlate; recommended management: short-interval follow-up MRI (3 months), or PET if scoring on contrast-enhanced CT alone</owl:annotatedTarget>
+        <RID:Source>https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/NI-RADS/NIRADS-PET-CT-Management-Table.pdf</RID:Source>
+    </owl:Axiom>
     
 
 

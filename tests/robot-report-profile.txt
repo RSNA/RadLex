@@ -16,3 +16,4 @@ ERROR	file:./tests/sparql/robot/live_class_with_replaced_by.rq
 ERROR	file:./tests/sparql/robot/live_class_with_preferred_name_for_obsolete.rq
 ERROR	file:./tests/sparql/robot/live_class_under_obsolete_parent.rq
 ERROR	file:./tests/sparql/robot/direct_mapping_term_value.rq
+ERROR	file:./tests/sparql/robot/multiple_labels_per_language.rq

@@ -1,4 +1,8 @@
 Anatomic Locations ID	Anatomic Locations label	Anatomic Locations FMA code	RadLex ID	RadLex label	RadLex FMA code	RadLex parent	Under the same unsided class	Basis
+RID2934_RID5824	left deep posterior compartment of leg		RID48174	deep part of posterior compartment of left leg	FMA:45176	RID48172 (deep part of posterior compartment of leg)	no	same FMA code
+RID2934_RID5825	right deep posterior compartment of leg		RID48173	deep part of posterior compartment of right leg	FMA:45175	RID48172 (deep part of posterior compartment of leg)	no	same FMA code
+RID2933_RID5824	left superficial posterior compartment of leg		RID48171	superficial part of posterior compartment of left leg	FMA:45182	RID48169 (superficial part of posterior compartment of leg)	no	same FMA code
+RID2933_RID5825	right superficial posterior compartment of leg		RID48170	superficial part of posterior compartment of right leg	FMA:45180	RID48169 (superficial part of posterior compartment of leg)	no	same FMA code
 RID2664_RID5824	left head of femur	FMA:55012	RID42283	head of left femur	FMA:55012	RID2664 (head of femur)	yes	same FMA code
 RID2664_RID5825	right head of femur	FMA:55011	RID42282	head of right femur	FMA:55011	RID2664 (head of femur)	yes	same FMA code
 RID7348_RID5824	left common peroneal nerve	FMA:45358	RID28038	left common fibular nerve	FMA:45358	RID7348 (common peroneal nerve)	yes	same FMA code

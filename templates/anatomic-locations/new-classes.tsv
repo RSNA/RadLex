@@ -32,10 +32,6 @@ RID:RID51028	RID28545_RID5824	left ankle	RID51028	RID:RID28545	ankle [unsided en
 RID:RID51029	RID28545_RID5825	right ankle	RID51029	RID:RID28545	ankle [unsided entry]				ANAT_LOC:RID28545_RID5825|FMA:24970|SNOMEDCT:6685009	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51030	RID28829_RID5824	left foot	RID51030	RID:RID28829	foot [unsided entry]				ANAT_LOC:RID28829_RID5824|FMA:11344|SNOMEDCT:22335008	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51031	RID28829_RID5825	right foot	RID51031	RID:RID28829	foot [unsided entry]				ANAT_LOC:RID28829_RID5825|FMA:11343|SNOMEDCT:7769000	4.4 new	Anatomic Locations Index 1.0.1
-RID:RID51032	RID2934_RID5824	left deep posterior compartment of leg	RID51032	RID:RID2934	deep posterior compartment of leg [unsided entry]				ANAT_LOC:RID2934_RID5824|FMA:45176	4.4 new	Anatomic Locations Index 1.0.1
-RID:RID51033	RID2934_RID5825	right deep posterior compartment of leg	RID51033	RID:RID2934	deep posterior compartment of leg [unsided entry]				ANAT_LOC:RID2934_RID5825|FMA:45175	4.4 new	Anatomic Locations Index 1.0.1
-RID:RID51034	RID2933_RID5824	left superficial posterior compartment of leg	RID51034	RID:RID2933	superficial posterior compartment of leg [unsided entry]				ANAT_LOC:RID2933_RID5824|FMA:45182	4.4 new	Anatomic Locations Index 1.0.1
-RID:RID51035	RID2933_RID5825	right superficial posterior compartment of leg	RID51035	RID:RID2933	superficial posterior compartment of leg [unsided entry]				ANAT_LOC:RID2933_RID5825|FMA:45180	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51036	RID2640_RID5824	left hip joint	RID51036	RID:RID2640	hip joint [unsided entry]				ANAT_LOC:RID2640_RID5824|FMA:35180|SNOMEDCT:362907004	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51037	RID2640_RID5825	right hip joint	RID51037	RID:RID2640	hip joint [unsided entry]				ANAT_LOC:RID2640_RID5825|FMA:35179|SNOMEDCT:362908009	4.4 new	Anatomic Locations Index 1.0.1
 RID:RID51038	RID2531_RID5824	left ilium	RID51038	RID:RID2531	ilium [unsided entry]				ANAT_LOC:RID2531_RID5824|FMA:16591|SNOMEDCT:773840006	4.4 new	Anatomic Locations Index 1.0.1

@@ -2531,7 +2531,7 @@
 
 - [left cavernous sinus](http://www.radlex.org/RID/RID51803) [label](http://www.w3.org/2000/01/rdf-schema#label) "left cavernous sinus"@en 
 
-- [left cavernous sinus](http://www.radlex.org/RID/RID51803) SubClassOf [Sinus cavernosus](http://www.radlex.org/RID/RID1094) 
+- [left cavernous sinus](http://www.radlex.org/RID/RID51803) SubClassOf [cavernous sinus](http://www.radlex.org/RID/RID1094) 
 
 
 ### left choroid of globe `http://www.radlex.org/RID/RID51649`
@@ -2803,7 +2803,7 @@
 
 - [left cornea](http://www.radlex.org/RID/RID51635) [label](http://www.w3.org/2000/01/rdf-schema#label) "left cornea"@en 
 
-- [left cornea](http://www.radlex.org/RID/RID51635) SubClassOf [cornea](http://www.radlex.org/RID/RID9606) 
+- [left cornea](http://www.radlex.org/RID/RID51635) SubClassOf [Kornea](http://www.radlex.org/RID/RID9606) 
 
 
 ### left coronoid process of mandible `http://www.radlex.org/RID/RID51899`
@@ -3254,26 +3254,6 @@
 - [left deep palmar arch](http://www.radlex.org/RID/RID51437) SubClassOf [deep palmar arch](http://www.radlex.org/RID/RID867) 
 
 
-### left deep posterior compartment of leg `http://www.radlex.org/RID/RID51032`
-
-#### Added
-- Class: [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2934_RID5824" 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:45176" 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51032"@en 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 new" 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [Source](http://www.radlex.org/RID/Source) "Anatomic Locations Index 1.0.1" 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) [label](http://www.w3.org/2000/01/rdf-schema#label) "left deep posterior compartment of leg"@en 
-
-- [left deep posterior compartment of leg](http://www.radlex.org/RID/RID51032) SubClassOf [deep posterior compartment of leg](http://www.radlex.org/RID/RID2934) 
-
-
 ### left deep posterior tibiotalar ligament `http://www.radlex.org/RID/RID51096`
 
 #### Added
@@ -3289,7 +3269,7 @@
 
 - [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) [label](http://www.w3.org/2000/01/rdf-schema#label) "left deep posterior tibiotalar ligament"@en 
 
-- [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) SubClassOf [Ligamentum tibiotalare posterius](http://www.radlex.org/RID/RID3016) 
+- [left deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51096) SubClassOf [posterior tibiotalar ligament](http://www.radlex.org/RID/RID3016) 
 
 
 ### left depressor anguli oris muscle `http://www.radlex.org/RID/RID51831`
@@ -4173,7 +4153,7 @@
 
 - [left fifth metatarsal](http://www.radlex.org/RID/RID51158) [label](http://www.w3.org/2000/01/rdf-schema#label) "left fifth metatarsal"@en 
 
-- [left fifth metatarsal](http://www.radlex.org/RID/RID51158) SubClassOf [fünfter Metatarsalknochen](http://www.radlex.org/RID/RID13324) 
+- [left fifth metatarsal](http://www.radlex.org/RID/RID51158) SubClassOf [fifth metatarsal](http://www.radlex.org/RID/RID13324) 
 
 
 ### left fifth rib `http://www.radlex.org/RID/RID51473`
@@ -4593,7 +4573,7 @@
 
 - [left globe](http://www.radlex.org/RID/RID51625) [label](http://www.w3.org/2000/01/rdf-schema#label) "left globe"@en 
 
-- [left globe](http://www.radlex.org/RID/RID51625) SubClassOf [Bulbus oculi](http://www.radlex.org/RID/RID9592) 
+- [left globe](http://www.radlex.org/RID/RID51625) SubClassOf [globe](http://www.radlex.org/RID/RID9592) 
 
 
 ### left gluteus maximus muscle `http://www.radlex.org/RID/RID51242`
@@ -6725,7 +6705,7 @@
 
 - [left mentalis muscle](http://www.radlex.org/RID/RID51833) [label](http://www.w3.org/2000/01/rdf-schema#label) "left mentalis muscle"@en 
 
-- [left mentalis muscle](http://www.radlex.org/RID/RID51833) SubClassOf [mentalis muscle](http://www.radlex.org/RID/RID9867) 
+- [left mentalis muscle](http://www.radlex.org/RID/RID51833) SubClassOf [Musculus mentalis](http://www.radlex.org/RID/RID9867) 
 
 
 ### left mesorectal lymph node `http://www.radlex.org/RID/RID51532`
@@ -7169,7 +7149,7 @@
 
 - [left neck of fibula](http://www.radlex.org/RID/RID51058) [label](http://www.w3.org/2000/01/rdf-schema#label) "left neck of fibula"@en 
 
-- [left neck of fibula](http://www.radlex.org/RID/RID51058) SubClassOf [neck of fibula](http://www.radlex.org/RID/RID2875) 
+- [left neck of fibula](http://www.radlex.org/RID/RID51058) SubClassOf [Fibulahals](http://www.radlex.org/RID/RID2875) 
 
 
 ### left neck of malleus `http://www.radlex.org/RID/RID51677`
@@ -7475,7 +7455,7 @@
 
 - [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) [label](http://www.w3.org/2000/01/rdf-schema#label) "left palatopharyngeus muscle"@en 
 
-- [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) SubClassOf [palatopharyngeus muscle](http://www.radlex.org/RID/RID7560) 
+- [left palatopharyngeus muscle](http://www.radlex.org/RID/RID51607) SubClassOf [Musculus palatopharyngeus](http://www.radlex.org/RID/RID7560) 
 
 
 ### left palmar radioulnar ligament `http://www.radlex.org/RID/RID51306`
@@ -7889,7 +7869,7 @@
 
 - [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) [label](http://www.w3.org/2000/01/rdf-schema#label) "left posterior semicircular canal"@en 
 
-- [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) SubClassOf [Canalis semicircularis posterior](http://www.radlex.org/RID/RID10216) 
+- [left posterior semicircular canal](http://www.radlex.org/RID/RID51715) SubClassOf [posterior semicircular canal](http://www.radlex.org/RID/RID10216) 
 
 
 ### left posterior talofibular ligament `http://www.radlex.org/RID/RID51092`
@@ -8982,26 +8962,6 @@
 - [left superficial palmar arch](http://www.radlex.org/RID/RID51439) SubClassOf [Arcus palmaris superficialis](http://www.radlex.org/RID/RID871) 
 
 
-### left superficial posterior compartment of leg `http://www.radlex.org/RID/RID51034`
-
-#### Added
-- Class: [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2933_RID5824" 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:45182" 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51034"@en 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 new" 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [Source](http://www.radlex.org/RID/Source) "Anatomic Locations Index 1.0.1" 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) [label](http://www.w3.org/2000/01/rdf-schema#label) "left superficial posterior compartment of leg"@en 
-
-- [left superficial posterior compartment of leg](http://www.radlex.org/RID/RID51034) SubClassOf [Oberflächliches posteriores Kompartiment der unteren Extremität](http://www.radlex.org/RID/RID2933) 
-
-
 ### left superficial temporal artery `http://www.radlex.org/RID/RID51903`
 
 #### Added
@@ -10027,7 +9987,7 @@
 
 - [left upper extremity](http://www.radlex.org/RID/RID51274) [label](http://www.w3.org/2000/01/rdf-schema#label) "left upper extremity"@en 
 
-- [left upper extremity](http://www.radlex.org/RID/RID51274) SubClassOf [upper extremity](http://www.radlex.org/RID/RID1850) 
+- [left upper extremity](http://www.radlex.org/RID/RID51274) SubClassOf [Obere Extremität](http://www.radlex.org/RID/RID1850) 
 
 
 ### left uterine adnexa `http://www.radlex.org/RID/RID51000`
@@ -10071,7 +10031,7 @@
 
 - [left vas deferens](http://www.radlex.org/RID/RID51510) [label](http://www.w3.org/2000/01/rdf-schema#label) "left vas deferens"@en 
 
-- [left vas deferens](http://www.radlex.org/RID/RID51510) SubClassOf [Ductus deferens](http://www.radlex.org/RID/RID358) 
+- [left vas deferens](http://www.radlex.org/RID/RID51510) SubClassOf [vas deferens](http://www.radlex.org/RID/RID358) 
 
 
 ### left vertebral vein `http://www.radlex.org/RID/RID51554`
@@ -13169,7 +13129,7 @@
 
 - [right cavernous sinus](http://www.radlex.org/RID/RID51804) [label](http://www.w3.org/2000/01/rdf-schema#label) "right cavernous sinus"@en 
 
-- [right cavernous sinus](http://www.radlex.org/RID/RID51804) SubClassOf [Sinus cavernosus](http://www.radlex.org/RID/RID1094) 
+- [right cavernous sinus](http://www.radlex.org/RID/RID51804) SubClassOf [cavernous sinus](http://www.radlex.org/RID/RID1094) 
 
 
 ### right choroid of globe `http://www.radlex.org/RID/RID51650`
@@ -13441,7 +13401,7 @@
 
 - [right cornea](http://www.radlex.org/RID/RID51636) [label](http://www.w3.org/2000/01/rdf-schema#label) "right cornea"@en 
 
-- [right cornea](http://www.radlex.org/RID/RID51636) SubClassOf [cornea](http://www.radlex.org/RID/RID9606) 
+- [right cornea](http://www.radlex.org/RID/RID51636) SubClassOf [Kornea](http://www.radlex.org/RID/RID9606) 
 
 
 ### right coronoid process of mandible `http://www.radlex.org/RID/RID51900`
@@ -13892,26 +13852,6 @@
 - [right deep palmar arch](http://www.radlex.org/RID/RID51438) SubClassOf [deep palmar arch](http://www.radlex.org/RID/RID867) 
 
 
-### right deep posterior compartment of leg `http://www.radlex.org/RID/RID51033`
-
-#### Added
-- Class: [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2934_RID5825" 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:45175" 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51033"@en 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 new" 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [Source](http://www.radlex.org/RID/Source) "Anatomic Locations Index 1.0.1" 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) [label](http://www.w3.org/2000/01/rdf-schema#label) "right deep posterior compartment of leg"@en 
-
-- [right deep posterior compartment of leg](http://www.radlex.org/RID/RID51033) SubClassOf [deep posterior compartment of leg](http://www.radlex.org/RID/RID2934) 
-
-
 ### right deep posterior tibiotalar ligament `http://www.radlex.org/RID/RID51097`
 
 #### Added
@@ -13927,7 +13867,7 @@
 
 - [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) [label](http://www.w3.org/2000/01/rdf-schema#label) "right deep posterior tibiotalar ligament"@en 
 
-- [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) SubClassOf [Ligamentum tibiotalare posterius](http://www.radlex.org/RID/RID3016) 
+- [right deep posterior tibiotalar ligament](http://www.radlex.org/RID/RID51097) SubClassOf [posterior tibiotalar ligament](http://www.radlex.org/RID/RID3016) 
 
 
 ### right depressor anguli oris muscle `http://www.radlex.org/RID/RID51832`
@@ -14811,7 +14751,7 @@
 
 - [right fifth metatarsal](http://www.radlex.org/RID/RID51159) [label](http://www.w3.org/2000/01/rdf-schema#label) "right fifth metatarsal"@en 
 
-- [right fifth metatarsal](http://www.radlex.org/RID/RID51159) SubClassOf [fünfter Metatarsalknochen](http://www.radlex.org/RID/RID13324) 
+- [right fifth metatarsal](http://www.radlex.org/RID/RID51159) SubClassOf [fifth metatarsal](http://www.radlex.org/RID/RID13324) 
 
 
 ### right fifth rib `http://www.radlex.org/RID/RID51474`
@@ -15231,7 +15171,7 @@
 
 - [right globe](http://www.radlex.org/RID/RID51626) [label](http://www.w3.org/2000/01/rdf-schema#label) "right globe"@en 
 
-- [right globe](http://www.radlex.org/RID/RID51626) SubClassOf [Bulbus oculi](http://www.radlex.org/RID/RID9592) 
+- [right globe](http://www.radlex.org/RID/RID51626) SubClassOf [globe](http://www.radlex.org/RID/RID9592) 
 
 
 ### right gluteus maximus muscle `http://www.radlex.org/RID/RID51243`
@@ -17375,7 +17315,7 @@
 
 - [right mentalis muscle](http://www.radlex.org/RID/RID51834) [label](http://www.w3.org/2000/01/rdf-schema#label) "right mentalis muscle"@en 
 
-- [right mentalis muscle](http://www.radlex.org/RID/RID51834) SubClassOf [mentalis muscle](http://www.radlex.org/RID/RID9867) 
+- [right mentalis muscle](http://www.radlex.org/RID/RID51834) SubClassOf [Musculus mentalis](http://www.radlex.org/RID/RID9867) 
 
 
 ### right mesorectal lymph node `http://www.radlex.org/RID/RID51533`
@@ -17819,7 +17759,7 @@
 
 - [right neck of fibula](http://www.radlex.org/RID/RID51059) [label](http://www.w3.org/2000/01/rdf-schema#label) "right neck of fibula"@en 
 
-- [right neck of fibula](http://www.radlex.org/RID/RID51059) SubClassOf [neck of fibula](http://www.radlex.org/RID/RID2875) 
+- [right neck of fibula](http://www.radlex.org/RID/RID51059) SubClassOf [Fibulahals](http://www.radlex.org/RID/RID2875) 
 
 
 ### right neck of malleus `http://www.radlex.org/RID/RID51678`
@@ -18125,7 +18065,7 @@
 
 - [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) [label](http://www.w3.org/2000/01/rdf-schema#label) "right palatopharyngeus muscle"@en 
 
-- [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) SubClassOf [palatopharyngeus muscle](http://www.radlex.org/RID/RID7560) 
+- [right palatopharyngeus muscle](http://www.radlex.org/RID/RID51608) SubClassOf [Musculus palatopharyngeus](http://www.radlex.org/RID/RID7560) 
 
 
 ### right palmar radioulnar ligament `http://www.radlex.org/RID/RID51307`
@@ -18539,7 +18479,7 @@
 
 - [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) [label](http://www.w3.org/2000/01/rdf-schema#label) "right posterior semicircular canal"@en 
 
-- [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) SubClassOf [Canalis semicircularis posterior](http://www.radlex.org/RID/RID10216) 
+- [right posterior semicircular canal](http://www.radlex.org/RID/RID51716) SubClassOf [posterior semicircular canal](http://www.radlex.org/RID/RID10216) 
 
 
 ### right posterior talofibular ligament `http://www.radlex.org/RID/RID51093`
@@ -19632,26 +19572,6 @@
 - [right superficial palmar arch](http://www.radlex.org/RID/RID51440) SubClassOf [Arcus palmaris superficialis](http://www.radlex.org/RID/RID871) 
 
 
-### right superficial posterior compartment of leg `http://www.radlex.org/RID/RID51035`
-
-#### Added
-- Class: [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "ANAT_LOC:RID2933_RID5825" 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [ExternalRefID](http://www.radlex.org/RID/ExternalRefID) "FMA:45180" 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [RadLexID](http://www.radlex.org/RID/RadLexID) "RID51035"@en 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [Radlex_version_of_class_change](http://www.radlex.org/RID/Radlex_version_of_class_change) "4.4 new" 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [Source](http://www.radlex.org/RID/Source) "Anatomic Locations Index 1.0.1" 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) [label](http://www.w3.org/2000/01/rdf-schema#label) "right superficial posterior compartment of leg"@en 
-
-- [right superficial posterior compartment of leg](http://www.radlex.org/RID/RID51035) SubClassOf [Oberflächliches posteriores Kompartiment der unteren Extremität](http://www.radlex.org/RID/RID2933) 
-
-
 ### right superficial temporal artery `http://www.radlex.org/RID/RID51904`
 
 #### Added
@@ -20677,7 +20597,7 @@
 
 - [right upper extremity](http://www.radlex.org/RID/RID51275) [label](http://www.w3.org/2000/01/rdf-schema#label) "right upper extremity"@en 
 
-- [right upper extremity](http://www.radlex.org/RID/RID51275) SubClassOf [upper extremity](http://www.radlex.org/RID/RID1850) 
+- [right upper extremity](http://www.radlex.org/RID/RID51275) SubClassOf [Obere Extremität](http://www.radlex.org/RID/RID1850) 
 
 
 ### right uterine adnexa `http://www.radlex.org/RID/RID51001`
@@ -20721,7 +20641,7 @@
 
 - [right vas deferens](http://www.radlex.org/RID/RID51511) [label](http://www.w3.org/2000/01/rdf-schema#label) "right vas deferens"@en 
 
-- [right vas deferens](http://www.radlex.org/RID/RID51511) SubClassOf [Ductus deferens](http://www.radlex.org/RID/RID358) 
+- [right vas deferens](http://www.radlex.org/RID/RID51511) SubClassOf [vas deferens](http://www.radlex.org/RID/RID358) 
 
 
 ### right vertebral vein `http://www.radlex.org/RID/RID51555`

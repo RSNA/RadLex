@@ -1003244,62 +1003244,6 @@ the intermediate SI tumor tissue to muscularis propria</obo:IAO_0000115>
     
 
 
-    <!-- http://www.radlex.org/RID/RID51032 -->
-
-    <owl:Class rdf:about="http://www.radlex.org/RID/RID51032">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2934"/>
-        <RID:ExternalRefID>ANAT_LOC:RID2934_RID5824</RID:ExternalRefID>
-        <RID:ExternalRefID>FMA:45176</RID:ExternalRefID>
-        <RID:RadLexID xml:lang="en">RID51032</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Anatomic Locations Index 1.0.1</RID:Source>
-        <rdfs:label xml:lang="en">left deep posterior compartment of leg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.radlex.org/RID/RID51033 -->
-
-    <owl:Class rdf:about="http://www.radlex.org/RID/RID51033">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2934"/>
-        <RID:ExternalRefID>ANAT_LOC:RID2934_RID5825</RID:ExternalRefID>
-        <RID:ExternalRefID>FMA:45175</RID:ExternalRefID>
-        <RID:RadLexID xml:lang="en">RID51033</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Anatomic Locations Index 1.0.1</RID:Source>
-        <rdfs:label xml:lang="en">right deep posterior compartment of leg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.radlex.org/RID/RID51034 -->
-
-    <owl:Class rdf:about="http://www.radlex.org/RID/RID51034">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2933"/>
-        <RID:ExternalRefID>ANAT_LOC:RID2933_RID5824</RID:ExternalRefID>
-        <RID:ExternalRefID>FMA:45182</RID:ExternalRefID>
-        <RID:RadLexID xml:lang="en">RID51034</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Anatomic Locations Index 1.0.1</RID:Source>
-        <rdfs:label xml:lang="en">left superficial posterior compartment of leg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.radlex.org/RID/RID51035 -->
-
-    <owl:Class rdf:about="http://www.radlex.org/RID/RID51035">
-        <rdfs:subClassOf rdf:resource="http://www.radlex.org/RID/RID2933"/>
-        <RID:ExternalRefID>ANAT_LOC:RID2933_RID5825</RID:ExternalRefID>
-        <RID:ExternalRefID>FMA:45180</RID:ExternalRefID>
-        <RID:RadLexID xml:lang="en">RID51035</RID:RadLexID>
-        <RID:Radlex_version_of_class_change>4.4 new</RID:Radlex_version_of_class_change>
-        <RID:Source>Anatomic Locations Index 1.0.1</RID:Source>
-        <rdfs:label xml:lang="en">right superficial posterior compartment of leg</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.radlex.org/RID/RID51036 -->
 
     <owl:Class rdf:about="http://www.radlex.org/RID/RID51036">

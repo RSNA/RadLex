@@ -1,6 +1,6 @@
 # Anatomic Locations: new classes
 
-`new-classes.tsv` is the [ROBOT template](https://robot.obolibrary.org/template) that added to RadLex the 967 entries of the [Anatomic Locations Index](https://anatomiclocations.org) (release 1.0.1) that RadLex didn't have. Most are left and right versions of classes RadLex had only unsided.
+`new-classes.tsv` is the [ROBOT template](https://robot.obolibrary.org/template) that added to RadLex the 963 entries of the [Anatomic Locations Index](https://anatomiclocations.org) (release 1.0.1) that RadLex didn't have. Most are left and right versions of classes RadLex had only unsided.
 
 This is the first step of the Anatomic Locations work (#3). It adds the classes and what belongs to each class itself. Containment and part-whole relationships, and changes to the Anatomic Locations entries RadLex already had, will follow separately.
 
@@ -17,25 +17,25 @@ Row 1 is the column name and row 2 is the ROBOT template string. The `Anatomic L
 
 ## What each new class has
 
-- A label and a `RID:RadLexID`, from `RID51000` to `RID51966`.
+- A label and a `RID:RadLexID`, from `RID51000` to `RID51966`. `RID51032` to `RID51035` are not used: an earlier draft gave them to four entries that RadLex turned out to have already.
 - One or more parent classes (see below).
 - Its synonyms as `oboInOwl:hasExactSynonym`, 312 in all. Some Anatomic Locations synonyms are left out (see below).
 - A `RID:ExternalRefID` of `ANAT_LOC:` followed by its Anatomic Locations ID, such as `ANAT_LOC:RID294_RID5824`. Anatomic Locations names these entries by combining two or more RIDs; this links the new RID back to that ID.
-- Its other codes as `RID:ExternalRefID`: 856 classes have an FMA code, 551 SNOMED CT, 75 UMLS, and 3 TA2. 88 classes have no code besides the `ANAT_LOC:` one.
+- Its other codes as `RID:ExternalRefID`: 852 classes have an FMA code, 551 SNOMED CT, 75 UMLS, and 3 TA2. 88 classes have no code besides the `ANAT_LOC:` one.
 - `RID:Radlex_version_of_class_change` of `4.4 new`, and `RID:Source` of `Anatomic Locations Index 1.0.1`.
 
 ### Parents
 
-- 822 classes are under their unsided class: left uterine adnexa under `RID294` uterine adnexa.
+- 818 classes are under their unsided class: left uterine adnexa under `RID294` uterine adnexa.
 - 121 are under the part of the combined ID that names the same kind of structure: "first metatarsal" is under metatarsal, not great toe. Each sided tooth is under its tooth type and under `RID9131` deciduous tooth or `RID9132` permanent tooth.
 - 24 parents were chosen by hand: the twelve numbered ribs under `RID2471` rib, the cranial cavity under `RID32949` anatomical compartment space, the interphalangeal joint of great toe under `RID34532` interphalangeal joint of toe, and the supratentorial and infratentorial brain under `RID13853` segment of brain. The left and right halves of four midline structures are parts of the structure, not kinds of it, so they are not under it: the halves of the pharyngeal tonsil and the lingual tonsil are under `RID13259` organ region, and the halves of the retropharyngeal space and the perivertebral space are under `RID13217` anatomical space.
 - 142 parents are themselves new classes in this table.
 
 ## Entries RadLex already had
 
-`already-in-radlex.tsv` lists 54 Anatomic Locations entries that are not in the template, with the existing RID beside each:
+`already-in-radlex.tsv` lists 58 Anatomic Locations entries that are not in the template, with the existing RID beside each:
 
-- 44 share an FMA code with an existing left or right class, such as "left head of femur" and `RID42283` head of left femur.
+- 48 share an FMA code with an existing left or right class, such as "left head of femur" and `RID42283` head of left femur. Four of these are the left and right deep and superficial posterior compartments of the leg, which RadLex has as "deep part of posterior compartment of left leg" and so on. RadLex has each unsided compartment twice (#65), and the existing sided classes are under the other copy.
 - 8 have the same name as an existing class.
 - 2 are held back: the left and right P3 segment of posterior cerebral artery. RadLex puts the left and right lateral occipital artery under P3 segment and treats the two names as synonyms; Anatomic Locations lists both. They stay out until that is settled.
 
@@ -65,7 +65,7 @@ Row 1 is the column name and row 2 is the ROBOT template string. The `Anatomic L
 
 ## How it was applied
 
-With ROBOT 1.9.10, from the repository root, on `main` at 677eba9:
+With ROBOT 1.9.10, from the repository root, on `main` at 16f769f:
 
 ```sh
 mkdir -p tmp
